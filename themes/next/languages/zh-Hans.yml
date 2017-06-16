@@ -55,8 +55,8 @@ counter:
 
   archive_posts:
     zero: 暂无日志。
-    one: 目前共计 1 篇日志。
-    other: "目前共计 %d 篇日志。"
+    one: 共 ༺༺1༻༻ 篇日志
+    other: "--- ༺༺（%d）༻༻ ---"
 
 state:
   posts: 日志
@@ -68,14 +68,14 @@ search:
   placeholder: 搜索...
 
 cheers:
-  um: 嗯..
-  ok: OK
-  nice: 好
-  good: 很好
-  great: 非常好
-  excellent: 太棒了
+  um: ﻿❀
+  ok: ❀❀
+  nice: ❀❀❀
+  good: ❀❀❀❀
+  great: ❀❀❀❀❀
+  excellent: ❀❀❀❀❀❀
 
-keep_on: 继续努力。
+keep_on: "ฅ( ̳• ·̫ • ̳)"
 
 symbol:
   comma: '， '

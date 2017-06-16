@@ -290,10 +290,10 @@ mathjax:
 # Baidu Analytics ID
 baidu_analytics: 9e073159a364ff621f296acacdfa6ac3
 
-# Duoshuo ShortName
-duoshuo_shortname: hedonglin
-# 热评文章
-duoshuo_hotartical: false
+# # Duoshuo ShortName
+# duoshuo_shortname: hedonglin
+# # 热评文章
+# duoshuo_hotartical: false
 
 # Disqus
 #disqus_shortname:
@@ -301,8 +301,8 @@ duoshuo_hotartical: false
 # Hypercomments
 #hypercomments_id:
 
-# Gentie productKey
-#gentie_productKey:
+# Gentie productKey,网易云跟帖
+gentie_productKey: 04a60dcddfad4edc8db4c7b90268c690
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -536,3 +536,7 @@ version: 5.1.0
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: /images/wechatpay.png
 alipay: /images/alipay.png
+
+# #changyan畅言评论
+# changyan_appid: cyspxN2Qf
+# changyan_appkey: 28d157a01b38fb7c718c4b391b18dd36

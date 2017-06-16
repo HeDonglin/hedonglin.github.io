@@ -1,1 +1,71 @@
-// Custom styles.
+// //自由之翼
+    $c0= #fff;
+    $c1= #e6fca5;
+    $c2= #97d397;
+    $c3= #ffb8b5;
+    $c4= #f993ff;
+    $c5=#5555
+    $c6= #666;
+    $c9=#999;
+    $c10=#000
+    $c11=#616161
+    $c12=#bababa
+    $c13=#e0e0e0
+    $14=#222;
+//主要内容区背景
+.content-wrap {
+  background-color: $c0;
+}
+
+
+//title
+.site-meta {
+  background: $c0;
+  // background:$c0 url(/images/bg.png) no-repeat center -40px padding-box;
+  // height:150px;
+}
+//小title
+.site-subtitle{
+    color:$c11;
+  text-shadow: 1px 1px 0px $c13;
+}
+
+// title
+.brand {
+  color:$c11;
+  text-shadow: 1px 1px 0px $c13;
+  &:hover{
+    color $c11
+  }
+}
+
+//头像
+.site-author-image {
+  border-radius 100%;
+  padding: 3px;
+  box-shadow: 0px 0px 2px $c10;
+}
+
+//侧边栏悬停列表时的背景色
+.menu .menu-item a:hover, .menu-item-active a{
+    background:$c13;
+}
+
+//标题下的线条
+.posts-expand .post-title-link {
+  &::before {
+    background-color: $c14;
+  }
+}
+
+//按钮
+.post-button {
+  .btn {
+    border-radius: 6px;
+  }
+}
+
+// 底部
+.footer {
+    background $c0
+}
