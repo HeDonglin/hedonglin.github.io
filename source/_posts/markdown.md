@@ -45,14 +45,14 @@ tags: markdown
 ```
 我的网站[博客][1]、[博客2][2]、[笔记][3]还有个特殊的描述[百度][];
 [1]:http:hedonglin.com "hedonglin博客"
-[2]:http:w3c0929.com "资源博客"
-[3]:http:www.w3c0929.com "www资源博客"
+[2]:http:hedonglin.com "资源博客"
+[3]:http:www.hedonglin.com "www资源博客"
 [百度]:htttp://www.baidu.com "百度"
 ```
 我的网站[博客][1]、[博客2][2]、[笔记][3]还有个特殊的描述[百度][];
 [1]:http://hedonglin.com "hedonglin博客"
-[2]:http://w3c0929.com "资源博客"
-[3]:http://www.w3c0929.com "www资源博客"
+[2]:http://hedonglin.com "资源博客"
+[3]:http://www.hedonglin.com "www资源博客"
 [百度]:https://www.baidu.com "百度"
 *****
 
@@ -60,11 +60,11 @@ tags: markdown
 ```
 <http://www.youku.com>
 <http://hedonglin.com>
-<w3c0929@163.com>
+<hedonglin@163.com>
 ```
 <http://www.youku.com>
 <http://hedonglin.com>
-<w3c0929@163.com>
+<hedonglin@163.com>
 *****
 
 # 锚点
