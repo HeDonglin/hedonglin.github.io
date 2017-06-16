@@ -1,0 +1,1260 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="markdown," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="斜体和粗体1234*斜体*或_斜体_**粗体*****加粗斜体***~~删除线~~ 斜体或斜体粗体加粗斜体删除线  分级标题123456# 分级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 二级标题三级标题四级标题五级标题六级标题 超链接行内式12[我的博客](http://hedonglin.com)[我的博客](http://hedonglin">
+<meta name="keywords" content="markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法手册">
+<meta property="og:url" content="http://hedonglin.com/2017/06/14/markdown/index.html">
+<meta property="og:site_name" content="自由之翼">
+<meta property="og:description" content="斜体和粗体1234*斜体*或_斜体_**粗体*****加粗斜体***~~删除线~~ 斜体或斜体粗体加粗斜体删除线  分级标题123456# 分级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 二级标题三级标题四级标题五级标题六级标题 超链接行内式12[我的博客](http://hedonglin.com)[我的博客](http://hedonglin">
+<meta property="og:image" content="http://hedonglin.com/images/avatar.png">
+<meta property="og:image" content="http://hedonglin.com/images/avatar.png">
+<meta property="og:image" content="http://hedonglin.com/images/avatar.png">
+<meta property="og:image" content="http://hedonglin.com/images/avatar.png">
+<meta property="og:updated_time" content="2017-06-14T09:01:03.148Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Markdown 语法手册">
+<meta name="twitter:description" content="斜体和粗体1234*斜体*或_斜体_**粗体*****加粗斜体***~~删除线~~ 斜体或斜体粗体加粗斜体删除线  分级标题123456# 分级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 二级标题三级标题四级标题五级标题六级标题 超链接行内式12[我的博客](http://hedonglin.com)[我的博客](http://hedonglin">
+<meta name="twitter:image" content="http://hedonglin.com/images/avatar.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '6289158416472475000',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://hedonglin.com/2017/06/14/markdown/"/>
+
+
+
+
+
+  <title> Markdown 语法手册 | 自由之翼 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?9e073159a364ff621f296acacdfa6ac3";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">自由之翼</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">与其羡慕别人，不如做好自己</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            时间轴
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于我
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://hedonglin.com/2017/06/14/markdown/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="桐木辉夜">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="自由之翼">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Markdown 语法手册
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-14T17:01:03+08:00">
+                2017-06-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/文档知识/" itemprop="url" rel="index">
+                    <span itemprop="name">文档知识</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2017/06/14/markdown/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+          <!--noindex-->
+          <span class="post-comments-count">
+          <span class="post-meta-divider">|</span>
+          <span class="post-meta-item-icon">
+            <i class="fa fa-comment-o"></i>
+          </span>
+          
+              <a href="/2017/06/14/markdown/#SOHUCS" itemprop="discussionUrl">
+                <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2017/06/14/markdown/" itemprop="commentsCount"></span>
+              </a>
+          
+          
+          
+             <span id="/2017/06/14/markdown/" class="leancloud_visitors" data-flag-title="Markdown 语法手册">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">*斜体*或_斜体_</div><div class="line">**粗体**</div><div class="line">***加粗斜体***</div><div class="line">~~删除线~~</div></pre></td></tr></table></figure>
+<p><em>斜体</em>或<em>斜体</em><br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
+<hr>
+<h1 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 分级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><h2 id="行内式"><a href="#行内式" class="headerlink" title="行内式"></a>行内式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[我的博客](http://hedonglin.com)</div><div class="line">[我的博客](http://hedonglin.com &quot;标题提示&quot;)</div></pre></td></tr></table></figure>
+<p><a href="http://hedonglin.com">我的博客</a><br><a href="http://hedonglin.com" title="标题提示">我的博客</a></p>
+<h2 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">我的网站[博客][1]、[博客2][2]、[笔记][3]还有个特殊的描述[百度][];</div><div class="line">[1]:http:hedonglin.com &quot;hedonglin博客&quot;</div><div class="line">[2]:http:w3c0929.com &quot;资源博客&quot;</div><div class="line">[3]:http:www.w3c0929.com &quot;www资源博客&quot;</div><div class="line">[百度]:htttp://www.baidu.com &quot;百度&quot;</div></pre></td></tr></table></figure>
+<p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://w3c0929.com" title="资源博客" target="_blank" rel="external">博客2</a>、<a href="http://www.w3c0929.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
+<hr>
+<h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;w3c0929@163.com&gt;</div></pre></td></tr></table></figure>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#58;&#119;&#51;&#x63;&#x30;&#57;&#50;&#57;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#109;">&#119;&#51;&#x63;&#x30;&#57;&#50;&#57;&#64;&#x31;&#x36;&#x33;&#x2e;&#99;&#111;&#109;</a></p>
+<hr>
+<h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
+<p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
+<hr>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">注意：*号后面带一个空格</div><div class="line">* 无序列表1</div><div class="line">* 无序列表2</div><div class="line">* 无序列表3</div><div class="line">- 列表1</div><div class="line">- 列表2</div><div class="line">- 列表3</div><div class="line">+ 列表1111</div><div class="line">+ 列表2222</div><div class="line">+ 列表3333</div></pre></td></tr></table></figure>
+<ul>
+<li>无序列表1</li>
+<li>无序列表2</li>
+<li>无序列表3</li>
+</ul>
+<ul>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ul>
+<ul>
+<li>列表1111</li>
+<li>列表2222</li>
+<li>列表3333</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：.号后面带一个空格</div><div class="line">1. 列表1</div><div class="line">2. 列表2</div><div class="line">3. 列表3</div></pre></td></tr></table></figure>
+<ol>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ol>
+<hr>
+<h1 id="列表缩进"><a href="#列表缩进" class="headerlink" title="列表缩进"></a>列表缩进</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">注意：*号后面至少一个空格</div><div class="line">* 窗前明月光，疑是地上霜。</div><div class="line">举头望明月，低头思故乡。</div></pre></td></tr></table></figure>
+<ul>
+<li>窗前明月光，疑是地上霜。<br>举头望明月，低头思故乡。</li>
+</ul>
+<hr>
+<h1 id="包含段落的列表"><a href="#包含段落的列表" class="headerlink" title="包含段落的列表"></a>包含段落的列表</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：分段之后也就是（&quot;举&quot;的前面至少要一个空格）</div><div class="line">* 窗前明月光，疑是地上霜。</div><div class="line"></div><div class="line"> 举头望明月，低头思故乡。</div></pre></td></tr></table></figure>
+<ul>
+<li><p>窗前明月光，疑是地上霜。</p>
+<p>举头望明月，低头思故乡。</p>
+</li>
+</ul>
+<hr>
+<h1 id="包含引用的列表"><a href="#包含引用的列表" class="headerlink" title="包含引用的列表"></a>包含引用的列表</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：*号和&gt;后面都带空格</div><div class="line">* 阅读的方法:</div><div class="line">&gt; 打开书本。</div><div class="line">&gt; 打开电灯。</div></pre></td></tr></table></figure>
+<ul>
+<li>阅读的方法:<blockquote>
+<p>打开书本。<br>打开电灯。</p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h1 id="包含代码区块的引用"><a href="#包含代码区块的引用" class="headerlink" title="包含代码区块的引用"></a>包含代码区块的引用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">注意：缩进了2个制表符8个空格</div><div class="line">        &lt;代码写在这&gt;</div></pre></td></tr></table></figure>
+<pre><code>&lt;代码写在这&gt;
+</code></pre><hr>
+<h1 id="一个特殊情况"><a href="#一个特殊情况" class="headerlink" title="一个特殊情况"></a>一个特殊情况</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">注意：数字后面如果带.那么就要跟一个\进行转义否则1986.就不会显示</div><div class="line">1986\. What a great season.</div></pre></td></tr></table></figure>
+<p>1986. What a great season.</p>
+<hr>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意：在开头添加&gt;就变成引用了，最好在&gt;后加一个空格</div><div class="line">&gt; 这就是引用</div><div class="line">这就是引用</div><div class="line"></div><div class="line">&gt;这就是引用</div><div class="line">这就是引用</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这就是引用<br>这就是引用</p>
+<p>这就是引用<br>这就是引用</p>
+<hr>
+</blockquote>
+<h1 id="引用的多层嵌套"><a href="#引用的多层嵌套" class="headerlink" title="引用的多层嵌套"></a>引用的多层嵌套</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意：每段都隔一行，并且符号逐个减少</div><div class="line">&gt;&gt;&gt; 请问 Markdwon 怎么用？ - 小白</div><div class="line"></div><div class="line">&gt;&gt; 自己看教程！ - 愤青</div><div class="line"></div><div class="line">&gt; 教程在哪？ - 小白</div></pre></td></tr></table></figure>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>请问 Markdwon 怎么用？ - 小白</p>
+</blockquote>
+<p>自己看教程！ - 愤青</p>
+</blockquote>
+<p>教程在哪？ - 小白</p>
+<hr>
+</blockquote>
+<h1 id="引用其它要素"><a href="#引用其它要素" class="headerlink" title="引用其它要素"></a>引用其它要素</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&gt; 1.   这是第一行列表项。</div><div class="line">2.   这是第二行列表项。</div><div class="line"></div><div class="line">&gt; 给出一些例子代码：</div><div class="line"></div><div class="line">&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);</div></pre></td></tr></table></figure>
+<blockquote>
+<ol>
+<li>这是第一行列表项。</li>
+<li>这是第二行列表项。</li>
+</ol>
+<p>给出一些例子代码：</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre></blockquote>
+<hr>
+<h1 id="插入图像"><a href="#插入图像" class="headerlink" title="插入图像"></a>插入图像</h1><h2 id="行内式-1"><a href="#行内式-1" class="headerlink" title="行内式"></a>行内式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：文章多的时候一般图片采用绝对路径，查找方便不易丢失,第三种方式可以改变大小</div><div class="line">![图片alt内容](/images/avatar.png)</div><div class="line">![图片alt内容](/images/avatar.png &quot;图片title&quot;)</div><div class="line">&lt;img src=&quot;/images/avatar.png&quot; alt=&quot;图片&quot; /&gt;</div></pre></td></tr></table></figure>
+<p><img src="/images/avatar.png" alt="图片alt内容"><br><img src="/images/avatar.png" alt="图片alt内容" title="图片title"><br><img src="/images/avatar.png" alt="图片" width="100" height="100"></p>
+<h2 id="参考式-1"><a href="#参考式-1" class="headerlink" title="参考式"></a>参考式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![图片alt内容][flower]</div><div class="line">[flower]:/images/avatar.png &quot;图片title&quot;</div></pre></td></tr></table></figure>
+<p><img src="/images/avatar.png" alt="图片alt内容" title="图片title"></p>
+<hr>
+<h1 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">注意都需要脚注之间都要隔一行，此在next的markdown下没效果</div><div class="line">今天[^1]的日子[^2]很灿烂[^Le]</div><div class="line"></div><div class="line">[^1]:你是谁</div><div class="line"></div><div class="line">[^2]:我是谁</div><div class="line"></div><div class="line">[^Le]:到底是谁</div></pre></td></tr></table></figure>
+<p>今天<a href="你是谁">^1</a>的日子<a href="我是谁">^2</a>很灿烂<a href="到底是谁">^Le</a></p>
+<hr>
+<h1 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意:此在next的markdown下没效果</div><div class="line">$$\sum_&#123;i=1&#125;^n a_i=0$$</div><div class="line"></div><div class="line">$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</div><div class="line"></div><div class="line">$$\sum^&#123;j-1&#125;_&#123;k=0&#125;&#123;\widehat&#123;\gamma&#125;_&#123;kj&#125; z_k&#125;$$</div></pre></td></tr></table></figure>
+<p>$$\sum_{i=1}^n a_i=0$$</p>
+<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
+<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
+<hr>
+<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">flow</div><div class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</div><div class="line">io=&gt;inputoutput: verification</div><div class="line">op=&gt;operation: Your Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line">sub=&gt;subroutine: Your Subroutine</div><div class="line">e=&gt;end</div><div class="line">st-&gt;io-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;sub-&gt;io</div></pre></td></tr></table></figure>
+<p>flow<br>st=&gt;start: Start:&gt;<a href="https://www.zybuluo.com" target="_blank" rel="external">https://www.zybuluo.com</a><br>io=&gt;inputoutput: verification<br>op=&gt;operation: Your Operation<br>cond=&gt;condition: Yes or No?<br>sub=&gt;subroutine: Your Subroutine<br>e=&gt;end<br>st-&gt;io-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;sub-&gt;io</p>
+<hr>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">注意：第二行为不同的列指定对齐方向。默认为左对齐，在-右边加上:就右对齐。-的两边都加:那么就是居中对齐</div><div class="line">学号|姓名|分数</div><div class="line">-|-|-</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div><div class="line"></div><div class="line">学号|姓名|分数</div><div class="line">-:|-:|-:</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div><div class="line"></div><div class="line">学号|姓名|分数</div><div class="line">:-:|:-:|:-:</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>学号</th>
+<th>姓名</th>
+<th>分数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>小明</td>
+<td>男</td>
+<td>75</td>
+</tr>
+<tr>
+<td>小红</td>
+<td>女</td>
+<td>79</td>
+</tr>
+<tr>
+<td>小陆</td>
+<td>男</td>
+<td>92</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">学号</th>
+<th style="text-align:right">姓名</th>
+<th style="text-align:right">分数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">小明</td>
+<td style="text-align:right">男</td>
+<td style="text-align:right">75</td>
+</tr>
+<tr>
+<td style="text-align:right">小红</td>
+<td style="text-align:right">女</td>
+<td style="text-align:right">79</td>
+</tr>
+<tr>
+<td style="text-align:right">小陆</td>
+<td style="text-align:right">男</td>
+<td style="text-align:right">92</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">学号</th>
+<th style="text-align:center">姓名</th>
+<th style="text-align:center">分数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">小明</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">75</td>
+</tr>
+<tr>
+<td style="text-align:center">小红</td>
+<td style="text-align:center">女</td>
+<td style="text-align:center">79</td>
+</tr>
+<tr>
+<td style="text-align:center">小陆</td>
+<td style="text-align:center">男</td>
+<td style="text-align:center">92</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">*****</div><div class="line"></div><div class="line">* * * </div><div class="line"></div><div class="line">- - - </div><div class="line"></div><div class="line">-----</div></pre></td></tr></table></figure>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：有三种方式</div><div class="line">        两个制表符8个空格</div><div class="line">我是一个`行内式`的代码</div><div class="line">6个`包裹多行代码</div></pre></td></tr></table></figure>
+<pre><code>两个制表符8个空格
+</code></pre><p>我是一个<code>行内式</code>的代码<br>6个`包裹多行代码</p>
+<hr>
+<h1 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在段落中填写 [TOC] 以显示全文内容的目录结构，但此处没效果！</div></pre></td></tr></table></figure>
+<p>[TOC]</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechatpay.png" alt="桐木辉夜 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.png" alt="桐木辉夜 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/markdown/" rel="tag"># markdown</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/14/sublime/" rel="prev" title="Sublime3--下载、安装、绿化">
+                Sublime3--下载、安装、绿化 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="桐木辉夜" />
+          <p class="site-author-name" itemprop="name">桐木辉夜</p>
+           
+              <p class="site-description motion-element" itemprop="description">扎实的基础是拓展思路之源！</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/HeDonglin" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/w3c0929" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/w3c0929" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://user.qzone.qq.com/839875083" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-qq"></i>
+                  
+                  QQ
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#斜体和粗体"><span class="nav-number">1.</span> <span class="nav-text">斜体和粗体</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分级标题"><span class="nav-number">2.</span> <span class="nav-text">分级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">2.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">2.1.1.</span> <span class="nav-text">三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#四级标题"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#五级标题"><span class="nav-number">2.1.1.1.1.</span> <span class="nav-text">五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#六级标题"><span class="nav-number">2.1.1.1.1.1.</span> <span class="nav-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#超链接"><span class="nav-number">3.</span> <span class="nav-text">超链接</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#行内式"><span class="nav-number">3.1.</span> <span class="nav-text">行内式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考式"><span class="nav-number">3.2.</span> <span class="nav-text">参考式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#自动连接"><span class="nav-number">4.</span> <span class="nav-text">自动连接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#锚点"><span class="nav-number">5.</span> <span class="nav-text">锚点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#列表"><span class="nav-number">6.</span> <span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#无序列表"><span class="nav-number">6.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有序列表"><span class="nav-number">6.2.</span> <span class="nav-text">有序列表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#列表缩进"><span class="nav-number">7.</span> <span class="nav-text">列表缩进</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#包含段落的列表"><span class="nav-number">8.</span> <span class="nav-text">包含段落的列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#包含引用的列表"><span class="nav-number">9.</span> <span class="nav-text">包含引用的列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#包含代码区块的引用"><span class="nav-number">10.</span> <span class="nav-text">包含代码区块的引用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一个特殊情况"><span class="nav-number">11.</span> <span class="nav-text">一个特殊情况</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用"><span class="nav-number">12.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用的多层嵌套"><span class="nav-number">13.</span> <span class="nav-text">引用的多层嵌套</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用其它要素"><span class="nav-number">14.</span> <span class="nav-text">引用其它要素</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#插入图像"><span class="nav-number">15.</span> <span class="nav-text">插入图像</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#行内式-1"><span class="nav-number">15.1.</span> <span class="nav-text">行内式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考式-1"><span class="nav-number">15.2.</span> <span class="nav-text">参考式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#注脚"><span class="nav-number">16.</span> <span class="nav-text">注脚</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#LaTeX-公式"><span class="nav-number">17.</span> <span class="nav-text">LaTeX 公式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#流程图"><span class="nav-number">18.</span> <span class="nav-text">流程图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#表格"><span class="nav-number">19.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分隔线"><span class="nav-number">20.</span> <span class="nav-text">分隔线</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码块"><span class="nav-number">21.</span> <span class="nav-text">代码块</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#内容目录"><span class="nav-number">22.</span> <span class="nav-text">内容目录</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">桐木辉夜</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "04a60dcddfad4edc8db4c7b90268c690",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="local-search-pop-overlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("dGNbNM30dWdSQbkoNDRVhqlc-gzGzoHsz", "7aRkxulaQOYsYr5Kgoz79SHN");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
