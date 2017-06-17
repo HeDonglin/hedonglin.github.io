@@ -107,20 +107,19 @@ font:
   posts:
     external: true
     family: 
-
   # Logo 字体
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
     family:
-    size:
+    size: 24
 
   # 代码字体，应用于 code 以及代码块
   codes:
     external: true
     family:
-    size:
+    size: 
 
 
 
@@ -191,7 +190,7 @@ sidebar:
   display: post
   # display: always
   # display: hide
-  #display: remove
+  # display: remove
 
   # Sidebar offset from top menubar in pixels.
   offset: 12
