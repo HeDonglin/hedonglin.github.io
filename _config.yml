@@ -5,12 +5,12 @@
 # Site
 title: 自由之翼
 subtitle: 与其羡慕别人，不如做好自己
-description: 扎实的基础是拓展思路之源！
+description: 扎实的基础是拓展思路之源
 author: 桐木辉夜
 language: zh-Hans
 timezone:
 
-# URL
+# url
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hedonglin.com
 root: /
@@ -66,7 +66,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
+# 部署到github
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
