@@ -3,6 +3,74 @@
   
     
     <entry>
+      <title><![CDATA[wgestures快捷手势]]></title>
+      <url>/2017/06/17/wgestures%E5%BF%AB%E6%8D%B7%E6%89%8B%E5%8A%BF/</url>
+      <content type="html"><![CDATA[<h2 id="打开网址，随时随地选中文字即可搜索"><a href="#打开网址，随时随地选中文字即可搜索" class="headerlink" title="打开网址，随时随地选中文字即可搜索"></a>打开网址，随时随地选中文字即可搜索<br></h2><p><img src="/images/wgestures.png"></p>
+<h2 id="触发边角切换工作状态"><a href="#触发边角切换工作状态" class="headerlink" title="触发边角切换工作状态 "></a>触发边角切换工作状态 <br></h2><p><img src="/images/wgestures-1.png"></p>
+<h2 id="编写脚本使用鼠标免去重复的操作"><a href="#编写脚本使用鼠标免去重复的操作" class="headerlink" title="编写脚本使用鼠标免去重复的操作 "></a>编写脚本使用鼠标免去重复的操作 <br></h2><p><img src="/images/wgestures-2.png"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 实用工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> wgestures </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[altdrag被人遗忘的好工具]]></title>
+      <url>/2017/06/17/altdrag%E8%A2%AB%E4%BA%BA%E9%81%97%E5%BF%98%E7%9A%84%E7%BD%AE%E9%A1%B6%E5%A5%BD%E5%B7%A5%E5%85%B7/</url>
+      <content type="html"><![CDATA[<h2 id="Altdrag"><a href="#Altdrag" class="headerlink" title="Altdrag"></a>Altdrag</h2><p>有时候一些窗口需要置顶以及取消置顶的操作，找遍了全网只有这个是最满意的，win10下完美支持<br>软件大小：190kb<br>主要有几大功能<br>1.自动调整适应共8个位置<br>2.窗口置顶（致爱）<br>使用方法：如下图所示，除了红色文字标出的是鼠标中间单击，其他都配合按键使用，下图我配置的是win键，即win键+鼠标的方式；<br><img src="/images/altdrag.png"></p>
+<h2 id="更多详情"><a href="#更多详情" class="headerlink" title="更多详情"></a>更多详情</h2><p>官网：<a href="https://stefansundin.github.io/altdrag/" target="_blank" rel="external">https://stefansundin.github.io/altdrag/</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 实用工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> altdrag </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[snipaste截图、贴图神器]]></title>
+      <url>/2017/06/17/snipaste%E6%88%AA%E5%9B%BE%E3%80%81%E8%B4%B4%E5%9B%BE%E7%A5%9E%E5%99%A8/</url>
+      <content type="html"><![CDATA[<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><p><img src="/images/snipaste.gif"></p>
+<h2 id="快速取到颜色值，c复制颜色，shift切换颜色方式"><a href="#快速取到颜色值，c复制颜色，shift切换颜色方式" class="headerlink" title="快速取到颜色值，c复制颜色，shift切换颜色方式"></a>快速取到颜色值，c复制颜色，shift切换颜色方式</h2><p><img src="/images/snipaste-1.gif"></p>
+<h2 id="更多功能"><a href="#更多功能" class="headerlink" title="更多功能"></a>更多功能</h2><p>官网：<a href="https://zh.snipaste.com/" target="_blank" rel="external">https://zh.snipaste.com/</a><br>文档：<a href="https://docs.snipaste.com/zh-cn#/" target="_blank" rel="external">https://docs.snipaste.com/zh-cn#/</a><br>github反馈：<a href="https://github.com/Snipaste/feedback/issues" target="_blank" rel="external">https://github.com/Snipaste/feedback/issues</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 实用工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> snipaste </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[git配置快捷命令]]></title>
       <url>/2017/06/17/git%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4/</url>
       <content type="html"><![CDATA[<h2 id="相关术语"><a href="#相关术语" class="headerlink" title="相关术语"></a>相关术语</h2><p> <strong>git的历史记录</strong>是不可修改的，也就是说你不能更改任何已经发生的事情。你做的任何操作都只是在原来的操作上修改。也就是说，即使你删除了一个分支，修改了一个提交，或者强制重置，你仍然可以回滚这些操作。<br><strong>切换</strong>：初始创建一个分支，但git库还没有数据，叫切换；<br><strong>检出</strong>：该分支之前已经提交过git库，那么检出就是经历了到仓库里取数据的过程；<br><strong>HEAD</strong>：是指向当前所在的分支<br><strong>git查找配置信息顺序</strong>先<code>etc\gitconfig</code>–&gt;<code>Administrator\.gitconfig</code>–&gt;<code>.git\config</code>;定义的值有冲突,那么后面的覆盖前面的;<br><strong>初始化后</strong>最好要进行一次提交，避免使用了<code>git reset --hard</code>把文件给清除了；</p>
@@ -79,6 +147,18 @@
 <h3 id="动画详情"><a href="#动画详情" class="headerlink" title="动画详情"></a>动画详情</h3><p><img src="/images/git-install.gif" alt="git安装动画" title="git安装过程"></p>
 ]]></content>
       
+        <categories>
+            
+            <category> 辅助工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
         
     </entry>
     
@@ -125,7 +205,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#x64;&#111;&#x6e;&#x67;&#108;&#x69;&#x6e;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;">&#104;&#101;&#x64;&#111;&#x6e;&#x67;&#108;&#x69;&#x6e;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#x69;&#x6c;&#116;&#x6f;&#58;&#104;&#101;&#x64;&#111;&#x6e;&#103;&#108;&#105;&#110;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;">&#104;&#101;&#x64;&#111;&#x6e;&#103;&#108;&#105;&#110;&#x40;&#x31;&#x36;&#x33;&#46;&#x63;&#x6f;&#109;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
