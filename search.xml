@@ -3,6 +3,33 @@
   
     
     <entry>
+      <title><![CDATA[Css选择器]]></title>
+      <url>/2017/06/18/css3%E9%80%89%E6%8B%A9%E5%99%A8/</url>
+      <content type="html"><![CDATA[<h2 id="css1"><a href="#css1" class="headerlink" title="css1"></a>css1</h2><p><img src="/images/css3-1.png"><br>标签选择符<br>后代选择符<br>伪类选择符<code>:link,:active,:visited</code><br>伪元素选择符<code>:first-line,:first-letter</code><br>含类的某个标签选择符<code>e.classname</code><br>含id的某个标签选择符<code>e#id</code><br>含类的某个类选择符<code>.classname.classname;</code></p>
+<h2 id="css2"><a href="#css2" class="headerlink" title="css2"></a>css2</h2><p><img src="/images/css3-2.png"><br>通配符选择符<code>*</code><br>子选择符<code>&gt;</code><br>伪类选择符<code>:first-child,:hover,:focus</code><br>相邻选择符<code>+</code><br>属性选择符<code>[attr],[attr=name],[attr~=name]</code><br>伪元素选择符<code>:before,:after</code></p>
+<h2 id="css3"><a href="#css3" class="headerlink" title="css3"></a>css3</h2><p><img src="/images/css3-3.png"><br><code>E ~ F</code><br><code>E[attr^=&quot;name&quot;]</code><br><code>E[attr$=&quot;name&quot;]</code><br><code>E[attr*=&quot;name&quot;]</code><br><code>E[attr|=&quot;name&quot;]</code><br><code>E:root</code><br><code>E:first-of-type</code><br><code>E:last-of-type</code><br><code>E:only-of-type</code><br><code>E:nth-of-type(n)</code><br><code>E:nth-last-of-type(n)</code><br><code>E:only-child</code><br><code>E:last-child</code><br><code>E:nth-child(n)</code><br><code>E:nth-last-child(n)</code><br><code>E:empty</code><br><code>E:target</code><br><code>E:checked</code><br><code>E:selection</code><br><code>E:enabled</code><br><code>E:disabled</code><br><code>E:not(s);</code></p>
+<h2 id="css效率高低"><a href="#css效率高低" class="headerlink" title="css效率高低"></a>css效率高低</h2><p>第一： id选择符<code>(#)</code><br>第二： 类选择器<code>(.)</code><br>第三： 标签选择符<code>(div,p...)</code><br>第四： 相邻选择符<code>(+)</code><br>第五： 子选择符;<code>(&gt;)</code><br>第六： 后代选择符<code>(ul li)</code><br>第七： 通配选择符<code>(*)</code><br>第八： 属性选择符<code>([])</code><br>第九： 伪类选择符<code>(:)</code></p>
+<h2 id="css权重高低"><a href="#css权重高低" class="headerlink" title="css权重高低"></a>css权重高低</h2><p>例如:#idzufu div .quanzhong:first-child 计算得出:100+1+10+10=121;<br>第一： !important (10000)<br>第二： 内联样式(1000)<br>第三： id<code>(#)</code>(100)<br>第四： 类/伪类/属性<code>(. ：[])</code>(10)<br>第五： 元素/伪元素<code>(div ::)</code>(1)<br>第六： 相同权重后面覆盖<br>第七： 通配符<br>第八： 继承</p>
+<h2 id="伪类和伪元素"><a href="#伪类和伪元素" class="headerlink" title="伪类和伪元素,"></a>伪类和伪元素,</h2><h3 id="伪类：单冒号伪类"><a href="#伪类：单冒号伪类" class="headerlink" title="伪类：单冒号伪类"></a>伪类：单冒号伪类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">E:link               访问元素前的状态</div><div class="line">E:visited            访问元素后的状态</div><div class="line">E:focus              元素获得焦点时的状态</div><div class="line">E:hover              悬停元素上方时的状态</div><div class="line">E:active             按住元素时的状态</div><div class="line">E:lang(it)           选择带有以&quot;it&quot;的lang属性值的元素</div><div class="line">E:first-child        表示所有E元素的所有的后代元素的第一个元素</div><div class="line">E:last-child         原理同上</div><div class="line">E:nth-child(n)       选择所有E元素的第几个元素;n&gt;=1;</div><div class="line">E:nth-last-child(n)  原理同上,从最后一个子元素开始计数</div><div class="line">E:only-child         E元素在父元素中唯一,E同级上不可以有任何元素;</div><div class="line">E:only-of-type       E元素在父元素中唯一,E同级上可以有其他元素，但不能出现另一个E元素;</div><div class="line">E:first-of-type      父元素中E元素排在所有E元素中的第一位的元素；</div><div class="line">E:last-of-type       原理同上</div><div class="line">E:nth-of-type(n)     父元素中E元素排在所有E元素中的第n位的元素；</div><div class="line">E:nth-last-of-type(n)父元素中E元素排在所有E元素中的倒数第n位的元素；</div><div class="line">E:root               html元素</div><div class="line">E:empty              选择没有内容的E元素,注意:空格也算一个内容;</div><div class="line">E:target             选择当前活动的E元素</div><div class="line">E:checked            选择被选中的E元素</div><div class="line">E:enabled            选择被启用的E元素;</div><div class="line">E:disabled           选择被禁用的E元素;</div><div class="line">E:not(s)             E元素中选择不是s的元素;</div></pre></td></tr></table></figure>
+<h3 id="伪元素：双冒号为伪元素（特殊before和after）"><a href="#伪元素：双冒号为伪元素（特殊before和after）" class="headerlink" title="伪元素：双冒号为伪元素（特殊before和after）"></a>伪元素：双冒号为伪元素<code>（特殊before和after）</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">E::first-letter    选择E元素的首个字母;</div><div class="line">E::first-line      选择E元素的首行;</div><div class="line">E::before          在E第一个子元素前添加内容，ie8只支持单冒号</div><div class="line">E::after           在E最后一个子元素后添加内容，ie8只支持单冒号</div><div class="line">E::selection       选择被用户选取的元素部分,火狐只支持::-moz-selection;</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 前端基础 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> css3 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[曾广贤文]]></title>
       <url>/2017/06/17/%E6%9B%BE%E5%B9%BF%E8%B4%A4%E6%96%87/</url>
       <content type="html"><![CDATA[<h2 id="昔时贤文，诲汝谆谆。"><a href="#昔时贤文，诲汝谆谆。" class="headerlink" title="昔时贤文，诲汝谆谆。"></a>昔时贤文，诲汝谆谆。</h2><p><strong>集韵增广，多见多闻。</strong><br><strong>观今宜鉴古，无古不成今。</strong></p>
@@ -509,7 +536,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x68;&#101;&#100;&#111;&#x6e;&#103;&#x6c;&#x69;&#110;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#109;">&#x68;&#101;&#100;&#111;&#x6e;&#103;&#x6c;&#x69;&#110;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x68;&#x65;&#x64;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x68;&#x65;&#x64;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
