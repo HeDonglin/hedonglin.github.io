@@ -11,7 +11,12 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
+# rss设置
 rss:
+feed:
+type: atom
+path: atom.xml
+limit: 20
 
 # Specify the date when the site was setup
 since: 2015
@@ -536,6 +541,38 @@ reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作�
 wechatpay: /images/wechatpay.png
 alipay: /images/alipay.png
 
-# #changyan畅言评论
+# #changyan畅言评论，没备案不能用
 # changyan_appid: cyspxN2Qf
 # changyan_appkey: 28d157a01b38fb7c718c4b391b18dd36
+
+# sitemap
+# 提交给谷歌搜素引擎,SEO优化开启配置是一样的
+sitemap:
+    path: sitemap.xml
+
+# 提交百度搜索引擎   
+baidusitemap:
+    path: baidusitemap.xml 
+
+## 开启neat插件
+neat_enable: true
+
+## 压缩html
+neat_html:
+  enable: true
+  exclude:
+
+## 压缩css
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+## 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
