@@ -8,16 +8,6 @@ favicon: /images/favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
 
-# Set rss to false to disable feed link.
-# Leave rss as empty to use site's feed link.
-# Set rss to specific value if you have burned your feed already.
-# rss设置
-rss:
-feed:
-type: atom
-path: atom.xml
-limit: 20
-
 # Specify the date when the site was setup
 since: 2015
 
@@ -545,34 +535,57 @@ alipay: /images/alipay.png
 # changyan_appid: cyspxN2Qf
 # changyan_appkey: 28d157a01b38fb7c718c4b391b18dd36
 
+# Set rss to false to disable feed link.
+# Leave rss as empty to use site's feed link.
+# Set rss to specific value if you have burned your feed already.
+# rss设置;npm install hexo-generator-feed --save
+rss:
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
+
 # sitemap
-# 提交给谷歌搜素引擎,SEO优化开启配置是一样的
+# 提交给谷歌搜素引擎,SEO优化开启配置是一样的；npm install hexo-generator-seo-friendly-sitemap --save
+
 sitemap:
     path: sitemap.xml
 
-# 提交百度搜索引擎   
+# 提交百度搜索引擎；npm install hexo-generator-baidu-sitemap --save
+
 baidusitemap:
     path: baidusitemap.xml 
 
-## 开启neat插件
-neat_enable: true
+# ## 太卡了不使用
+# ## 开启neat插件，npm install hexo-neat --save
+# neat_enable: true
 
-## 压缩html
-neat_html:
-  enable: true
-  exclude:
+# ## 压缩html;npm install hexo-html-minifier --save
+# neat_html:
+#   enable: true
+#   exclude:
 
-## 压缩css
-neat_css:
-  enable: true
-  exclude:
-    - '*.min.css'
+# ## 压缩css;npm install hexo-clean-css --save
+# neat_css:
+#   enable: true
+#   exclude:
+#     - '*.min.css'
 
-## 压缩js
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
+# ## 压缩js;npm install hexo-uglify --save
+# neat_js:
+#   enable: true
+#   mangle: true
+#   output:
+#   compress:
+#   exclude:
+#     - '*.min.js'
+
+# # image压缩； npm install hexo-imagemin --save
+# imagemin:
+#   enable     : true
+#   interlaced : false
+#   multipass  : false
+#   optimizationLevel: 2
+#   pngquant   : false
+#   progressive: false
