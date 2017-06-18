@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>自由之翼</title>
+  <subtitle>与其羡慕别人，不如做好自己</subtitle>
+  <link href="/atom.xml" rel="self"/>
   
+  <link href="http://hedonglin.com/"/>
+  <updated>2017-06-18T07:25:41.234Z</updated>
+  <id>http://hedonglin.com/</id>
+  
+  <author>
+    <name>桐木辉夜</name>
     
-    <entry>
-      <title><![CDATA[Html5标签]]></title>
-      <url>/2017/06/18/html5%E6%A0%87%E7%AD%BE/</url>
-      <content type="html"><![CDATA[<h2 id="在不同浏览器中嵌套问题："><a href="#在不同浏览器中嵌套问题：" class="headerlink" title="在不同浏览器中嵌套问题："></a>在不同浏览器中嵌套问题：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ul&gt;li</div><div class="line">ol&gt;li</div><div class="line">table&gt;caption+(thead&gt;tr&gt;th)+(tbody&gt;tr&gt;td)+(tfoot&gt;tr&gt;td)</div><div class="line">dl&gt;dt+dd</div><div class="line">li，dt, dd的同级不要有其他元素，因为在ie67下会被它们包住；</div></pre></td></tr></table></figure>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Html5标签</title>
+    <link href="http://hedonglin.com/2017/06/18/html5%E6%A0%87%E7%AD%BE/"/>
+    <id>http://hedonglin.com/2017/06/18/html5标签/</id>
+    <published>2017-06-18T07:06:16.000Z</published>
+    <updated>2017-06-18T07:25:41.234Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="在不同浏览器中嵌套问题："><a href="#在不同浏览器中嵌套问题：" class="headerlink" title="在不同浏览器中嵌套问题："></a>在不同浏览器中嵌套问题：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">ul&gt;li</div><div class="line">ol&gt;li</div><div class="line">table&gt;caption+(thead&gt;tr&gt;th)+(tbody&gt;tr&gt;td)+(tfoot&gt;tr&gt;td)</div><div class="line">dl&gt;dt+dd</div><div class="line">li，dt, dd的同级不要有其他元素，因为在ie67下会被它们包住；</div></pre></td></tr></table></figure>
 <h2 id="块元素"><a href="#块元素" class="headerlink" title="块元素"></a>块元素</h2><ol>
 <li>默认独占一行</li>
 <li>没有宽度时，默认撑满一行</li>
@@ -36,75 +53,81 @@
 <h2 id="被移除的元素"><a href="#被移除的元素" class="headerlink" title="被移除的元素"></a>被移除的元素</h2><h3 id="被移除的头部元素"><a href="#被移除的头部元素" class="headerlink" title="被移除的头部元素"></a>被移除的头部元素</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">frameset：框架集(移除)</div><div class="line">noframes：不支持框架的浏览器显示文本(包裹body元素)(移除)</div><div class="line">frame：框架(空标签,移除)</div></pre></td></tr></table></figure>
 <h3 id="被移除的块元素"><a href="#被移除的块元素" class="headerlink" title="被移除的块元素"></a>被移除的块元素</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">center：居中文本(移除)</div><div class="line">dir：目录列表(移除,ul取代)</div><div class="line">xmp(html4.0移除,pre取代)</div></pre></td></tr></table></figure>
 <h3 id="被移除的内联元素"><a href="#被移除的内联元素" class="headerlink" title="被移除的内联元素"></a>被移除的内联元素</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">s：删除线(移除)</div><div class="line">font：字体设定(移除)</div><div class="line">basefont：页面上的默认字体颜色和字号;(空标签,移除)</div><div class="line">big：大字体(移除)</div><div class="line">u：下划线(移除)</div><div class="line">tt：打字机文本(移除)</div><div class="line">acronym：缩写(移除,abbr取代)</div><div class="line">strike：删除线(移除)</div><div class="line">isindex：定义单行的文字提交输入框(html5废除,form与input相结合的方式替代)</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> 基础知识 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> html5 </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Css命名规则]]></title>
-      <url>/2017/06/18/css3%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/</url>
-      <content type="html"><![CDATA[<h2 id="尽量避免-不是不能用"><a href="#尽量避免-不是不能用" class="headerlink" title="尽量避免(不是不能用)"></a>尽量避免(不是不能用)</h2><p>避免多层级(.classname div)：css渲染方式是从右往左渲染;<br>避免使用ID(#id)：后期维护不方便,因为在权重中达到100;<br>避免使用标签(ul.classname)：重用性差,同样也不易维护,不够直接;</p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;在不同浏览器中嵌套问题：&quot;&gt;&lt;a href=&quot;#在不同浏览器中嵌套问题：&quot; class=&quot;headerlink&quot; title=&quot;在不同浏览器中嵌套问题：&quot;&gt;&lt;/a&gt;在不同浏览器中嵌套问题：&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="基础知识" scheme="http://hedonglin.com/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="html5" scheme="http://hedonglin.com/tags/html5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Css命名规则</title>
+    <link href="http://hedonglin.com/2017/06/18/css3%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/"/>
+    <id>http://hedonglin.com/2017/06/18/css3命名规则/</id>
+    <published>2017-06-18T06:48:23.000Z</published>
+    <updated>2017-06-18T07:03:17.784Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="尽量避免-不是不能用"><a href="#尽量避免-不是不能用" class="headerlink" title="尽量避免(不是不能用)"></a>尽量避免(不是不能用)</h2><p>避免多层级(.classname div)：css渲染方式是从右往左渲染;<br>避免使用ID(#id)：后期维护不方便,因为在权重中达到100;<br>避免使用标签(ul.classname)：重用性差,同样也不易维护,不够直接;</p>
 <h2 id="问题探讨"><a href="#问题探讨" class="headerlink" title="问题探讨"></a>问题探讨</h2><p><strong>语义化(看了命名可以知道他的意思)</strong>：缺点重用性差,比如left-tip,如果要修改到右边能,那么名字要改属性也要改其他地方如果用到这个名字那么也要修改;<br><strong>重用性(命名能在其他地方使用不受限制,通用样式库)</strong>：缺点在html页面上不够清爽,单单看css文件无法想象出它的样子;<br><strong>防冲突(如果和别人的样式合并后有可能命名一样)</strong>：使用前缀写法比如<code>.header</code>,<code>.h_nav</code>,<code>.h_n_news</code></p>
 <h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>总结:前缀写法,有共同性质的提取到通用样式中,使用LESS来管理;<br>例如：<code>.header</code> <code>.h_nav</code> <code>.h_n_news</code></p>
 <p>重置样式：(消bug，消差异)<br>通用样式：配色,兼容性,组件(共性)<br>个人样式：布局,功能(个性)</p>]]></content>
-      
-        <categories>
-            
-            <category> 前端基础 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> css3 </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Css选择器]]></title>
-      <url>/2017/06/18/css3%E9%80%89%E6%8B%A9%E5%99%A8/</url>
-      <content type="html"><![CDATA[<h2 id="css1"><a href="#css1" class="headerlink" title="css1"></a>css1</h2><p><img src="/images/css3-1.png"><br>标签选择符<br>后代选择符<br>伪类选择符<code>:link,:active,:visited</code><br>伪元素选择符<code>:first-line,:first-letter</code><br>含类的某个标签选择符<code>e.classname</code><br>含id的某个标签选择符<code>e#id</code><br>含类的某个类选择符<code>.classname.classname;</code></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;尽量避免-不是不能用&quot;&gt;&lt;a href=&quot;#尽量避免-不是不能用&quot; class=&quot;headerlink&quot; title=&quot;尽量避免(不是不能用)&quot;&gt;&lt;/a&gt;尽量避免(不是不能用)&lt;/h2&gt;&lt;p&gt;避免多层级(.classname div)：css渲染方式是从右往左渲染
+    
+    </summary>
+    
+      <category term="前端基础" scheme="http://hedonglin.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="css3" scheme="http://hedonglin.com/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Css选择器</title>
+    <link href="http://hedonglin.com/2017/06/18/css3%E9%80%89%E6%8B%A9%E5%99%A8/"/>
+    <id>http://hedonglin.com/2017/06/18/css3选择器/</id>
+    <published>2017-06-18T03:04:01.000Z</published>
+    <updated>2017-06-18T04:52:51.714Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="css1"><a href="#css1" class="headerlink" title="css1"></a>css1</h2><p><img src="/images/css3-1.png"><br>标签选择符<br>后代选择符<br>伪类选择符<code>:link,:active,:visited</code><br>伪元素选择符<code>:first-line,:first-letter</code><br>含类的某个标签选择符<code>e.classname</code><br>含id的某个标签选择符<code>e#id</code><br>含类的某个类选择符<code>.classname.classname;</code></p>
 <h2 id="css2"><a href="#css2" class="headerlink" title="css2"></a>css2</h2><p><img src="/images/css3-2.png"><br>通配符选择符<code>*</code><br>子选择符<code>&gt;</code><br>伪类选择符<code>:first-child,:hover,:focus</code><br>相邻选择符<code>+</code><br>属性选择符<code>[attr],[attr=name],[attr~=name]</code><br>伪元素选择符<code>:before,:after</code></p>
 <h2 id="css3"><a href="#css3" class="headerlink" title="css3"></a>css3</h2><p><img src="/images/css3-3.png"><br><code>E ~ F</code><br><code>E[attr^=&quot;name&quot;]</code><br><code>E[attr$=&quot;name&quot;]</code><br><code>E[attr*=&quot;name&quot;]</code><br><code>E[attr|=&quot;name&quot;]</code><br><code>E:root</code><br><code>E:first-of-type</code><br><code>E:last-of-type</code><br><code>E:only-of-type</code><br><code>E:nth-of-type(n)</code><br><code>E:nth-last-of-type(n)</code><br><code>E:only-child</code><br><code>E:last-child</code><br><code>E:nth-child(n)</code><br><code>E:nth-last-child(n)</code><br><code>E:empty</code><br><code>E:target</code><br><code>E:checked</code><br><code>E:selection</code><br><code>E:enabled</code><br><code>E:disabled</code><br><code>E:not(s);</code></p>
 <h2 id="css效率高低"><a href="#css效率高低" class="headerlink" title="css效率高低"></a>css效率高低</h2><p>第一： id选择符<code>(#)</code><br>第二： 类选择器<code>(.)</code><br>第三： 标签选择符<code>(div,p...)</code><br>第四： 相邻选择符<code>(+)</code><br>第五： 子选择符;<code>(&gt;)</code><br>第六： 后代选择符<code>(ul li)</code><br>第七： 通配选择符<code>(*)</code><br>第八： 属性选择符<code>([])</code><br>第九： 伪类选择符<code>(:)</code></p>
 <h2 id="css权重高低"><a href="#css权重高低" class="headerlink" title="css权重高低"></a>css权重高低</h2><p>例如:#idzufu div .quanzhong:first-child 计算得出:100+1+10+10=121;<br>第一： !important (10000)<br>第二： 内联样式(1000)<br>第三： id<code>(#)</code>(100)<br>第四： 类/伪类/属性<code>(. ：[])</code>(10)<br>第五： 元素/伪元素<code>(div ::)</code>(1)<br>第六： 相同权重后面覆盖<br>第七： 通配符<br>第八： 继承</p>
 <h2 id="伪类和伪元素"><a href="#伪类和伪元素" class="headerlink" title="伪类和伪元素,"></a>伪类和伪元素,</h2><h3 id="伪类：单冒号伪类"><a href="#伪类：单冒号伪类" class="headerlink" title="伪类：单冒号伪类"></a>伪类：单冒号伪类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">E:link               访问元素前的状态</div><div class="line">E:visited            访问元素后的状态</div><div class="line">E:focus              元素获得焦点时的状态</div><div class="line">E:hover              悬停元素上方时的状态</div><div class="line">E:active             按住元素时的状态</div><div class="line">E:lang(it)           选择带有以&quot;it&quot;的lang属性值的元素</div><div class="line">E:first-child        表示所有E元素的所有的后代元素的第一个元素</div><div class="line">E:last-child         原理同上</div><div class="line">E:nth-child(n)       选择所有E元素的第几个元素;n&gt;=1;</div><div class="line">E:nth-last-child(n)  原理同上,从最后一个子元素开始计数</div><div class="line">E:only-child         E元素在父元素中唯一,E同级上不可以有任何元素;</div><div class="line">E:only-of-type       E元素在父元素中唯一,E同级上可以有其他元素，但不能出现另一个E元素;</div><div class="line">E:first-of-type      父元素中E元素排在所有E元素中的第一位的元素；</div><div class="line">E:last-of-type       原理同上</div><div class="line">E:nth-of-type(n)     父元素中E元素排在所有E元素中的第n位的元素；</div><div class="line">E:nth-last-of-type(n)父元素中E元素排在所有E元素中的倒数第n位的元素；</div><div class="line">E:root               html元素</div><div class="line">E:empty              选择没有内容的E元素,注意:空格也算一个内容;</div><div class="line">E:target             选择当前活动的E元素</div><div class="line">E:checked            选择被选中的E元素</div><div class="line">E:enabled            选择被启用的E元素;</div><div class="line">E:disabled           选择被禁用的E元素;</div><div class="line">E:not(s)             E元素中选择不是s的元素;</div></pre></td></tr></table></figure>
 <h3 id="伪元素：双冒号为伪元素（特殊before和after）"><a href="#伪元素：双冒号为伪元素（特殊before和after）" class="headerlink" title="伪元素：双冒号为伪元素（特殊before和after）"></a>伪元素：双冒号为伪元素<code>（特殊before和after）</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">E::first-letter    选择E元素的首个字母;</div><div class="line">E::first-line      选择E元素的首行;</div><div class="line">E::before          在E第一个子元素前添加内容，ie8只支持单冒号</div><div class="line">E::after           在E最后一个子元素后添加内容，ie8只支持单冒号</div><div class="line">E::selection       选择被用户选取的元素部分,火狐只支持::-moz-selection;</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> 前端基础 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> css3 </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[曾广贤文]]></title>
-      <url>/2017/06/17/%E6%9B%BE%E5%B9%BF%E8%B4%A4%E6%96%87/</url>
-      <content type="html"><![CDATA[<h2 id="昔时贤文，诲汝谆谆。"><a href="#昔时贤文，诲汝谆谆。" class="headerlink" title="昔时贤文，诲汝谆谆。"></a>昔时贤文，诲汝谆谆。</h2><p><strong>集韵增广，多见多闻。</strong><br><strong>观今宜鉴古，无古不成今。</strong></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;css1&quot;&gt;&lt;a href=&quot;#css1&quot; class=&quot;headerlink&quot; title=&quot;css1&quot;&gt;&lt;/a&gt;css1&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/css3-1.png&quot;&gt;&lt;br&gt;标签选择符&lt;br&gt;后代选择符&lt;br&gt;伪类选择符&lt;code
+    
+    </summary>
+    
+      <category term="前端基础" scheme="http://hedonglin.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="css3" scheme="http://hedonglin.com/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>曾广贤文</title>
+    <link href="http://hedonglin.com/2017/06/17/%E6%9B%BE%E5%B9%BF%E8%B4%A4%E6%96%87/"/>
+    <id>http://hedonglin.com/2017/06/17/曾广贤文/</id>
+    <published>2017-06-17T15:47:23.000Z</published>
+    <updated>2017-06-18T06:54:03.041Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="昔时贤文，诲汝谆谆。"><a href="#昔时贤文，诲汝谆谆。" class="headerlink" title="昔时贤文，诲汝谆谆。"></a>昔时贤文，诲汝谆谆。</h2><p><strong>集韵增广，多见多闻。</strong><br><strong>观今宜鉴古，无古不成今。</strong></p>
 <p>【解释】用以前圣贤们的言论，来谆谆教诲你。广泛搜集押韵的文字汇编成“增广”，使你见多识广。应该借鉴古人的经验教训，来指导今天的行为，因为今天是古代的延续。</p>
 <h2 id="知己知彼，将心比心。"><a href="#知己知彼，将心比心。" class="headerlink" title="知己知彼，将心比心。"></a>知己知彼，将心比心。</h2><p>【解释】知道自己怎么想的，也应该知道别人是怎样想的，所以要用自己的心，体谅别人的心，设身处地为别人着想。</p>
 <h2 id="酒逢知己饮，诗向会人吟。相识满天下，知心能几人。"><a href="#酒逢知己饮，诗向会人吟。相识满天下，知心能几人。" class="headerlink" title="酒逢知己饮，诗向会人吟。相识满天下，知心能几人。"></a>酒逢知己饮，诗向会人吟。相识满天下，知心能几人。</h2><p>【解释】酒要和了解自己的人一起喝，诗要与懂得它的人一起吟。认识的人可以很多，但真正了解，并达到知心的却没有几个。</p>
@@ -388,114 +411,125 @@
 <p>《增广贤文》绝大多数句子都来自经史子集，诗词曲赋、戏剧小说以及文人杂记，其思想观念都直接或间接地来自儒释道各家经典，从广义上来说，它是雅俗共赏的“经”的普及本。不需讲解就能读懂，通过读《增广贤文》同样能领会到经文的思想观念和人生智慧。《增广贤文》还是谚语的选集。</p>
 <p>《增广贤文》以有韵的谚语和文献佳句选编而成，其内容十分广泛，从礼仪道德、典章制度到风物典故、天文地理，几乎无所不含，而又语句通顺，易懂。但中心是讲人生哲学、处世之道。</p>
 </blockquote>]]></content>
-      
-        <categories>
-            
-            <category> 人生哲理 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 生活 </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Wgestures快捷手势]]></title>
-      <url>/2017/06/17/wgestures%E5%BF%AB%E6%8D%B7%E6%89%8B%E5%8A%BF/</url>
-      <content type="html"><![CDATA[<h2 id="打开网址，随时随地选中文字即可搜索"><a href="#打开网址，随时随地选中文字即可搜索" class="headerlink" title="打开网址，随时随地选中文字即可搜索"></a>打开网址，随时随地选中文字即可搜索<br></h2><p><img src="/images/wgestures.png"></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;昔时贤文，诲汝谆谆。&quot;&gt;&lt;a href=&quot;#昔时贤文，诲汝谆谆。&quot; class=&quot;headerlink&quot; title=&quot;昔时贤文，诲汝谆谆。&quot;&gt;&lt;/a&gt;昔时贤文，诲汝谆谆。&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;集韵增广，多见多闻。&lt;/strong&gt;&lt;br&gt;&lt;strong
+    
+    </summary>
+    
+      <category term="人生哲理" scheme="http://hedonglin.com/categories/%E4%BA%BA%E7%94%9F%E5%93%B2%E7%90%86/"/>
+    
+    
+      <category term="生活" scheme="http://hedonglin.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wgestures快捷手势</title>
+    <link href="http://hedonglin.com/2017/06/17/wgestures%E5%BF%AB%E6%8D%B7%E6%89%8B%E5%8A%BF/"/>
+    <id>http://hedonglin.com/2017/06/17/wgestures快捷手势/</id>
+    <published>2017-06-17T11:57:30.000Z</published>
+    <updated>2017-06-18T06:53:53.684Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="打开网址，随时随地选中文字即可搜索"><a href="#打开网址，随时随地选中文字即可搜索" class="headerlink" title="打开网址，随时随地选中文字即可搜索"></a>打开网址，随时随地选中文字即可搜索<br></h2><p><img src="/images/wgestures.png"></p>
 <h2 id="触发边角切换工作状态"><a href="#触发边角切换工作状态" class="headerlink" title="触发边角切换工作状态 "></a>触发边角切换工作状态 <br></h2><p><img src="/images/wgestures-1.png"></p>
 <h2 id="编写脚本使用鼠标免去重复的操作"><a href="#编写脚本使用鼠标免去重复的操作" class="headerlink" title="编写脚本使用鼠标免去重复的操作 "></a>编写脚本使用鼠标免去重复的操作 <br></h2><p><img src="/images/wgestures-2.png"></p>]]></content>
-      
-        <categories>
-            
-            <category> 实用工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> wgestures </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Altdrag被人遗忘的好工具]]></title>
-      <url>/2017/06/17/altdrag%E8%A2%AB%E4%BA%BA%E9%81%97%E5%BF%98%E7%9A%84%E7%BD%AE%E9%A1%B6%E5%A5%BD%E5%B7%A5%E5%85%B7/</url>
-      <content type="html"><![CDATA[<h2 id="Altdrag"><a href="#Altdrag" class="headerlink" title="Altdrag"></a>Altdrag</h2><p>有时候一些窗口需要置顶以及取消置顶的操作，找遍了全网只有这个是最满意的，win10下完美支持<br>软件大小：190kb<br>主要有几大功能<br>1.自动调整适应共8个位置<br>2.窗口置顶（致爱）<br>使用方法：如下图所示，除了红色文字标出的是鼠标中间单击，其他都配合按键使用，下图我配置的是win键，即win键+鼠标的方式；<br><img src="/images/altdrag.png"></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;打开网址，随时随地选中文字即可搜索&quot;&gt;&lt;a href=&quot;#打开网址，随时随地选中文字即可搜索&quot; class=&quot;headerlink&quot; title=&quot;打开网址，随时随地选中文字即可搜索&quot;&gt;&lt;/a&gt;打开网址，随时随地选中文字即可搜索&lt;br&gt;&lt;/h2&gt;&lt;p&gt;&lt;img s
+    
+    </summary>
+    
+      <category term="实用工具" scheme="http://hedonglin.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="wgestures" scheme="http://hedonglin.com/tags/wgestures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Altdrag被人遗忘的好工具</title>
+    <link href="http://hedonglin.com/2017/06/17/altdrag%E8%A2%AB%E4%BA%BA%E9%81%97%E5%BF%98%E7%9A%84%E7%BD%AE%E9%A1%B6%E5%A5%BD%E5%B7%A5%E5%85%B7/"/>
+    <id>http://hedonglin.com/2017/06/17/altdrag被人遗忘的置顶好工具/</id>
+    <published>2017-06-17T11:31:05.000Z</published>
+    <updated>2017-06-18T06:53:55.336Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Altdrag"><a href="#Altdrag" class="headerlink" title="Altdrag"></a>Altdrag</h2><p>有时候一些窗口需要置顶以及取消置顶的操作，找遍了全网只有这个是最满意的，win10下完美支持<br>软件大小：190kb<br>主要有几大功能<br>1.自动调整适应共8个位置<br>2.窗口置顶（致爱）<br>使用方法：如下图所示，除了红色文字标出的是鼠标中间单击，其他都配合按键使用，下图我配置的是win键，即win键+鼠标的方式；<br><img src="/images/altdrag.png"></p>
 <h2 id="更多详情"><a href="#更多详情" class="headerlink" title="更多详情"></a>更多详情</h2><p>官网：<a href="https://stefansundin.github.io/altdrag/" target="_blank" rel="external">https://stefansundin.github.io/altdrag/</a></p>]]></content>
-      
-        <categories>
-            
-            <category> 实用工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> altdrag </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Snipaste截图、贴图神器]]></title>
-      <url>/2017/06/17/snipaste%E6%88%AA%E5%9B%BE%E3%80%81%E8%B4%B4%E5%9B%BE%E7%A5%9E%E5%99%A8/</url>
-      <content type="html"><![CDATA[<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><p><img src="/images/snipaste.gif"></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Altdrag&quot;&gt;&lt;a href=&quot;#Altdrag&quot; class=&quot;headerlink&quot; title=&quot;Altdrag&quot;&gt;&lt;/a&gt;Altdrag&lt;/h2&gt;&lt;p&gt;有时候一些窗口需要置顶以及取消置顶的操作，找遍了全网只有这个是最满意的，win10下完美支持&lt;br&gt;
+    
+    </summary>
+    
+      <category term="实用工具" scheme="http://hedonglin.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="altdrag" scheme="http://hedonglin.com/tags/altdrag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Snipaste截图、贴图神器</title>
+    <link href="http://hedonglin.com/2017/06/17/snipaste%E6%88%AA%E5%9B%BE%E3%80%81%E8%B4%B4%E5%9B%BE%E7%A5%9E%E5%99%A8/"/>
+    <id>http://hedonglin.com/2017/06/17/snipaste截图、贴图神器/</id>
+    <published>2017-06-17T10:58:59.000Z</published>
+    <updated>2017-06-18T06:53:52.544Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><p><img src="/images/snipaste.gif"></p>
 <h2 id="快速取到颜色值，c复制颜色，shift切换颜色方式"><a href="#快速取到颜色值，c复制颜色，shift切换颜色方式" class="headerlink" title="快速取到颜色值，c复制颜色，shift切换颜色方式"></a>快速取到颜色值，c复制颜色，shift切换颜色方式</h2><p><img src="/images/snipaste-1.gif"></p>
 <h2 id="更多功能"><a href="#更多功能" class="headerlink" title="更多功能"></a>更多功能</h2><p>官网：<a href="https://zh.snipaste.com/" target="_blank" rel="external">https://zh.snipaste.com/</a><br>文档：<a href="https://docs.snipaste.com/zh-cn#/" target="_blank" rel="external">https://docs.snipaste.com/zh-cn#/</a><br>github反馈：<a href="https://github.com/Snipaste/feedback/issues" target="_blank" rel="external">https://github.com/Snipaste/feedback/issues</a></p>]]></content>
-      
-        <categories>
-            
-            <category> 实用工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> snipaste </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Git配置快捷命令]]></title>
-      <url>/2017/06/17/git%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4/</url>
-      <content type="html"><![CDATA[<h2 id="相关术语"><a href="#相关术语" class="headerlink" title="相关术语"></a>相关术语</h2><p> <strong>git的历史记录</strong>是不可修改的，也就是说你不能更改任何已经发生的事情。你做的任何操作都只是在原来的操作上修改。也就是说，即使你删除了一个分支，修改了一个提交，或者强制重置，你仍然可以回滚这些操作。<br><strong>切换</strong>：初始创建一个分支，但git库还没有数据，叫切换；<br><strong>检出</strong>：该分支之前已经提交过git库，那么检出就是经历了到仓库里取数据的过程；<br><strong>HEAD</strong>：是指向当前所在的分支<br><strong>git查找配置信息顺序</strong>先<code>etc\gitconfig</code>–&gt;<code>Administrator\.gitconfig</code>–&gt;<code>.git\config</code>;定义的值有冲突,那么后面的覆盖前面的;<br><strong>初始化后</strong>最好要进行一次提交，避免使用了<code>git reset --hard</code>把文件给清除了；</p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;基本功能&quot;&gt;&lt;a href=&quot;#基本功能&quot; class=&quot;headerlink&quot; title=&quot;基本功能&quot;&gt;&lt;/a&gt;基本功能&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/snipaste.gif&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;快速取到颜色值，c复制颜色，shi
+    
+    </summary>
+    
+      <category term="实用工具" scheme="http://hedonglin.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="snipaste" scheme="http://hedonglin.com/tags/snipaste/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git配置快捷命令</title>
+    <link href="http://hedonglin.com/2017/06/17/git%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4/"/>
+    <id>http://hedonglin.com/2017/06/17/git配置快捷命令/</id>
+    <published>2017-06-16T17:10:05.000Z</published>
+    <updated>2017-06-18T06:53:58.260Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="相关术语"><a href="#相关术语" class="headerlink" title="相关术语"></a>相关术语</h2><p> <strong>git的历史记录</strong>是不可修改的，也就是说你不能更改任何已经发生的事情。你做的任何操作都只是在原来的操作上修改。也就是说，即使你删除了一个分支，修改了一个提交，或者强制重置，你仍然可以回滚这些操作。<br><strong>切换</strong>：初始创建一个分支，但git库还没有数据，叫切换；<br><strong>检出</strong>：该分支之前已经提交过git库，那么检出就是经历了到仓库里取数据的过程；<br><strong>HEAD</strong>：是指向当前所在的分支<br><strong>git查找配置信息顺序</strong>先<code>etc\gitconfig</code>–&gt;<code>Administrator\.gitconfig</code>–&gt;<code>.git\config</code>;定义的值有冲突,那么后面的覆盖前面的;<br><strong>初始化后</strong>最好要进行一次提交，避免使用了<code>git reset --hard</code>把文件给清除了；</p>
 <h2 id="配置快捷命令："><a href="#配置快捷命令：" class="headerlink" title="配置快捷命令："></a>配置快捷命令：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">//转到用户名文件夹下</div><div class="line">cd ~</div><div class="line">//新建文件.bashrc</div><div class="line">touch .bashrc</div><div class="line">//快捷方式设置gs快捷命名是git status；alias gs=&apos;git status&apos;</div><div class="line">//例如alias gl=&apos;git log --oneline --decorate --graph&apos; 当输入gl后面还可以输入其他参数，比如gl -3表示显示最近3条记录</div><div class="line">//alias不加参数可以显示所有配置命令</div></pre></td></tr></table></figure>
 <h2 id="barshrc文件配置信息"><a href="#barshrc文件配置信息" class="headerlink" title=".barshrc文件配置信息"></a>.barshrc文件配置信息</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div></pre></td><td class="code"><pre><div class="line">alias in=&quot;git init&quot;</div><div class="line">alias cl=&quot;git clone&quot;</div><div class="line">alias t=&quot;touch&quot;</div><div class="line">alias tg=&quot;git tag&quot;</div><div class="line"># 常用命令</div><div class="line">alias a=&quot;git add&quot;</div><div class="line">alias s=&quot;git status&quot;</div><div class="line">alias st=&quot;git stash&quot;</div><div class="line">alias stl=&quot;git stash list&quot;</div><div class="line">alias sta=&quot;git stash apply&quot;</div><div class="line">alias stc=&quot;git stash clear&quot;</div><div class="line">alias d=&quot;git diff&quot;</div><div class="line">alias dc=&quot;git diff --cached&quot;</div><div class="line">alias co=&quot;git commit -m&quot;</div><div class="line">alias l=&quot;git log --oneline --decorate --graph&quot;</div><div class="line">alias r=&quot;git reflog&quot;</div><div class="line">alias lf=&quot;git log --pretty=format:&apos;%cn--%h--%cd&apos;&quot;</div><div class="line">alias sl=&quot;git shortlog&quot;</div><div class="line">alias la=&quot;git log --author&quot;</div><div class="line">alias laf=&quot;git log --after&quot;</div><div class="line">alias lbe=&quot;git log --before&quot;</div><div class="line">alias b=&quot;git branch&quot;</div><div class="line">alias bv=&quot;git branch -vv&quot;</div><div class="line">alias bs=&quot;git branch --set-upstream&quot;</div><div class="line">alias c=&quot;git checkout&quot;</div><div class="line">alias cb=&quot;git checkout -b&quot;</div><div class="line">alias cm=&quot;git checkout master&quot;</div><div class="line">alias f=&quot;git fetch&quot;</div><div class="line">alias rem=&quot;git remote&quot;</div><div class="line">alias m=&quot;git merge&quot;</div><div class="line">alias rm=&quot;git rm&quot;</div><div class="line">alias rmf=&quot;git rm -f&quot;</div><div class="line">alias rmc=&quot;git rm --cached&quot;</div><div class="line">alias re=&quot;git reset&quot;</div><div class="line">alias reh=&quot;re --hard&quot;</div><div class="line">alias pl=&quot;git pull&quot;</div><div class="line">alias ps=&quot;git push&quot;</div><div class="line"></div><div class="line"># .git目录下配置</div><div class="line">alias g=&quot;git config&quot;</div><div class="line">alias g1.0=&quot;g credential.helper store&quot;</div><div class="line">alias g1.1=&quot;g core.autocrlf false&quot;</div><div class="line">alias g1.2=&quot;g core.quotepath false&quot;</div><div class="line">alias g1.3=&quot;g core.editor \&quot;&apos;D:\\Program Files\\Sublime Text 3126\\sublime_text.exe&apos; -w\&quot;&quot;</div><div class="line">alias g1.4=&quot;g core.safecrlf false&quot;</div><div class="line">alias g1.5=&quot;g push.default simple&quot;</div><div class="line">alias g1.6=&quot;g user.email aaa@163.com&quot;</div><div class="line">alias g1.7=&quot;g user.name aaa&quot;</div><div class="line">alias gl=&quot;g1.0 &amp;&amp; g1.1 &amp;&amp; g1.2 &amp;&amp; g1.3 &amp;&amp; g1.4 &amp;&amp; g1.5 &amp;&amp; g1.6 &amp;&amp;g1.7&quot;</div><div class="line">alias gue=&quot;g user.email&quot;</div><div class="line">alias gun=&quot;g user.name&quot;</div><div class="line"></div><div class="line"># 全局配置</div><div class="line">alias cg=&quot;git config --global&quot;</div><div class="line">alias g2.0=&quot;cg credential.helper store&quot;</div><div class="line">alias g2.1=&quot;cg core.autocrlf false&quot;</div><div class="line">alias g2.2=&quot;cg core.quotepath false&quot;</div><div class="line">alias g2.3=&quot;cg core.editor \&quot;&apos;D:\\Program Files\\Sublime Text 3126\\sublime_text.exe&apos; -w\&quot;&quot;</div><div class="line">alias g2.4=&quot;cg core.safecrlf false&quot;</div><div class="line">alias g2.5=&quot;cg push.default simple&quot;</div><div class="line">alias g2.6=&quot;cg user.email aaa@163.com&quot;</div><div class="line">alias g2.7=&quot;cg user.name aaa&quot;</div><div class="line">alias gg=&quot;g2.0 &amp;&amp; g2.1 &amp;&amp; g2.2 &amp;&amp; g2.3 &amp;&amp; g2.4 &amp;&amp; g2.5 &amp;&amp; g2.6 &amp;&amp;g2.7&quot;</div><div class="line">alias ggue=&quot;cg user.email&quot;</div><div class="line">alias ggun=&quot;cg user.name&quot;</div></pre></td></tr></table></figure>
 <h2 id="出现问题后解决思路"><a href="#出现问题后解决思路" class="headerlink" title="出现问题后解决思路:"></a>出现问题后解决思路:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">是否添加了主机：git remote -v</div><div class="line">添加主机：git remote add origin git@github.com:xyhdl0929/xyhdl0929.github.io.git</div><div class="line">远程是否有了该分支：git push origin 本地分支：远程分支</div><div class="line">是否有追踪的分支：git branch -vv</div><div class="line">建立追踪分支：git branch --set-upstream 本地分支 origin/远程分支</div><div class="line">本地新建立一个分支追踪远程分支：git checkout -b &lt;新的分支名&gt; 远程主机名/分支名</div><div class="line">本地数据是否为最新：git pull</div><div class="line">设置本地默认主机：git push -u origin</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> 辅助工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> git </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Git理解图]]></title>
-      <url>/2017/06/17/git%E7%90%86%E8%A7%A3%E5%9B%BE/</url>
-      <content type="html"><![CDATA[<h2 id="一边操作一边理解"><a href="#一边操作一边理解" class="headerlink" title="一边操作一边理解"></a>一边操作一边理解</h2><p><img src="/images/git-1.png" alt="git理解图" title="git理解图"></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;相关术语&quot;&gt;&lt;a href=&quot;#相关术语&quot; class=&quot;headerlink&quot; title=&quot;相关术语&quot;&gt;&lt;/a&gt;相关术语&lt;/h2&gt;&lt;p&gt; &lt;strong&gt;git的历史记录&lt;/strong&gt;是不可修改的，也就是说你不能更改任何已经发生的事情。你做的任何操作都只是
+    
+    </summary>
+    
+      <category term="辅助工具" scheme="http://hedonglin.com/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="http://hedonglin.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git理解图</title>
+    <link href="http://hedonglin.com/2017/06/17/git%E7%90%86%E8%A7%A3%E5%9B%BE/"/>
+    <id>http://hedonglin.com/2017/06/17/git理解图/</id>
+    <published>2017-06-16T16:41:30.000Z</published>
+    <updated>2017-06-18T06:53:56.357Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一边操作一边理解"><a href="#一边操作一边理解" class="headerlink" title="一边操作一边理解"></a>一边操作一边理解</h2><p><img src="/images/git-1.png" alt="git理解图" title="git理解图"></p>
 <h2 id="本地创建公钥-提供到服务端-可删除但不建议-和密钥-克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥"><a href="#本地创建公钥-提供到服务端-可删除但不建议-和密钥-克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥" class="headerlink" title="本地创建公钥(提供到服务端,可删除但不建议),和密钥(克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥)"></a>本地创建公钥(提供到服务端,可删除但不建议),和密钥(克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">//~代表用户名目录下,$HOME 用户目录变量,下面表示转到用户目录的.ssh文件夹下</div><div class="line">cd ~/.shh</div><div class="line">//创建一个公钥</div><div class="line">    ssh-keygen -t rsa -C &quot;注释,标识身份,一般添github上的邮箱地址&quot;</div><div class="line">//创建多个公钥(相当于1台电脑可以控制两个github账户)</div><div class="line">    ssh-keygen -t rsa -C &quot;aaa@163.com&quot; //一路回车,那么默认文件命名为id_rsa</div><div class="line">    ssh-keygen -t rsa -C &quot;bbb@163.com&quot; //回车后要求为文件进行命名可设置为id2_rsa</div><div class="line">    //当克隆下来的文件时:git@github.com:xyhdl0929/abc.git会寻找本机中的ssh秘钥</div><div class="line">    //在.ssh文件夹下新建config文件添加以下信息;</div><div class="line">        # 第一个账号，默认使用的账号</div><div class="line">            Host github.com</div><div class="line">            HostName github.com</div><div class="line">            User git</div><div class="line">            IdentityFile ~/.ssh/id_rsa #对应github第一个账号</div><div class="line">        # 第二个账号</div><div class="line">            Host n.github.com  #n为前缀名，可以任意设置</div><div class="line">            HostName github.com</div><div class="line">            User git</div><div class="line">            IdentityFile ~/.ssh/id2_rsa #对应github第二个账号</div></pre></td></tr></table></figure>
 <h2 id="远程服务器github设置"><a href="#远程服务器github设置" class="headerlink" title="远程服务器github设置;"></a>远程服务器github设置;</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//把公钥(*.pub的文件就是公钥)内容添加到ssh中,title名字用户身份填写;</div><div class="line">Settings--&gt;SSH and GPG keys--&gt;New SSH key--title(随意,一般写哪个用户使用的公钥)--&gt;粘贴公钥</div><div class="line">//github上新建一个仓库</div><div class="line">New repository--&gt;Repository name(随意)--&gt;create pository</div><div class="line">//复制ssh地址;例如git@github.com:HeDonglin/muban.git</div><div class="line">clone or download--&gt;copy to clipboard</div></pre></td></tr></table></figure>
 <h2 id="初始化及忽略文件设置"><a href="#初始化及忽略文件设置" class="headerlink" title="初始化及忽略文件设置"></a>初始化及忽略文件设置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">//初始化命令在文件夹里生成一个隐藏的.git文件夹，这是一个全新的状态，不管该文件夹有没有文件；</div><div class="line">    git init</div><div class="line">//添加忽略的文件</div><div class="line">    //未跟踪状态的忽略设置:</div><div class="line">        .gitignore //都需要忽略的文件,建立方式(.gitignore.),该文件和.git文件夹同级</div><div class="line">            .css //例如:使用less编译,最终生成css,那么可以忽略编译生成的中间文件/可执行文件;</div><div class="line">        exclde //本地仓库需要忽略的文件,该文件在.git/info中;</div><div class="line">            dist/</div><div class="line">            build/</div><div class="line">            node_modules/</div><div class="line">    //已跟踪状态的忽略设置:(比如克隆下来的文件都是属于跟踪状态,没改变也没在已暂存)</div><div class="line">        //对已改变的文件进行忽略跟踪,但还可以进行恢复跟踪,说明还保留在已跟踪状态只是对他进行了忽略而已,并没设置为未跟踪状态;</div><div class="line">            git update-index --assume-unchanged &lt;file&gt;//忽略跟踪</div><div class="line">            git update-index --no-assume-unchanged &lt;file&gt;//恢复跟踪</div><div class="line">        //对已暂存的文件或文件夹移出已暂存并设置为未跟踪状态,不删除文件,那么上面的的两条命令就无效了,因为彻底地设置为未跟踪状态;</div><div class="line">            git rm --cached &lt;文件&gt;</div><div class="line">            git rm --cached &lt;文件夹&gt; -r</div></pre></td></tr></table></figure>
@@ -515,26 +549,28 @@
 <h2 id="为版本库创建标签"><a href="#为版本库创建标签" class="headerlink" title="为版本库创建标签"></a>为版本库创建标签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">//查看所有标签</div><div class="line">git tag </div><div class="line">//新建一个标签，默认为HEAD，也可以指定一个commit id</div><div class="line">git tag &lt;name&gt; </div><div class="line">//推送一个本地标签</div><div class="line">git push origin &lt;tagname&gt; </div><div class="line">//推送全部未推送过的本地标签</div><div class="line">git push origin --tags </div><div class="line">//删除一个本地标签</div><div class="line">git tag -d &lt;tagname&gt; </div><div class="line">//删除一个远程标签</div><div class="line">git push origin :refs/tags/&lt;tagname&gt;</div></pre></td></tr></table></figure>
 <h2 id="取回远程主机某个分支的更新，再与本地的指定分支合并"><a href="#取回远程主机某个分支的更新，再与本地的指定分支合并" class="headerlink" title="取回远程主机某个分支的更新，再与本地的指定分支合并"></a>取回远程主机某个分支的更新，再与本地的指定分支合并</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">git pull &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</div><div class="line">//如果远程分支是与当前分支合并，则冒号后面的部分可以省略。</div><div class="line">git pull &lt;远程主机名&gt; &lt;远程分支名&gt;</div><div class="line">//实际过程为</div><div class="line">    git fetch &lt;远程主机名&gt;</div><div class="line">    git merge 远程主机名/分支名</div><div class="line">//git clone的时候，所有本地分支默认与远程主机的同名分支，建立追踪关系，也就是说，本地的master分支自动&quot;追踪&quot;origin/master分支。</div><div class="line">//就能够看到本地分支跟踪的远程分支</div><div class="line">git branch -vv</div><div class="line">//手动建立追踪关系</div><div class="line">git branch --set-upstream master origin/master//表示指定master分支追踪origin/master   </div><div class="line">//如果合并需要采用rebase模式，可以使用--rebase选项。</div><div class="line">git pull --rebase &lt;远程主机名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;</div><div class="line">//参数 -p 就会在本地删除远程已经删除的分支。</div><div class="line">git pull -p</div></pre></td></tr></table></figure>
 <h2 id="推送到远程主机"><a href="#推送到远程主机" class="headerlink" title="推送到远程主机"></a>推送到远程主机</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">//将本地分支的更新,推送到远程主机(远程没有分支的时候使用，接着进行追踪分支)</div><div class="line">git push &lt;远程主机名&gt; &lt;本地分支名&gt;:&lt;远程分支名&gt;</div><div class="line">//将本地的master分支推送到远程主机的master</div><div class="line">git push &lt;远程主机名&gt; master</div><div class="line">//本地新建的分支名推送到远程主机，远程主机会自动新建一个新分支名；</div><div class="line">git push &lt;远程主机名&gt; 新分支名</div><div class="line">//省略本地分支分支名,则表示删除指定的远程分支,因为等于推送了一个空的本地分支到远程分支(重要)master不允许删除，其他都可以</div><div class="line">git push &lt;远程主机名&gt; :&lt;远程分支名&gt;</div><div class="line">//当前分支只有一个追踪分支,那么主机名都可以省略</div><div class="line">//‘matching’ 参数是 Git 1.x 的默认行为，其意是如果你执行 git push 但没有指定分支，它将 push 所有你本地的分支到远程仓库中对应匹配的分支。</div><div class="line">//而 Git 2.x 默认的是 simple，意味着执行 git push 没有指定分支时，只有当前分支会被 push 到你使用 git pull 获取的代码。</div><div class="line">//</div><div class="line">git push</div><div class="line">//当前分支与多个主机存在追踪关系,那么可以指定默认主机,以后就可以直接git push</div><div class="line">git push -u &lt;默认主机&gt; &lt;本地分支&gt;</div><div class="line">//不管是否存在对应的远程分支,将本地的所有分支都推送到远程主机,-all;</div><div class="line">git push --all &lt;主机名&gt;</div><div class="line">//远程主机版本比本地的更新,推送的时候会报错,要求先在本地做git pull合并差异，然后再推送到远程主机。如果一定要推送那么可以使用;</div><div class="line">//如果发现第一次推送错误，回滚操作后使用git push -f强推覆盖远程主机错误的版本</div><div class="line">git push -f &lt;主机名&gt;</div><div class="line">//推送的时候出错，原因是远程分支比本地的分支更新，那么必须先把远程的分支git pull 取回与当前分支合并后，才使用git push;</div><div class="line">git pull</div><div class="line">git push</div><div class="line">//推送标签(默认是不推送标签的)</div><div class="line">git push &lt;主机名&gt; --tags</div><div class="line">//更新所有远程分支</div><div class="line">git branch | awk &apos;BEGIN&#123;print &quot;echo ****Update all local branch...@daimon***&quot;&#125;&#123;if($1==&quot;*&quot;)&#123;current=substr($0,3)&#125;;print a&quot;git checkout &quot;substr($0,3);print &quot;git pull --all&quot;;&#125;END&#123;print &quot;git checkout &quot; current&#125;&apos; |sh</div><div class="line"></div><div class="line">//是否禁用强制功能-f;</div><div class="line">git config receive.denyNonFastForwards false</div></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> 辅助工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> git </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Git安装过程需注意的地方]]></title>
-      <url>/2017/06/17/git%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E9%9C%80%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</url>
-      <content type="html"><![CDATA[<h2 id="集中式版本库-（SVN或CVS）"><a href="#集中式版本库-（SVN或CVS）" class="headerlink" title="集中式版本库 （SVN或CVS）"></a>集中式版本库 （SVN或CVS）</h2><p>版本库是集中存放在中央服务器的,修改项目需要先从服务器取得最新版本,然后修改,再将修改的版本提交到服务器(一旦服务器坏了整个项目有可能丢失所有历史更新记录)(需要联网);</p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一边操作一边理解&quot;&gt;&lt;a href=&quot;#一边操作一边理解&quot; class=&quot;headerlink&quot; title=&quot;一边操作一边理解&quot;&gt;&lt;/a&gt;一边操作一边理解&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/git-1.png&quot; alt=&quot;git理解图&quot; titl
+    
+    </summary>
+    
+      <category term="辅助工具" scheme="http://hedonglin.com/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="http://hedonglin.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git安装过程需注意的地方</title>
+    <link href="http://hedonglin.com/2017/06/17/git%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E9%9C%80%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
+    <id>http://hedonglin.com/2017/06/17/git安装过程需注意的地方/</id>
+    <published>2017-06-16T16:12:05.000Z</published>
+    <updated>2017-06-18T06:53:55.825Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="集中式版本库-（SVN或CVS）"><a href="#集中式版本库-（SVN或CVS）" class="headerlink" title="集中式版本库 （SVN或CVS）"></a>集中式版本库 （SVN或CVS）</h2><p>版本库是集中存放在中央服务器的,修改项目需要先从服务器取得最新版本,然后修改,再将修改的版本提交到服务器(一旦服务器坏了整个项目有可能丢失所有历史更新记录)(需要联网);</p>
 <h2 id="分布式版本库（Git）"><a href="#分布式版本库（Git）" class="headerlink" title="分布式版本库（Git）"></a>分布式版本库（Git）</h2><p>每个客户端都是完整的版本库,只要把修改的内容推送到服务器上即可,某个人电脑坏了,其他人也会保存有,不需担心(不需要联网);<br>版本控制–增删改查;协同工作–多个开发者共同开发相互独立;</p>
 <p>##安装过程</p>
 <h3 id="在“Adjusting-your-PATH-environment”选项中，默认即可。"><a href="#在“Adjusting-your-PATH-environment”选项中，默认即可。" class="headerlink" title="在“Adjusting your PATH environment”选项中，默认即可。"></a>在“Adjusting your PATH environment”选项中，默认即可。</h3><p>选择Run Git and includedUnix TOOLS ….(安装msysgit时选择将其集成到Windows中)<br>主要用于解决:使用git pull来与远程服务器同步，此时就发现Sublime下面的状态栏就会一直来回摆动，无法与远程同步，</p>
@@ -542,26 +578,28 @@
 <h3 id="use-minTTY-the-default-terminal-of-msy32"><a href="#use-minTTY-the-default-terminal-of-msy32" class="headerlink" title="use minTTY (the default terminal of msy32)"></a>use minTTY (the default terminal of msy32)</h3><h3 id="推荐：默认开启文件缓存-打上勾"><a href="#推荐：默认开启文件缓存-打上勾" class="headerlink" title="推荐：默认开启文件缓存(打上勾)"></a>推荐：默认开启文件缓存(打上勾)</h3><p><code>enable file system caching;</code>  </p>
 <h3 id="环境变量-D-Program-Files-Git-bin-添加到path"><a href="#环境变量-D-Program-Files-Git-bin-添加到path" class="headerlink" title="环境变量:D:\Program Files\Git\bin 添加到path"></a>环境变量:D:\Program Files\Git\bin 添加到path</h3><p>现在可以在sublime中使用git相关命令了;</p>
 <h3 id="动画详情"><a href="#动画详情" class="headerlink" title="动画详情"></a>动画详情</h3><p><img src="/images/git-install.gif" alt="git安装动画" title="git安装过程"></p>]]></content>
-      
-        <categories>
-            
-            <category> 辅助工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> git </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Sublime下载、安装、绿化]]></title>
-      <url>/2017/06/17/sublime%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%BB%BF%E5%8C%96/</url>
-      <content type="html"><![CDATA[<h1 id="稳定版"><a href="#稳定版" class="headerlink" title="稳定版"></a>稳定版</h1><p><a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text3 3126</a></p>
+    <summary type="html">
+    
+      &lt;h2 id=&quot;集中式版本库-（SVN或CVS）&quot;&gt;&lt;a href=&quot;#集中式版本库-（SVN或CVS）&quot; class=&quot;headerlink&quot; title=&quot;集中式版本库 （SVN或CVS）&quot;&gt;&lt;/a&gt;集中式版本库 （SVN或CVS）&lt;/h2&gt;&lt;p&gt;版本库是集中存放在中央服务器
+    
+    </summary>
+    
+      <category term="辅助工具" scheme="http://hedonglin.com/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="http://hedonglin.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sublime下载、安装、绿化</title>
+    <link href="http://hedonglin.com/2017/06/17/sublime%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%BB%BF%E5%8C%96/"/>
+    <id>http://hedonglin.com/2017/06/17/sublime下载、安装、绿化/</id>
+    <published>2017-06-16T16:09:41.000Z</published>
+    <updated>2017-06-18T06:53:53.142Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="稳定版"><a href="#稳定版" class="headerlink" title="稳定版"></a>稳定版</h1><p><a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text3 3126</a></p>
 <p><img src="/images/sb-1.png"></p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="封装成便携包"><a href="#封装成便携包" class="headerlink" title="封装成便携包"></a>封装成便携包</h2><p>因为sublime text插件默认安装的位置是AppData的目录【C:\Users\用户名\AppData\Roaming\Sublime Text 3\Packages】，也就是在C盘,所以我们在官方下载完软件并选择安装在<code>D:\Program Files\Sublime Text 3126</code>，把<code>Sublime Text 3126</code>文件夹打包成压缩包，接着卸载sublime软件，把刚才压缩包解压到<code>D:\Program Files\Sublime Text 3126</code>下，然后在里面添加一个<code>data</code>文件夹打开软件即可完成！</p>
 <h2 id="各个文件夹的作用"><a href="#各个文件夹的作用" class="headerlink" title="各个文件夹的作用"></a>各个文件夹的作用</h2><p>data文件夹下<code>Cache</code>（缓存文件）,<code>Index</code>（日志文件）,<code>Installed Packages</code>（插件包，下载下来的文件后缀为<code>.sublime-package</code>）,<code>Local</code>（许可证书）,<code>Packages</code>（解压出来的插件包，或是一些配置文件）后面三个都是重要的其他两个可以删除；</p>
@@ -570,26 +608,28 @@
 <h1 id="开发版"><a href="#开发版" class="headerlink" title="开发版"></a>开发版</h1><p><a href="https://www.sublimetext.com/3dev" target="_blank" rel="external">Sublime Text3 3136</a><br>注意：需要购买后才可以使用<br>到目前为止经历了10个版本:<br>3127–&gt;3128–&gt;3129–&gt;3130–&gt;3131–&gt;3132–&gt;3133–&gt;3134–&gt;3135–&gt;3136</p>
 <hr>
 <h1 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h1><p>2017年6月15日汇率1$美元=￥6.804人民币，官方价格为$70美元即人民币￥476.518元<br>地址：<a href="https://www.sublimetext.com/buy?v=3" target="_blank" rel="external">https://www.sublimetext.com/buy?v=3</a></p>]]></content>
-      
-        <categories>
-            
-            <category> 编程工具 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> sublime3 </tag>
-            
-        </tags>
-        
-    </entry>
     
-    <entry>
-      <title><![CDATA[Markdown 语法手册]]></title>
-      <url>/2017/06/14/markdown/</url>
-      <content type="html"><![CDATA[<h1 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">*斜体*或_斜体_</div><div class="line">**粗体**</div><div class="line">***加粗斜体***</div><div class="line">~~删除线~~</div></pre></td></tr></table></figure>
+    <summary type="html">
+    
+      &lt;h1 id=&quot;稳定版&quot;&gt;&lt;a href=&quot;#稳定版&quot; class=&quot;headerlink&quot; title=&quot;稳定版&quot;&gt;&lt;/a&gt;稳定版&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/3&quot; target=&quot;_blank&quot; rel=&quot;exter
+    
+    </summary>
+    
+      <category term="编程工具" scheme="http://hedonglin.com/categories/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="sublime3" scheme="http://hedonglin.com/tags/sublime3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法手册</title>
+    <link href="http://hedonglin.com/2017/06/14/markdown/"/>
+    <id>http://hedonglin.com/2017/06/14/markdown/</id>
+    <published>2017-06-14T09:01:03.147Z</published>
+    <updated>2017-06-17T17:11:17.470Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">*斜体*或_斜体_</div><div class="line">**粗体**</div><div class="line">***加粗斜体***</div><div class="line">~~删除线~~</div></pre></td></tr></table></figure>
 <p><em>斜体</em>或<em>斜体</em><br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
 <hr>
 <h1 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 分级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
@@ -789,22 +829,18 @@
 <hr>
 <h1 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在段落中填写 [TOC] 以显示全文内容的目录结构，但此处没效果！</div></pre></td></tr></table></figure>
 <p>[TOC]</p>]]></content>
-      
-        <categories>
-            
-            <category> 文档知识 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> markdown </tag>
-            
-        </tags>
-        
-    </entry>
     
+    <summary type="html">
+    
+      &lt;h1 id=&quot;斜体和粗体&quot;&gt;&lt;a href=&quot;#斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;斜体和粗体&quot;&gt;&lt;/a&gt;斜体和粗体&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
+    
+    </summary>
+    
+      <category term="文档知识" scheme="http://hedonglin.com/categories/%E6%96%87%E6%A1%A3%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="markdown" scheme="http://hedonglin.com/tags/markdown/"/>
+    
+  </entry>
   
-  
-</search>
+</feed>
