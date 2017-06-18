@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[Css命名规则]]></title>
+      <url>/2017/06/18/css3%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99/</url>
+      <content type="html"><![CDATA[<h2 id="尽量避免-不是不能用"><a href="#尽量避免-不是不能用" class="headerlink" title="尽量避免(不是不能用)"></a>尽量避免(不是不能用)</h2><p>避免多层级(.classname div):css渲染方式是从右往左渲染;<br>避免使用ID(#id):后期维护不方便,因为在权重中达到100;<br>避免使用标签(ul.classname):重用性差,同样也不易维护,不够直接;</p>
+<h2 id="问题探讨"><a href="#问题探讨" class="headerlink" title="问题探讨"></a>问题探讨</h2><p><strong>语义化(看了命名可以知道他的意思)</strong>:缺点重用性差,比如left-tip,如果要修改到右边能,那么名字要改属性也要改其他地方如果用到这个名字那么也要修改;<br><strong>重用性(命名能在其他地方使用不受限制,通用样式库)</strong>:缺点在html页面上不够清爽,单单看css文件无法想象出它的样子;<br><strong>防冲突(如果和别人的样式合并后有可能命名一样)</strong>:使用前缀写法比如<code>.header</code>,<code>.h_nav</code>,<code>.h_n_news</code></p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>总结:前缀写法,有共同性质的提取到通用样式中,使用LESS来管理;<br>例如：<code>.header</code> <code>.h_nav</code> <code>.h_n_news</code></p>
+<p>重置样式：(消bug，消差异)<br>通用样式：配色,兼容性,组件(共性)<br>个人样式：布局,功能(个性)</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 前端基础 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> css3 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Css选择器]]></title>
       <url>/2017/06/18/css3%E9%80%89%E6%8B%A9%E5%99%A8/</url>
       <content type="html"><![CDATA[<h2 id="css1"><a href="#css1" class="headerlink" title="css1"></a>css1</h2><p><img src="/images/css3-1.png"><br>标签选择符<br>后代选择符<br>伪类选择符<code>:link,:active,:visited</code><br>伪元素选择符<code>:first-line,:first-letter</code><br>含类的某个标签选择符<code>e.classname</code><br>含id的某个标签选择符<code>e#id</code><br>含类的某个类选择符<code>.classname.classname;</code></p>
@@ -334,7 +358,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[wgestures快捷手势]]></title>
+      <title><![CDATA[Wgestures快捷手势]]></title>
       <url>/2017/06/17/wgestures%E5%BF%AB%E6%8D%B7%E6%89%8B%E5%8A%BF/</url>
       <content type="html"><![CDATA[<h2 id="打开网址，随时随地选中文字即可搜索"><a href="#打开网址，随时随地选中文字即可搜索" class="headerlink" title="打开网址，随时随地选中文字即可搜索"></a>打开网址，随时随地选中文字即可搜索<br></h2><p><img src="/images/wgestures.png"></p>
 <h2 id="触发边角切换工作状态"><a href="#触发边角切换工作状态" class="headerlink" title="触发边角切换工作状态 "></a>触发边角切换工作状态 <br></h2><p><img src="/images/wgestures-1.png"></p>
@@ -357,7 +381,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[altdrag被人遗忘的好工具]]></title>
+      <title><![CDATA[Altdrag被人遗忘的好工具]]></title>
       <url>/2017/06/17/altdrag%E8%A2%AB%E4%BA%BA%E9%81%97%E5%BF%98%E7%9A%84%E7%BD%AE%E9%A1%B6%E5%A5%BD%E5%B7%A5%E5%85%B7/</url>
       <content type="html"><![CDATA[<h2 id="Altdrag"><a href="#Altdrag" class="headerlink" title="Altdrag"></a>Altdrag</h2><p>有时候一些窗口需要置顶以及取消置顶的操作，找遍了全网只有这个是最满意的，win10下完美支持<br>软件大小：190kb<br>主要有几大功能<br>1.自动调整适应共8个位置<br>2.窗口置顶（致爱）<br>使用方法：如下图所示，除了红色文字标出的是鼠标中间单击，其他都配合按键使用，下图我配置的是win键，即win键+鼠标的方式；<br><img src="/images/altdrag.png"></p>
 <h2 id="更多详情"><a href="#更多详情" class="headerlink" title="更多详情"></a>更多详情</h2><p>官网：<a href="https://stefansundin.github.io/altdrag/" target="_blank" rel="external">https://stefansundin.github.io/altdrag/</a></p>
@@ -379,7 +403,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[snipaste截图、贴图神器]]></title>
+      <title><![CDATA[Snipaste截图、贴图神器]]></title>
       <url>/2017/06/17/snipaste%E6%88%AA%E5%9B%BE%E3%80%81%E8%B4%B4%E5%9B%BE%E7%A5%9E%E5%99%A8/</url>
       <content type="html"><![CDATA[<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><p><img src="/images/snipaste.gif"></p>
 <h2 id="快速取到颜色值，c复制颜色，shift切换颜色方式"><a href="#快速取到颜色值，c复制颜色，shift切换颜色方式" class="headerlink" title="快速取到颜色值，c复制颜色，shift切换颜色方式"></a>快速取到颜色值，c复制颜色，shift切换颜色方式</h2><p><img src="/images/snipaste-1.gif"></p>
@@ -402,7 +426,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[git配置快捷命令]]></title>
+      <title><![CDATA[Git配置快捷命令]]></title>
       <url>/2017/06/17/git%E9%85%8D%E7%BD%AE%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4/</url>
       <content type="html"><![CDATA[<h2 id="相关术语"><a href="#相关术语" class="headerlink" title="相关术语"></a>相关术语</h2><p> <strong>git的历史记录</strong>是不可修改的，也就是说你不能更改任何已经发生的事情。你做的任何操作都只是在原来的操作上修改。也就是说，即使你删除了一个分支，修改了一个提交，或者强制重置，你仍然可以回滚这些操作。<br><strong>切换</strong>：初始创建一个分支，但git库还没有数据，叫切换；<br><strong>检出</strong>：该分支之前已经提交过git库，那么检出就是经历了到仓库里取数据的过程；<br><strong>HEAD</strong>：是指向当前所在的分支<br><strong>git查找配置信息顺序</strong>先<code>etc\gitconfig</code>–&gt;<code>Administrator\.gitconfig</code>–&gt;<code>.git\config</code>;定义的值有冲突,那么后面的覆盖前面的;<br><strong>初始化后</strong>最好要进行一次提交，避免使用了<code>git reset --hard</code>把文件给清除了；</p>
 <h2 id="配置快捷命令："><a href="#配置快捷命令：" class="headerlink" title="配置快捷命令："></a>配置快捷命令：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">//转到用户名文件夹下</div><div class="line">cd ~</div><div class="line">//新建文件.bashrc</div><div class="line">touch .bashrc</div><div class="line">//快捷方式设置gs快捷命名是git status；alias gs=&apos;git status&apos;</div><div class="line">//例如alias gl=&apos;git log --oneline --decorate --graph&apos; 当输入gl后面还可以输入其他参数，比如gl -3表示显示最近3条记录</div><div class="line">//alias不加参数可以显示所有配置命令</div></pre></td></tr></table></figure>
@@ -426,7 +450,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[git理解图]]></title>
+      <title><![CDATA[Git理解图]]></title>
       <url>/2017/06/17/git%E7%90%86%E8%A7%A3%E5%9B%BE/</url>
       <content type="html"><![CDATA[<h2 id="一边操作一边理解"><a href="#一边操作一边理解" class="headerlink" title="一边操作一边理解"></a>一边操作一边理解</h2><p><img src="/images/git-1.png" alt="git理解图" title="git理解图"></p>
 <h2 id="本地创建公钥-提供到服务端-可删除但不建议-和密钥-克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥"><a href="#本地创建公钥-提供到服务端-可删除但不建议-和密钥-克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥" class="headerlink" title="本地创建公钥(提供到服务端,可删除但不建议),和密钥(克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥)"></a>本地创建公钥(提供到服务端,可删除但不建议),和密钥(克隆下来的文件会根据已提交到服务端的公钥去匹配相应的密钥)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">//~代表用户名目录下,$HOME 用户目录变量,下面表示转到用户目录的.ssh文件夹下</div><div class="line">cd ~/.shh</div><div class="line">//创建一个公钥</div><div class="line">    ssh-keygen -t rsa -C &quot;注释,标识身份,一般添github上的邮箱地址&quot;</div><div class="line">//创建多个公钥(相当于1台电脑可以控制两个github账户)</div><div class="line">    ssh-keygen -t rsa -C &quot;aaa@163.com&quot; //一路回车,那么默认文件命名为id_rsa</div><div class="line">    ssh-keygen -t rsa -C &quot;bbb@163.com&quot; //回车后要求为文件进行命名可设置为id2_rsa</div><div class="line">    //当克隆下来的文件时:git@github.com:xyhdl0929/abc.git会寻找本机中的ssh秘钥</div><div class="line">    //在.ssh文件夹下新建config文件添加以下信息;</div><div class="line">        # 第一个账号，默认使用的账号</div><div class="line">            Host github.com</div><div class="line">            HostName github.com</div><div class="line">            User git</div><div class="line">            IdentityFile ~/.ssh/id_rsa #对应github第一个账号</div><div class="line">        # 第二个账号</div><div class="line">            Host n.github.com  #n为前缀名，可以任意设置</div><div class="line">            HostName github.com</div><div class="line">            User git</div><div class="line">            IdentityFile ~/.ssh/id2_rsa #对应github第二个账号</div></pre></td></tr></table></figure>
@@ -466,7 +490,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[git安装过程需注意的地方]]></title>
+      <title><![CDATA[Git安装过程需注意的地方]]></title>
       <url>/2017/06/17/git%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E9%9C%80%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/</url>
       <content type="html"><![CDATA[<h2 id="集中式版本库-（SVN或CVS）"><a href="#集中式版本库-（SVN或CVS）" class="headerlink" title="集中式版本库 （SVN或CVS）"></a>集中式版本库 （SVN或CVS）</h2><p>版本库是集中存放在中央服务器的,修改项目需要先从服务器取得最新版本,然后修改,再将修改的版本提交到服务器(一旦服务器坏了整个项目有可能丢失所有历史更新记录)(需要联网);</p>
 <h2 id="分布式版本库（Git）"><a href="#分布式版本库（Git）" class="headerlink" title="分布式版本库（Git）"></a>分布式版本库（Git）</h2><p>每个客户端都是完整的版本库,只要把修改的内容推送到服务器上即可,某个人电脑坏了,其他人也会保存有,不需担心(不需要联网);<br>版本控制–增删改查;协同工作–多个开发者共同开发相互独立;</p>
@@ -494,7 +518,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[sublime下载、安装、绿化]]></title>
+      <title><![CDATA[Sublime下载、安装、绿化]]></title>
       <url>/2017/06/17/sublime%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%BB%BF%E5%8C%96/</url>
       <content type="html"><![CDATA[<h1 id="稳定版"><a href="#稳定版" class="headerlink" title="稳定版"></a>稳定版</h1><p><a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text3 3126</a></p>
 <p><img src="/images/sb-1.png"></p>
@@ -536,7 +560,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x68;&#x65;&#x64;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;">&#x68;&#x65;&#x64;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x68;&#x65;&#x64;&#x6f;&#110;&#x67;&#x6c;&#105;&#x6e;&#x40;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;">&#x68;&#x65;&#x64;&#x6f;&#110;&#x67;&#x6c;&#105;&#x6e;&#x40;&#49;&#54;&#x33;&#x2e;&#99;&#x6f;&#109;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
