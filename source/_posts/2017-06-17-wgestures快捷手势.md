@@ -1,5 +1,5 @@
 ---
-title: wgestures快捷手势
+title: Wgestures快捷手势
 date: 2017-06-17 19:57:30
 categories: 实用工具
 tags: wgestures
