@@ -44,13 +44,6 @@
     </url>
 
     <url>
-        <loc>http://hedonglin.com/tags/html5/</loc>
-        <lastmod>2017-06-18T12:21:14.896Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hedonglin.com/tags/css3/</loc>
         <lastmod>2017-06-18T12:21:27.586Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,7 +66,14 @@
 
     <url>
         <loc>http://hedonglin.com/tags/%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE/</loc>
-        <lastmod>2017-06-19T04:28:57.311Z</lastmod>
+        <lastmod>2017-06-19T04:29:00.371Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/tags/html5/</loc>
+        <lastmod>2017-06-19T04:34:22.549Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

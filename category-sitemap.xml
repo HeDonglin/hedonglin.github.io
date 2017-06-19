@@ -35,20 +35,6 @@
     </url>
 
     <url>
-        <loc>http://hedonglin.com/categories/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
-        <lastmod>2017-06-18T12:21:14.896Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://hedonglin.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
-        <lastmod>2017-06-18T12:21:27.586Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hedonglin.com/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/</loc>
         <lastmod>2017-06-18T12:27:19.185Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -57,7 +43,14 @@
 
     <url>
         <loc>http://hedonglin.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-        <lastmod>2017-06-19T04:28:57.311Z</lastmod>
+        <lastmod>2017-06-19T04:29:00.371Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
+        <lastmod>2017-06-19T04:34:22.549Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
