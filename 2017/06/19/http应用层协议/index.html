@@ -69,8 +69,9 @@
 <meta property="og:site_name" content="自由之翼">
 <meta property="og:description" content="http协议作用不涉及数据包传输，主要规定客户端与服务端之间的通讯格式，默认采用80端口 http技术方向图  http发展历程http/0.9 1991年 GEThttp/1.0 1996年5月 GET POST HEAD  缺点：每个TCP连接只能发送一个请求，发送完毕关闭连接，其他请求必须重新新建连接 解决：connection:keep-alive(非标准)要求服务器不要关闭TCP连接">
 <meta property="og:image" content="http://hedonglin.com/images/http-2.png">
+<meta property="og:image" content="http://hedonglin.com/images/http-4.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-3.png">
-<meta property="og:updated_time" content="2017-06-20T04:40:58.170Z">
+<meta property="og:updated_time" content="2017-06-20T08:02:08.382Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Http应用层协议">
 <meta name="twitter:description" content="http协议作用不涉及数据包传输，主要规定客户端与服务端之间的通讯格式，默认采用80端口 http技术方向图  http发展历程http/0.9 1991年 GEThttp/1.0 1996年5月 GET POST HEAD  缺点：每个TCP连接只能发送一个请求，发送完毕关闭连接，其他请求必须重新新建连接 解决：connection:keep-alive(非标准)要求服务器不要关闭TCP连接">
@@ -454,12 +455,9 @@
 <li>Transfer-Encoding:回应将由数量未定的数据块组成；</li>
 </ul>
 <hr>
-<h2 id="TCP-Transmission-Control-Protocol-传输控制协议-位于传输层-Sequence"><a href="#TCP-Transmission-Control-Protocol-传输控制协议-位于传输层-Sequence" class="headerlink" title="TCP(Transmission Control Protocol)传输控制协议,位于传输层 `Sequence"></a>TCP(Transmission Control Protocol)传输控制协议,位于传输层 `Sequence</h2><p>number<code>顺序号码(下面简写为：SeqNum)</code>Acknowledge number<code>确认号码(下面简写为：AckNum)</code>SYN<code>(synchronous)表示建立连接</code>ACK<code>(acknowledgement)表示响应</code>URG<code>(urgent)表示有紧急的数据传送（URG=1,优先发送紧急数据，并优先提交，比如一个终止命令）</code>PSH<code>(push)表示推送
-（PSH=1发送方立即发送缓冲区中的数据，不等待后续数据构成更大的段，接收方立即提交该数据而不等待后续数据的到达）</code>FIN<code>(finish)表示关闭连接</code>RST<code>(reset)表示连接重置 &lt;img src=&quot;/images/http-4.png&quot; alt=&quot;http-4.png&quot;&gt; ##
-三次握手，建立一个连接
-**第一次握手**:客户端发送（</code>SYN=1<code>+随机生成的</code>SeqNum<code>）数据包到服务器，服务器由</code>SYN=1<code>知道客户端要求建立联机；
-**第二次握手**：服务器收到请求确认</code>SYN=1<code>，就向客户端发送{AckNum(客户端</code>SeqNum+1<code>),</code>SYN=1<code>,</code>ACK=<br>1<code>,随机生成的SeqNum}数据包 **第三次握手**：客户端收到回应检查(AckNum客户端</code>SeqNum+1`)是否正确，ACK是否为<br>1，正确则再次发送AckNum(服务器seqNum+1),ACK=1,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确； <em>
-</em>为什么需要三次握手**：<br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，但是请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
+<h2 id="TCP-Transmission-Control-Protocol-传输控制协议-位于传输层"><a href="#TCP-Transmission-Control-Protocol-传输控制协议-位于传输层" class="headerlink" title="TCP(Transmission Control Protocol)传输控制协议,位于传输层"></a>TCP(Transmission Control Protocol)传输控制协议,位于传输层</h2><p><code>Sequencenumber</code>顺序号码(下面简写为：SeqNum)<br><code>Acknowledge number</code>确认号码(下面简写为：AckNum)<br><code>SYN</code>(synchronous)表示建立连接<br><code>ACK</code>(acknowledgement)表示响应<br><code>URG</code>(urgent)表示有紧急的数据传送（URG=1,优先发送紧急数据，并优先提交，比如一个终止命令）<br><code>PSH</code>(push)表示推送（PSH=1发送方立即发送缓冲区中的数据，不等待后续数据构成更大的段，接收方立即提交该数据而不等待后续数据的到达） <code>FIN</code>(finish)表示关闭连接<br><code>RST</code>(reset)表示连接重置 </p>
+<hr>
+<h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>:客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{AckNum(客户端<code>SeqNum+1</code>),<code>SYN=1</code>,<code>ACK=1</code>,随机生成的SeqNum}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送AckNum(服务器seqNum+1),ACK=1,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手?</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
 <h2 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h2><h2 id="加密协议"><a href="#加密协议" class="headerlink" title="加密协议"></a>加密协议</h2><p><img src="/images/http-3.png" alt="http-3.png"></p>
 
       
@@ -702,7 +700,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#http协议作用"><span class="nav-number">1.</span> <span class="nav-text">http协议作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http技术方向图"><span class="nav-number">2.</span> <span class="nav-text">http技术方向图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http发展历程"><span class="nav-number">3.</span> <span class="nav-text">http发展历程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请求格式"><span class="nav-number">4.</span> <span class="nav-text">请求格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#回应格式"><span class="nav-number">5.</span> <span class="nav-text">回应格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字段"><span class="nav-number">6.</span> <span class="nav-text">字段</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP-Transmission-Control-Protocol-传输控制协议-位于传输层-Sequence"><span class="nav-number">7.</span> <span class="nav-text">TCP(Transmission Control Protocol)传输控制协议,位于传输层 `Sequence</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四次挥手"><span class="nav-number">8.</span> <span class="nav-text">四次挥手</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加密协议"><span class="nav-number">9.</span> <span class="nav-text">加密协议</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#http协议作用"><span class="nav-number">1.</span> <span class="nav-text">http协议作用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http技术方向图"><span class="nav-number">2.</span> <span class="nav-text">http技术方向图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#http发展历程"><span class="nav-number">3.</span> <span class="nav-text">http发展历程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#请求格式"><span class="nav-number">4.</span> <span class="nav-text">请求格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#回应格式"><span class="nav-number">5.</span> <span class="nav-text">回应格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字段"><span class="nav-number">6.</span> <span class="nav-text">字段</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP-Transmission-Control-Protocol-传输控制协议-位于传输层"><span class="nav-number">7.</span> <span class="nav-text">TCP(Transmission Control Protocol)传输控制协议,位于传输层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三次握手，建立一个连接"><span class="nav-number">8.</span> <span class="nav-text">三次握手，建立一个连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四次挥手"><span class="nav-number">9.</span> <span class="nav-text">四次挥手</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加密协议"><span class="nav-number">10.</span> <span class="nav-text">加密协议</span></a></li></ol></div>
             
 
           </div>
