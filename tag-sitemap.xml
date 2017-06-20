@@ -30,13 +30,6 @@
     </url>
 
     <url>
-        <loc>http://hedonglin.com/tags/%E7%94%9F%E6%B4%BB/</loc>
-        <lastmod>2017-06-18T06:54:03.041Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hedonglin.com/tags/sublime3/</loc>
         <lastmod>2017-06-18T12:16:17.278Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -51,13 +44,6 @@
     </url>
 
     <url>
-        <loc>http://hedonglin.com/tags/git/</loc>
-        <lastmod>2017-06-18T12:27:19.185Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://hedonglin.com/tags/vps/</loc>
         <lastmod>2017-06-19T04:23:12.998Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,15 +51,36 @@
     </url>
 
     <url>
-        <loc>http://hedonglin.com/tags/%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE/</loc>
-        <lastmod>2017-06-19T04:29:00.371Z</lastmod>
+        <loc>http://hedonglin.com/tags/html5/</loc>
+        <lastmod>2017-06-19T04:34:22.549Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://hedonglin.com/tags/html5/</loc>
-        <lastmod>2017-06-19T04:34:22.549Z</lastmod>
+        <loc>http://hedonglin.com/tags/git/</loc>
+        <lastmod>2017-06-19T04:46:05.023Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/tags/%E7%94%9F%E6%B4%BB/</loc>
+        <lastmod>2017-06-19T08:53:14.201Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/tags/%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE/</loc>
+        <lastmod>2017-06-20T04:40:58.170Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/tags/%E7%BD%91%E7%BB%9C%E9%80%9F%E7%8E%87/</loc>
+        <lastmod>2017-06-20T06:44:24.150Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
