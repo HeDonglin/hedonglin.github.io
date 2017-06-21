@@ -1,5 +1,5 @@
 ---
-title: git没commit就被reset的挽救方法
+title: Git没commit就被reset的挽救方法
 date: 2017-06-18 17:44:53
 categories: 辅助工具
 tags: git
