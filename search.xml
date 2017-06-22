@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title><![CDATA[kangle服务器配置https]]></title>
+      <url>/2017/06/23/kangle%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AEhttps/</url>
+      <content type="html"><![CDATA[<h2 id="使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口"><a href="#使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口" class="headerlink" title="使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口"></a>使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口</h2><p>一般情况下不会被占用的，但是如果你是设置了VPN(如搬瓦工)它会默认采用443端口的；<br>在这里设置后easypanel管理面板才会显示SSL标志<br><img src="/images/kangle-1.png" alt="kangle-1.png"><br><img src="/images/kangle-2.png" alt="kangle-2.png"></p>
+<h2 id="申请免费SSL"><a href="#申请免费SSL" class="headerlink" title="申请免费SSL"></a>申请免费SSL</h2><p><a href="https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631" target="_blank" rel="external">https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631</a><br><img src="/images/kangle-4.png" alt="kangle-4.png"><br><img src="/images/kangle-5.png" alt="kangle-5.png"><br><img src="/images/kangle-6.png" alt="kangle-6.png"><br><img src="/images/kangle-7.png" alt="kangle-7.png"><br><img src="/images/kangle-8.png" alt="kangle-8.png"></p>
+<h2 id="kangle服务器使用的是用到Nginx格式的公钥和私钥"><a href="#kangle服务器使用的是用到Nginx格式的公钥和私钥" class="headerlink" title="kangle服务器使用的是用到Nginx格式的公钥和私钥"></a>kangle服务器使用的是用到Nginx格式的公钥和私钥</h2><p>公钥：.crt<br>私钥：.key<br><img src="/images/kangle-3.png" alt="kangle-3.png"><br><img src="/images/kangle-9.png" alt="kangle-9.png"></p>
+<h2 id="设置完后重启kangle服务器"><a href="#设置完后重启kangle服务器" class="headerlink" title="设置完后重启kangle服务器"></a>设置完后重启kangle服务器</h2><p><img src="/images/kangle-10.png" alt="kangle-10.png"><br><img src="/images/kangle-11.png" alt="kangle-11.png"></p>
+<h2 id="查看是否被侦听状态"><a href="#查看是否被侦听状态" class="headerlink" title="查看是否被侦听状态"></a>查看是否被侦听状态</h2><p><img src="/images/kangle-12.png" alt="kangle-12.png"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 服务器 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> kangle </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[网站性能优化]]></title>
       <url>/2017/06/22/%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</url>
       <content type="html"><![CDATA[<h2 id="负载均衡技术"><a href="#负载均衡技术" class="headerlink" title="负载均衡技术"></a>负载均衡技术</h2><p>负载均衡技术通过设置虚拟服务器IP（VIP），将后端多台真实服务器的应用资源虚拟成一台高性能的应用服务器，通过负载均衡算法，将大量来自客户端的应用请求分配到后端的服务器进行处理。<br>各个浏览器同时建立多个持续连接，负载均衡设备持续的对服务器上的应用状态进行检查，并自动对无效的应用服务器进行隔离，实现了一个简单、扩展性强、可靠性高的应用解决方案。解决了单台服务器处理性能不足，扩展性不够，可靠性较低的问题。</p>
@@ -908,7 +933,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#104;&#101;&#100;&#111;&#110;&#103;&#108;&#105;&#x6e;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#104;&#101;&#100;&#111;&#110;&#103;&#108;&#105;&#x6e;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>

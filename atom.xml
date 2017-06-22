@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hedonglin.com/"/>
-  <updated>2017-06-22T06:32:00.819Z</updated>
+  <updated>2017-06-22T18:19:35.110Z</updated>
   <id>http://hedonglin.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kangle服务器配置https</title>
+    <link href="http://hedonglin.com/2017/06/23/kangle%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AEhttps/"/>
+    <id>http://hedonglin.com/2017/06/23/kangle服务器配置https/</id>
+    <published>2017-06-22T17:48:31.000Z</published>
+    <updated>2017-06-22T18:19:35.110Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口"><a href="#使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口" class="headerlink" title="使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口"></a>使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口</h2><p>一般情况下不会被占用的，但是如果你是设置了VPN(如搬瓦工)它会默认采用443端口的；<br>在这里设置后easypanel管理面板才会显示SSL标志<br><img src="/images/kangle-1.png" alt="kangle-1.png"><br><img src="/images/kangle-2.png" alt="kangle-2.png"></p>
+<h2 id="申请免费SSL"><a href="#申请免费SSL" class="headerlink" title="申请免费SSL"></a>申请免费SSL</h2><p><a href="https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631" target="_blank" rel="external">https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631</a><br><img src="/images/kangle-4.png" alt="kangle-4.png"><br><img src="/images/kangle-5.png" alt="kangle-5.png"><br><img src="/images/kangle-6.png" alt="kangle-6.png"><br><img src="/images/kangle-7.png" alt="kangle-7.png"><br><img src="/images/kangle-8.png" alt="kangle-8.png"></p>
+<h2 id="kangle服务器使用的是用到Nginx格式的公钥和私钥"><a href="#kangle服务器使用的是用到Nginx格式的公钥和私钥" class="headerlink" title="kangle服务器使用的是用到Nginx格式的公钥和私钥"></a>kangle服务器使用的是用到Nginx格式的公钥和私钥</h2><p>公钥：.crt<br>私钥：.key<br><img src="/images/kangle-3.png" alt="kangle-3.png"><br><img src="/images/kangle-9.png" alt="kangle-9.png"></p>
+<h2 id="设置完后重启kangle服务器"><a href="#设置完后重启kangle服务器" class="headerlink" title="设置完后重启kangle服务器"></a>设置完后重启kangle服务器</h2><p><img src="/images/kangle-10.png" alt="kangle-10.png"><br><img src="/images/kangle-11.png" alt="kangle-11.png"></p>
+<h2 id="查看是否被侦听状态"><a href="#查看是否被侦听状态" class="headerlink" title="查看是否被侦听状态"></a>查看是否被侦听状态</h2><p><img src="/images/kangle-12.png" alt="kangle-12.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口&quot;&gt;&lt;a href=&quot;#使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口&quot; class=&quot;headerlink&quot; title=&quot;使用netstat -nap 命
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://hedonglin.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="kangle" scheme="http://hedonglin.com/tags/kangle/"/>
+    
+  </entry>
   
   <entry>
     <title>网站性能优化</title>
@@ -944,228 +971,6 @@
     
     
       <category term="sublime3" scheme="http://hedonglin.com/tags/sublime3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 语法手册</title>
-    <link href="http://hedonglin.com/2017/06/14/markdown/"/>
-    <id>http://hedonglin.com/2017/06/14/markdown/</id>
-    <published>2017-06-14T09:01:03.147Z</published>
-    <updated>2017-06-17T17:11:17.470Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">*斜体*或_斜体_</div><div class="line">**粗体**</div><div class="line">***加粗斜体***</div><div class="line">~~删除线~~</div></pre></td></tr></table></figure>
-<p><em>斜体</em>或<em>斜体</em><br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
-<hr>
-<h1 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 分级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
-<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
-<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><h2 id="行内式"><a href="#行内式" class="headerlink" title="行内式"></a>行内式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[我的博客](http://hedonglin.com)</div><div class="line">[我的博客](http://hedonglin.com &quot;标题提示&quot;)</div></pre></td></tr></table></figure>
-<p><a href="http://hedonglin.com">我的博客</a><br><a href="http://hedonglin.com" title="标题提示">我的博客</a></p>
-<h2 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">我的网站[博客][1]、[博客2][2]、[笔记][3]还有个特殊的描述[百度][];</div><div class="line">[1]:http:hedonglin.com &quot;hedonglin博客&quot;</div><div class="line">[2]:http:hedonglin.com &quot;资源博客&quot;</div><div class="line">[3]:http:www.hedonglin.com &quot;www资源博客&quot;</div><div class="line">[百度]:htttp://www.baidu.com &quot;百度&quot;</div></pre></td></tr></table></figure>
-<p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
-<hr>
-<h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></p>
-<hr>
-<h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
-<p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
-<hr>
-<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">注意：*号后面带一个空格</div><div class="line">* 无序列表1</div><div class="line">* 无序列表2</div><div class="line">* 无序列表3</div><div class="line">- 列表1</div><div class="line">- 列表2</div><div class="line">- 列表3</div><div class="line">+ 列表1111</div><div class="line">+ 列表2222</div><div class="line">+ 列表3333</div></pre></td></tr></table></figure>
-<ul>
-<li>无序列表1</li>
-<li>无序列表2</li>
-<li>无序列表3</li>
-</ul>
-<ul>
-<li>列表1</li>
-<li>列表2</li>
-<li>列表3</li>
-</ul>
-<ul>
-<li>列表1111</li>
-<li>列表2222</li>
-<li>列表3333</li>
-</ul>
-<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：.号后面带一个空格</div><div class="line">1. 列表1</div><div class="line">2. 列表2</div><div class="line">3. 列表3</div></pre></td></tr></table></figure>
-<ol>
-<li>列表1</li>
-<li>列表2</li>
-<li>列表3</li>
-</ol>
-<hr>
-<h1 id="列表缩进"><a href="#列表缩进" class="headerlink" title="列表缩进"></a>列表缩进</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">方法1：切换全角状态，输入空格即可缩进</div><div class="line">方法2：采用*号，且后面至少一个空格</div><div class="line">* 窗前明月光，疑是地上霜。</div><div class="line">举头望明月，低头思故乡。</div></pre></td></tr></table></figure>
-<ul>
-<li>窗前明月光，疑是地上霜。<br>举头望明月，低头思故乡。</li>
-</ul>
-<hr>
-<h1 id="包含段落的列表"><a href="#包含段落的列表" class="headerlink" title="包含段落的列表"></a>包含段落的列表</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：分段之后也就是（&quot;举&quot;的前面至少要一个空格）</div><div class="line">* 窗前明月光，疑是地上霜。</div><div class="line"></div><div class="line"> 举头望明月，低头思故乡。</div></pre></td></tr></table></figure>
-<ul>
-<li><p>窗前明月光，疑是地上霜。</p>
-<p>举头望明月，低头思故乡。</p>
-</li>
-</ul>
-<hr>
-<h1 id="包含引用的列表"><a href="#包含引用的列表" class="headerlink" title="包含引用的列表"></a>包含引用的列表</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：*号和&gt;后面都带空格</div><div class="line">* 阅读的方法:</div><div class="line">&gt; 打开书本。</div><div class="line">&gt; 打开电灯。</div></pre></td></tr></table></figure>
-<ul>
-<li>阅读的方法:<blockquote>
-<p>打开书本。<br>打开电灯。</p>
-</blockquote>
-</li>
-</ul>
-<hr>
-<h1 id="包含代码区块的引用"><a href="#包含代码区块的引用" class="headerlink" title="包含代码区块的引用"></a>包含代码区块的引用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">注意：缩进了2个制表符8个空格</div><div class="line">        &lt;代码写在这&gt;</div></pre></td></tr></table></figure>
-<pre><code>&lt;代码写在这&gt;
-</code></pre><hr>
-<h1 id="一个特殊情况"><a href="#一个特殊情况" class="headerlink" title="一个特殊情况"></a>一个特殊情况</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">注意：数字后面如果带.那么就要跟一个\进行转义否则1986.就不会显示</div><div class="line">1986\. What a great season.</div></pre></td></tr></table></figure>
-<p>1986. What a great season.</p>
-<hr>
-<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意：在开头添加&gt;就变成引用了，最好在&gt;后加一个空格</div><div class="line">&gt; 这就是引用</div><div class="line">这就是引用</div><div class="line"></div><div class="line">&gt;这就是引用</div><div class="line">这就是引用</div></pre></td></tr></table></figure>
-<blockquote>
-<p>这就是引用<br>这就是引用</p>
-<p>这就是引用<br>这就是引用</p>
-<hr>
-</blockquote>
-<h1 id="引用的多层嵌套"><a href="#引用的多层嵌套" class="headerlink" title="引用的多层嵌套"></a>引用的多层嵌套</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意：每段都隔一行，并且符号逐个减少</div><div class="line">&gt;&gt;&gt; 请问 Markdwon 怎么用？ - 小白</div><div class="line"></div><div class="line">&gt;&gt; 自己看教程！ - 愤青</div><div class="line"></div><div class="line">&gt; 教程在哪？ - 小白</div></pre></td></tr></table></figure>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>请问 Markdwon 怎么用？ - 小白</p>
-</blockquote>
-<p>自己看教程！ - 愤青</p>
-</blockquote>
-<p>教程在哪？ - 小白</p>
-<hr>
-</blockquote>
-<h1 id="引用其它要素"><a href="#引用其它要素" class="headerlink" title="引用其它要素"></a>引用其它要素</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&gt; 1.   这是第一行列表项。</div><div class="line">2.   这是第二行列表项。</div><div class="line"></div><div class="line">&gt; 给出一些例子代码：</div><div class="line"></div><div class="line">&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);</div></pre></td></tr></table></figure>
-<blockquote>
-<ol>
-<li>这是第一行列表项。</li>
-<li>这是第二行列表项。</li>
-</ol>
-<p>给出一些例子代码：</p>
-<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
-</code></pre></blockquote>
-<hr>
-<h1 id="插入图像"><a href="#插入图像" class="headerlink" title="插入图像"></a>插入图像</h1><h2 id="行内式-1"><a href="#行内式-1" class="headerlink" title="行内式"></a>行内式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：文章多的时候一般图片采用绝对路径，查找方便不易丢失,第三种方式可以改变大小</div><div class="line">![图片alt内容](/images/avatar.png)</div><div class="line">![图片alt内容](/images/avatar.png &quot;图片title&quot;)</div><div class="line">&lt;img src=&quot;/images/avatar.png&quot; alt=&quot;图片&quot; /&gt;</div></pre></td></tr></table></figure>
-<p><img src="/images/avatar.png" alt="图片alt内容"><br><img src="/images/avatar.png" alt="图片alt内容" title="图片title"><br><img src="/images/avatar.png" alt="图片" width="100" height="100"></p>
-<h2 id="参考式-1"><a href="#参考式-1" class="headerlink" title="参考式"></a>参考式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![图片alt内容][flower]</div><div class="line">[flower]:/images/avatar.png &quot;图片title&quot;</div></pre></td></tr></table></figure>
-<p><img src="/images/avatar.png" alt="图片alt内容" title="图片title"></p>
-<hr>
-<h1 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">注意都需要脚注之间都要隔一行，此在next的markdown下没效果</div><div class="line">今天[^1]的日子[^2]很灿烂[^Le]</div><div class="line"></div><div class="line">[^1]:你是谁</div><div class="line"></div><div class="line">[^2]:我是谁</div><div class="line"></div><div class="line">[^Le]:到底是谁</div></pre></td></tr></table></figure>
-<p>今天<a href="你是谁">^1</a>的日子<a href="我是谁">^2</a>很灿烂<a href="到底是谁">^Le</a></p>
-<hr>
-<h1 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">注意:此在next的markdown下没效果</div><div class="line">$$\sum_&#123;i=1&#125;^n a_i=0$$</div><div class="line"></div><div class="line">$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</div><div class="line"></div><div class="line">$$\sum^&#123;j-1&#125;_&#123;k=0&#125;&#123;\widehat&#123;\gamma&#125;_&#123;kj&#125; z_k&#125;$$</div></pre></td></tr></table></figure>
-<p>$$\sum_{i=1}^n a_i=0$$</p>
-<p>$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$</p>
-<p>$$\sum^{j-1}<em>{k=0}{\widehat{\gamma}</em>{kj} z_k}$$</p>
-<hr>
-<h1 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">flow</div><div class="line">st=&gt;start: Start:&gt;https://www.zybuluo.com</div><div class="line">io=&gt;inputoutput: verification</div><div class="line">op=&gt;operation: Your Operation</div><div class="line">cond=&gt;condition: Yes or No?</div><div class="line">sub=&gt;subroutine: Your Subroutine</div><div class="line">e=&gt;end</div><div class="line">st-&gt;io-&gt;op-&gt;cond</div><div class="line">cond(yes)-&gt;e</div><div class="line">cond(no)-&gt;sub-&gt;io</div></pre></td></tr></table></figure>
-<p>flow<br>st=&gt;start: Start:&gt;<a href="https://www.zybuluo.com" target="_blank" rel="external">https://www.zybuluo.com</a><br>io=&gt;inputoutput: verification<br>op=&gt;operation: Your Operation<br>cond=&gt;condition: Yes or No?<br>sub=&gt;subroutine: Your Subroutine<br>e=&gt;end<br>st-&gt;io-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;sub-&gt;io</p>
-<hr>
-<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">注意：第二行为不同的列指定对齐方向。默认为左对齐，在-右边加上:就右对齐。-的两边都加:那么就是居中对齐</div><div class="line">学号|姓名|分数</div><div class="line">-|-|-</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div><div class="line"></div><div class="line">学号|姓名|分数</div><div class="line">-:|-:|-:</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div><div class="line"></div><div class="line">学号|姓名|分数</div><div class="line">:-:|:-:|:-:</div><div class="line">小明|男|75</div><div class="line">小红|女|79</div><div class="line">小陆|男|92</div></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>学号</th>
-<th>姓名</th>
-<th>分数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>小明</td>
-<td>男</td>
-<td>75</td>
-</tr>
-<tr>
-<td>小红</td>
-<td>女</td>
-<td>79</td>
-</tr>
-<tr>
-<td>小陆</td>
-<td>男</td>
-<td>92</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:right">学号</th>
-<th style="text-align:right">姓名</th>
-<th style="text-align:right">分数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">小明</td>
-<td style="text-align:right">男</td>
-<td style="text-align:right">75</td>
-</tr>
-<tr>
-<td style="text-align:right">小红</td>
-<td style="text-align:right">女</td>
-<td style="text-align:right">79</td>
-</tr>
-<tr>
-<td style="text-align:right">小陆</td>
-<td style="text-align:right">男</td>
-<td style="text-align:right">92</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">学号</th>
-<th style="text-align:center">姓名</th>
-<th style="text-align:center">分数</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">小明</td>
-<td style="text-align:center">男</td>
-<td style="text-align:center">75</td>
-</tr>
-<tr>
-<td style="text-align:center">小红</td>
-<td style="text-align:center">女</td>
-<td style="text-align:center">79</td>
-</tr>
-<tr>
-<td style="text-align:center">小陆</td>
-<td style="text-align:center">男</td>
-<td style="text-align:center">92</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h1 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">*****</div><div class="line"></div><div class="line">* * * </div><div class="line"></div><div class="line">- - - </div><div class="line"></div><div class="line">-----</div></pre></td></tr></table></figure>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意：有三种方式</div><div class="line">        两个制表符8个空格</div><div class="line">我是一个`行内式`的代码</div><div class="line">6个`包裹多行代码</div></pre></td></tr></table></figure>
-<pre><code>两个制表符8个空格
-</code></pre><p>我是一个<code>行内式</code>的代码<br>6个`包裹多行代码</p>
-<hr>
-<h1 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">在段落中填写 [TOC] 以显示全文内容的目录结构，但此处没效果！</div></pre></td></tr></table></figure>
-<p>[TOC]</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;斜体和粗体&quot;&gt;&lt;a href=&quot;#斜体和粗体&quot; class=&quot;headerlink&quot; title=&quot;斜体和粗体&quot;&gt;&lt;/a&gt;斜体和粗体&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;
-    
-    </summary>
-    
-      <category term="文档知识" scheme="http://hedonglin.com/categories/%E6%96%87%E6%A1%A3%E7%9F%A5%E8%AF%86/"/>
-    
-    
-      <category term="markdown" scheme="http://hedonglin.com/tags/markdown/"/>
     
   </entry>
   
