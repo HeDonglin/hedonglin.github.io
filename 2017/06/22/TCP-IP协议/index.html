@@ -61,13 +61,13 @@
 
 
 
-<meta name="description" content="关于互联网基础知识，狭义解析链接层:以太网协议（Ethernet）网卡MAC地址：数据包的发送地址和接收地址帧：一组电信号构成一个数据包一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;数据超过一帧长度：分割多个帧发送 网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同">
+<meta name="description" content="应用层：规定应用程序的数据格式（http）数据包传送：前提条件（对方的MAC地址，对方的IP地址）http数据包(4960)–&amp;gt;TCP数据包(4980)–&amp;gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)–&amp;gt;四个以太网数据包：1500,1500,1500,560 传输层：TCP、UDP协议，端口对端口TCP：具有有确认机制的UDP协议，每发出一">
 <meta name="keywords" content="协议">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TCP&#x2F;IP协议">
 <meta property="og:url" content="http://hedonglin.com/2017/06/22/TCP-IP协议/index.html">
 <meta property="og:site_name" content="自由之翼">
-<meta property="og:description" content="关于互联网基础知识，狭义解析链接层:以太网协议（Ethernet）网卡MAC地址：数据包的发送地址和接收地址帧：一组电信号构成一个数据包一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;数据超过一帧长度：分割多个帧发送 网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同">
+<meta property="og:description" content="应用层：规定应用程序的数据格式（http）数据包传送：前提条件（对方的MAC地址，对方的IP地址）http数据包(4960)–&amp;gt;TCP数据包(4980)–&amp;gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)–&amp;gt;四个以太网数据包：1500,1500,1500,560 传输层：TCP、UDP协议，端口对端口TCP：具有有确认机制的UDP协议，每发出一">
 <meta property="og:image" content="http://hedonglin.com/images/http-16.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-4.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-5.png">
@@ -79,10 +79,10 @@
 <meta property="og:image" content="http://hedonglin.com/images/http-7.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-13.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-3.png">
-<meta property="og:updated_time" content="2017-06-21T21:37:10.378Z">
+<meta property="og:updated_time" content="2017-06-22T06:31:58.684Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TCP&#x2F;IP协议">
-<meta name="twitter:description" content="关于互联网基础知识，狭义解析链接层:以太网协议（Ethernet）网卡MAC地址：数据包的发送地址和接收地址帧：一组电信号构成一个数据包一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;数据超过一帧长度：分割多个帧发送 网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同">
+<meta name="twitter:description" content="应用层：规定应用程序的数据格式（http）数据包传送：前提条件（对方的MAC地址，对方的IP地址）http数据包(4960)–&amp;gt;TCP数据包(4980)–&amp;gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)–&amp;gt;四个以太网数据包：1500,1500,1500,560 传输层：TCP、UDP协议，端口对端口TCP：具有有确认机制的UDP协议，每发出一">
 <meta name="twitter:image" content="http://hedonglin.com/images/http-16.png">
 
 
@@ -413,14 +413,14 @@
       
 
       
-        <h2 id="关于互联网基础知识，狭义解析"><a href="#关于互联网基础知识，狭义解析" class="headerlink" title="关于互联网基础知识，狭义解析"></a>关于互联网基础知识，狭义解析</h2><h3 id="链接层-以太网协议（Ethernet）"><a href="#链接层-以太网协议（Ethernet）" class="headerlink" title="链接层:以太网协议（Ethernet）"></a>链接层:以太网协议（Ethernet）</h3><p>网卡MAC地址：数据包的发送地址和接收地址<br>帧：一组电信号构成一个数据包<br>一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;<br>数据超过一帧长度：分割多个帧发送</p>
-<h3 id="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><a href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址" class="headerlink" title="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"></a>网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</h3><p>子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同则为同子网络采用广播，不相同则采用路由；<br>广播：向本网络内所有计算机发送<br>ARP协议：主要获取同子网中计算机的MAC地址<br>路由：向不同的子网络分发数据包<br>IP数据包：标头(20~60)和数据(65515),总长65535字节；由于以太网数据包数据部分1500字节，那么分割发送；</p>
-<h3 id="传输层：TCP、UDP协议，端口对端口"><a href="#传输层：TCP、UDP协议，端口对端口" class="headerlink" title="传输层：TCP、UDP协议，端口对端口"></a>传输层：TCP、UDP协议，端口对端口</h3><p>TCP：具有有确认机制的UDP协议，每发出一个数据包都要求确认；<br>TCP数据包没有长度限制，理论上可以无限长，但是为了保证网络的效率，通常TCP数据包的长度不会超过IP数据包的长度，以确保单个TCP数据包不必再分割<br>端口：1024~65535之间的整数</p>
-<h3 id="应用层：规定应用程序的数据格式（http）"><a href="#应用层：规定应用程序的数据格式（http）" class="headerlink" title="应用层：规定应用程序的数据格式（http）"></a>应用层：规定应用程序的数据格式（http）</h3><p>数据包传送：前提条件（对方的MAC地址，对方的IP地址）<br>http数据包(4960)<br>–&gt;TCP数据包(4980)<br>–&gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)<br>–&gt;四个以太网数据包：1500,1500,1500,560</p>
-<p><img src="/images/http-16.png" alt="http-16.png"></p>
+        <h2 id="应用层：规定应用程序的数据格式（http）"><a href="#应用层：规定应用程序的数据格式（http）" class="headerlink" title="应用层：规定应用程序的数据格式（http）"></a>应用层：规定应用程序的数据格式（http）</h2><p>数据包传送：前提条件（对方的MAC地址，对方的IP地址）<br>http数据包(4960)<br>–&gt;TCP数据包(4980)<br>–&gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)<br>–&gt;四个以太网数据包：1500,1500,1500,560</p>
+<h2 id="传输层：TCP、UDP协议，端口对端口"><a href="#传输层：TCP、UDP协议，端口对端口" class="headerlink" title="传输层：TCP、UDP协议，端口对端口"></a>传输层：TCP、UDP协议，端口对端口</h2><p>TCP：具有有确认机制的UDP协议，每发出一个数据包都要求确认；<br>TCP数据包没有长度限制，理论上可以无限长，但是为了保证网络的效率，通常TCP数据包的长度不会超过IP数据包的长度，以确保单个TCP数据包不必再分割<br>端口：1024~65535之间的整数</p>
+<h2 id="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><a href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址" class="headerlink" title="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"></a>网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</h2><p>子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同则为同子网络采用广播，不相同则采用路由；<br>广播：向本网络内所有计算机发送<br>ARP协议：主要获取同子网中计算机的MAC地址<br>路由：向不同的子网络分发数据包<br>IP数据包：标头(20~60)和数据(65515),总长65535字节；由于以太网数据包数据部分1500字节，那么分割发送；</p>
+<h2 id="链接层-以太网协议（Ethernet）"><a href="#链接层-以太网协议（Ethernet）" class="headerlink" title="链接层:以太网协议（Ethernet）"></a>链接层:以太网协议（Ethernet）</h2><p>网卡MAC地址：数据包的发送地址和接收地址<br>帧：一组电信号构成一个数据包<br>一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;<br>数据超过一帧长度：分割多个帧发送</p>
+<h2 id="图解"><a href="#图解" class="headerlink" title="图解"></a>图解</h2><p><img src="/images/http-16.png" alt="http-16.png"></p>
 <h2 id="TCP传输控制协议-位于传输层"><a href="#TCP传输控制协议-位于传输层" class="headerlink" title="TCP传输控制协议,位于传输层"></a>TCP传输控制协议,位于传输层</h2><p><code>Sequence number</code>顺序号码(下面简写为：SeqNum)<br><code>Acknowledge number</code>确认号码(下面简写为：AckNum)<br><code>SYN</code>(synchronous)表示建立连接<br><code>ACK</code>(acknowledgement)表示响应<br><code>URG</code>(urgent)表示有紧急的数据传送（URG=1,优先发送紧急数据，并优先提交，比如一个终止命令）<br><code>PSH</code>(push)表示推送（PSH=1发送方立即发送缓冲区中的数据，不等待后续数据构成更大的段，接收方立即提交该数据而不等待后续数据的到达） <code>FIN</code>(finish)表示关闭连接<br><code>RST</code>(reset)表示连接重置 </p>
 <hr>
-<h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>：客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{,<code>SYN=1</code>,<code>ACK=1</code>,<code>AckNum(客户端SeqNum+1)</code>，随机生成的<code>SeqNum</code>}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送<code>AckNum(服务器seqNum+1)</code>,<code>ACK=1</code>,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手？</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
+<h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>：客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{<code>SYN=1</code>,<code>ACK=1</code>,<code>AckNum(客户端SeqNum+1)</code>，随机生成的<code>SeqNum</code>}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送<code>AckNum(服务器seqNum+1)</code>,<code>ACK=1</code>,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手？</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
 <hr>
 <h2 id="四次挥手，断开一个连接"><a href="#四次挥手，断开一个连接" class="headerlink" title="四次挥手，断开一个连接"></a>四次挥手，断开一个连接</h2><p><img src="/images/http-5.png" alt="http-5.png"><br><strong>第一次挥手</strong>：客户端发送(<code>FIN=1</code>+随机生成的<code>SeqNum</code>序号)断开连接请求到服务器并等待服务器确认；<br><strong>第二次挥手</strong>：服务器确认后发出确认<code>ACK=1</code>+<code>AckNum(SeqNum+1)</code>包，客户端收到并确认后处于等待状态，等待服务器发送断开请求，此时客户端不再发送数据但可以接受数据；<br><strong>第三次挥手</strong>：服务器发送完数据后，接着发送断开请求<code>FIN=1</code>;<code>ACK=1</code>，<code>SeqNum</code>;<code>AckNum(SeqNum+1)</code>给客户端；<br><strong>第四次挥手</strong>：客户端收到并确认后发送<code>ACK=1</code>;<code>AckNum(SeqNum+1)</code>确认包给服务器，接着等待M秒（可修改）后关闭连接；服务器收到确认包后也关闭连接；<br><strong>为什么采用四次挥手？</strong><br>因为单方面断开连接随时可能丢失数据，比如A、B两个主机，A发出断开连接请求并停止接受该连接的数据，那么B没没收到断开连接请求之前随时可能向主机A发送数据，而主机A已经停止接受数据所以会造成数据丢失；所以采用了两个方向上分别断开连接操作，也就是四次挥手；</p>
 <h2 id="抓包分析"><a href="#抓包分析" class="headerlink" title="抓包分析"></a>抓包分析</h2><h3 id="Wireshark分析工具"><a href="#Wireshark分析工具" class="headerlink" title="Wireshark分析工具"></a>Wireshark分析工具</h3><p>wireshark只能查看封包，而不能修改封包的内容，或者发送封包。<br><strong>协议过滤</strong><br>　　<code>TCP</code> <code>HTTP</code><br><strong>域名过滤</strong><br>　　http.host==hedonglin.com<br><strong>IP过滤</strong><br>　　ip.addr ==192.168.1.1；显示所有目标或源地址是192.168.1.1；<br>　　ip.dst==192.168.1.1；显示目标地址是192.168.1.1<br>　　ip.src ==192.168.1.1 显示源地址是192.168.1.1<br><strong>端口过滤</strong><br>　　tcp.port ==目标端口80<br><strong>请求方法过滤</strong><br>　　http.request.method==”GET”<br><strong>逻辑运算</strong><br>　　and or not<br><strong>例子</strong><br>　　http and ip.addr == 119.75.216.20 and tcp.port == 80</p>
@@ -499,6 +499,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2017/06/22/网站性能优化/" rel="prev" title="网站性能优化">
+                网站性能优化 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -571,7 +575,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-count">20</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -669,7 +673,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于互联网基础知识，狭义解析"><span class="nav-number">1.</span> <span class="nav-text">关于互联网基础知识，狭义解析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#链接层-以太网协议（Ethernet）"><span class="nav-number">1.1.</span> <span class="nav-text">链接层:以太网协议（Ethernet）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><span class="nav-number">1.2.</span> <span class="nav-text">网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#传输层：TCP、UDP协议，端口对端口"><span class="nav-number">1.3.</span> <span class="nav-text">传输层：TCP、UDP协议，端口对端口</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#应用层：规定应用程序的数据格式（http）"><span class="nav-number">1.4.</span> <span class="nav-text">应用层：规定应用程序的数据格式（http）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP传输控制协议-位于传输层"><span class="nav-number">2.</span> <span class="nav-text">TCP传输控制协议,位于传输层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三次握手，建立一个连接"><span class="nav-number">3.</span> <span class="nav-text">三次握手，建立一个连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四次挥手，断开一个连接"><span class="nav-number">4.</span> <span class="nav-text">四次挥手，断开一个连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#抓包分析"><span class="nav-number">5.</span> <span class="nav-text">抓包分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Wireshark分析工具"><span class="nav-number">5.1.</span> <span class="nav-text">Wireshark分析工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看域名对应的ip地址"><span class="nav-number">5.2.</span> <span class="nav-text">查看域名对应的ip地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看互联网协议"><span class="nav-number">5.3.</span> <span class="nav-text">查看互联网协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看应用层HTTP协议"><span class="nav-number">5.4.</span> <span class="nav-text">查看应用层HTTP协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看传输层TCP协议"><span class="nav-number">5.5.</span> <span class="nav-text">查看传输层TCP协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看程序对应的PID值"><span class="nav-number">5.6.</span> <span class="nav-text">查看程序对应的PID值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看PID值对应的信息"><span class="nav-number">5.7.</span> <span class="nav-text">查看PID值对应的信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加密协议，SSL-TLS"><span class="nav-number">6.</span> <span class="nav-text">加密协议，SSL/TLS</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#应用层：规定应用程序的数据格式（http）"><span class="nav-number">1.</span> <span class="nav-text">应用层：规定应用程序的数据格式（http）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#传输层：TCP、UDP协议，端口对端口"><span class="nav-number">2.</span> <span class="nav-text">传输层：TCP、UDP协议，端口对端口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><span class="nav-number">3.</span> <span class="nav-text">网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接层-以太网协议（Ethernet）"><span class="nav-number">4.</span> <span class="nav-text">链接层:以太网协议（Ethernet）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图解"><span class="nav-number">5.</span> <span class="nav-text">图解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP传输控制协议-位于传输层"><span class="nav-number">6.</span> <span class="nav-text">TCP传输控制协议,位于传输层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三次握手，建立一个连接"><span class="nav-number">7.</span> <span class="nav-text">三次握手，建立一个连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四次挥手，断开一个连接"><span class="nav-number">8.</span> <span class="nav-text">四次挥手，断开一个连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#抓包分析"><span class="nav-number">9.</span> <span class="nav-text">抓包分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Wireshark分析工具"><span class="nav-number">9.1.</span> <span class="nav-text">Wireshark分析工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看域名对应的ip地址"><span class="nav-number">9.2.</span> <span class="nav-text">查看域名对应的ip地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看互联网协议"><span class="nav-number">9.3.</span> <span class="nav-text">查看互联网协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看应用层HTTP协议"><span class="nav-number">9.4.</span> <span class="nav-text">查看应用层HTTP协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看传输层TCP协议"><span class="nav-number">9.5.</span> <span class="nav-text">查看传输层TCP协议</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看程序对应的PID值"><span class="nav-number">9.6.</span> <span class="nav-text">查看程序对应的PID值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看PID值对应的信息"><span class="nav-number">9.7.</span> <span class="nav-text">查看PID值对应的信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加密协议，SSL-TLS"><span class="nav-number">10.</span> <span class="nav-text">加密协议，SSL/TLS</span></a></li></ol></div>
             
 
           </div>

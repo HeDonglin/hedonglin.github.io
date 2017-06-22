@@ -3,16 +3,69 @@
   
     
     <entry>
+      <title><![CDATA[网站性能优化]]></title>
+      <url>/2017/06/22/%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</url>
+      <content type="html"><![CDATA[<h2 id="负载均衡技术"><a href="#负载均衡技术" class="headerlink" title="负载均衡技术"></a>负载均衡技术</h2><p>负载均衡技术通过设置虚拟服务器IP（VIP），将后端多台真实服务器的应用资源虚拟成一台高性能的应用服务器，通过负载均衡算法，将大量来自客户端的应用请求分配到后端的服务器进行处理。<br>各个浏览器同时建立多个持续连接，负载均衡设备持续的对服务器上的应用状态进行检查，并自动对无效的应用服务器进行隔离，实现了一个简单、扩展性强、可靠性高的应用解决方案。解决了单台服务器处理性能不足，扩展性不够，可靠性较低的问题。</p>
+<h2 id="HTTP复用和TCP连接复用区别"><a href="#HTTP复用和TCP连接复用区别" class="headerlink" title="HTTP复用和TCP连接复用区别"></a>HTTP复用和TCP连接复用区别</h2><p>TCP连接复用是将多个客户端的HTTP请求复用到一个服务器端TCP连接上，负载均衡设备的独特功能<br>HTTP复用则是一个客户端的多个HTTP请求通过一个TCP连接进行处理，HTTP1.1协议所支持的新功能</p>
+<h2 id="TCP连接复用"><a href="#TCP连接复用" class="headerlink" title="TCP连接复用"></a>TCP连接复用</h2><p>采用TCP连接复用技术后，客户端（如：ClientA）与负载均衡设备之间进行三次握手并发送HTTP请求。负载均衡设备收到请求后，会检测服务器是否存在空闲的长连接，如果不存在，服务器将建立一个新连接。当HTTP请求响应完成后，客户端则与负载均衡设备协商关闭连接，而负载均衡则保持与服务器之间的这个连接。当有其它客户端（如：ClientB）需要发送HTTP请求时，负载均衡设备会直接向与服务器之间保持的这个空闲连接发送HTTP请求，避免了由于新建TCP连接造成的延时和服务器资源耗费。<br><img src="/images/http-18.png" alt="http-18.png"></p>
+<h2 id="TCP缓冲"><a href="#TCP缓冲" class="headerlink" title="TCP缓冲"></a>TCP缓冲</h2><p>为了解决后端服务器网速与客户的前端网络速度不匹配而造成的服务器资源浪费的问题;<br><img src="/images/http-20.png" alt="http-20.png"></p>
+<ol>
+<li>负载均衡收到客户端发来的HTTP请求并将其转发给后端的服务器进行处理；</li>
+<li>服务器对请求进行处理后，将响应的内容依次返回负载均衡设备，负载均衡设备收到响应的数据包后，会将数据包依次缓存在缓冲区中，服务器的响应速度将依据负载均衡和服务器之间的链路质量；</li>
+<li>当负载均衡上缓存了第一个响应的数据包后，负载均衡将响应的数据包按次序返回给客户端，此时，响应的速度将依赖于负载均衡与客户端之间的链路质量；</li>
+<li>当响应内容数据包依次传送给客户端并收到客户端的ACK确认请求后，负载均衡将缓冲区资源释放出来为其它TCP连接使用。</li>
+</ol>
+<h2 id="内容缓存"><a href="#内容缓存" class="headerlink" title="内容缓存"></a>内容缓存</h2><p>内容缓存技术将应用服务器中的一些经常被用户访问的热点内容缓存在负载均衡设备的内存中<br><img src="/images/http-19.png" alt="http-19.png"></p>
+<ol>
+<li>当有客户端发起对logo.gif的第一个请求时，负载均衡首先会检查本地缓存中是否存在该对象。如果不存在这个对象，负载均衡会将这个HTTP请求转发给后端的服务器；</li>
+<li>服务器收到对logo.gif的HTTP请求后，将图片内容回应给负载均衡设备；</li>
+<li>负载均衡设备将logo.gif对象缓存在内容缓存中，并将其发送给客户端；</li>
+<li>后续的其它客户端发起对logo.gif的访问请求时，如果负载均衡检测到内容缓存中已经存在该对象，并确认该对象并未失效的话，负载均衡直接将该对象返回给客户端，而无需服务器再次发送该对象。</li>
+</ol>
+<h2 id="HTTP压缩"><a href="#HTTP压缩" class="headerlink" title="HTTP压缩"></a>HTTP压缩</h2><p>压缩算法本身需要耗费大量的CPU资源，因此，负载均衡设备通过对HTTP压缩功能进行支持，减轻Web服务器的资源耗费，提高其处理效率,即使服务器不支持HTTP压缩，通过负载均衡也能实现压缩功能。<br><img src="/images/http-21.png" alt="http-21.png"></p>
+<ol>
+<li>客户端与负载均衡建立TCP连接后，发送HTTP请求（如Get请求），客户端会将自身浏览器所支持的功能和配置情况发送给负载均衡，如：是否支持压缩、支持的压缩算法、是否支持Keep-alive（连接保持）、连接保持的时间等；</li>
+<li>负载均衡在收到HTTP请求后，会将其中的有关压缩的标记删除，然后将请求转发给服务器进行处理；</li>
+<li>服务器将响应的内容转发给负载均衡；</li>
+<li>负载均衡收到响应的内容后，依照与客户端之间协商的压缩算法对响应的内容进行压缩，然后将压缩后的内容发送回客户端；</li>
+<li>客户端收到响应的内容后，由浏览器对网页内容进行解压缩并进行浏览。</li>
+</ol>
+<h2 id="SSL加速"><a href="#SSL加速" class="headerlink" title="SSL加速"></a>SSL加速</h2><p>SSL是需要耗费大量CPU资源的一种安全技术。目前，大多数负载均衡设备均采用SSL加速芯片进行SSL信息的处理。这种方式比传统的采用服务器的SSL加密方式提供更高的SSL处理性能，从而节省大量的服务器资源，使服务器能够专注于业务请求的处理。</p>
+<ol>
+<li>客户端发起HTTPS连接请求，协商传输的加密算法，确认双方身份，并交换会话密钥。</li>
+<li>负载均衡收到客户端加密的HTTPS请求后，对请求的信息进行解密，然后通过HTTP的方式发送给后端的服务器。</li>
+<li>服务器将请求的处理结果返回给负载均衡设备。</li>
+<li>负载均衡设备利用会话密钥对请求的结果进行加密，然后将结果返回给客户端。</li>
+<li>客户端采用会话密钥对返回结果进行解密，并显示在浏览器上。</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> 服务器 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 优化 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[TCP/IP协议]]></title>
       <url>/2017/06/22/TCP-IP%E5%8D%8F%E8%AE%AE/</url>
-      <content type="html"><![CDATA[<h2 id="关于互联网基础知识，狭义解析"><a href="#关于互联网基础知识，狭义解析" class="headerlink" title="关于互联网基础知识，狭义解析"></a>关于互联网基础知识，狭义解析</h2><h3 id="链接层-以太网协议（Ethernet）"><a href="#链接层-以太网协议（Ethernet）" class="headerlink" title="链接层:以太网协议（Ethernet）"></a>链接层:以太网协议（Ethernet）</h3><p>网卡MAC地址：数据包的发送地址和接收地址<br>帧：一组电信号构成一个数据包<br>一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;<br>数据超过一帧长度：分割多个帧发送</p>
-<h3 id="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><a href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址" class="headerlink" title="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"></a>网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</h3><p>子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同则为同子网络采用广播，不相同则采用路由；<br>广播：向本网络内所有计算机发送<br>ARP协议：主要获取同子网中计算机的MAC地址<br>路由：向不同的子网络分发数据包<br>IP数据包：标头(20~60)和数据(65515),总长65535字节；由于以太网数据包数据部分1500字节，那么分割发送；</p>
-<h3 id="传输层：TCP、UDP协议，端口对端口"><a href="#传输层：TCP、UDP协议，端口对端口" class="headerlink" title="传输层：TCP、UDP协议，端口对端口"></a>传输层：TCP、UDP协议，端口对端口</h3><p>TCP：具有有确认机制的UDP协议，每发出一个数据包都要求确认；<br>TCP数据包没有长度限制，理论上可以无限长，但是为了保证网络的效率，通常TCP数据包的长度不会超过IP数据包的长度，以确保单个TCP数据包不必再分割<br>端口：1024~65535之间的整数</p>
-<h3 id="应用层：规定应用程序的数据格式（http）"><a href="#应用层：规定应用程序的数据格式（http）" class="headerlink" title="应用层：规定应用程序的数据格式（http）"></a>应用层：规定应用程序的数据格式（http）</h3><p>数据包传送：前提条件（对方的MAC地址，对方的IP地址）<br>http数据包(4960)<br>–&gt;TCP数据包(4980)<br>–&gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)<br>–&gt;四个以太网数据包：1500,1500,1500,560</p>
-<p><img src="/images/http-16.png" alt="http-16.png"></p>
+      <content type="html"><![CDATA[<h2 id="应用层：规定应用程序的数据格式（http）"><a href="#应用层：规定应用程序的数据格式（http）" class="headerlink" title="应用层：规定应用程序的数据格式（http）"></a>应用层：规定应用程序的数据格式（http）</h2><p>数据包传送：前提条件（对方的MAC地址，对方的IP地址）<br>http数据包(4960)<br>–&gt;TCP数据包(4980)<br>–&gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)<br>–&gt;四个以太网数据包：1500,1500,1500,560</p>
+<h2 id="传输层：TCP、UDP协议，端口对端口"><a href="#传输层：TCP、UDP协议，端口对端口" class="headerlink" title="传输层：TCP、UDP协议，端口对端口"></a>传输层：TCP、UDP协议，端口对端口</h2><p>TCP：具有有确认机制的UDP协议，每发出一个数据包都要求确认；<br>TCP数据包没有长度限制，理论上可以无限长，但是为了保证网络的效率，通常TCP数据包的长度不会超过IP数据包的长度，以确保单个TCP数据包不必再分割<br>端口：1024~65535之间的整数</p>
+<h2 id="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"><a href="#网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址" class="headerlink" title="网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址"></a>网络层：IP协议，主要区分不同计算机是否属于同一个子网络；网址对网址</h2><p>子网掩码：子网络特征的一个参数；两个IP地址与子网掩码分别进行AND运算；得出结果相同则为同子网络采用广播，不相同则采用路由；<br>广播：向本网络内所有计算机发送<br>ARP协议：主要获取同子网中计算机的MAC地址<br>路由：向不同的子网络分发数据包<br>IP数据包：标头(20~60)和数据(65515),总长65535字节；由于以太网数据包数据部分1500字节，那么分割发送；</p>
+<h2 id="链接层-以太网协议（Ethernet）"><a href="#链接层-以太网协议（Ethernet）" class="headerlink" title="链接层:以太网协议（Ethernet）"></a>链接层:以太网协议（Ethernet）</h2><p>网卡MAC地址：数据包的发送地址和接收地址<br>帧：一组电信号构成一个数据包<br>一帧：标头（18）和数据（46~1500）最短：64字节;最长1518字节;<br>数据超过一帧长度：分割多个帧发送</p>
+<h2 id="图解"><a href="#图解" class="headerlink" title="图解"></a>图解</h2><p><img src="/images/http-16.png" alt="http-16.png"></p>
 <h2 id="TCP传输控制协议-位于传输层"><a href="#TCP传输控制协议-位于传输层" class="headerlink" title="TCP传输控制协议,位于传输层"></a>TCP传输控制协议,位于传输层</h2><p><code>Sequence number</code>顺序号码(下面简写为：SeqNum)<br><code>Acknowledge number</code>确认号码(下面简写为：AckNum)<br><code>SYN</code>(synchronous)表示建立连接<br><code>ACK</code>(acknowledgement)表示响应<br><code>URG</code>(urgent)表示有紧急的数据传送（URG=1,优先发送紧急数据，并优先提交，比如一个终止命令）<br><code>PSH</code>(push)表示推送（PSH=1发送方立即发送缓冲区中的数据，不等待后续数据构成更大的段，接收方立即提交该数据而不等待后续数据的到达） <code>FIN</code>(finish)表示关闭连接<br><code>RST</code>(reset)表示连接重置 </p>
 <hr>
-<h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>：客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{,<code>SYN=1</code>,<code>ACK=1</code>,<code>AckNum(客户端SeqNum+1)</code>，随机生成的<code>SeqNum</code>}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送<code>AckNum(服务器seqNum+1)</code>,<code>ACK=1</code>,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手？</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
+<h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>：客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{<code>SYN=1</code>,<code>ACK=1</code>,<code>AckNum(客户端SeqNum+1)</code>，随机生成的<code>SeqNum</code>}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送<code>AckNum(服务器seqNum+1)</code>,<code>ACK=1</code>,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手？</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
 <hr>
 <h2 id="四次挥手，断开一个连接"><a href="#四次挥手，断开一个连接" class="headerlink" title="四次挥手，断开一个连接"></a>四次挥手，断开一个连接</h2><p><img src="/images/http-5.png" alt="http-5.png"><br><strong>第一次挥手</strong>：客户端发送(<code>FIN=1</code>+随机生成的<code>SeqNum</code>序号)断开连接请求到服务器并等待服务器确认；<br><strong>第二次挥手</strong>：服务器确认后发出确认<code>ACK=1</code>+<code>AckNum(SeqNum+1)</code>包，客户端收到并确认后处于等待状态，等待服务器发送断开请求，此时客户端不再发送数据但可以接受数据；<br><strong>第三次挥手</strong>：服务器发送完数据后，接着发送断开请求<code>FIN=1</code>;<code>ACK=1</code>，<code>SeqNum</code>;<code>AckNum(SeqNum+1)</code>给客户端；<br><strong>第四次挥手</strong>：客户端收到并确认后发送<code>ACK=1</code>;<code>AckNum(SeqNum+1)</code>确认包给服务器，接着等待M秒（可修改）后关闭连接；服务器收到确认包后也关闭连接；<br><strong>为什么采用四次挥手？</strong><br>因为单方面断开连接随时可能丢失数据，比如A、B两个主机，A发出断开连接请求并停止接受该连接的数据，那么B没没收到断开连接请求之前随时可能向主机A发送数据，而主机A已经停止接受数据所以会造成数据丢失；所以采用了两个方向上分别断开连接操作，也就是四次挥手；</p>
 <h2 id="抓包分析"><a href="#抓包分析" class="headerlink" title="抓包分析"></a>抓包分析</h2><h3 id="Wireshark分析工具"><a href="#Wireshark分析工具" class="headerlink" title="Wireshark分析工具"></a>Wireshark分析工具</h3><p>wireshark只能查看封包，而不能修改封包的内容，或者发送封包。<br><strong>协议过滤</strong><br>　　<code>TCP</code> <code>HTTP</code><br><strong>域名过滤</strong><br>　　http.host==hedonglin.com<br><strong>IP过滤</strong><br>　　ip.addr ==192.168.1.1；显示所有目标或源地址是192.168.1.1；<br>　　ip.dst==192.168.1.1；显示目标地址是192.168.1.1<br>　　ip.src ==192.168.1.1 显示源地址是192.168.1.1<br><strong>端口过滤</strong><br>　　tcp.port ==目标端口80<br><strong>请求方法过滤</strong><br>　　http.request.method==”GET”<br><strong>逻辑运算</strong><br>　　and or not<br><strong>例子</strong><br>　　http and ip.addr == 119.75.216.20 and tcp.port == 80</p>
@@ -59,7 +112,7 @@
         
         <tags>
             
-            <tag> 网络速率 </tag>
+            <tag> 协议 </tag>
             
         </tags>
         
@@ -150,23 +203,25 @@
 <h2 id="http技术方向图"><a href="#http技术方向图" class="headerlink" title="http技术方向图"></a>http技术方向图</h2><p><img src="/images/http-2.png" alt="http-2.png"></p>
 <hr>
 <h2 id="http发展历程"><a href="#http发展历程" class="headerlink" title="http发展历程"></a>http发展历程</h2><h3 id="http-0-9-1991年-GET"><a href="#http-0-9-1991年-GET" class="headerlink" title="http/0.9 1991年 GET"></a>http/0.9 <strong><em>1991年</em></strong> <code>GET</code></h3><h3 id="http-1-0-1996年5月-GET-POST-HEAD"><a href="#http-1-0-1996年5月-GET-POST-HEAD" class="headerlink" title="http/1.0 1996年5月 GET POST HEAD"></a>http/1.0 <strong><em>1996年5月</em></strong> <code>GET</code> <code>POST</code> <code>HEAD</code></h3><ul>
-<li>缺点：每个TCP连接只能发送一个请求，发送完毕关闭连接，其他请求必须重新新建连接</li>
-<li>解决：connection:keep-alive(非标准)要求服务器不要关闭TCP连接</li>
+<li>特点：改变了请求格式，新增了头信息，每次通信都包含头信息，头信息必须是 ASCII 码，后面的数据可以是任何格式；</li>
+<li>缺点：短连接，每个TCP连接只能发送一个请求，等待服务器做出响应，其他请求必须重新新建连接</li>
+<li>解决：connection:keep-alive(非标准)要求服务器不要关闭TCP连接，复用连接；</li>
 </ul>
 <h3 id="http-1-1-1997年1月-GET-POST-HEAD-OPTIONS-DELETE-PUT-CONNECT-TRACE"><a href="#http-1-1-1997年1月-GET-POST-HEAD-OPTIONS-DELETE-PUT-CONNECT-TRACE" class="headerlink" title="http/1.1 1997年1月 GET POST HEAD OPTIONS DELETE PUT CONNECT TRACE"></a>http/1.1 <strong><em>1997年1月</em></strong> <code>GET</code> <code>POST</code> <code>HEAD</code> <code>OPTIONS</code> <code>DELETE</code> <code>PUT</code> <code>CONNECT</code> <code>TRACE</code></h3><ul>
-<li>优点：持续连接(默认不关闭，没活动自动关闭)，管道机制(同时发送多个请求)，分块传输编码(Transfer-Encoding:chunked)</li>
-<li>缺点：队头堵塞也就是排队回应</li>
+<li>特点：头信息肯定是文本（ASCII编码），数据体可以是文本，也可以是二进制，持续连接(也称长连接，默认不关闭，没活动自动关闭)，管道机制(也称HTTP复用同一个TCP里可以同时发送多个请求)，分块传输编码(Transfer-Encoding:chunked，回应数量未定的数据块组成，采用流模式取代缓存模式，可以不使用Content-Length字段，因为Content-Length字段必须知道回应的数据长度)</li>
+<li>缺点：队头堵塞，同一个TCP发送多个请求，回应时按照请求顺序回应，一旦前面的特别慢，后面的请求就在等待中；</li>
 <li>解决：减少请求数，同时多开持续连接；</li>
 </ul>
 <h3 id="SPDY协议-2009年"><a href="#SPDY协议-2009年" class="headerlink" title="SPDY协议 2009年"></a>SPDY协议 <strong><em>2009年</em></strong></h3><p>谷歌自行研发的协议主要解决HTTP/1.1 效率不高的问题，HTTP/2 的基础</p>
 <h3 id="http-2-2015年"><a href="#http-2-2015年" class="headerlink" title="http/2   2015年"></a>http/2   <strong><em>2015年</em></strong></h3><ul>
-<li>二进制协议</li>
-<li>多工</li>
-<li>数据流</li>
-<li>头信息压缩</li>
-<li>服务器推送</li>
+<li>二进制协议：头信息和数据体都是二进制，并且统称为”帧”</li>
+<li>多工：在一个连接里，客户端和浏览器都可以同时发送多个请求或回应，而且不用按照顺序一一对应，双向的、实时的通信</li>
+<li>数据流：数据包做标记，指出它属于哪个回应，HTTP/2 将每个请求或回应的所有数据包，称为一个数据流，每个数据流都有一个独一无二的编号，数据包发送的时候，都必须标记数据流ID，用来区分它属于哪个数据流。另外还规定，客户端发出的数据流，ID一律为奇数，服务器发出的，ID为偶数。数据流发送到一半的时候，客户端和服务器都可以发送信号（RST_STREAM帧），取消这个数据流，客户端还可以指定数据流的优先级</li>
+<li>头信息压缩：一方面头信息使用gzip或compress压缩后再发送；另一方面，客户端和服务器同时维护一张头信息表，所有字段都会存入这个表，生成一个索引号，以后就不发送同样字段了，只发送索引号，这样就提高速度了。</li>
+<li>服务器推送：允许服务器未经请求，主动向客户端发送资源，这叫做服务器推送，例如服务器可以预期到客户端请求网页后，很可能会再请求静态资源，所以就主动把这些静态资源随着网页一起发给客户端了</li>
 </ul>
 <hr>
+<h2 id="浏览器多开持续连接数"><a href="#浏览器多开持续连接数" class="headerlink" title="浏览器多开持续连接数"></a>浏览器多开持续连接数</h2><p><img src="/images/http-17.png" alt="http-17.png"></p>
 <h2 id="http报文格式"><a href="#http报文格式" class="headerlink" title="http报文格式"></a>http报文格式</h2><p><img src="/images/http-15.png" alt="http-15.png"></p>
 <h2 id="请求格式"><a href="#请求格式" class="headerlink" title="请求格式"></a>请求格式</h2><p>　　请求行:（请求方法 URL HTTP协议版本）<br>　　请求头部：（属性：值）<br>　　空行（回车换行）<br>　　请求数据：（数据）<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="string">"请求方法"</span></div><div class="line">GET     请求指定的页面信息，并返回实体主体。</div><div class="line">POST    向指定资源提交数据进行处理请求（例如提交表单或者上传文件）。数据被包含在请求体中。POST请求可能会导致新的资源的建立和/或已有资源的修改。</div><div class="line">HEAD    类似于get请求，只不过返回的响应中没有具体的内容，用于获取报头</div><div class="line">OPTIONS 允许客户端查看服务器的性能。</div><div class="line">DELETE  请求服务器删除指定的页面。</div><div class="line">PUT     从客户端向服务器传送的数据取代指定的文档的内容。</div><div class="line">CONNECT HTTP/<span class="number">1.1</span>协议中预留给能够将连接改为管道方式的代理服务器。</div><div class="line">TRACE   回显服务器收到的请求，主要用于测试或诊断。</div></pre></td></tr></table></figure></p>
 <h2 id="响应格式"><a href="#响应格式" class="headerlink" title="响应格式"></a>响应格式</h2><p>　　状态行：(http协议版本号 状态码 状态消息)<br>　　消息报头<br>　　空行<br>　　响应正文<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line"><span class="string">"状态码"</span></div><div class="line"><span class="number">1</span>xx 表示通知信息，请求收到了或正在进行处理</div><div class="line"><span class="number">2</span>xx 表示成功，动作被成功接收、理解和接受</div><div class="line"><span class="number">3</span>xx 表示重定向，要完成请求必须采取下一步的行动</div><div class="line"><span class="number">4</span>xx 表示客户的错误，请求包含语法错误或无法完成请求</div><div class="line"><span class="number">5</span>xx 表示服务器的错误，服务器在处理请求的过程中发生了错误</div><div class="line"><span class="string">"常用"</span></div><div class="line"><span class="number">100</span>（继续）<span class="comment">//请求者应当继续提出请求。服务器返回此代码则意味着，服务器已收到了请求的第一部分，现正在等待接收其余部分</span></div><div class="line"><span class="number">101</span>（切换协议）<span class="comment">//请求者已要求服务器切换协议，服务器已确认并准备进行切换</span></div><div class="line"><span class="number">200</span>（成功）<span class="comment">//服务器已成功处理了请求。通常，这表示服务器提供了请求的网页。</span></div><div class="line"><span class="number">201</span>（已创建）<span class="comment">//请求成功且服务器已创建了新的资源。</span></div><div class="line"><span class="number">202</span>（已接受）<span class="comment">//服务器已接受了请求，但尚未对其进行处理。</span></div><div class="line"><span class="number">203</span>（非授权信息）<span class="comment">//服务器已成功处理了请求，但返回了可能来自另一来源的信息。</span></div><div class="line"><span class="number">204</span>（无内容）<span class="comment">//服务器成功处理了请求，但未返回任何内容。</span></div><div class="line"><span class="number">205</span>（重置内容）<span class="comment">//服务器成功处理了请求，但未返回任何内容。与 204 响应不同，此响应要求请求者重置文档视图（例如清除表单内容以输入新内容）。</span></div><div class="line"><span class="number">206</span>（部分内容）<span class="comment">//服务器成功处理了部分 GET 请求。</span></div><div class="line"><span class="number">300</span>（多种选择）<span class="comment">//服务器根据请求可执行多种操作。服务器可根据请求者来选择一项操作，或提供操作列表供请求者选择。</span></div><div class="line"><span class="number">301</span>（永久移动）<span class="comment">//请求的网页已被永久移动到新位置。服务器返回此响应（作为对 GET 或 HEAD 请求的响应）时，会自动将请求者转到新位置。您应使用此代码通知 Googlebot某个网页或网站已被永久移动到新位置。</span></div><div class="line"><span class="number">302</span>（临时移动）<span class="comment">//服务器目前正从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。此代码与响应 GET 和 HEAD 请求的 301 代码类似，会自动将请求者转到不同的位置。但由于 Googlebot 会继续抓取原有位置并将其编入索引，因此您不应使用此代码来通知 Googlebot 某个页面或网站已被移动。</span></div><div class="line"><span class="number">303</span>（查看其他位置）<span class="comment">//当请求者应对不同的位置进行单独的 GET 请求以检索响应时，服务器会返回此代码。对于除 HEAD 请求之外的所有请求，服务器会自动转到其他位置。</span></div><div class="line"><span class="number">304</span>（未修改）<span class="comment">//自从上次请求后，请求的网页未被修改过。服务器返回此响应时，不会返回网页内容。</span></div><div class="line"><span class="number">305</span>（使用代理）<span class="comment">//请求者只能使用代理访问请求的网页。如果服务器返回此响应，那么，服务器还会指明请求者应当使用的代理。</span></div><div class="line"><span class="number">307</span>（临时重定向）<span class="comment">//服务器目前正从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求。此代码与响应 GET 和 HEAD 请求的 301 代码类似，会自动将请求者转到不同的位置。但由于 Googlebot 会继续抓取原有位置并将其编入索引，因此您不应使用此代码来通知 Googlebot 某个页面或网站已被移动。</span></div><div class="line"><span class="number">400</span>（错误请求）<span class="comment">//服务器不理解请求的语法。</span></div><div class="line"><span class="number">401</span>（未授权）<span class="comment">//请求要求进行身份验证。登录后，服务器可能会返回对页面的此响应。</span></div><div class="line"><span class="number">403</span>（已禁止）<span class="comment">//服务器拒绝请求。</span></div><div class="line"><span class="number">404</span>（未找到）<span class="comment">//服务器找不到请求的网页。例如，如果请求是针对服务器上不存在的网页进行的，那么，服务器通常会返回此代码。</span></div><div class="line"><span class="number">405</span>（方法禁用）<span class="comment">//禁用请求中所指定的方法。</span></div><div class="line"><span class="number">406</span>（不接受）<span class="comment">//无法使用请求的内容特性来响应请求的网页。</span></div><div class="line"><span class="number">407</span>（需要代理授权）<span class="comment">//此状态代码与 401（未授权）类似，但却指定了请求者应当使用代理进行授权。如果服务器返回此响应，那么，服务器还会指明请求者应当使用的代理。</span></div><div class="line"><span class="number">408</span>（请求超时）<span class="comment">//服务器等候请求时超时。</span></div><div class="line"><span class="number">409</span>（冲突）<span class="comment">//服务器在完成请求时发生冲突。服务器必须包含有关响应中所发生的冲突的信息。服务器在响应与前一个请求相冲突的 PUT 请求时可能会返回此代码，同时会提供两个请求的差异列表。</span></div><div class="line"><span class="number">410</span>（已删除）<span class="comment">//如果请求的资源已被永久删除，那么，服务器会返回此响应。该代码与 404（未找到）代码类似，但在资源以前有但现在已经不复存在的情况下，有时会替代 404 代码出现。如果资源已被永久删除，那么，您应当使用 301 代码指定该资源的新位置。</span></div><div class="line"><span class="number">411</span>（需要有效长度）<span class="comment">//服务器不会接受包含无效内容长度标头字段的请求。</span></div><div class="line"><span class="number">412</span>（未满足前提条件）<span class="comment">//服务器未满足请求者在请求中设置的其中一个前提条件。</span></div><div class="line"><span class="number">413</span>（请求实体过大）<span class="comment">//服务器无法处理请求，因为请求实体过大，已超出服务器的处理能力。</span></div><div class="line"><span class="number">414</span>（请求的 URI 过长）<span class="comment">//请求的 URI（通常为网址）过长，服务器无法进行处理。</span></div><div class="line"><span class="number">415</span>（不支持的媒体类型）<span class="comment">//请求的格式不受请求页面的支持。</span></div><div class="line"><span class="number">416</span>（请求范围不符合要求）<span class="comment">//如果请求是针对网页的无效范围进行的，那么，服务器会返回此状态代码。</span></div><div class="line"><span class="number">417</span>（未满足期望值）<span class="comment">//服务器未满足”期望”请求标头字段的要求。 500（服务器内部错误）服务器遇到错误，无法完成请求。</span></div><div class="line"><span class="number">501</span>（尚未实施）<span class="comment">//服务器不具备完成请求的功能。例如，当服务器无法识别请求方法时，服务器可能会返回此代码。</span></div><div class="line"><span class="number">502</span>（错误网关）<span class="comment">//服务器作为网关或代理，从上游服务器收到了无效的响应。</span></div><div class="line"><span class="number">503</span>（服务不可用）<span class="comment">//目前无法使用服务器（由于超载或进行停机维护）。通常，这只是一种暂时的状态。</span></div><div class="line"><span class="number">504</span>（网关超时）<span class="comment">//服务器作为网关或代理，未及时从上游服务器接收请求。</span></div><div class="line"><span class="number">505</span>（HTTP 版本不受支持）<span class="comment">//服务器不支持请求中所使用的 HTTP 协议版本。</span></div></pre></td></tr></table></figure></p>
@@ -853,7 +908,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#x6f;&#58;&#104;&#x65;&#x64;&#111;&#x6e;&#x67;&#x6c;&#105;&#110;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;">&#104;&#x65;&#x64;&#111;&#x6e;&#x67;&#x6c;&#105;&#110;&#x40;&#x31;&#54;&#51;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;">&#x68;&#101;&#100;&#111;&#x6e;&#x67;&#x6c;&#x69;&#110;&#64;&#49;&#x36;&#x33;&#46;&#x63;&#111;&#109;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
