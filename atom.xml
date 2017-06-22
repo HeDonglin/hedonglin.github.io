@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hedonglin.com/"/>
-  <updated>2017-06-22T18:19:35.110Z</updated>
+  <updated>2017-06-22T18:31:05.424Z</updated>
   <id>http://hedonglin.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Centos如何升级最新的git</title>
+    <link href="http://hedonglin.com/2017/06/23/Centos%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7%E6%9C%80%E6%96%B0%E7%9A%84git/"/>
+    <id>http://hedonglin.com/2017/06/23/Centos如何升级最新的git/</id>
+    <published>2017-06-22T18:23:44.000Z</published>
+    <updated>2017-06-22T18:31:05.424Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装编译git时需要的包（重要）"><a href="#安装编译git时需要的包（重要）" class="headerlink" title="安装编译git时需要的包（重要）"></a>安装编译git时需要的包（重要）</h2><p>yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel<br>yum install  gcc perl-ExtUtils-MakeMaker</p>
+<h2 id="删除已有的git"><a href="#删除已有的git" class="headerlink" title="删除已有的git"></a>删除已有的git</h2><p>yum remove git</p>
+<h2 id="下载git源码"><a href="#下载git源码" class="headerlink" title="下载git源码"></a>下载git源码</h2><p>cd /usr/src<br><code>wget https://github.com/git/git/archive/git-2.9.2.tar.gz</code><br>tar xzf git-2.9.2.tar.gz</p>
+<h2 id="编译安装（一行一回车）"><a href="#编译安装（一行一回车）" class="headerlink" title="编译安装（一行一回车）"></a>编译安装（一行一回车）</h2><p>cd git-2.9.2<br>make prefix=/usr/local/git all<br>make prefix=/usr/local/git install<br>echo “export PATH=$PATH:/usr/local/git/bin” &gt;&gt; /etc/bashrc<br>source /etc/bashrc</p>
+<h2 id="检查一下版本号"><a href="#检查一下版本号" class="headerlink" title="检查一下版本号"></a>检查一下版本号</h2><p><code>git --version</code><br>显示为：git version 2.9.2</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装编译git时需要的包（重要）&quot;&gt;&lt;a href=&quot;#安装编译git时需要的包（重要）&quot; class=&quot;headerlink&quot; title=&quot;安装编译git时需要的包（重要）&quot;&gt;&lt;/a&gt;安装编译git时需要的包（重要）&lt;/h2&gt;&lt;p&gt;yum install cu
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://hedonglin.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="Centos" scheme="http://hedonglin.com/tags/Centos/"/>
+    
+  </entry>
   
   <entry>
     <title>kangle服务器配置https</title>
@@ -940,37 +967,6 @@
     
     
       <category term="git" scheme="http://hedonglin.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Sublime下载、安装、绿化</title>
-    <link href="http://hedonglin.com/2017/06/17/sublime%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%BB%BF%E5%8C%96/"/>
-    <id>http://hedonglin.com/2017/06/17/sublime下载、安装、绿化/</id>
-    <published>2017-06-16T16:09:41.000Z</published>
-    <updated>2017-06-18T12:16:17.278Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="稳定版"><a href="#稳定版" class="headerlink" title="稳定版"></a>稳定版</h1><p><a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text3 3126</a></p>
-<p><img src="/images/sb-1.png"></p>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="封装成便携包"><a href="#封装成便携包" class="headerlink" title="封装成便携包"></a>封装成便携包</h2><p>因为sublime text插件默认安装的位置是AppData的目录【C:\Users\用户名\AppData\Roaming\Sublime Text 3\Packages】，也就是在C盘,所以我们在官方下载完软件并选择安装在<code>D:\Program Files\Sublime Text 3126</code>，把<code>Sublime Text 3126</code>文件夹打包成压缩包，接着卸载sublime软件，把刚才压缩包解压到<code>D:\Program Files\Sublime Text 3126</code>下，然后在里面添加一个<code>data</code>文件夹打开软件即可完成！</p>
-<h2 id="各个文件夹的作用"><a href="#各个文件夹的作用" class="headerlink" title="各个文件夹的作用"></a>各个文件夹的作用</h2><p>data文件夹下<code>Cache</code>（缓存文件）,<code>Index</code>（日志文件）,<code>Installed Packages</code>（插件包，下载下来的文件后缀为<code>.sublime-package</code>）,<code>Local</code>（许可证书）,<code>Packages</code>（解压出来的插件包，或是一些配置文件）后面三个都是重要的其他两个可以删除；</p>
-<h2 id="绿化"><a href="#绿化" class="headerlink" title="绿化"></a>绿化</h2><p> 打开Sublime菜单然后复制下面的代码粘贴到 &gt; help &gt; enter License<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">—– BEGIN LICENSE —–</div><div class="line">Michael Barnes</div><div class="line">Single User License</div><div class="line">EA7E-821385</div><div class="line">8A353C41 872A0D5C DF9B2950 AFF6F667</div><div class="line">C458EA6D 8EA3C286 98D1D650 131A97AB</div><div class="line">AA919AEC EF20E143 B361B1E7 4C8B7F04</div><div class="line">B085E65E 2F5F5360 8489D422 FB8FC1AA</div><div class="line">93F6323C FD7F7544 3F39C318 D95E6480</div><div class="line">FCCC7561 8A4A1741 68FA4223 ADCEDE07</div><div class="line">200C25BE DBBC4855 C4CFB774 C5EC138C</div><div class="line">0FEC1CEF D9DCECEC D3A5DAD1 01316C36</div><div class="line">—— END LICENSE ——</div></pre></td></tr></table></figure></p>
-<hr>
-<h1 id="开发版"><a href="#开发版" class="headerlink" title="开发版"></a>开发版</h1><p><a href="https://www.sublimetext.com/3dev" target="_blank" rel="external">Sublime Text3 3136</a><br>注意：需要购买后才可以使用<br>到目前为止经历了10个版本:<br>3127–&gt;3128–&gt;3129–&gt;3130–&gt;3131–&gt;3132–&gt;3133–&gt;3134–&gt;3135–&gt;3136</p>
-<hr>
-<h1 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h1><p>2017年6月15日汇率1$美元=￥6.804人民币，官方价格为$70美元即人民币￥476.518元<br>地址：<a href="https://www.sublimetext.com/buy?v=3" target="_blank" rel="external">https://www.sublimetext.com/buy?v=3</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;稳定版&quot;&gt;&lt;a href=&quot;#稳定版&quot; class=&quot;headerlink&quot; title=&quot;稳定版&quot;&gt;&lt;/a&gt;稳定版&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/3&quot; target=&quot;_blank&quot; rel=&quot;exter
-    
-    </summary>
-    
-      <category term="编程工具" scheme="http://hedonglin.com/categories/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="sublime3" scheme="http://hedonglin.com/tags/sublime3/"/>
     
   </entry>
   

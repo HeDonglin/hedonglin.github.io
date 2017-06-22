@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title><![CDATA[Centos如何升级最新的git]]></title>
+      <url>/2017/06/23/Centos%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7%E6%9C%80%E6%96%B0%E7%9A%84git/</url>
+      <content type="html"><![CDATA[<h2 id="安装编译git时需要的包（重要）"><a href="#安装编译git时需要的包（重要）" class="headerlink" title="安装编译git时需要的包（重要）"></a>安装编译git时需要的包（重要）</h2><p>yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel<br>yum install  gcc perl-ExtUtils-MakeMaker</p>
+<h2 id="删除已有的git"><a href="#删除已有的git" class="headerlink" title="删除已有的git"></a>删除已有的git</h2><p>yum remove git</p>
+<h2 id="下载git源码"><a href="#下载git源码" class="headerlink" title="下载git源码"></a>下载git源码</h2><p>cd /usr/src<br><code>wget https://github.com/git/git/archive/git-2.9.2.tar.gz</code><br>tar xzf git-2.9.2.tar.gz</p>
+<h2 id="编译安装（一行一回车）"><a href="#编译安装（一行一回车）" class="headerlink" title="编译安装（一行一回车）"></a>编译安装（一行一回车）</h2><p>cd git-2.9.2<br>make prefix=/usr/local/git all<br>make prefix=/usr/local/git install<br>echo “export PATH=$PATH:/usr/local/git/bin” &gt;&gt; /etc/bashrc<br>source /etc/bashrc</p>
+<h2 id="检查一下版本号"><a href="#检查一下版本号" class="headerlink" title="检查一下版本号"></a>检查一下版本号</h2><p><code>git --version</code><br>显示为：git version 2.9.2</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 服务器 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Centos </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[kangle服务器配置https]]></title>
       <url>/2017/06/23/kangle%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AEhttps/</url>
       <content type="html"><![CDATA[<h2 id="使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口"><a href="#使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口" class="headerlink" title="使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口"></a>使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口</h2><p>一般情况下不会被占用的，但是如果你是设置了VPN(如搬瓦工)它会默认采用443端口的；<br>在这里设置后easypanel管理面板才会显示SSL标志<br><img src="/images/kangle-1.png" alt="kangle-1.png"><br><img src="/images/kangle-2.png" alt="kangle-2.png"></p>
@@ -933,7 +958,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#104;&#101;&#100;&#111;&#110;&#103;&#108;&#105;&#x6e;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;">&#104;&#101;&#100;&#111;&#110;&#103;&#108;&#105;&#x6e;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#x6d;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x68;&#x65;&#100;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;">&#x68;&#x65;&#100;&#x6f;&#x6e;&#x67;&#108;&#x69;&#110;&#64;&#49;&#54;&#x33;&#46;&#99;&#111;&#x6d;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>
