@@ -72,6 +72,9 @@ deploy:
   type: git
   repo: git@github.com:HeDonglin/hedonglin.github.io.git
   branch: master
+## 服务端安装git从github克隆过来
+# cd /home/ftp/w/w3c0929/dist/hedonglin.github.io
+# git pull
 
 ## 添加百度/谷歌/本地 自定义站点内容搜索
 search:
