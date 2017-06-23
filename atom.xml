@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hedonglin.com/"/>
-  <updated>2017-06-23T09:07:38.302Z</updated>
+  <updated>2017-06-23T09:09:58.987Z</updated>
   <id>http://hedonglin.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hedonglin.com/2017/06/23/%E7%BD%91%E7%BB%9C%E8%B7%AF%E7%94%B1%E6%9F%A5%E8%AF%A2%E5%B7%A5%E5%85%B7MTR/"/>
     <id>http://hedonglin.com/2017/06/23/网络路由查询工具MTR/</id>
     <published>2017-06-23T08:58:04.000Z</published>
-    <updated>2017-06-23T09:07:38.302Z</updated>
+    <updated>2017-06-23T09:09:58.987Z</updated>
     
     <content type="html"><![CDATA[<h2 id="服务器到本地"><a href="#服务器到本地" class="headerlink" title="服务器到本地"></a>服务器到本地</h2><p>Centos安装MTR<br>yum install mtr -y<br>查询命令：mtr 目标ip地址<br><img src="/images/ip-2.png" alt="ip-2.png"></p>
 <h2 id="本地到服务器"><a href="#本地到服务器" class="headerlink" title="本地到服务器"></a>本地到服务器</h2><p>下载MTR软件：<a href="http://www.winmtr.net" target="_blank" rel="external">http://www.winmtr.net</a><br><img src="/images/ip-1.png" alt="ip-1.png"><br><img src="/images/ip-3.png" alt="ip-3.png"><br><img src="/images/ip-4.png" alt="ip-4.png"></p>
