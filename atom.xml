@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hedonglin.com/"/>
-  <updated>2017-06-22T18:31:05.424Z</updated>
+  <updated>2017-06-23T09:07:38.302Z</updated>
   <id>http://hedonglin.com/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网络路由查询工具MTR</title>
+    <link href="http://hedonglin.com/2017/06/23/%E7%BD%91%E7%BB%9C%E8%B7%AF%E7%94%B1%E6%9F%A5%E8%AF%A2%E5%B7%A5%E5%85%B7MTR/"/>
+    <id>http://hedonglin.com/2017/06/23/网络路由查询工具MTR/</id>
+    <published>2017-06-23T08:58:04.000Z</published>
+    <updated>2017-06-23T09:07:38.302Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="服务器到本地"><a href="#服务器到本地" class="headerlink" title="服务器到本地"></a>服务器到本地</h2><p>Centos安装MTR<br>yum install mtr -y<br>查询命令：mtr 目标ip地址<br><img src="/images/ip-2.png" alt="ip-2.png"></p>
+<h2 id="本地到服务器"><a href="#本地到服务器" class="headerlink" title="本地到服务器"></a>本地到服务器</h2><p>下载MTR软件：<a href="http://www.winmtr.net" target="_blank" rel="external">http://www.winmtr.net</a><br><img src="/images/ip-1.png" alt="ip-1.png"><br><img src="/images/ip-3.png" alt="ip-3.png"><br><img src="/images/ip-4.png" alt="ip-4.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;服务器到本地&quot;&gt;&lt;a href=&quot;#服务器到本地&quot; class=&quot;headerlink&quot; title=&quot;服务器到本地&quot;&gt;&lt;/a&gt;服务器到本地&lt;/h2&gt;&lt;p&gt;Centos安装MTR&lt;br&gt;yum install mtr -y&lt;br&gt;查询命令：mtr 目标ip地址&lt;b
+    
+    </summary>
+    
+      <category term="网络" scheme="http://hedonglin.com/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="查询" scheme="http://hedonglin.com/tags/%E6%9F%A5%E8%AF%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Centos如何升级最新的git</title>
     <link href="http://hedonglin.com/2017/06/23/Centos%E5%A6%82%E4%BD%95%E5%8D%87%E7%BA%A7%E6%9C%80%E6%96%B0%E7%9A%84git/"/>
     <id>http://hedonglin.com/2017/06/23/Centos如何升级最新的git/</id>
     <published>2017-06-22T18:23:44.000Z</published>
-    <updated>2017-06-22T18:31:05.424Z</updated>
+    <updated>2017-06-22T18:32:26.891Z</updated>
     
     <content type="html"><![CDATA[<h2 id="安装编译git时需要的包（重要）"><a href="#安装编译git时需要的包（重要）" class="headerlink" title="安装编译git时需要的包（重要）"></a>安装编译git时需要的包（重要）</h2><p>yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel<br>yum install  gcc perl-ExtUtils-MakeMaker</p>
 <h2 id="删除已有的git"><a href="#删除已有的git" class="headerlink" title="删除已有的git"></a>删除已有的git</h2><p>yum remove git</p>
@@ -930,36 +954,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;一边操作一边理解&quot;&gt;&lt;a href=&quot;#一边操作一边理解&quot; class=&quot;headerlink&quot; title=&quot;一边操作一边理解&quot;&gt;&lt;/a&gt;一边操作一边理解&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/git-1.png&quot; alt=&quot;git理解图&quot; titl
-    
-    </summary>
-    
-      <category term="辅助工具" scheme="http://hedonglin.com/categories/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="git" scheme="http://hedonglin.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git安装过程需注意的地方</title>
-    <link href="http://hedonglin.com/2017/06/17/git%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E9%9C%80%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
-    <id>http://hedonglin.com/2017/06/17/git安装过程需注意的地方/</id>
-    <published>2017-06-16T16:12:05.000Z</published>
-    <updated>2017-06-18T06:53:55.825Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="集中式版本库-（SVN或CVS）"><a href="#集中式版本库-（SVN或CVS）" class="headerlink" title="集中式版本库 （SVN或CVS）"></a>集中式版本库 （SVN或CVS）</h2><p>版本库是集中存放在中央服务器的,修改项目需要先从服务器取得最新版本,然后修改,再将修改的版本提交到服务器(一旦服务器坏了整个项目有可能丢失所有历史更新记录)(需要联网);</p>
-<h2 id="分布式版本库（Git）"><a href="#分布式版本库（Git）" class="headerlink" title="分布式版本库（Git）"></a>分布式版本库（Git）</h2><p>每个客户端都是完整的版本库,只要把修改的内容推送到服务器上即可,某个人电脑坏了,其他人也会保存有,不需担心(不需要联网);<br>版本控制–增删改查;协同工作–多个开发者共同开发相互独立;</p>
-<p>##安装过程</p>
-<h3 id="在“Adjusting-your-PATH-environment”选项中，默认即可。"><a href="#在“Adjusting-your-PATH-environment”选项中，默认即可。" class="headerlink" title="在“Adjusting your PATH environment”选项中，默认即可。"></a>在“Adjusting your PATH environment”选项中，默认即可。</h3><p>选择Run Git and includedUnix TOOLS ….(安装msysgit时选择将其集成到Windows中)<br>主要用于解决:使用git pull来与远程服务器同步，此时就发现Sublime下面的状态栏就会一直来回摆动，无法与远程同步，</p>
-<h3 id="Configuring-the-line-ending-conversions选项中选择"><a href="#Configuring-the-line-ending-conversions选项中选择" class="headerlink" title="Configuring the line ending conversions选项中选择"></a>Configuring the line ending conversions选项中选择</h3><p>第一个选项：如果是跨平台项目，在windows系统安装，选择；<br>第二个选项：如果是跨平台项目，在Unix系统安装，选择；<br>第三个选项：非跨平台项目，选择。</p>
-<h3 id="use-minTTY-the-default-terminal-of-msy32"><a href="#use-minTTY-the-default-terminal-of-msy32" class="headerlink" title="use minTTY (the default terminal of msy32)"></a>use minTTY (the default terminal of msy32)</h3><h3 id="推荐：默认开启文件缓存-打上勾"><a href="#推荐：默认开启文件缓存-打上勾" class="headerlink" title="推荐：默认开启文件缓存(打上勾)"></a>推荐：默认开启文件缓存(打上勾)</h3><p><code>enable file system caching;</code>  </p>
-<h3 id="环境变量-D-Program-Files-Git-bin-添加到path"><a href="#环境变量-D-Program-Files-Git-bin-添加到path" class="headerlink" title="环境变量:D:\Program Files\Git\bin 添加到path"></a>环境变量:D:\Program Files\Git\bin 添加到path</h3><p>现在可以在sublime中使用git相关命令了;</p>
-<h3 id="动画详情"><a href="#动画详情" class="headerlink" title="动画详情"></a>动画详情</h3><p><img src="/images/git-install.gif" alt="git安装动画" title="git安装过程"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;集中式版本库-（SVN或CVS）&quot;&gt;&lt;a href=&quot;#集中式版本库-（SVN或CVS）&quot; class=&quot;headerlink&quot; title=&quot;集中式版本库 （SVN或CVS）&quot;&gt;&lt;/a&gt;集中式版本库 （SVN或CVS）&lt;/h2&gt;&lt;p&gt;版本库是集中存放在中央服务器
     
     </summary>
     

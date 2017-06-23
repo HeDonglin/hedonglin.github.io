@@ -94,7 +94,14 @@
 
     <url>
         <loc>http://hedonglin.com/tags/Centos/</loc>
-        <lastmod>2017-06-22T18:31:05.424Z</lastmod>
+        <lastmod>2017-06-22T18:32:26.891Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://hedonglin.com/tags/%E6%9F%A5%E8%AF%A2/</loc>
+        <lastmod>2017-06-23T09:07:38.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
