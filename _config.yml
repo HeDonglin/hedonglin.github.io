@@ -1,11 +1,13 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+## 服务端安装git从github克隆过来
+# cd /home/ftp/w/w3c0929/dist/hedonglin.github.io
+# git pull
 # Site
 title: 自由之翼
 subtitle: 与其羡慕别人，不如做好自己
-description: 扎实的基础是拓展思路之源
+description: 何东霖个人博客，主要记录个人兴趣爱好，包括互联网技术，房地产建筑行业，动漫资讯，人生哲理，清醒梦，出体等等...；
 author: 桐木辉夜
 language: zh-Hans
 timezone:
@@ -72,9 +74,7 @@ deploy:
   type: git
   repo: git@github.com:HeDonglin/hedonglin.github.io.git
   branch: master
-## 服务端安装git从github克隆过来
-# cd /home/ftp/w/w3c0929/dist/hedonglin.github.io
-# git pull
+
 
 ## 添加百度/谷歌/本地 自定义站点内容搜索
 search:

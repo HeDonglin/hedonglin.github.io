@@ -2,11 +2,11 @@
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `hexo-site/source/` directory.
+# Put your favicon.ico into `hexo-site/source/` 目录.
 favicon: /images/favicon.ico
 
-# Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+# Set default关键词(中使用西洋逗号分开)
+keywords: "何东霖博客,人生哲理,前端基础,实用工具,文档知识,服务器,编程工具,网络,辅助工具"
 
 # Specify the date when the site was setup
 since: 2015
@@ -22,8 +22,8 @@ copyright: true
 # Tips: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
 canonical: true
 
-# Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+# 更改标题的层次上场-字幕(将主站点说明)和在所有员额/网页的标题，用更好的搜索引擎优化。
+seo: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -101,7 +101,7 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: 
+    family:
   # Logo 字体
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
@@ -114,7 +114,7 @@ font:
   codes:
     external: true
     family:
-    size: 
+    size:
 
 
 
@@ -213,7 +213,7 @@ links:
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
-# Automatically excerpt description in homepage as preamble text.
+# 自动摘录说明在主页上为序言文本。
 excerpt_description: true
 
 # Automatically Excerpt. Not recommend.
@@ -555,7 +555,7 @@ sitemap:
 # 提交百度搜索引擎；npm install hexo-generator-baidu-sitemap --save
 
 baidusitemap:
-    path: baidusitemap.xml 
+    path: baidusitemap.xml
 
 # ## 太卡了不使用
 # ## 开启neat插件，npm install hexo-neat --save
