@@ -71,7 +71,7 @@
     <link href="http://hedonglin.com/2017/06/23/kangle%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AEhttps/"/>
     <id>http://hedonglin.com/2017/06/23/kangle服务器配置https/</id>
     <published>2017-06-22T17:48:31.000Z</published>
-    <updated>2017-06-22T18:19:35.110Z</updated>
+    <updated>2017-06-24T16:54:24.410Z</updated>
     
     <content type="html"><![CDATA[<h2 id="使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口"><a href="#使用netstat-nap-命令查看服务器端口是否被占用，并且设置网站的端口" class="headerlink" title="使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口"></a>使用netstat -nap 命令查看服务器端口是否被占用，并且设置网站的端口</h2><p>一般情况下不会被占用的，但是如果你是设置了VPN(如搬瓦工)它会默认采用443端口的；<br>在这里设置后easypanel管理面板才会显示SSL标志<br><img src="/images/kangle-1.png" alt="kangle-1.png"><br><img src="/images/kangle-2.png" alt="kangle-2.png"></p>
 <h2 id="申请免费SSL"><a href="#申请免费SSL" class="headerlink" title="申请免费SSL"></a>申请免费SSL</h2><p><a href="https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631" target="_blank" rel="external">https://cloud.tencent.com/product/ssl?fromSource=gwzcw.231631.231631.231631</a><br><img src="/images/kangle-4.png" alt="kangle-4.png"><br><img src="/images/kangle-5.png" alt="kangle-5.png"><br><img src="/images/kangle-6.png" alt="kangle-6.png"><br><img src="/images/kangle-7.png" alt="kangle-7.png"><br><img src="/images/kangle-8.png" alt="kangle-8.png"></p>
