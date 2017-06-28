@@ -281,7 +281,8 @@ mathjax:
 # Swiftype Search API Key
 #swiftype_key:
 
-# Baidu Analytics ID
+
+# 百度分析ID
 baidu_analytics: 9e073159a364ff621f296acacdfa6ac3
 
 # # Duoshuo ShortName
@@ -325,7 +326,7 @@ gentie_productKey: 04a60dcddfad4edc8db4c7b90268c690
 # See: https://www.google.com/webmasters/
 #google_site_verification:
 
-# Google Analytics
+# 谷歌的分析
 #google_analytics:
 
 # Yandex Webmaster tools verification setting
@@ -403,10 +404,10 @@ busuanzi_count:
   page_pv_footer:
 
 
-# Tencent analytics ID
+# 腾讯分析ID
 # tencent_analytics:
 
-# Tencent MTA ID
+# 腾讯MTA ID
 # tencent_mta:
 
 
