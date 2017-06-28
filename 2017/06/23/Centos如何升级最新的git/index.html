@@ -61,17 +61,17 @@
 
 
 
-<meta name="description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://github.com/git/g">
+<meta name="description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://www.kernel.org/p">
 <meta name="keywords" content="Centos">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Centos如何升级最新的git">
 <meta property="og:url" content="http://hedonglin.com/2017/06/23/Centos如何升级最新的git/index.html">
 <meta property="og:site_name" content="自由之翼">
-<meta property="og:description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://github.com/git/g">
-<meta property="og:updated_time" content="2017-06-22T18:32:26.891Z">
+<meta property="og:description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://www.kernel.org/p">
+<meta property="og:updated_time" content="2017-06-28T07:04:19.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Centos如何升级最新的git">
-<meta name="twitter:description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://github.com/git/g">
+<meta name="twitter:description" content="安装编译git时需要的包（重要）yum install curl-devel expat-devel gettext-devel openssl-devel zlib-develyum install  gcc perl-ExtUtils-MakeMaker 删除已有的gityum remove git 下载git源码cd /usr/srcwget https://www.kernel.org/p">
 
 
 
@@ -403,9 +403,10 @@
       
         <h2 id="安装编译git时需要的包（重要）"><a href="#安装编译git时需要的包（重要）" class="headerlink" title="安装编译git时需要的包（重要）"></a>安装编译git时需要的包（重要）</h2><p>yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel<br>yum install  gcc perl-ExtUtils-MakeMaker</p>
 <h2 id="删除已有的git"><a href="#删除已有的git" class="headerlink" title="删除已有的git"></a>删除已有的git</h2><p>yum remove git</p>
-<h2 id="下载git源码"><a href="#下载git源码" class="headerlink" title="下载git源码"></a>下载git源码</h2><p>cd /usr/src<br><code>wget https://github.com/git/git/archive/git-2.9.2.tar.gz</code><br>tar xzf git-2.9.2.tar.gz</p>
-<h2 id="编译安装（一行一回车）"><a href="#编译安装（一行一回车）" class="headerlink" title="编译安装（一行一回车）"></a>编译安装（一行一回车）</h2><p>cd git-2.9.2<br>make prefix=/usr/local/git all<br>make prefix=/usr/local/git install<br>echo “export PATH=$PATH:/usr/local/git/bin” &gt;&gt; /etc/bashrc<br>source /etc/bashrc</p>
-<h2 id="检查一下版本号"><a href="#检查一下版本号" class="headerlink" title="检查一下版本号"></a>检查一下版本号</h2><p><code>git --version</code><br>显示为：git version 2.9.2</p>
+<h2 id="下载git源码"><a href="#下载git源码" class="headerlink" title="下载git源码"></a>下载git源码</h2><p>cd /usr/src<br>wget <a href="https://www.kernel.org/pub/software/scm/git/git-2.9.4.tar.gz" target="_blank" rel="external">https://www.kernel.org/pub/software/scm/git/git-2.9.4.tar.gz</a><br>tar xzf git-2.9.4.tar.gz</p>
+<h2 id="编译安装（一行一回车）"><a href="#编译安装（一行一回车）" class="headerlink" title="编译安装（一行一回车）"></a>编译安装（一行一回车）</h2><p>cd git-2.9.4<br>make prefix=/usr/local/git all<br>make prefix=/usr/local/git install<br>echo “export PATH=$PATH:/usr/local/git/bin” &gt;&gt; /etc/bashrc<br>source /etc/bashrc</p>
+<h2 id="检查一下版本号"><a href="#检查一下版本号" class="headerlink" title="检查一下版本号"></a>检查一下版本号</h2><p>git –version<br>显示为：git version 2.9.4</p>
+<h2 id="把在服务器生成的公钥放到github上"><a href="#把在服务器生成的公钥放到github上" class="headerlink" title="把在服务器生成的公钥放到github上"></a>把在服务器生成的公钥放到github上</h2><h2 id="汇总"><a href="#汇总" class="headerlink" title="汇总"></a>汇总</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line">yum install  gcc perl-ExtUtils-MakeMaker</div><div class="line">yum remove git</div><div class="line">cd /usr/src</div><div class="line">wget https:<span class="comment">//www.kernel.org/pub/software/scm/git/git-2.9.4.tar.gz</span></div><div class="line">tar xzf git<span class="number">-2.9</span><span class="number">.4</span>.tar.gz</div><div class="line">cd git<span class="number">-2.9</span><span class="number">.4</span></div><div class="line">make prefix=<span class="regexp">/usr/</span>local/git all</div><div class="line">make prefix=<span class="regexp">/usr/</span>local/git install</div><div class="line">echo <span class="string">"export PATH=$PATH:/usr/local/git/bin"</span> &gt;&gt; <span class="regexp">/etc/</span>bashrc</div><div class="line">source /etc/bashrc</div><div class="line">git --version</div><div class="line">cd ~</div><div class="line">ssh-keygen -t rsa -C <span class="string">"你的邮箱@163.com"</span></div></pre></td></tr></table></figure>
 
       
     </div>
@@ -549,7 +550,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">26</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -558,7 +559,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -567,7 +568,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">19</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -647,7 +648,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装编译git时需要的包（重要）"><span class="nav-number">1.</span> <span class="nav-text">安装编译git时需要的包（重要）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除已有的git"><span class="nav-number">2.</span> <span class="nav-text">删除已有的git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载git源码"><span class="nav-number">3.</span> <span class="nav-text">下载git源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编译安装（一行一回车）"><span class="nav-number">4.</span> <span class="nav-text">编译安装（一行一回车）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#检查一下版本号"><span class="nav-number">5.</span> <span class="nav-text">检查一下版本号</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装编译git时需要的包（重要）"><span class="nav-number">1.</span> <span class="nav-text">安装编译git时需要的包（重要）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除已有的git"><span class="nav-number">2.</span> <span class="nav-text">删除已有的git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下载git源码"><span class="nav-number">3.</span> <span class="nav-text">下载git源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#编译安装（一行一回车）"><span class="nav-number">4.</span> <span class="nav-text">编译安装（一行一回车）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#检查一下版本号"><span class="nav-number">5.</span> <span class="nav-text">检查一下版本号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#把在服务器生成的公钥放到github上"><span class="nav-number">6.</span> <span class="nav-text">把在服务器生成的公钥放到github上</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#汇总"><span class="nav-number">7.</span> <span class="nav-text">汇总</span></a></li></ol></div>
             
 
           </div>

@@ -79,7 +79,7 @@
 <meta property="og:image" content="http://hedonglin.com/images/http-7.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-13.png">
 <meta property="og:image" content="http://hedonglin.com/images/http-3.png">
-<meta property="og:updated_time" content="2017-06-22T06:31:58.684Z">
+<meta property="og:updated_time" content="2017-06-24T17:17:43.991Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TCP&#x2F;IP协议">
 <meta name="twitter:description" content="应用层：规定应用程序的数据格式（http）数据包传送：前提条件（对方的MAC地址，对方的IP地址）http数据包(4960)–&amp;gt;TCP数据包(4980)–&amp;gt;IP数据包(开始分割成4个包，每个包占标头20,4980+20*4所以总长5060)–&amp;gt;四个以太网数据包：1500,1500,1500,560 传输层：TCP、UDP协议，端口对端口TCP：具有有确认机制的UDP协议，每发出一">
@@ -422,7 +422,7 @@
 <hr>
 <h2 id="三次握手，建立一个连接"><a href="#三次握手，建立一个连接" class="headerlink" title="三次握手，建立一个连接"></a>三次握手，建立一个连接</h2><p><img src="/images/http-4.png" alt="http-4.png"><br><strong>第一次握手</strong>：客户端发送（<code>SYN=1</code>+随机生成的<code>SeqNum</code>）数据包到服务器，服务器由<code>SYN=1</code>知道客户端要求建立联机；<br><strong>第二次握手</strong>：服务器收到请求确认<code>SYN=1</code>，就向客户端发送{<code>SYN=1</code>,<code>ACK=1</code>,<code>AckNum(客户端SeqNum+1)</code>，随机生成的<code>SeqNum</code>}数据包<br><strong>第三次握手</strong>：客户端收到回应检查(AckNum客户端<code>SeqNum+1</code>)是否正确，ACK是否为1，正确则再次发送<code>AckNum(服务器seqNum+1)</code>,<code>ACK=1</code>,服务器收到后并确认(服务器seqNum+1),ACK=1是否正确；<br><strong>为什么需要三次握手？</strong><br>因为请求有可能会丢失和延迟，请求丢失一般采用了超时重传，如果请求并没有丢失而是延迟到达，那么就会出现重复连接，还有一种情况连接关闭后请求才到达，那么会导致服务器一直在等待，从而浪费资源；</p>
 <hr>
-<h2 id="四次挥手，断开一个连接"><a href="#四次挥手，断开一个连接" class="headerlink" title="四次挥手，断开一个连接"></a>四次挥手，断开一个连接</h2><p><img src="/images/http-5.png" alt="http-5.png"><br><strong>第一次挥手</strong>：客户端发送(<code>FIN=1</code>+随机生成的<code>SeqNum</code>序号)断开连接请求到服务器并等待服务器确认；<br><strong>第二次挥手</strong>：服务器确认后发出确认<code>ACK=1</code>+<code>AckNum(SeqNum+1)</code>包，客户端收到并确认后处于等待状态，等待服务器发送断开请求，此时客户端不再发送数据但可以接受数据；<br><strong>第三次挥手</strong>：服务器发送完数据后，接着发送断开请求<code>FIN=1</code>;<code>ACK=1</code>，<code>SeqNum</code>;<code>AckNum(SeqNum+1)</code>给客户端；<br><strong>第四次挥手</strong>：客户端收到并确认后发送<code>ACK=1</code>;<code>AckNum(SeqNum+1)</code>确认包给服务器，接着等待M秒（可修改）后关闭连接；服务器收到确认包后也关闭连接；<br><strong>为什么采用四次挥手？</strong><br>因为单方面断开连接随时可能丢失数据，比如A、B两个主机，A发出断开连接请求并停止接受该连接的数据，那么B没没收到断开连接请求之前随时可能向主机A发送数据，而主机A已经停止接受数据所以会造成数据丢失；所以采用了两个方向上分别断开连接操作，也就是四次挥手；</p>
+<h2 id="四次挥手，断开一个连接"><a href="#四次挥手，断开一个连接" class="headerlink" title="四次挥手，断开一个连接"></a>四次挥手，断开一个连接</h2><p><img src="/images/http-5.png" alt="http-5.png"><br><strong>第一次挥手</strong>：客户端发送(<code>FIN=1</code>+随机生成的<code>SeqNum</code>序号)断开连接请求到服务器并等待服务器确认；<br><strong>第二次挥手</strong>：服务器确认后发出确认<code>ACK=1</code>+<code>AckNum(SeqNum+1)</code>包，客户端收到并确认后处于等待状态，等待服务器发送断开请求，此时客户端不再发送数据但可以接受数据；<br><strong>第三次挥手</strong>：服务器发送完数据后，接着发送断开请求<code>FIN=1</code>;<code>ACK=1</code>，<code>SeqNum</code>;<code>AckNum(SeqNum+1)</code>给客户端；<br><strong>第四次挥手</strong>：客户端收到并确认后发送<code>ACK=1</code>;<code>AckNum(SeqNum+1)</code>确认包给服务器，接着等待M秒（可修改）后关闭连接；服务器收到确认包后也关闭连接；<br><strong>为什么采用四次挥手？</strong><br>因为单方面断开连接随时可能丢失数据，比如A、B两个主机，A发出断开连接请求并停止接受该连接的数据，那么B没收到断开连接请求之前随时可能向主机A发送数据，而主机A已经停止接受数据所以会造成数据丢失；所以采用了两个方向上分别断开连接操作，也就是四次挥手；</p>
 <h2 id="抓包分析"><a href="#抓包分析" class="headerlink" title="抓包分析"></a>抓包分析</h2><h3 id="Wireshark分析工具"><a href="#Wireshark分析工具" class="headerlink" title="Wireshark分析工具"></a>Wireshark分析工具</h3><p>wireshark只能查看封包，而不能修改封包的内容，或者发送封包。<br><strong>协议过滤</strong><br>　　<code>TCP</code> <code>HTTP</code><br><strong>域名过滤</strong><br>　　http.host==hedonglin.com<br><strong>IP过滤</strong><br>　　ip.addr ==192.168.1.1；显示所有目标或源地址是192.168.1.1；<br>　　ip.dst==192.168.1.1；显示目标地址是192.168.1.1<br>　　ip.src ==192.168.1.1 显示源地址是192.168.1.1<br><strong>端口过滤</strong><br>　　tcp.port ==目标端口80<br><strong>请求方法过滤</strong><br>　　http.request.method==”GET”<br><strong>逻辑运算</strong><br>　　and or not<br><strong>例子</strong><br>　　http and ip.addr == 119.75.216.20 and tcp.port == 80</p>
 <h3 id="查看域名对应的ip地址"><a href="#查看域名对应的ip地址" class="headerlink" title="查看域名对应的ip地址"></a>查看域名对应的ip地址</h3><p>　　ping www.baidu.com</p>
 <p><img src="/images/http-9.png" alt="http-9.png"></p>
@@ -575,7 +575,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">26</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -584,7 +584,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -593,7 +593,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">19</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
