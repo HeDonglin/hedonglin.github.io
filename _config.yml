@@ -2,7 +2,7 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 ## 服务端安装git从github克隆过来
-# cd /home/ftp/h/hedonglin&&git pull
+# cd /home/ftp/h/hedonglin/hedonglin.github.io&&git pull
 # Site
 title: 自由之翼
 subtitle: 与其羡慕别人，不如做好自己
