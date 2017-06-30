@@ -3,6 +3,76 @@
   
     
     <entry>
+      <title><![CDATA[seo网站优化]]></title>
+      <url>/2017/06/30/seo%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/</url>
+      <content type="html"><![CDATA[<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">SEO优化</div><div class="line">        百度权重：第三方网站欢迎度评估数据，权重数值越大，说明网站自然流量越大，自然流量大，那么相应的关键词排名就相对靠前，权重，流量，关键词排名三者之间是相辅相成的。</div><div class="line">            规则：预计从百度搜索进入你网站的IP数量</div><div class="line">               百度预计流量    权重大小</div><div class="line">                <span class="number">1</span>~<span class="number">99</span>          权重<span class="number">1</span></div><div class="line">                <span class="number">100</span>~<span class="number">499</span>       权重<span class="number">2</span></div><div class="line">                <span class="number">500</span>~<span class="number">999</span>       权重<span class="number">3</span></div><div class="line">                <span class="number">1000</span>~<span class="number">4999</span>     权重<span class="number">4</span></div><div class="line">                <span class="number">5000</span>~<span class="number">9999</span>     权重<span class="number">5</span></div><div class="line">                <span class="number">10000</span>~<span class="number">49999</span>   权重<span class="number">6</span></div><div class="line">                <span class="number">50000</span>~<span class="number">199999</span>  权重<span class="number">7</span></div><div class="line">                <span class="number">200000</span>~<span class="number">999999</span> 权重<span class="number">8</span></div><div class="line">                <span class="number">1000000</span>以上     权重<span class="number">9</span></div><div class="line">        关键字：百度官方已说过，关键词和描述不用做计算权重排名，写关键词的目的便于站长工具查词查询排名，描述是便于增加用户体验度。</div><div class="line">        robots协议:网络爬虫协议，机器人协议</div><div class="line">            <span class="number">1</span>、robots.txt可以告诉百度您网站的哪些页面可以被抓取，哪些页面不可以被抓取。</div><div class="line">            <span class="number">2</span>、您可以通过Robots工具来创建、校验、更新您的robots.txt文件，或查看您网站robots.txt文件在百度生效的情况。</div><div class="line">            <span class="number">3</span>、Robots工具暂不支持https站点。</div><div class="line">            <span class="number">4</span>、Robots工具目前支持<span class="number">48</span>k的文件内容检测，请保证您的robots.txt文件不要过大，目录最长不超过<span class="number">250</span>个字符。</div><div class="line">        网站流量：指网站的访问量</div><div class="line">            UV(Unique Visitor，独立访客),访问网站的一台电脑客户端为一个访客，<span class="number">1</span>天内相同的访客多次访问您的网站只计算<span class="number">1</span>个UV。以cookie为依据</div><div class="line">            IP(独立IP数)：指<span class="number">1</span>天内使用不同IP地址的用户访问网站的数量。</div><div class="line">            PV ( page view ，网站浏览量)，点击量，用户每一次对网站中的每个网页访问均被记录一次。用户对同一页面的多次访问，访问量累计。</div><div class="line">            VV(Visit View，访问次数),从访客来到您网站到最终关闭网站的所有页面离开，计为<span class="number">1</span>次访问。若访客连续<span class="number">30</span>分钟没有新开和刷新页面，或者访客关闭了浏览器，则被计算为本次访问结束。</div><div class="line">        采用etag缓存：</div><div class="line">            Sitemap数据提交后，一般在<span class="number">1</span>小时内百度会开始处理。在以后的调度抓取中，如果您的sitemap支持etag，我们会更频繁抓取sitemap文件，从而及时发现内容更新；否则抓取的周期会比较长。</div></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 服务器 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> SEO </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[服务器]]></title>
+      <url>/2017/06/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      <content type="html"><![CDATA[<h2 id="互联网数据中心-IDC"><a href="#互联网数据中心-IDC" class="headerlink" title="互联网数据中心(IDC)"></a>互联网数据中心(IDC)</h2><h2 id="共享带宽和独享带宽的区别"><a href="#共享带宽和独享带宽的区别" class="headerlink" title="共享带宽和独享带宽的区别"></a>共享带宽和独享带宽的区别</h2><p><strong>共享带宽</strong>：一般每个(IDC)机柜30-50M带宽资源，机架内的所有服务器去共享使用这些带宽，不去关心每台服务器具体的带宽使用情况，比如同机柜有服务器做了下载或音乐影视网站，会把整个机柜其他服务器的带宽给耗尽，拖得整个机柜都特别慢，IDC提供的托管租用业务，都会对每个服务器进行峰值设置，意思是一个服务器最大可以跑多少带宽。关于峰值大小，IDC一般不会主动告诉客户，可能会答复你最高可以跑10M，但是你经常跑10M肯定是不被允许的，而且能跑到10M的可能性并不大，一般能跑3-5M就不错了</p>
+<p><strong>独享带宽</strong>：只给单独客户使用的带宽资源，独立的带宽大小，可以保证不会被其他服务器影响。比较常见的有2M独享、5M独享、10M独享和100兆独享<br><strong>收费</strong>：（计算机位费（占用机架空间的机位费用）和带宽费（独享带宽的费用））</p>
+<p><strong>总结</strong><br>共享是指多台服务器共用一定量的带宽，通常为了确保公平，IDC商会对共享的服务器做流量限制，防止某个别共享服务器占用资源太高而影响其他用户，共享带宽售价较低，比较适合中小用户使用。独享是指某用户单独享有一定量的带宽，不与其他用户分享，适用于带宽使用量较大，对带宽品质要求较高的用户群体，例如网游、视频、下载、电子商务及大型门户等，独享费用相对较高。需要强调的是，独享和共享是完全不同的两个概念，二者的价格也不可同日而语。</p>
+<h2 id="10Mb独享带宽相当于多少流量？"><a href="#10Mb独享带宽相当于多少流量？" class="headerlink" title="10Mb独享带宽相当于多少流量？"></a>10Mb独享带宽相当于多少流量？</h2><p>首先要弄清楚10Mb独享带宽，单位是bit，8bit＝1byte。和我们电信的ADSL的2Mb带宽是一个单位。<br>换句话说，我们的2MbADSL最大理论下载速度是256KB（byte）那么10Mb带宽最大速度就是1250KB（约等于1.3MB）/s，1秒钟最大速度是1.3MB（byte），那么10秒13MB，1分钟13×6＝78MB，1小时78×60＝4680MB（4.6G）假设，1天总流量就是24×4.6=110GB，服务器1个月30天都跑满10Mb的带宽（其实这绝对是不可能的），那总流量就是30×110＝3300GB<br>实际上，一条带宽1个月平均能跑满50％就很不错了，也就是说，2000GB的固定流量，也比10Mb独享的带宽要好的多。</p>
+<h2 id="1个月550GB带宽流量可以一天可以支持多个PV-多少个IP？"><a href="#1个月550GB带宽流量可以一天可以支持多个PV-多少个IP？" class="headerlink" title="1个月550GB带宽流量可以一天可以支持多个PV,多少个IP？"></a>1个月550GB带宽流量可以一天可以支持多个PV,多少个IP？</h2><p>假如:一个页面（一个点击量PV）平均为2M(GZIP压缩后)，550GB×1024÷2=281600页面(PV)，一个月31天计算281600÷31≈9084个页面(PV)，假如1个(IP)平均访问10个页面那么9084÷10≈909个(IP);</p>
+<h2 id="什么是双线带宽？"><a href="#什么是双线带宽？" class="headerlink" title="什么是双线带宽？"></a>什么是双线带宽？</h2><p><strong>双线带宽</strong>指的是机房连接电信和联通两条光纤，解决了南北互通问题。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 服务器 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[ChinaNet线路和半程CN2以及全程CN2]]></title>
+      <url>/2017/06/30/ChinaNet%E7%BA%BF%E8%B7%AF%E5%92%8C%E5%8D%8A%E7%A8%8BCN2%E4%BB%A5%E5%8F%8A%E5%85%A8%E7%A8%8BCN2/</url>
+      <content type="html"><![CDATA[<h2 id="ChinaNet-坚而不挺，高峰期硬不起来"><a href="#ChinaNet-坚而不挺，高峰期硬不起来" class="headerlink" title="ChinaNet (坚而不挺，高峰期硬不起来)"></a>ChinaNet (坚而不挺，高峰期硬不起来)</h2><p>城域网A—202.97.×.×—城域网B<br>搬瓦工</p>
+<h2 id="半程CN2-不软不硬，一般般还能接受"><a href="#半程CN2-不软不硬，一般般还能接受" class="headerlink" title="半程CN2 (不软不硬，一般般还能接受)"></a>半程CN2 (不软不硬，一般般还能接受)</h2><p>城域网A—202.97.×.×—59.43.×.×—城域网B<br>洛杉矶C3</p>
+<h2 id="全程CN2-世界加钱可达"><a href="#全程CN2-世界加钱可达" class="headerlink" title="全程CN2 (世界加钱可达)"></a>全程CN2 (世界加钱可达)</h2><p>城域网A—59.43.×.×—城域网B</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 网络 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 网络线路 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[税收征收对象划分]]></title>
       <url>/2017/06/29/%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E5%AF%B9%E8%B1%A1%E5%88%92%E5%88%86/</url>
       <content type="html"><![CDATA[<h2 id="可以使用百度脑图查看"><a href="#可以使用百度脑图查看" class="headerlink" title="可以使用百度脑图查看"></a>可以使用百度脑图查看</h2><p><a href="http://naotu.baidu.com/file/376cdd27063a98763d36eb2cf8ae033d?token=c36c206c1a824c5b" target="_blank" rel="external">http://naotu.baidu.com/file/376cdd27063a98763d36eb2cf8ae033d?token=c36c206c1a824c5b</a></p>
@@ -72,9 +142,20 @@
     <entry>
       <title><![CDATA[如何提高网站性能总结]]></title>
       <url>/2017/06/27/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E6%80%BB%E7%BB%93/</url>
-      <content type="html"><![CDATA[<h2 id="使用缓存机制"><a href="#使用缓存机制" class="headerlink" title="使用缓存机制"></a>使用缓存机制</h2><h3 id="客户端缓存"><a href="#客户端缓存" class="headerlink" title="客户端缓存"></a>客户端缓存</h3><p>Pragma(本地缓存，http1.0)<br>Expires(本地缓存,http1.0,缓存时间相对服务器上的时间)<br>Cache-Control(本地缓存,http1.1，缓存时间相对客户端时间)<br>Etag(协商缓存,http1.1,值是根据索引节，大小和最后修改时间进行Hash处理得到的值)<br>Last-Modified(协商缓存，http1.1，值是根据资源最后修改时间得到)<br>If-None-Match（资源过期则带上Etag值跟服务器Etag对比，相同返回304缓存中读取，不相同返回200更新内容）<br>If-Modified-Since（资源过期则带上Last-Modified值跟服务器Last-Modified值对比，相同返回304缓存中读取，不相同返回200更新内容）<br>本地缓存：Pragma–&gt;Cache-control–&gt;Expires<br>协商缓存：Etag–&gt;last-Modified</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">F5：根据last-Modified的值</div><div class="line">    IE请求头：</div><div class="line">        If-Modified-Since</div><div class="line">    火狐请求头： </div><div class="line">        Cache-Control：&quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line">    谷歌请求头：</div><div class="line">        Cache-Control: &quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line"></div><div class="line">ctrl+F5</div><div class="line">    火狐、谷歌请求头：</div><div class="line">        Pragma:&quot;no-cache&quot;</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div><div class="line"></div><div class="line">    IE请求头:</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div></pre></td></tr></table></figure>
-<h3 id="代理服务器缓存"><a href="#代理服务器缓存" class="headerlink" title="代理服务器缓存"></a>代理服务器缓存</h3>]]></content>
+      <content type="html"><![CDATA[<h2 id="了解浏览器解析与执行过程"><a href="#了解浏览器解析与执行过程" class="headerlink" title="了解浏览器解析与执行过程"></a>了解浏览器解析与执行过程</h2><p>html从上往下执行&gt;&gt;&gt;遇到head中link向服务器请求css文件&gt;&gt;&gt;解析css树（选择符是从右到左进行匹配）&gt;&gt;&gt;遇到body标签里的部分代码结合css进行布局&gt;&gt;&gt;遇到img标签向服务器请求并继续渲染后面的代码&gt;&gt;&gt;图片下载后图片的大小影响了布局浏览器回头重新渲染该部分代码&gt;&gt;&gt;遇到脚本解析并执行（但是会阻塞页面后续的内容（包括页面的渲染、其它资源的下载））&gt;&gt;&gt;如果执行过程中发现代码需要隐藏某部分内容浏览器会重新渲染该部分代码&gt;&gt;&gt;当用户点击换肤按钮&gt;&gt;&gt;浏览器向服务器发出请求重新渲染页面</p>
+<h2 id="了解互联网协议"><a href="#了解互联网协议" class="headerlink" title="了解互联网协议"></a>了解互联网协议</h2><p><a href="http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html?20151020222130" target="_blank" rel="external">互联网协议入门（一）阮一峰</a><br><a href="http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html" target="_blank" rel="external">互联网协议入门（二）阮一峰</a></p>
+<h2 id="了解DNS原理"><a href="#了解DNS原理" class="headerlink" title="了解DNS原理"></a>了解DNS原理</h2><p><a href="http://www.ruanyifeng.com/blog/2016/06/dns.html" target="_blank" rel="external">DNS 原理入门阮一峰</a></p>
+<h2 id="了解HTTP协议"><a href="#了解HTTP协议" class="headerlink" title="了解HTTP协议"></a>了解HTTP协议</h2><p>《HTTP权威指南》<br><a href="http://www.ruanyifeng.com/blog/2016/08/http.html" target="_blank" rel="external">HTTP 协议入门阮一峰</a></p>
+<h2 id="了解TCP-IP协议"><a href="#了解TCP-IP协议" class="headerlink" title="了解TCP/IP协议"></a>了解TCP/IP协议</h2><p>《TCP/IP网络与协议》—兰少华, ‎杨余旺, ‎吕建勇<br>《TCP/IP协议原理与应用(第4版)》<br>《TCP/IP详解卷1：协议》<br>《TCP/IP详解卷2：实现》<br>《TCP/IP详解卷3：TCP事务协议、HTTP、NNTP和UNIX域协议》</p>
+<h2 id="关于网站性能分析（最好先了解相关协议）"><a href="#关于网站性能分析（最好先了解相关协议）" class="headerlink" title="关于网站性能分析（最好先了解相关协议）"></a>关于网站性能分析（最好先了解相关协议）</h2><p>《Web性能权威指南》–强烈推荐<br>《高性能网站建设指南》<br>《高性能网站进阶指南》<br>《构建高性能Web站点》</p>
+<h2 id="页面内容"><a href="#页面内容" class="headerlink" title="页面内容"></a>页面内容</h2><h3 id="减少HTTP请求次数–节省服务器带宽，提高性能"><a href="#减少HTTP请求次数–节省服务器带宽，提高性能" class="headerlink" title="减少HTTP请求次数–节省服务器带宽，提高性能"></a>减少HTTP请求次数–节省服务器带宽，提高性能</h3><p>html,css,js压缩合并；（注意：带来一个问题如果该页面有些内容是不需要的，如何清除）<br>降低图片大小；零星细小的图片采用雪碧图</p>
+<h3 id="减少DNS查询次数–减少域名主机，合理分配主机个数"><a href="#减少DNS查询次数–减少域名主机，合理分配主机个数" class="headerlink" title="减少DNS查询次数–减少域名主机，合理分配主机个数"></a>减少DNS查询次数–减少域名主机，合理分配主机个数</h3><p>为达到更高的性能，DNS解析通常被多级别地缓存。如由ISP或本地网络维护的DNS缓存服务器，用户机器操作系统的缓存。<br>减少域名主机可减少DNS查询的次数，但可能造成并行下载数的减少。避免 DNS查询可减少响应时间，而减少并行下载数可能增加响应时间。一个可行的折中是把内容分布到至少2个，最多4个不同的主机名上。</p>
+<h3 id="避免页面跳转–避免重定向"><a href="#避免页面跳转–避免重定向" class="headerlink" title="避免页面跳转–避免重定向"></a>避免页面跳转–避免重定向</h3><h3 id="缓存Ajax"><a href="#缓存Ajax" class="headerlink" title="缓存Ajax"></a>缓存Ajax</h3><h3 id="延迟加载"><a href="#延迟加载" class="headerlink" title="延迟加载"></a>延迟加载</h3><h3 id="提前加载"><a href="#提前加载" class="headerlink" title="提前加载"></a>提前加载</h3><h3 id="减少DOM元素数量"><a href="#减少DOM元素数量" class="headerlink" title="减少DOM元素数量"></a>减少DOM元素数量</h3><h3 id="根据域名划分内容"><a href="#根据域名划分内容" class="headerlink" title="根据域名划分内容"></a>根据域名划分内容</h3><h3 id="减少iframe数量"><a href="#减少iframe数量" class="headerlink" title="减少iframe数量"></a>减少iframe数量</h3><h3 id="避免404"><a href="#避免404" class="headerlink" title="避免404"></a>避免404</h3><p>网站根目录下放置favicon.ico</p>
+<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="强制本地缓存–精确的缓存控制"><a href="#强制本地缓存–精确的缓存控制" class="headerlink" title="强制本地缓存–精确的缓存控制"></a>强制本地缓存–精确的缓存控制</h3><p>Pragma(本地缓存，http1.0)<br>Expires(本地缓存,http1.0,缓存时间相对服务器上的时间)<br>Cache-Control(本地缓存,http1.1，缓存时间相对客户端时间)<br>Etag(协商缓存,http1.1,值是根据索引节，大小和最后修改时间进行Hash处理得到的值)<br>Last-Modified(协商缓存，http1.1，值是根据资源最后修改时间得到)<br>If-None-Match（资源过期则带上Etag值跟服务器Etag对比，相同返回304缓存中读取，不相同返回200更新内容）<br>If-Modified-Since（资源过期则带上Last-Modified值跟服务器Last-Modified值对比，相同返回304缓存中读取，不相同返回200更新内容）<br>本地缓存：Pragma–&gt;Cache-control–&gt;Expires<br>协商缓存：Etag–&gt;last-Modified<br>使用缓存带来的几个问题：<br>    集群环境下，应该舍弃Last-Modified而用etag，各个服务器上的文件时间可能不同，或者同一服务器不同路径的相同文件也时间不同；<br>    Etag在多服务器的时候，索引节不一样，导致用户有可能重复下载，解决办法可采用大小和最后修改时间进行Hash就完美了；<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">F5：根据last-Modified的值</div><div class="line">    IE请求头：</div><div class="line">        If-Modified-Since</div><div class="line">    火狐请求头： </div><div class="line">        Cache-Control：&quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line">    谷歌请求头：</div><div class="line">        Cache-Control: &quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line"></div><div class="line">ctrl+F5</div><div class="line">    火狐、谷歌请求头：</div><div class="line">        Pragma:&quot;no-cache&quot;</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div><div class="line"></div><div class="line">    IE请求头:</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div></pre></td></tr></table></figure></p>
+<h3 id="减少cookie大小或页面内容使用无cookie域名"><a href="#减少cookie大小或页面内容使用无cookie域名" class="headerlink" title="减少cookie大小或页面内容使用无cookie域名"></a>减少cookie大小或页面内容使用无cookie域名</h3><p>比如图片CSS等静态文件放在静态资源服务器上并配置单独域名，客户端请求静态文件的时候，减少COOKIE反复传输时对主域名的影响。</p>
+<h3 id="采用CDN内容分发网络–缩短距离，优化网络请求"><a href="#采用CDN内容分发网络–缩短距离，优化网络请求" class="headerlink" title="采用CDN内容分发网络–缩短距离，优化网络请求"></a>采用CDN内容分发网络–缩短距离，优化网络请求</h3><h3 id="压缩要传输的文件-Gzip-–减少传输时间"><a href="#压缩要传输的文件-Gzip-–减少传输时间" class="headerlink" title="压缩要传输的文件(Gzip)–减少传输时间"></a>压缩要传输的文件(Gzip)–减少传输时间</h3><h3 id="避免空的图片src"><a href="#避免空的图片src" class="headerlink" title="避免空的图片src"></a>避免空的图片src</h3><h2 id="Css"><a href="#Css" class="headerlink" title="Css"></a>Css</h2><h3 id="样式表放在头部"><a href="#样式表放在头部" class="headerlink" title="样式表放在头部"></a>样式表放在头部</h3><h3 id="避免回流与重绘"><a href="#避免回流与重绘" class="headerlink" title="避免回流与重绘"></a>避免回流与重绘</h3><p>预先定义好类名,只需修改DOM上的类名属性值<br>为动画的html元件使用absolute或fixed<br>不使用table布局<br>不要把DOM 结点的属性值放在一个循环里当成循环里的变量</p>
+<h3 id="避免CSS表达式"><a href="#避免CSS表达式" class="headerlink" title="避免CSS表达式"></a>避免CSS表达式</h3><h3 id="设置通用样式"><a href="#设置通用样式" class="headerlink" title="设置通用样式"></a>设置通用样式</h3><h3 id="避免使用filters"><a href="#避免使用filters" class="headerlink" title="避免使用filters"></a>避免使用filters</h3><h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><h3 id="脚本放在底部"><a href="#脚本放在底部" class="headerlink" title="脚本放在底部"></a>脚本放在底部</h3><p>脚本执行时会阻塞页面后续的内容（包括页面的渲染、其它资源的下载）<br>将所有的script标签放到页面底部，也就是body闭合标签之前</p>
+<h3 id="使用外部Javascript和Css文件"><a href="#使用外部Javascript和Css文件" class="headerlink" title="使用外部Javascript和Css文件"></a>使用外部Javascript和Css文件</h3><h3 id="精简Javascript和Css"><a href="#精简Javascript和Css" class="headerlink" title="精简Javascript和Css"></a>精简Javascript和Css</h3><h3 id="去除重复脚本"><a href="#去除重复脚本" class="headerlink" title="去除重复脚本"></a>去除重复脚本</h3><h3 id="减少DOM访问"><a href="#减少DOM访问" class="headerlink" title="减少DOM访问"></a>减少DOM访问</h3><h3 id="使用智能事件处理"><a href="#使用智能事件处理" class="headerlink" title="使用智能事件处理"></a>使用智能事件处理</h3><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><h3 id="优化图片质量，降低图片大小"><a href="#优化图片质量，降低图片大小" class="headerlink" title="优化图片质量，降低图片大小"></a>优化图片质量，降低图片大小</h3><h3 id="合并零星图片，采用雪碧图"><a href="#合并零星图片，采用雪碧图" class="headerlink" title="合并零星图片，采用雪碧图"></a>合并零星图片，采用雪碧图</h3><h3 id="不要在html中缩放图片"><a href="#不要在html中缩放图片" class="headerlink" title="不要在html中缩放图片"></a>不要在html中缩放图片</h3><h3 id="使用小且可缓存的favico-ico"><a href="#使用小且可缓存的favico-ico" class="headerlink" title="使用小且可缓存的favico.ico"></a>使用小且可缓存的favico.ico</h3><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="尽最大可能重用已经建立的-TCP-连接-长连接"><a href="#尽最大可能重用已经建立的-TCP-连接-长连接" class="headerlink" title="尽最大可能重用已经建立的 TCP 连接(长连接)"></a>尽最大可能重用已经建立的 TCP 连接(长连接)</h3><h3 id="采用非覆盖方式发布–平滑升级"><a href="#采用非覆盖方式发布–平滑升级" class="headerlink" title="采用非覆盖方式发布–平滑升级"></a>采用非覆盖方式发布–平滑升级</h3>]]></content>
       
         <categories>
             
@@ -96,6 +177,7 @@
       <url>/2017/06/23/%E7%BD%91%E7%BB%9C%E8%B7%AF%E7%94%B1%E6%9F%A5%E8%AF%A2%E5%B7%A5%E5%85%B7MTR/</url>
       <content type="html"><![CDATA[<h2 id="服务器到本地"><a href="#服务器到本地" class="headerlink" title="服务器到本地"></a>服务器到本地</h2><p>Centos安装MTR<br>yum install mtr -y<br>查询命令：mtr 目标ip地址<br><img src="/images/ip-2.png" alt="ip-2.png"></p>
 <h2 id="本地到服务器"><a href="#本地到服务器" class="headerlink" title="本地到服务器"></a>本地到服务器</h2><p>下载MTR软件：<a href="http://www.winmtr.net" target="_blank" rel="external">http://www.winmtr.net</a><br><img src="/images/ip-1.png" alt="ip-1.png"><br><img src="/images/ip-3.png" alt="ip-3.png"><br><img src="/images/ip-4.png" alt="ip-4.png"></p>
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p><code>win+R</code>输入<code>cmd</code>回车<br><code>tracert</code> 目标ip地址<br><code>ping</code> 目标ip地址 -t<br><code>ctrl+c</code> 退出</p>
 ]]></content>
       
         <categories>
@@ -107,7 +189,7 @@
         
         <tags>
             
-            <tag> 查询 </tag>
+            <tag> 网络查询 </tag>
             
         </tags>
         
@@ -1070,7 +1152,7 @@
 <p>我的网站<a href="http://hedonglin.com" title="hedonglin博客">博客</a>、<a href="http://hedonglin.com" title="资源博客">博客2</a>、<a href="http://www.hedonglin.com" title="www资源博客" target="_blank" rel="external">笔记</a>还有个特殊的描述<a href="https://www.baidu.com" title="百度" target="_blank" rel="external">百度</a>;</p>
 <hr>
 <h1 id="自动连接"><a href="#自动连接" class="headerlink" title="自动连接"></a>自动连接</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://www.youku.com&gt;</div><div class="line">&lt;http://hedonglin.com&gt;</div><div class="line">&lt;hedonglin@163.com&gt;</div></pre></td></tr></table></figure>
-<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#104;&#101;&#100;&#111;&#x6e;&#103;&#x6c;&#105;&#110;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#104;&#101;&#100;&#111;&#x6e;&#103;&#x6c;&#105;&#110;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a></p>
+<p><a href="http://www.youku.com" target="_blank" rel="external">http://www.youku.com</a><br><a href="http://hedonglin.com">http://hedonglin.com</a><br><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x68;&#x65;&#x64;&#111;&#110;&#103;&#x6c;&#x69;&#110;&#64;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;">&#x68;&#x65;&#x64;&#111;&#110;&#103;&#x6c;&#x69;&#110;&#64;&#x31;&#54;&#51;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <hr>
 <h1 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[锚点](#jump)</div><div class="line">&lt;span id = &quot;jump&quot;&gt;跳转到这里&lt;/span&gt;</div></pre></td></tr></table></figure>
 <p><a href="#jump">锚点</a><br><span id="jump">跳转到这里</span></p>

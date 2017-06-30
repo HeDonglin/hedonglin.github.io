@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hedonglin.com/"/>
-  <updated>2017-06-29T16:02:11.542Z</updated>
+  <updated>2017-06-30T09:16:22.323Z</updated>
   <id>http://hedonglin.com/</id>
   
   <author>
@@ -16,11 +16,87 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>seo网站优化</title>
+    <link href="http://hedonglin.com/2017/06/30/seo%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/"/>
+    <id>http://hedonglin.com/2017/06/30/seo网站优化/</id>
+    <published>2017-06-30T09:14:58.000Z</published>
+    <updated>2017-06-30T09:16:22.323Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">SEO优化</div><div class="line">        百度权重：第三方网站欢迎度评估数据，权重数值越大，说明网站自然流量越大，自然流量大，那么相应的关键词排名就相对靠前，权重，流量，关键词排名三者之间是相辅相成的。</div><div class="line">            规则：预计从百度搜索进入你网站的IP数量</div><div class="line">               百度预计流量    权重大小</div><div class="line">                <span class="number">1</span>~<span class="number">99</span>          权重<span class="number">1</span></div><div class="line">                <span class="number">100</span>~<span class="number">499</span>       权重<span class="number">2</span></div><div class="line">                <span class="number">500</span>~<span class="number">999</span>       权重<span class="number">3</span></div><div class="line">                <span class="number">1000</span>~<span class="number">4999</span>     权重<span class="number">4</span></div><div class="line">                <span class="number">5000</span>~<span class="number">9999</span>     权重<span class="number">5</span></div><div class="line">                <span class="number">10000</span>~<span class="number">49999</span>   权重<span class="number">6</span></div><div class="line">                <span class="number">50000</span>~<span class="number">199999</span>  权重<span class="number">7</span></div><div class="line">                <span class="number">200000</span>~<span class="number">999999</span> 权重<span class="number">8</span></div><div class="line">                <span class="number">1000000</span>以上     权重<span class="number">9</span></div><div class="line">        关键字：百度官方已说过，关键词和描述不用做计算权重排名，写关键词的目的便于站长工具查词查询排名，描述是便于增加用户体验度。</div><div class="line">        robots协议:网络爬虫协议，机器人协议</div><div class="line">            <span class="number">1</span>、robots.txt可以告诉百度您网站的哪些页面可以被抓取，哪些页面不可以被抓取。</div><div class="line">            <span class="number">2</span>、您可以通过Robots工具来创建、校验、更新您的robots.txt文件，或查看您网站robots.txt文件在百度生效的情况。</div><div class="line">            <span class="number">3</span>、Robots工具暂不支持https站点。</div><div class="line">            <span class="number">4</span>、Robots工具目前支持<span class="number">48</span>k的文件内容检测，请保证您的robots.txt文件不要过大，目录最长不超过<span class="number">250</span>个字符。</div><div class="line">        网站流量：指网站的访问量</div><div class="line">            UV(Unique Visitor，独立访客),访问网站的一台电脑客户端为一个访客，<span class="number">1</span>天内相同的访客多次访问您的网站只计算<span class="number">1</span>个UV。以cookie为依据</div><div class="line">            IP(独立IP数)：指<span class="number">1</span>天内使用不同IP地址的用户访问网站的数量。</div><div class="line">            PV ( page view ，网站浏览量)，点击量，用户每一次对网站中的每个网页访问均被记录一次。用户对同一页面的多次访问，访问量累计。</div><div class="line">            VV(Visit View，访问次数),从访客来到您网站到最终关闭网站的所有页面离开，计为<span class="number">1</span>次访问。若访客连续<span class="number">30</span>分钟没有新开和刷新页面，或者访客关闭了浏览器，则被计算为本次访问结束。</div><div class="line">        采用etag缓存：</div><div class="line">            Sitemap数据提交后，一般在<span class="number">1</span>小时内百度会开始处理。在以后的调度抓取中，如果您的sitemap支持etag，我们会更频繁抓取sitemap文件，从而及时发现内容更新；否则抓取的周期会比较长。</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://hedonglin.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="SEO" scheme="http://hedonglin.com/tags/SEO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务器</title>
+    <link href="http://hedonglin.com/2017/06/30/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://hedonglin.com/2017/06/30/服务器/</id>
+    <published>2017-06-30T06:56:51.000Z</published>
+    <updated>2017-06-30T10:21:09.377Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="互联网数据中心-IDC"><a href="#互联网数据中心-IDC" class="headerlink" title="互联网数据中心(IDC)"></a>互联网数据中心(IDC)</h2><h2 id="共享带宽和独享带宽的区别"><a href="#共享带宽和独享带宽的区别" class="headerlink" title="共享带宽和独享带宽的区别"></a>共享带宽和独享带宽的区别</h2><p><strong>共享带宽</strong>：一般每个(IDC)机柜30-50M带宽资源，机架内的所有服务器去共享使用这些带宽，不去关心每台服务器具体的带宽使用情况，比如同机柜有服务器做了下载或音乐影视网站，会把整个机柜其他服务器的带宽给耗尽，拖得整个机柜都特别慢，IDC提供的托管租用业务，都会对每个服务器进行峰值设置，意思是一个服务器最大可以跑多少带宽。关于峰值大小，IDC一般不会主动告诉客户，可能会答复你最高可以跑10M，但是你经常跑10M肯定是不被允许的，而且能跑到10M的可能性并不大，一般能跑3-5M就不错了</p>
+<p><strong>独享带宽</strong>：只给单独客户使用的带宽资源，独立的带宽大小，可以保证不会被其他服务器影响。比较常见的有2M独享、5M独享、10M独享和100兆独享<br><strong>收费</strong>：（计算机位费（占用机架空间的机位费用）和带宽费（独享带宽的费用））</p>
+<p><strong>总结</strong><br>共享是指多台服务器共用一定量的带宽，通常为了确保公平，IDC商会对共享的服务器做流量限制，防止某个别共享服务器占用资源太高而影响其他用户，共享带宽售价较低，比较适合中小用户使用。独享是指某用户单独享有一定量的带宽，不与其他用户分享，适用于带宽使用量较大，对带宽品质要求较高的用户群体，例如网游、视频、下载、电子商务及大型门户等，独享费用相对较高。需要强调的是，独享和共享是完全不同的两个概念，二者的价格也不可同日而语。</p>
+<h2 id="10Mb独享带宽相当于多少流量？"><a href="#10Mb独享带宽相当于多少流量？" class="headerlink" title="10Mb独享带宽相当于多少流量？"></a>10Mb独享带宽相当于多少流量？</h2><p>首先要弄清楚10Mb独享带宽，单位是bit，8bit＝1byte。和我们电信的ADSL的2Mb带宽是一个单位。<br>换句话说，我们的2MbADSL最大理论下载速度是256KB（byte）那么10Mb带宽最大速度就是1250KB（约等于1.3MB）/s，1秒钟最大速度是1.3MB（byte），那么10秒13MB，1分钟13×6＝78MB，1小时78×60＝4680MB（4.6G）假设，1天总流量就是24×4.6=110GB，服务器1个月30天都跑满10Mb的带宽（其实这绝对是不可能的），那总流量就是30×110＝3300GB<br>实际上，一条带宽1个月平均能跑满50％就很不错了，也就是说，2000GB的固定流量，也比10Mb独享的带宽要好的多。</p>
+<h2 id="1个月550GB带宽流量可以一天可以支持多个PV-多少个IP？"><a href="#1个月550GB带宽流量可以一天可以支持多个PV-多少个IP？" class="headerlink" title="1个月550GB带宽流量可以一天可以支持多个PV,多少个IP？"></a>1个月550GB带宽流量可以一天可以支持多个PV,多少个IP？</h2><p>假如:一个页面（一个点击量PV）平均为2M(GZIP压缩后)，550GB×1024÷2=281600页面(PV)，一个月31天计算281600÷31≈9084个页面(PV)，假如1个(IP)平均访问10个页面那么9084÷10≈909个(IP);</p>
+<h2 id="什么是双线带宽？"><a href="#什么是双线带宽？" class="headerlink" title="什么是双线带宽？"></a>什么是双线带宽？</h2><p><strong>双线带宽</strong>指的是机房连接电信和联通两条光纤，解决了南北互通问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;互联网数据中心-IDC&quot;&gt;&lt;a href=&quot;#互联网数据中心-IDC&quot; class=&quot;headerlink&quot; title=&quot;互联网数据中心(IDC)&quot;&gt;&lt;/a&gt;互联网数据中心(IDC)&lt;/h2&gt;&lt;h2 id=&quot;共享带宽和独享带宽的区别&quot;&gt;&lt;a href=&quot;#共享带
+    
+    </summary>
+    
+      <category term="服务器" scheme="http://hedonglin.com/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="服务器" scheme="http://hedonglin.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ChinaNet线路和半程CN2以及全程CN2</title>
+    <link href="http://hedonglin.com/2017/06/30/ChinaNet%E7%BA%BF%E8%B7%AF%E5%92%8C%E5%8D%8A%E7%A8%8BCN2%E4%BB%A5%E5%8F%8A%E5%85%A8%E7%A8%8BCN2/"/>
+    <id>http://hedonglin.com/2017/06/30/ChinaNet线路和半程CN2以及全程CN2/</id>
+    <published>2017-06-30T05:25:43.000Z</published>
+    <updated>2017-06-30T08:52:41.350Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="ChinaNet-坚而不挺，高峰期硬不起来"><a href="#ChinaNet-坚而不挺，高峰期硬不起来" class="headerlink" title="ChinaNet (坚而不挺，高峰期硬不起来)"></a>ChinaNet (坚而不挺，高峰期硬不起来)</h2><p>城域网A—202.97.×.×—城域网B<br>搬瓦工</p>
+<h2 id="半程CN2-不软不硬，一般般还能接受"><a href="#半程CN2-不软不硬，一般般还能接受" class="headerlink" title="半程CN2 (不软不硬，一般般还能接受)"></a>半程CN2 (不软不硬，一般般还能接受)</h2><p>城域网A—202.97.×.×—59.43.×.×—城域网B<br>洛杉矶C3</p>
+<h2 id="全程CN2-世界加钱可达"><a href="#全程CN2-世界加钱可达" class="headerlink" title="全程CN2 (世界加钱可达)"></a>全程CN2 (世界加钱可达)</h2><p>城域网A—59.43.×.×—城域网B</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;ChinaNet-坚而不挺，高峰期硬不起来&quot;&gt;&lt;a href=&quot;#ChinaNet-坚而不挺，高峰期硬不起来&quot; class=&quot;headerlink&quot; title=&quot;ChinaNet (坚而不挺，高峰期硬不起来)&quot;&gt;&lt;/a&gt;ChinaNet (坚而不挺，高峰期硬不起
+    
+    </summary>
+    
+      <category term="网络" scheme="http://hedonglin.com/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="网络线路" scheme="http://hedonglin.com/tags/%E7%BD%91%E7%BB%9C%E7%BA%BF%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>税收征收对象划分</title>
     <link href="http://hedonglin.com/2017/06/29/%E7%A8%8E%E6%94%B6%E5%BE%81%E6%94%B6%E5%AF%B9%E8%B1%A1%E5%88%92%E5%88%86/"/>
     <id>http://hedonglin.com/2017/06/29/税收征收对象划分/</id>
     <published>2017-06-29T15:30:13.000Z</published>
-    <updated>2017-06-29T16:02:11.542Z</updated>
+    <updated>2017-06-29T16:09:42.114Z</updated>
     
     <content type="html"><![CDATA[<h2 id="可以使用百度脑图查看"><a href="#可以使用百度脑图查看" class="headerlink" title="可以使用百度脑图查看"></a>可以使用百度脑图查看</h2><p><a href="http://naotu.baidu.com/file/376cdd27063a98763d36eb2cf8ae033d?token=c36c206c1a824c5b" target="_blank" rel="external">http://naotu.baidu.com/file/376cdd27063a98763d36eb2cf8ae033d?token=c36c206c1a824c5b</a></p>
 <h2 id="下图可以通过按住中键左右移动"><a href="#下图可以通过按住中键左右移动" class="headerlink" title="下图可以通过按住中键左右移动"></a>下图可以通过按住中键左右移动</h2><iframe src="/images/kuaiji.svg" width="800px" height="2400px"></iframe>
@@ -44,7 +120,7 @@
     <link href="http://hedonglin.com/2017/06/28/%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86%E7%94%B5%E5%BD%B1/"/>
     <id>http://hedonglin.com/2017/06/28/豆瓣高分电影/</id>
     <published>2017-06-28T04:43:45.000Z</published>
-    <updated>2017-06-29T15:26:32.303Z</updated>
+    <updated>2017-06-29T16:02:16.384Z</updated>
     
     <content type="html"><![CDATA[<h2 id="喜剧，爱情，科幻，悬疑，恐怖，成长"><a href="#喜剧，爱情，科幻，悬疑，恐怖，成长" class="headerlink" title="喜剧，爱情，科幻，悬疑，恐怖，成长"></a>喜剧，爱情，科幻，悬疑，恐怖，成长</h2><h3 id="肖申克的救赎-9-6"><a href="#肖申克的救赎-9-6" class="headerlink" title="肖申克的救赎 9.6"></a>肖申克的救赎 9.6</h3><h3 id="控方证人-9-6"><a href="#控方证人-9-6" class="headerlink" title="控方证人 9.6"></a>控方证人 9.6</h3><h3 id="霸王别姬-9-5"><a href="#霸王别姬-9-5" class="headerlink" title="霸王别姬 9.5"></a>霸王别姬 9.5</h3><h3 id="美丽人生-9-5"><a href="#美丽人生-9-5" class="headerlink" title="美丽人生 9.5"></a>美丽人生 9.5</h3><h3 id="阿甘正传-9-4"><a href="#阿甘正传-9-4" class="headerlink" title="阿甘正传 9.4"></a>阿甘正传 9.4</h3><h3 id="这个杀手不太冷-9-4"><a href="#这个杀手不太冷-9-4" class="headerlink" title="这个杀手不太冷 9.4"></a>这个杀手不太冷 9.4</h3><h3 id="泰坦尼克号-9-2"><a href="#泰坦尼克号-9-2" class="headerlink" title="泰坦尼克号 9.2"></a>泰坦尼克号 9.2</h3><h3 id="城市之光-9-2"><a href="#城市之光-9-2" class="headerlink" title="城市之光 9.2"></a>城市之光 9.2</h3><h3 id="摩登时代-9-2"><a href="#摩登时代-9-2" class="headerlink" title="摩登时代 9.2"></a>摩登时代 9.2</h3><h3 id="摔跤吧！爸爸-9-2"><a href="#摔跤吧！爸爸-9-2" class="headerlink" title="摔跤吧！爸爸 9.2"></a>摔跤吧！爸爸 9.2</h3><h3 id="盗梦空间-9-2"><a href="#盗梦空间-9-2" class="headerlink" title="盗梦空间 9.2"></a>盗梦空间 9.2</h3><h3 id="七武士-9-2"><a href="#七武士-9-2" class="headerlink" title="七武士 9.2"></a>七武士 9.2</h3><h3 id="东京物语-9-2"><a href="#东京物语-9-2" class="headerlink" title="东京物语 9.2"></a>东京物语 9.2</h3><h3 id="大话西游之仙履奇緣-9-2"><a href="#大话西游之仙履奇緣-9-2" class="headerlink" title="大话西游之仙履奇緣 9.2"></a>大话西游之仙履奇緣 9.2</h3><h3 id="辩护人-9-1"><a href="#辩护人-9-1" class="headerlink" title="辩护人 9.1"></a>辩护人 9.1</h3><h3 id="三傻大闹宝莱坞-9-1"><a href="#三傻大闹宝莱坞-9-1" class="headerlink" title="三傻大闹宝莱坞 9.1"></a>三傻大闹宝莱坞 9.1</h3><h3 id="触不可及-9-1"><a href="#触不可及-9-1" class="headerlink" title="触不可及 9.1"></a>触不可及 9.1</h3><h3 id="星际穿越-9-1"><a href="#星际穿越-9-1" class="headerlink" title="星际穿越 9.1"></a>星际穿越 9.1</h3><h3 id="活着-9-0"><a href="#活着-9-0" class="headerlink" title="活着 9.0"></a>活着 9.0</h3><h3 id="少年派的奇幻漂流-9-0"><a href="#少年派的奇幻漂流-9-0" class="headerlink" title="少年派的奇幻漂流 9.0"></a>少年派的奇幻漂流 9.0</h3><h3 id="楚门的世界-9-0"><a href="#楚门的世界-9-0" class="headerlink" title="楚门的世界 9.0"></a>楚门的世界 9.0</h3><h3 id="无间道-9-0"><a href="#无间道-9-0" class="headerlink" title="无间道 9.0"></a>无间道 9.0</h3><h3 id="淘金记-9-0"><a href="#淘金记-9-0" class="headerlink" title="淘金记 9.0"></a>淘金记 9.0</h3><h3 id="饮食男女-9-0"><a href="#饮食男女-9-0" class="headerlink" title="饮食男女 9.0"></a>饮食男女 9.0</h3><h3 id="两杆大烟枪-9-0"><a href="#两杆大烟枪-9-0" class="headerlink" title="两杆大烟枪 9.0"></a>两杆大烟枪 9.0</h3><h3 id="飞越疯人院-9-0"><a href="#飞越疯人院-9-0" class="headerlink" title="飞越疯人院 9.0"></a>飞越疯人院 9.0</h3><h3 id="被嫌弃的松子的一生-8-9"><a href="#被嫌弃的松子的一生-8-9" class="headerlink" title="被嫌弃的松子的一生 8.9"></a>被嫌弃的松子的一生 8.9</h3><h3 id="熔炉-8-9"><a href="#熔炉-8-9" class="headerlink" title="熔炉 8.9"></a>熔炉 8.9</h3><h3 id="大独裁者-8-9"><a href="#大独裁者-8-9" class="headerlink" title="大独裁者 8.9"></a>大独裁者 8.9</h3><h3 id="怦然心动-8-9"><a href="#怦然心动-8-9" class="headerlink" title="怦然心动 8.9"></a>怦然心动 8.9</h3><h3 id="大话西游之月光宝盒-8-9"><a href="#大话西游之月光宝盒-8-9" class="headerlink" title="大话西游之月光宝盒 8.9"></a>大话西游之月光宝盒 8.9</h3><h3 id="美丽心灵-8-9"><a href="#美丽心灵-8-9" class="headerlink" title="美丽心灵 8.9"></a>美丽心灵 8.9</h3><h3 id="V字仇杀队-8-8"><a href="#V字仇杀队-8-8" class="headerlink" title="V字仇杀队 8.8"></a>V字仇杀队 8.8</h3><h3 id="拯救大兵瑞恩-8-8"><a href="#拯救大兵瑞恩-8-8" class="headerlink" title="拯救大兵瑞恩 8.8"></a>拯救大兵瑞恩 8.8</h3><h3 id="地球上的星星-8-8"><a href="#地球上的星星-8-8" class="headerlink" title="地球上的星星 8.8"></a>地球上的星星 8.8</h3><h3 id="看不见的客人-8-7"><a href="#看不见的客人-8-7" class="headerlink" title="看不见的客人 8.7"></a>看不见的客人 8.7</h3><h3 id="一个叫欧维的男人决定去死-8-7"><a href="#一个叫欧维的男人决定去死-8-7" class="headerlink" title="一个叫欧维的男人决定去死 8.7"></a>一个叫欧维的男人决定去死 8.7</h3><h3 id="盲井-8-7"><a href="#盲井-8-7" class="headerlink" title="盲井 8.7"></a>盲井 8.7</h3><h3 id="恐怖直播-8-7"><a href="#恐怖直播-8-7" class="headerlink" title="恐怖直播 8.7"></a>恐怖直播 8.7</h3><h3 id="消失的爱人-8-7"><a href="#消失的爱人-8-7" class="headerlink" title="消失的爱人 8.7"></a>消失的爱人 8.7</h3><h3 id="让子弹飞-8-7"><a href="#让子弹飞-8-7" class="headerlink" title="让子弹飞 8.7"></a>让子弹飞 8.7</h3><h3 id="本杰明-巴顿奇事-8-7"><a href="#本杰明-巴顿奇事-8-7" class="headerlink" title="本杰明.巴顿奇事 8.7"></a>本杰明.巴顿奇事 8.7</h3><h3 id="东成西就-8-7"><a href="#东成西就-8-7" class="headerlink" title="东成西就 8.7"></a>东成西就 8.7</h3><h3 id="小萝莉的猴神大叔-8-7"><a href="#小萝莉的猴神大叔-8-7" class="headerlink" title="小萝莉的猴神大叔 8.7"></a>小萝莉的猴神大叔 8.7</h3><h3 id="七宗罪-8-7"><a href="#七宗罪-8-7" class="headerlink" title="七宗罪 8.7"></a>七宗罪 8.7</h3><h3 id="蝴蝶效应-8-7"><a href="#蝴蝶效应-8-7" class="headerlink" title="蝴蝶效应 8.7"></a>蝴蝶效应 8.7</h3><h3 id="超脱-8-7"><a href="#超脱-8-7" class="headerlink" title="超脱 8.7"></a>超脱 8.7</h3><h3 id="完美陌生人-8-6"><a href="#完美陌生人-8-6" class="headerlink" title="完美陌生人 8.6"></a>完美陌生人 8.6</h3><h3 id="加勒比海盗-8-6"><a href="#加勒比海盗-8-6" class="headerlink" title="加勒比海盗 8.6"></a>加勒比海盗 8.6</h3><h3 id="阿凡达-8-6"><a href="#阿凡达-8-6" class="headerlink" title="阿凡达 8.6"></a>阿凡达 8.6</h3><h3 id="心迷宫-8-6"><a href="#心迷宫-8-6" class="headerlink" title="心迷宫 8.6"></a>心迷宫 8.6</h3><h3 id="致命ID-8-6"><a href="#致命ID-8-6" class="headerlink" title="致命ID 8.6"></a>致命ID 8.6</h3><h3 id="疯狂的麦克4：狂暴之路-8-5"><a href="#疯狂的麦克4：狂暴之路-8-5" class="headerlink" title="疯狂的麦克4：狂暴之路 8.5"></a>疯狂的麦克4：狂暴之路 8.5</h3><h3 id="廊桥遗梦-8-5"><a href="#廊桥遗梦-8-5" class="headerlink" title="廊桥遗梦 8.5"></a>廊桥遗梦 8.5</h3><h3 id="隐藏人物-8-5"><a href="#隐藏人物-8-5" class="headerlink" title="隐藏人物 8.5"></a>隐藏人物 8.5</h3><h3 id="记忆碎片-8-5"><a href="#记忆碎片-8-5" class="headerlink" title="记忆碎片 8.5"></a>记忆碎片 8.5</h3><h3 id="谍影重重-8-5"><a href="#谍影重重-8-5" class="headerlink" title="谍影重重 8.5"></a>谍影重重 8.5</h3><h3 id="谍影重重2-8-5"><a href="#谍影重重2-8-5" class="headerlink" title="谍影重重2 8.5"></a>谍影重重2 8.5</h3><h3 id="谍影重重3-8-7"><a href="#谍影重重3-8-7" class="headerlink" title="谍影重重3 8.7"></a>谍影重重3 8.7</h3><h3 id="谍影重重4-6-7"><a href="#谍影重重4-6-7" class="headerlink" title="谍影重重4 6.7"></a>谍影重重4 6.7</h3><h3 id="喜剧之王-8-4"><a href="#喜剧之王-8-4" class="headerlink" title="喜剧之王 8.4"></a>喜剧之王 8.4</h3><h3 id="黄岛余生-8-4"><a href="#黄岛余生-8-4" class="headerlink" title="黄岛余生 8.4"></a>黄岛余生 8.4</h3><h3 id="我的个神啊-8-3"><a href="#我的个神啊-8-3" class="headerlink" title="我的个神啊 8.3"></a>我的个神啊 8.3</h3><h3 id="唐伯虎点秋香-8-3"><a href="#唐伯虎点秋香-8-3" class="headerlink" title="唐伯虎点秋香 8.3"></a>唐伯虎点秋香 8.3</h3><h3 id="百元之恋-8-3"><a href="#百元之恋-8-3" class="headerlink" title="百元之恋 8.3"></a>百元之恋 8.3</h3><h3 id="白日梦想家-8-3"><a href="#白日梦想家-8-3" class="headerlink" title="白日梦想家 8.3"></a>白日梦想家 8.3</h3><h3 id="源代码-8-3"><a href="#源代码-8-3" class="headerlink" title="源代码 8.3"></a>源代码 8.3</h3><h3 id="萨利机长-8-3"><a href="#萨利机长-8-3" class="headerlink" title="萨利机长 8.3"></a>萨利机长 8.3</h3><h3 id="速度与激情-7-6"><a href="#速度与激情-7-6" class="headerlink" title="速度与激情 7.6"></a>速度与激情 7.6</h3><h3 id="速度与激情2-7-1"><a href="#速度与激情2-7-1" class="headerlink" title="速度与激情2 7.1"></a>速度与激情2 7.1</h3><h3 id="速度与激情3-6-6"><a href="#速度与激情3-6-6" class="headerlink" title="速度与激情3 6.6"></a>速度与激情3 6.6</h3><h3 id="速度与激情4-7-6"><a href="#速度与激情4-7-6" class="headerlink" title="速度与激情4 7.6"></a>速度与激情4 7.6</h3><h3 id="速度与激情5-8-4"><a href="#速度与激情5-8-4" class="headerlink" title="速度与激情5 8.4"></a>速度与激情5 8.4</h3><h3 id="速度与激情6-7-7"><a href="#速度与激情6-7-7" class="headerlink" title="速度与激情6 7.7"></a>速度与激情6 7.7</h3><h3 id="速度与激情7-8-3"><a href="#速度与激情7-8-3" class="headerlink" title="速度与激情7 8.3"></a>速度与激情7 8.3</h3><h3 id="速度与激情8-7-1"><a href="#速度与激情8-7-1" class="headerlink" title="速度与激情8 7.1"></a>速度与激情8 7.1</h3><h3 id="甲方乙方-8-2"><a href="#甲方乙方-8-2" class="headerlink" title="甲方乙方 8.2"></a>甲方乙方 8.2</h3><h3 id="疯狂的石头-8-2"><a href="#疯狂的石头-8-2" class="headerlink" title="疯狂的石头 8.2"></a>疯狂的石头 8.2</h3><h3 id="釜山行-8-2"><a href="#釜山行-8-2" class="headerlink" title="釜山行 8.2"></a>釜山行 8.2</h3><h3 id="0-5毫米-8-2"><a href="#0-5毫米-8-2" class="headerlink" title="0.5毫米 8.2"></a>0.5毫米 8.2</h3><h3 id="第九区-8-2"><a href="#第九区-8-2" class="headerlink" title="第九区 8.2"></a>第九区 8.2</h3><h3 id="那些年，我们一起追过的女孩-8-1"><a href="#那些年，我们一起追过的女孩-8-1" class="headerlink" title="那些年，我们一起追过的女孩 8.1"></a>那些年，我们一起追过的女孩 8.1</h3><h3 id="加勒比海盗2：聚魂棺-8-1"><a href="#加勒比海盗2：聚魂棺-8-1" class="headerlink" title="加勒比海盗2：聚魂棺 8.1"></a>加勒比海盗2：聚魂棺 8.1</h3><h3 id="九品芝麻官-8-1"><a href="#九品芝麻官-8-1" class="headerlink" title="九品芝麻官 8.1"></a>九品芝麻官 8.1</h3><h3 id="国产凌凌漆-8-1"><a href="#国产凌凌漆-8-1" class="headerlink" title="国产凌凌漆 8.1"></a>国产凌凌漆 8.1</h3><h3 id="我是谁：没有绝对安全的系统-8-0"><a href="#我是谁：没有绝对安全的系统-8-0" class="headerlink" title="我是谁：没有绝对安全的系统 8.0"></a>我是谁：没有绝对安全的系统 8.0</h3><h3 id="加勒比海盗3：世界的尽头-8-0"><a href="#加勒比海盗3：世界的尽头-8-0" class="headerlink" title="加勒比海盗3：世界的尽头 8.0"></a>加勒比海盗3：世界的尽头 8.0</h3><h3 id="功夫-7-9"><a href="#功夫-7-9" class="headerlink" title="功夫 7.9"></a>功夫 7.9</h3><h3 id="碟中谍-7-9"><a href="#碟中谍-7-9" class="headerlink" title="碟中谍 7.9"></a>碟中谍 7.9</h3><h3 id="碟中谍2-7-0"><a href="#碟中谍2-7-0" class="headerlink" title="碟中谍2 7.0"></a>碟中谍2 7.0</h3><h3 id="碟中谍3-7-3"><a href="#碟中谍3-7-3" class="headerlink" title="碟中谍3 7.3"></a>碟中谍3 7.3</h3><h3 id="碟中谍4-8-2"><a href="#碟中谍4-8-2" class="headerlink" title="碟中谍4 8.2"></a>碟中谍4 8.2</h3><h3 id="碟中谍5-7-7"><a href="#碟中谍5-7-7" class="headerlink" title="碟中谍5 7.7"></a>碟中谍5 7.7</h3><h3 id="僵尸先生-7-8"><a href="#僵尸先生-7-8" class="headerlink" title="僵尸先生 7.8"></a>僵尸先生 7.8</h3><h3 id="我是传奇-7-8"><a href="#我是传奇-7-8" class="headerlink" title="我是传奇 7.8"></a>我是传奇 7.8</h3><h3 id="A计划-7-7"><a href="#A计划-7-7" class="headerlink" title="A计划 7.7"></a>A计划 7.7</h3><h3 id="回魂夜-7-7"><a href="#回魂夜-7-7" class="headerlink" title="回魂夜 7.7"></a>回魂夜 7.7</h3><h3 id="方世玉-7-6"><a href="#方世玉-7-6" class="headerlink" title="方世玉 7.6"></a>方世玉 7.6</h3><h3 id="大内密探零零发-7-6"><a href="#大内密探零零发-7-6" class="headerlink" title="大内密探零零发 7.6"></a>大内密探零零发 7.6</h3><h3 id="人再囧途之泰囧-7-5"><a href="#人再囧途之泰囧-7-5" class="headerlink" title="人再囧途之泰囧 7.5"></a>人再囧途之泰囧 7.5</h3><h3 id="加勒比海盗4：惊涛怪浪-7-5"><a href="#加勒比海盗4：惊涛怪浪-7-5" class="headerlink" title="加勒比海盗4：惊涛怪浪 7.5"></a>加勒比海盗4：惊涛怪浪 7.5</h3><h3 id="逃学威龙1-7-5"><a href="#逃学威龙1-7-5" class="headerlink" title="逃学威龙1 7.5"></a>逃学威龙1 7.5</h3><h3 id="逃学威龙2-7-2"><a href="#逃学威龙2-7-2" class="headerlink" title="逃学威龙2 7.2"></a>逃学威龙2 7.2</h3><h3 id="逃学威龙3-7-0"><a href="#逃学威龙3-7-0" class="headerlink" title="逃学威龙3 7.0"></a>逃学威龙3 7.0</h3><h3 id="人在囧途-7-4"><a href="#人在囧途-7-4" class="headerlink" title="人在囧途 7.4"></a>人在囧途 7.4</h3><h3 id="重返20岁-7-2"><a href="#重返20岁-7-2" class="headerlink" title="重返20岁 7.2"></a>重返20岁 7.2</h3><h3 id="宝贝计划-7-1"><a href="#宝贝计划-7-1" class="headerlink" title="宝贝计划 7.1"></a>宝贝计划 7.1</h3><h3 id="未来水世界-7-1"><a href="#未来水世界-7-1" class="headerlink" title="未来水世界 7.1"></a>未来水世界 7.1</h3><h3 id="金馆长对金馆长对金馆长-6-3"><a href="#金馆长对金馆长对金馆长-6-3" class="headerlink" title="金馆长对金馆长对金馆长 6.3"></a>金馆长对金馆长对金馆长 6.3</h3><hr>
 <h2 id="动漫"><a href="#动漫" class="headerlink" title="动漫"></a>动漫</h2><h3 id="机器人总动员-9-3"><a href="#机器人总动员-9-3" class="headerlink" title="机器人总动员 9.3"></a>机器人总动员 9.3</h3><h3 id="千与千寻-9-2"><a href="#千与千寻-9-2" class="headerlink" title="千与千寻 9.2"></a>千与千寻 9.2</h3><h3 id="疯狂动物城-9-2"><a href="#疯狂动物城-9-2" class="headerlink" title="疯狂动物城 9.2"></a>疯狂动物城 9.2</h3><h3 id="龙猫-9-1"><a href="#龙猫-9-1" class="headerlink" title="龙猫 9.1"></a>龙猫 9.1</h3><h3 id="飞屋环球记-8-9"><a href="#飞屋环球记-8-9" class="headerlink" title="飞屋环球记 8.9"></a>飞屋环球记 8.9</h3><h3 id="穿越时空的少女-8-6"><a href="#穿越时空的少女-8-6" class="headerlink" title="穿越时空的少女 8.6"></a>穿越时空的少女 8.6</h3><h3 id="超能陆战队-8-6"><a href="#超能陆战队-8-6" class="headerlink" title="超能陆战队 8.6"></a>超能陆战队 8.6</h3><h3 id="你的名字-8-5"><a href="#你的名字-8-5" class="headerlink" title="你的名字 8.5"></a>你的名字 8.5</h3><h3 id="侧耳倾听-8-8"><a href="#侧耳倾听-8-8" class="headerlink" title="侧耳倾听 8.8"></a>侧耳倾听 8.8</h3><h3 id="借东西的小人阿莉埃蒂-8-7"><a href="#借东西的小人阿莉埃蒂-8-7" class="headerlink" title="借东西的小人阿莉埃蒂 8.7"></a>借东西的小人阿莉埃蒂 8.7</h3><h3 id="萤火虫之墓-8-7"><a href="#萤火虫之墓-8-7" class="headerlink" title="萤火虫之墓 8.7"></a>萤火虫之墓 8.7</h3><h3 id="萤火之森-8-7"><a href="#萤火之森-8-7" class="headerlink" title="萤火之森 8.7"></a>萤火之森 8.7</h3><h3 id="冰川时代-8-4"><a href="#冰川时代-8-4" class="headerlink" title="冰川时代 8.4"></a>冰川时代 8.4</h3><h3 id="魔女宅急便-8-4"><a href="#魔女宅急便-8-4" class="headerlink" title="魔女宅急便 8.4"></a>魔女宅急便 8.4</h3><h3 id="秒速五厘米-8-4"><a href="#秒速五厘米-8-4" class="headerlink" title="秒速五厘米 8.4"></a>秒速五厘米 8.4</h3><h3 id="火影隐者剧场版：博人传-8-4"><a href="#火影隐者剧场版：博人传-8-4" class="headerlink" title="火影隐者剧场版：博人传 8.4"></a>火影隐者剧场版：博人传 8.4</h3><h3 id="最终幻想7：圣子降临-8-2"><a href="#最终幻想7：圣子降临-8-2" class="headerlink" title="最终幻想7：圣子降临 8.2"></a>最终幻想7：圣子降临 8.2</h3><h3 id="言叶之庭-8-2"><a href="#言叶之庭-8-2" class="headerlink" title="言叶之庭 8.2"></a>言叶之庭 8.2</h3><h3 id="魔法奇缘-8-1"><a href="#魔法奇缘-8-1" class="headerlink" title="魔法奇缘 8.1"></a>魔法奇缘 8.1</h3><h3 id="功夫熊猫2-8-0"><a href="#功夫熊猫2-8-0" class="headerlink" title="功夫熊猫2 8.0"></a>功夫熊猫2 8.0</h3><h3 id="功夫熊猫-7-9"><a href="#功夫熊猫-7-9" class="headerlink" title="功夫熊猫 7.9"></a>功夫熊猫 7.9</h3><h3 id="猫的报恩-7-9"><a href="#猫的报恩-7-9" class="headerlink" title="猫的报恩 7.9"></a>猫的报恩 7.9</h3><h3 id="云的彼端，约定的地方-7-8"><a href="#云的彼端，约定的地方-7-8" class="headerlink" title="云的彼端，约定的地方 7.8"></a>云的彼端，约定的地方 7.8</h3><h3 id="火影隐者剧场版：终章-6-8"><a href="#火影隐者剧场版：终章-6-8" class="headerlink" title="火影隐者剧场版：终章  6.8"></a>火影隐者剧场版：终章  6.8</h3><hr>
@@ -93,15 +169,26 @@
     <link href="http://hedonglin.com/2017/06/27/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E6%80%BB%E7%BB%93/"/>
     <id>http://hedonglin.com/2017/06/27/如何提高网站性能总结/</id>
     <published>2017-06-26T17:10:33.000Z</published>
-    <updated>2017-06-27T14:05:41.095Z</updated>
+    <updated>2017-06-30T08:59:12.012Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="使用缓存机制"><a href="#使用缓存机制" class="headerlink" title="使用缓存机制"></a>使用缓存机制</h2><h3 id="客户端缓存"><a href="#客户端缓存" class="headerlink" title="客户端缓存"></a>客户端缓存</h3><p>Pragma(本地缓存，http1.0)<br>Expires(本地缓存,http1.0,缓存时间相对服务器上的时间)<br>Cache-Control(本地缓存,http1.1，缓存时间相对客户端时间)<br>Etag(协商缓存,http1.1,值是根据索引节，大小和最后修改时间进行Hash处理得到的值)<br>Last-Modified(协商缓存，http1.1，值是根据资源最后修改时间得到)<br>If-None-Match（资源过期则带上Etag值跟服务器Etag对比，相同返回304缓存中读取，不相同返回200更新内容）<br>If-Modified-Since（资源过期则带上Last-Modified值跟服务器Last-Modified值对比，相同返回304缓存中读取，不相同返回200更新内容）<br>本地缓存：Pragma–&gt;Cache-control–&gt;Expires<br>协商缓存：Etag–&gt;last-Modified</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">F5：根据last-Modified的值</div><div class="line">    IE请求头：</div><div class="line">        If-Modified-Since</div><div class="line">    火狐请求头： </div><div class="line">        Cache-Control：&quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line">    谷歌请求头：</div><div class="line">        Cache-Control: &quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line"></div><div class="line">ctrl+F5</div><div class="line">    火狐、谷歌请求头：</div><div class="line">        Pragma:&quot;no-cache&quot;</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div><div class="line"></div><div class="line">    IE请求头:</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div></pre></td></tr></table></figure>
-<h3 id="代理服务器缓存"><a href="#代理服务器缓存" class="headerlink" title="代理服务器缓存"></a>代理服务器缓存</h3>]]></content>
+    <content type="html"><![CDATA[<h2 id="了解浏览器解析与执行过程"><a href="#了解浏览器解析与执行过程" class="headerlink" title="了解浏览器解析与执行过程"></a>了解浏览器解析与执行过程</h2><p>html从上往下执行&gt;&gt;&gt;遇到head中link向服务器请求css文件&gt;&gt;&gt;解析css树（选择符是从右到左进行匹配）&gt;&gt;&gt;遇到body标签里的部分代码结合css进行布局&gt;&gt;&gt;遇到img标签向服务器请求并继续渲染后面的代码&gt;&gt;&gt;图片下载后图片的大小影响了布局浏览器回头重新渲染该部分代码&gt;&gt;&gt;遇到脚本解析并执行（但是会阻塞页面后续的内容（包括页面的渲染、其它资源的下载））&gt;&gt;&gt;如果执行过程中发现代码需要隐藏某部分内容浏览器会重新渲染该部分代码&gt;&gt;&gt;当用户点击换肤按钮&gt;&gt;&gt;浏览器向服务器发出请求重新渲染页面</p>
+<h2 id="了解互联网协议"><a href="#了解互联网协议" class="headerlink" title="了解互联网协议"></a>了解互联网协议</h2><p><a href="http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html?20151020222130" target="_blank" rel="external">互联网协议入门（一）阮一峰</a><br><a href="http://www.ruanyifeng.com/blog/2012/06/internet_protocol_suite_part_ii.html" target="_blank" rel="external">互联网协议入门（二）阮一峰</a></p>
+<h2 id="了解DNS原理"><a href="#了解DNS原理" class="headerlink" title="了解DNS原理"></a>了解DNS原理</h2><p><a href="http://www.ruanyifeng.com/blog/2016/06/dns.html" target="_blank" rel="external">DNS 原理入门阮一峰</a></p>
+<h2 id="了解HTTP协议"><a href="#了解HTTP协议" class="headerlink" title="了解HTTP协议"></a>了解HTTP协议</h2><p>《HTTP权威指南》<br><a href="http://www.ruanyifeng.com/blog/2016/08/http.html" target="_blank" rel="external">HTTP 协议入门阮一峰</a></p>
+<h2 id="了解TCP-IP协议"><a href="#了解TCP-IP协议" class="headerlink" title="了解TCP/IP协议"></a>了解TCP/IP协议</h2><p>《TCP/IP网络与协议》—兰少华, ‎杨余旺, ‎吕建勇<br>《TCP/IP协议原理与应用(第4版)》<br>《TCP/IP详解卷1：协议》<br>《TCP/IP详解卷2：实现》<br>《TCP/IP详解卷3：TCP事务协议、HTTP、NNTP和UNIX域协议》</p>
+<h2 id="关于网站性能分析（最好先了解相关协议）"><a href="#关于网站性能分析（最好先了解相关协议）" class="headerlink" title="关于网站性能分析（最好先了解相关协议）"></a>关于网站性能分析（最好先了解相关协议）</h2><p>《Web性能权威指南》–强烈推荐<br>《高性能网站建设指南》<br>《高性能网站进阶指南》<br>《构建高性能Web站点》</p>
+<h2 id="页面内容"><a href="#页面内容" class="headerlink" title="页面内容"></a>页面内容</h2><h3 id="减少HTTP请求次数–节省服务器带宽，提高性能"><a href="#减少HTTP请求次数–节省服务器带宽，提高性能" class="headerlink" title="减少HTTP请求次数–节省服务器带宽，提高性能"></a>减少HTTP请求次数–节省服务器带宽，提高性能</h3><p>html,css,js压缩合并；（注意：带来一个问题如果该页面有些内容是不需要的，如何清除）<br>降低图片大小；零星细小的图片采用雪碧图</p>
+<h3 id="减少DNS查询次数–减少域名主机，合理分配主机个数"><a href="#减少DNS查询次数–减少域名主机，合理分配主机个数" class="headerlink" title="减少DNS查询次数–减少域名主机，合理分配主机个数"></a>减少DNS查询次数–减少域名主机，合理分配主机个数</h3><p>为达到更高的性能，DNS解析通常被多级别地缓存。如由ISP或本地网络维护的DNS缓存服务器，用户机器操作系统的缓存。<br>减少域名主机可减少DNS查询的次数，但可能造成并行下载数的减少。避免 DNS查询可减少响应时间，而减少并行下载数可能增加响应时间。一个可行的折中是把内容分布到至少2个，最多4个不同的主机名上。</p>
+<h3 id="避免页面跳转–避免重定向"><a href="#避免页面跳转–避免重定向" class="headerlink" title="避免页面跳转–避免重定向"></a>避免页面跳转–避免重定向</h3><h3 id="缓存Ajax"><a href="#缓存Ajax" class="headerlink" title="缓存Ajax"></a>缓存Ajax</h3><h3 id="延迟加载"><a href="#延迟加载" class="headerlink" title="延迟加载"></a>延迟加载</h3><h3 id="提前加载"><a href="#提前加载" class="headerlink" title="提前加载"></a>提前加载</h3><h3 id="减少DOM元素数量"><a href="#减少DOM元素数量" class="headerlink" title="减少DOM元素数量"></a>减少DOM元素数量</h3><h3 id="根据域名划分内容"><a href="#根据域名划分内容" class="headerlink" title="根据域名划分内容"></a>根据域名划分内容</h3><h3 id="减少iframe数量"><a href="#减少iframe数量" class="headerlink" title="减少iframe数量"></a>减少iframe数量</h3><h3 id="避免404"><a href="#避免404" class="headerlink" title="避免404"></a>避免404</h3><p>网站根目录下放置favicon.ico</p>
+<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="强制本地缓存–精确的缓存控制"><a href="#强制本地缓存–精确的缓存控制" class="headerlink" title="强制本地缓存–精确的缓存控制"></a>强制本地缓存–精确的缓存控制</h3><p>Pragma(本地缓存，http1.0)<br>Expires(本地缓存,http1.0,缓存时间相对服务器上的时间)<br>Cache-Control(本地缓存,http1.1，缓存时间相对客户端时间)<br>Etag(协商缓存,http1.1,值是根据索引节，大小和最后修改时间进行Hash处理得到的值)<br>Last-Modified(协商缓存，http1.1，值是根据资源最后修改时间得到)<br>If-None-Match（资源过期则带上Etag值跟服务器Etag对比，相同返回304缓存中读取，不相同返回200更新内容）<br>If-Modified-Since（资源过期则带上Last-Modified值跟服务器Last-Modified值对比，相同返回304缓存中读取，不相同返回200更新内容）<br>本地缓存：Pragma–&gt;Cache-control–&gt;Expires<br>协商缓存：Etag–&gt;last-Modified<br>使用缓存带来的几个问题：<br>    集群环境下，应该舍弃Last-Modified而用etag，各个服务器上的文件时间可能不同，或者同一服务器不同路径的相同文件也时间不同；<br>    Etag在多服务器的时候，索引节不一样，导致用户有可能重复下载，解决办法可采用大小和最后修改时间进行Hash就完美了；<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">F5：根据last-Modified的值</div><div class="line">    IE请求头：</div><div class="line">        If-Modified-Since</div><div class="line">    火狐请求头： </div><div class="line">        Cache-Control：&quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line">    谷歌请求头：</div><div class="line">        Cache-Control: &quot;max-age=0&quot;</div><div class="line">        If-Modified-Since</div><div class="line"></div><div class="line">ctrl+F5</div><div class="line">    火狐、谷歌请求头：</div><div class="line">        Pragma:&quot;no-cache&quot;</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div><div class="line"></div><div class="line">    IE请求头:</div><div class="line">        Cache-Control:&quot;no-cache&quot;</div></pre></td></tr></table></figure></p>
+<h3 id="减少cookie大小或页面内容使用无cookie域名"><a href="#减少cookie大小或页面内容使用无cookie域名" class="headerlink" title="减少cookie大小或页面内容使用无cookie域名"></a>减少cookie大小或页面内容使用无cookie域名</h3><p>比如图片CSS等静态文件放在静态资源服务器上并配置单独域名，客户端请求静态文件的时候，减少COOKIE反复传输时对主域名的影响。</p>
+<h3 id="采用CDN内容分发网络–缩短距离，优化网络请求"><a href="#采用CDN内容分发网络–缩短距离，优化网络请求" class="headerlink" title="采用CDN内容分发网络–缩短距离，优化网络请求"></a>采用CDN内容分发网络–缩短距离，优化网络请求</h3><h3 id="压缩要传输的文件-Gzip-–减少传输时间"><a href="#压缩要传输的文件-Gzip-–减少传输时间" class="headerlink" title="压缩要传输的文件(Gzip)–减少传输时间"></a>压缩要传输的文件(Gzip)–减少传输时间</h3><h3 id="避免空的图片src"><a href="#避免空的图片src" class="headerlink" title="避免空的图片src"></a>避免空的图片src</h3><h2 id="Css"><a href="#Css" class="headerlink" title="Css"></a>Css</h2><h3 id="样式表放在头部"><a href="#样式表放在头部" class="headerlink" title="样式表放在头部"></a>样式表放在头部</h3><h3 id="避免回流与重绘"><a href="#避免回流与重绘" class="headerlink" title="避免回流与重绘"></a>避免回流与重绘</h3><p>预先定义好类名,只需修改DOM上的类名属性值<br>为动画的html元件使用absolute或fixed<br>不使用table布局<br>不要把DOM 结点的属性值放在一个循环里当成循环里的变量</p>
+<h3 id="避免CSS表达式"><a href="#避免CSS表达式" class="headerlink" title="避免CSS表达式"></a>避免CSS表达式</h3><h3 id="设置通用样式"><a href="#设置通用样式" class="headerlink" title="设置通用样式"></a>设置通用样式</h3><h3 id="避免使用filters"><a href="#避免使用filters" class="headerlink" title="避免使用filters"></a>避免使用filters</h3><h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><h3 id="脚本放在底部"><a href="#脚本放在底部" class="headerlink" title="脚本放在底部"></a>脚本放在底部</h3><p>脚本执行时会阻塞页面后续的内容（包括页面的渲染、其它资源的下载）<br>将所有的script标签放到页面底部，也就是body闭合标签之前</p>
+<h3 id="使用外部Javascript和Css文件"><a href="#使用外部Javascript和Css文件" class="headerlink" title="使用外部Javascript和Css文件"></a>使用外部Javascript和Css文件</h3><h3 id="精简Javascript和Css"><a href="#精简Javascript和Css" class="headerlink" title="精简Javascript和Css"></a>精简Javascript和Css</h3><h3 id="去除重复脚本"><a href="#去除重复脚本" class="headerlink" title="去除重复脚本"></a>去除重复脚本</h3><h3 id="减少DOM访问"><a href="#减少DOM访问" class="headerlink" title="减少DOM访问"></a>减少DOM访问</h3><h3 id="使用智能事件处理"><a href="#使用智能事件处理" class="headerlink" title="使用智能事件处理"></a>使用智能事件处理</h3><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><h3 id="优化图片质量，降低图片大小"><a href="#优化图片质量，降低图片大小" class="headerlink" title="优化图片质量，降低图片大小"></a>优化图片质量，降低图片大小</h3><h3 id="合并零星图片，采用雪碧图"><a href="#合并零星图片，采用雪碧图" class="headerlink" title="合并零星图片，采用雪碧图"></a>合并零星图片，采用雪碧图</h3><h3 id="不要在html中缩放图片"><a href="#不要在html中缩放图片" class="headerlink" title="不要在html中缩放图片"></a>不要在html中缩放图片</h3><h3 id="使用小且可缓存的favico-ico"><a href="#使用小且可缓存的favico-ico" class="headerlink" title="使用小且可缓存的favico.ico"></a>使用小且可缓存的favico.ico</h3><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="尽最大可能重用已经建立的-TCP-连接-长连接"><a href="#尽最大可能重用已经建立的-TCP-连接-长连接" class="headerlink" title="尽最大可能重用已经建立的 TCP 连接(长连接)"></a>尽最大可能重用已经建立的 TCP 连接(长连接)</h3><h3 id="采用非覆盖方式发布–平滑升级"><a href="#采用非覆盖方式发布–平滑升级" class="headerlink" title="采用非覆盖方式发布–平滑升级"></a>采用非覆盖方式发布–平滑升级</h3>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;使用缓存机制&quot;&gt;&lt;a href=&quot;#使用缓存机制&quot; class=&quot;headerlink&quot; title=&quot;使用缓存机制&quot;&gt;&lt;/a&gt;使用缓存机制&lt;/h2&gt;&lt;h3 id=&quot;客户端缓存&quot;&gt;&lt;a href=&quot;#客户端缓存&quot; class=&quot;headerlink&quot; title=
+      &lt;h2 id=&quot;了解浏览器解析与执行过程&quot;&gt;&lt;a href=&quot;#了解浏览器解析与执行过程&quot; class=&quot;headerlink&quot; title=&quot;了解浏览器解析与执行过程&quot;&gt;&lt;/a&gt;了解浏览器解析与执行过程&lt;/h2&gt;&lt;p&gt;html从上往下执行&amp;gt;&amp;gt;&amp;gt;遇到head中l
     
     </summary>
     
@@ -117,10 +204,11 @@
     <link href="http://hedonglin.com/2017/06/23/%E7%BD%91%E7%BB%9C%E8%B7%AF%E7%94%B1%E6%9F%A5%E8%AF%A2%E5%B7%A5%E5%85%B7MTR/"/>
     <id>http://hedonglin.com/2017/06/23/网络路由查询工具MTR/</id>
     <published>2017-06-23T08:58:04.000Z</published>
-    <updated>2017-06-23T09:09:58.987Z</updated>
+    <updated>2017-06-30T08:14:44.820Z</updated>
     
     <content type="html"><![CDATA[<h2 id="服务器到本地"><a href="#服务器到本地" class="headerlink" title="服务器到本地"></a>服务器到本地</h2><p>Centos安装MTR<br>yum install mtr -y<br>查询命令：mtr 目标ip地址<br><img src="/images/ip-2.png" alt="ip-2.png"></p>
 <h2 id="本地到服务器"><a href="#本地到服务器" class="headerlink" title="本地到服务器"></a>本地到服务器</h2><p>下载MTR软件：<a href="http://www.winmtr.net" target="_blank" rel="external">http://www.winmtr.net</a><br><img src="/images/ip-1.png" alt="ip-1.png"><br><img src="/images/ip-3.png" alt="ip-3.png"><br><img src="/images/ip-4.png" alt="ip-4.png"></p>
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p><code>win+R</code>输入<code>cmd</code>回车<br><code>tracert</code> 目标ip地址<br><code>ping</code> 目标ip地址 -t<br><code>ctrl+c</code> 退出</p>
 ]]></content>
     
     <summary type="html">
@@ -132,7 +220,7 @@
       <category term="网络" scheme="http://hedonglin.com/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="查询" scheme="http://hedonglin.com/tags/%E6%9F%A5%E8%AF%A2/"/>
+      <category term="网络查询" scheme="http://hedonglin.com/tags/%E7%BD%91%E7%BB%9C%E6%9F%A5%E8%AF%A2/"/>
     
   </entry>
   
@@ -292,7 +380,7 @@
     <link href="http://hedonglin.com/2017/06/20/%E7%BD%91%E7%BB%9C%E9%80%9F%E7%8E%87%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E9%80%9F%E7%8E%87%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://hedonglin.com/2017/06/20/网络速率和数据传输速率的区别/</id>
     <published>2017-06-20T05:22:33.000Z</published>
-    <updated>2017-06-22T04:03:24.357Z</updated>
+    <updated>2017-06-30T06:51:38.726Z</updated>
     
     <content type="html"><![CDATA[<h2 id="单位"><a href="#单位" class="headerlink" title="单位"></a>单位</h2><p>一千亿亿亿字节：BB<br>尧字节：YB<br>泽字节：ZB<br>艾字节：EB<br>拍字节：PB<br>太字节：TB<br>吉字节：GB<br>兆字节：MB<br>千字节：KB<br>字节：B(Byte)<br>位(比特)：bit</p>
 <h2 id="常用的数据存储单位：bit、B、KB、MB-、GB、TB、PB"><a href="#常用的数据存储单位：bit、B、KB、MB-、GB、TB、PB" class="headerlink" title="常用的数据存储单位：bit、B、KB、MB 、GB、TB、PB"></a>常用的数据存储单位：bit、B、KB、MB 、GB、TB、PB</h2><h2 id="网络速率-网络带宽-：用Kbps-s-Mbps-s-Gbps-s-或-Kb-s、-Mb-s、-Gb-s等来表示"><a href="#网络速率-网络带宽-：用Kbps-s-Mbps-s-Gbps-s-或-Kb-s、-Mb-s、-Gb-s等来表示" class="headerlink" title="网络速率(网络带宽)：用Kbps/s Mbps/s Gbps/s 或 Kb/s、 Mb/s、 Gb/s等来表示"></a>网络速率(网络带宽)：用Kbps/s Mbps/s Gbps/s 或 Kb/s、 Mb/s、 Gb/s等来表示</h2><p>1Gbps/s=1000Mbps/s<br>1Mbps/s=1000Kbps/s<br>1Kbps/s=1000bit/s </p>
@@ -581,366 +669,6 @@
     
     
       <category term="css3" scheme="http://hedonglin.com/tags/css3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Css选择器</title>
-    <link href="http://hedonglin.com/2017/06/18/css3%E9%80%89%E6%8B%A9%E5%99%A8/"/>
-    <id>http://hedonglin.com/2017/06/18/css3选择器/</id>
-    <published>2017-06-18T03:04:01.000Z</published>
-    <updated>2017-06-18T12:21:27.586Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="css1"><a href="#css1" class="headerlink" title="css1"></a>css1</h2><p><img src="/images/css3-1.png"><br>标签选择符<br>后代选择符<br>伪类选择符<code>:link,:active,:visited</code><br>伪元素选择符<code>:first-line,:first-letter</code><br>含类的某个标签选择符<code>e.classname</code><br>含id的某个标签选择符<code>e#id</code><br>含类的某个类选择符<code>.classname.classname;</code></p>
-<h2 id="css2"><a href="#css2" class="headerlink" title="css2"></a>css2</h2><p><img src="/images/css3-2.png"><br>通配符选择符<code>*</code><br>子选择符<code>&gt;</code><br>伪类选择符<code>:first-child,:hover,:focus</code><br>相邻选择符<code>+</code><br>属性选择符<code>[attr],[attr=name],[attr~=name]</code><br>伪元素选择符<code>:before,:after</code></p>
-<h2 id="css3"><a href="#css3" class="headerlink" title="css3"></a>css3</h2><p><img src="/images/css3-3.png"><br><code>E ~ F</code><br><code>E[attr^=&quot;name&quot;]</code><br><code>E[attr$=&quot;name&quot;]</code><br><code>E[attr*=&quot;name&quot;]</code><br><code>E[attr|=&quot;name&quot;]</code><br><code>E:root</code><br><code>E:first-of-type</code><br><code>E:last-of-type</code><br><code>E:only-of-type</code><br><code>E:nth-of-type(n)</code><br><code>E:nth-last-of-type(n)</code><br><code>E:only-child</code><br><code>E:last-child</code><br><code>E:nth-child(n)</code><br><code>E:nth-last-child(n)</code><br><code>E:empty</code><br><code>E:target</code><br><code>E:checked</code><br><code>E:selection</code><br><code>E:enabled</code><br><code>E:disabled</code><br><code>E:not(s);</code></p>
-<h2 id="css效率高低"><a href="#css效率高低" class="headerlink" title="css效率高低"></a>css效率高低</h2><p>第一： id选择符<code>(#)</code><br>第二： 类选择器<code>(.)</code><br>第三： 标签选择符<code>(div,p...)</code><br>第四： 相邻选择符<code>(+)</code><br>第五： 子选择符;<code>(&gt;)</code><br>第六： 后代选择符<code>(ul li)</code><br>第七： 通配选择符<code>(*)</code><br>第八： 属性选择符<code>([])</code><br>第九： 伪类选择符<code>(:)</code></p>
-<h2 id="css权重高低"><a href="#css权重高低" class="headerlink" title="css权重高低"></a>css权重高低</h2><p>例如:#idzufu div .quanzhong:first-child 计算得出:100+1+10+10=121;<br>第一： !important (10000)<br>第二： 内联样式(1000)<br>第三： id<code>(#)</code>(100)<br>第四： 类/伪类/属性<code>(. ：[])</code>(10)<br>第五： 元素/伪元素<code>(div ::)</code>(1)<br>第六： 相同权重后面覆盖<br>第七： 通配符<br>第八： 继承</p>
-<h2 id="伪类和伪元素"><a href="#伪类和伪元素" class="headerlink" title="伪类和伪元素,"></a>伪类和伪元素,</h2><h3 id="伪类：单冒号伪类"><a href="#伪类：单冒号伪类" class="headerlink" title="伪类：单冒号伪类"></a>伪类：单冒号伪类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">E:link               访问元素前的状态</div><div class="line">E:visited            访问元素后的状态</div><div class="line">E:focus              元素获得焦点时的状态</div><div class="line">E:hover              悬停元素上方时的状态</div><div class="line">E:active             按住元素时的状态</div><div class="line">E:lang(it)           选择带有以&quot;it&quot;的lang属性值的元素</div><div class="line">E:first-child        表示所有E元素的所有的后代元素的第一个元素</div><div class="line">E:last-child         原理同上</div><div class="line">E:nth-child(n)       选择所有E元素的第几个元素;n&gt;=1;</div><div class="line">E:nth-last-child(n)  原理同上,从最后一个子元素开始计数</div><div class="line">E:only-child         E元素在父元素中唯一,E同级上不可以有任何元素;</div><div class="line">E:only-of-type       E元素在父元素中唯一,E同级上可以有其他元素，但不能出现另一个E元素;</div><div class="line">E:first-of-type      父元素中E元素排在所有E元素中的第一位的元素；</div><div class="line">E:last-of-type       原理同上</div><div class="line">E:nth-of-type(n)     父元素中E元素排在所有E元素中的第n位的元素；</div><div class="line">E:nth-last-of-type(n)父元素中E元素排在所有E元素中的倒数第n位的元素；</div><div class="line">E:root               html元素</div><div class="line">E:empty              选择没有内容的E元素,注意:空格也算一个内容;</div><div class="line">E:target             选择当前活动的E元素</div><div class="line">E:checked            选择被选中的E元素</div><div class="line">E:enabled            选择被启用的E元素;</div><div class="line">E:disabled           选择被禁用的E元素;</div><div class="line">E:not(s)             E元素中选择不是s的元素;</div></pre></td></tr></table></figure>
-<h3 id="伪元素：双冒号为伪元素（特殊before和after）"><a href="#伪元素：双冒号为伪元素（特殊before和after）" class="headerlink" title="伪元素：双冒号为伪元素（特殊before和after）"></a>伪元素：双冒号为伪元素<code>（特殊before和after）</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">E::first-letter    选择E元素的首个字母;</div><div class="line">E::first-line      选择E元素的首行;</div><div class="line">E::before          在E第一个子元素前添加内容，ie8只支持单冒号</div><div class="line">E::after           在E最后一个子元素后添加内容，ie8只支持单冒号</div><div class="line">E::selection       选择被用户选取的元素部分,火狐只支持::-moz-selection;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;css1&quot;&gt;&lt;a href=&quot;#css1&quot; class=&quot;headerlink&quot; title=&quot;css1&quot;&gt;&lt;/a&gt;css1&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/images/css3-1.png&quot;&gt;&lt;br&gt;标签选择符&lt;br&gt;后代选择符&lt;br&gt;伪类选择符&lt;code
-    
-    </summary>
-    
-      <category term="前端基础" scheme="http://hedonglin.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="css3" scheme="http://hedonglin.com/tags/css3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>曾广贤文</title>
-    <link href="http://hedonglin.com/2017/06/17/%E6%9B%BE%E5%B9%BF%E8%B4%A4%E6%96%87/"/>
-    <id>http://hedonglin.com/2017/06/17/曾广贤文/</id>
-    <published>2017-06-17T15:47:23.000Z</published>
-    <updated>2017-06-28T07:51:48.127Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="昔时贤文，诲汝谆谆。"><a href="#昔时贤文，诲汝谆谆。" class="headerlink" title="昔时贤文，诲汝谆谆。"></a>昔时贤文，诲汝谆谆。</h2><p><strong>集韵增广，多见多闻。</strong><br><strong>观今宜鉴古，无古不成今。</strong></p>
-<p>【解释】用以前圣贤们的言论，来谆谆教诲你。广泛搜集押韵的文字汇编成“增广”，使你见多识广。应该借鉴古人的经验教训，来指导今天的行为，因为今天是古代的延续。</p>
-<h2 id="知己知彼，将心比心。"><a href="#知己知彼，将心比心。" class="headerlink" title="知己知彼，将心比心。"></a>知己知彼，将心比心。</h2><p>【解释】知道自己怎么想的，也应该知道别人是怎样想的，所以要用自己的心，体谅别人的心，设身处地为别人着想。</p>
-<h2 id="酒逢知己饮，诗向会人吟。相识满天下，知心能几人。"><a href="#酒逢知己饮，诗向会人吟。相识满天下，知心能几人。" class="headerlink" title="酒逢知己饮，诗向会人吟。相识满天下，知心能几人。"></a>酒逢知己饮，诗向会人吟。相识满天下，知心能几人。</h2><p>【解释】酒要和了解自己的人一起喝，诗要与懂得它的人一起吟。认识的人可以很多，但真正了解，并达到知心的却没有几个。</p>
-<h2 id="相逢好似初相识，到老终无怨恨心。"><a href="#相逢好似初相识，到老终无怨恨心。" class="headerlink" title="相逢好似初相识，到老终无怨恨心。"></a>相逢好似初相识，到老终无怨恨心。</h2><p>【解释】人和人之间的相逢应该总是如同初次见面似的，这样即使到老也不会产生怨恨之心。</p>
-<h2 id="近水知鱼性，近山识鸟音。"><a href="#近水知鱼性，近山识鸟音。" class="headerlink" title="近水知鱼性，近山识鸟音。"></a>近水知鱼性，近山识鸟音。</h2><p>【解释】住在水边能掌握不同鱼儿的习性，住在山旁则能识别各种鸟儿的声音。</p>
-<h2 id="易涨易退山溪水，易反易覆小人心。"><a href="#易涨易退山溪水，易反易覆小人心。" class="headerlink" title="易涨易退山溪水，易反易覆小人心。"></a>易涨易退山溪水，易反易覆小人心。</h2><p>【解释】容易涨也容易退的是山间的溪水，反复无常的是小人的心态。</p>
-<h2 id="运去金成铁，时来铁似金。"><a href="#运去金成铁，时来铁似金。" class="headerlink" title="运去金成铁，时来铁似金。"></a>运去金成铁，时来铁似金。</h2><p>【解释】运气差时金子可以变成铁，时来运转的时候铁也会变成金子。</p>
-<h2 id="读书须用意，一字值千金。"><a href="#读书须用意，一字值千金。" class="headerlink" title="读书须用意，一字值千金。"></a>读书须用意，一字值千金。</h2><p>【解释】读书须用心，能下苦工夫，才会文辞精妙，一字千金。</p>
-<h2 id="逢人且说三分话，未可全抛一片心。"><a href="#逢人且说三分话，未可全抛一片心。" class="headerlink" title="逢人且说三分话，未可全抛一片心。"></a>逢人且说三分话，未可全抛一片心。</h2><p><strong>有意栽花花不发，无心插柳柳成阴。</strong><br><strong>画龙画虎难画骨，知人知面不知心。</strong></p>
-<p>【解释】与人说话只能说三分，不能把内心的想法全部吐露给别人。有意栽花花不一定开放，无意去插柳柳树却可能长得茂盛。龙和虎的形态好画，却难以画出它们的骨骼。了解人的表面很容易，但了解人的内心却十分困难。</p>
-<h2 id="钱财如粪土，仁义值千金。"><a href="#钱财如粪土，仁义值千金。" class="headerlink" title="钱财如粪土，仁义值千金。"></a>钱财如粪土，仁义值千金。</h2><p>【解释】要把钱财看做粪土一般低贱和微不足道，而仁义道德才价值千金。</p>
-<h2 id="流水下滩非有意，白云出岫本无心。"><a href="#流水下滩非有意，白云出岫本无心。" class="headerlink" title="流水下滩非有意，白云出岫本无心。"></a>流水下滩非有意，白云出岫本无心。</h2><p>【解释】流水从滩头泻下来并非有意而为，白云从山峰间飘出来也是出于自然罢了。</p>
-<h2 id="路遥知马力，事久见人心。"><a href="#路遥知马力，事久见人心。" class="headerlink" title="路遥知马力，事久见人心。"></a>路遥知马力，事久见人心。</h2><p>【解释】路途遥远才能知道马的力气的大小，事情经历多了才会明了一个人心地的好坏。</p>
-<h2 id="马行无力皆因瘦，人不风流只为贫。"><a href="#马行无力皆因瘦，人不风流只为贫。" class="headerlink" title="马行无力皆因瘦，人不风流只为贫。"></a>马行无力皆因瘦，人不风流只为贫。</h2><p>【解释】马行走无力是由于它身体瘦弱，人不风流潇洒只是因为他的穷困所致。</p>
-<h2 id="饶人不是痴汉，痴汉不会饶人。"><a href="#饶人不是痴汉，痴汉不会饶人。" class="headerlink" title="饶人不是痴汉，痴汉不会饶人。"></a>饶人不是痴汉，痴汉不会饶人。</h2><p>【解释】能宽恕他人的不是傻瓜，傻瓜则从来不会宽恕他人。</p>
-<h2 id="是亲不是亲，非亲却是亲。"><a href="#是亲不是亲，非亲却是亲。" class="headerlink" title="是亲不是亲，非亲却是亲。"></a>是亲不是亲，非亲却是亲。</h2><p><strong>美不美，乡中水；</strong><br><strong>亲不亲，故乡人。</strong><br><strong>相逢不饮空归去，洞口桃花也笑人。</strong></p>
-<p>【解释】有些人名义上是亲戚却不像亲戚，有些人虽然不是亲戚却比亲戚还亲近。不论甜美与否，家乡的水都好喝；不论是不是亲戚，故乡的人都最亲近。朋友相聚不饮酒，连洞口的桃花也会嘲笑你不懂得人情。</p>
-<h2 id="为人莫做亏心事，半夜敲门心不惊。"><a href="#为人莫做亏心事，半夜敲门心不惊。" class="headerlink" title="为人莫做亏心事，半夜敲门心不惊。"></a>为人莫做亏心事，半夜敲门心不惊。</h2><p>【解释】做人不做对不起良心的事，半夜有人敲门心里也不会惊慌。</p>
-<h2 id="当时若不登高望，谁知东流海样深。"><a href="#当时若不登高望，谁知东流海样深。" class="headerlink" title="当时若不登高望，谁知东流海样深。"></a>当时若不登高望，谁知东流海样深。</h2><p><strong>两心一般心，有钱堪买金。</strong><br><strong>一人一般心，有钱难买针。</strong></p>
-<p>【解释】若不登高望远，如何能够知道东流的河水最终汇聚成为深邃的大海。两个人一条心，能够得到购买黄金的钱。每个人都留着一个心眼，连买根针的钱也赚不到。</p>
-<h2 id="莺花犹怕春光老，岂可教人枉度春。红粉佳人休使老，风流浪子莫教贫。"><a href="#莺花犹怕春光老，岂可教人枉度春。红粉佳人休使老，风流浪子莫教贫。" class="headerlink" title="莺花犹怕春光老，岂可教人枉度春。红粉佳人休使老，风流浪子莫教贫。"></a>莺花犹怕春光老，岂可教人枉度春。红粉佳人休使老，风流浪子莫教贫。</h2><p>【解释】连莺儿和鲜花都害怕春天逝去，怎么可以让人虚度年华呢?红粉佳人们千万不能过于放纵，风流潇洒的才子千万不能变得贫穷。女人要做红粉佳人就趁年轻，否则人老珠黄了便吃不来这碗饭了。那是靠青春做本钱的；男人想要风流浪荡，穷人家的孩子就别去学了，那是要靠钱财来支撑的。</p>
-<h2 id="黄金无假，阿魏无真。"><a href="#黄金无假，阿魏无真。" class="headerlink" title="黄金无假，阿魏无真。"></a>黄金无假，阿魏无真。</h2><p>【解释】黄金贵重很难造假，阿魏这种药材却几乎没有真货。</p>
-<h2 id="客来主不顾，应恐是痴人。"><a href="#客来主不顾，应恐是痴人。" class="headerlink" title="客来主不顾，应恐是痴人。"></a>客来主不顾，应恐是痴人。</h2><p>【解释】客人来了，主人不去招待，他可能是个不知事理的大傻瓜。</p>
-<h2 id="贫居闹市无人问，富在深山有远亲。"><a href="#贫居闹市无人问，富在深山有远亲。" class="headerlink" title="贫居闹市无人问，富在深山有远亲。"></a>贫居闹市无人问，富在深山有远亲。</h2><p><strong>谁人背后无人说，哪个人前不说人。</strong><br><strong>有钱道真语，无钱语不真。</strong><br><strong>不信但看筵中酒，杯杯先敬有钱人。</strong><br><strong>闹里有钱，静处安身。</strong></p>
-<p>【解释】穷人住在闹市也无人理睬，富人住在深山也会招来远房亲戚。有哪个人背后不被别人议论，哪个人在人前不议论他人?给钱就说真话，不给钱就不说真话。不信你到筵席上看看，哪杯酒不先敬有钱的人?热闹繁华的地方有钱可赚，偏僻幽静的地方宜于安身。</p>
-<h2 id="来如风雨，去似微尘。长江后浪推前浪，世上新人赶旧人。"><a href="#来如风雨，去似微尘。长江后浪推前浪，世上新人赶旧人。" class="headerlink" title="来如风雨，去似微尘。长江后浪推前浪，世上新人赶旧人。"></a>来如风雨，去似微尘。长江后浪推前浪，世上新人赶旧人。</h2><p>【解释】来势像暴风骤雨一样猛烈，退去像微尘飘落一样静悄悄。长江的后浪推涌着前浪，世上的新人赶超着旧人。</p>
-<h2 id="近水楼台先得月，向阳花木早逢春。"><a href="#近水楼台先得月，向阳花木早逢春。" class="headerlink" title="近水楼台先得月，向阳花木早逢春。"></a>近水楼台先得月，向阳花木早逢春。</h2><p><strong>古人不见今时月，今月曾经照古人。</strong><br><strong>先到为君，后到为臣。</strong><br><strong>莫道君行早，更有早行人。</strong></p>
-<p>【解释】近水的楼台最先看到水中的月亮，向阳的花木光照好，发芽就早。古代的人看不见今天的月亮，而今天的月亮却曾经照耀过古代的人。抢先一步就能当上君王，后到一步只能称作臣子。别以为你走得早，还有比你走得更早的人。</p>
-<h2 id="莫信直中直，须防仁不仁。山中有直树，世上无直人。"><a href="#莫信直中直，须防仁不仁。山中有直树，世上无直人。" class="headerlink" title="莫信直中直，须防仁不仁。山中有直树，世上无直人。"></a>莫信直中直，须防仁不仁。山中有直树，世上无直人。</h2><p>【解释】不要轻信那些所谓特别正直的人，也要防备那些标榜仁义却不仁义的人。山里有长得笔直的树，世上却无正直的人。</p>
-<h2 id="自恨枝无叶，莫怨太阳偏。大家都是命，半点不由人。"><a href="#自恨枝无叶，莫怨太阳偏。大家都是命，半点不由人。" class="headerlink" title="自恨枝无叶，莫怨太阳偏。大家都是命，半点不由人。"></a>自恨枝无叶，莫怨太阳偏。大家都是命，半点不由人。</h2><p>【解释】树应该遗憾自己的枝上长不出叶子，不要抱怨太阳偏心眼。人的一切都是命中注定的，一星半点也由不得自己。</p>
-<h2 id="一年之计在于春，一日之计在于晨。一家之计在于和，一生之计在于勤。"><a href="#一年之计在于春，一日之计在于晨。一家之计在于和，一生之计在于勤。" class="headerlink" title="一年之计在于春，一日之计在于晨。一家之计在于和，一生之计在于勤。"></a>一年之计在于春，一日之计在于晨。一家之计在于和，一生之计在于勤。</h2><p>【解释】一年的计划应在春天里做好，一天的计划应在黎明时分做好，一个家庭最宝贵的是和睦，一个人一生要有所成就必须勤劳。</p>
-<h2 id="责人之心责己，恕己之心恕人。"><a href="#责人之心责己，恕己之心恕人。" class="headerlink" title="责人之心责己，恕己之心恕人。"></a>责人之心责己，恕己之心恕人。</h2><p>【解释】应当拿责备别人的心来责备自己，拿宽恕自己的心去宽恕别人。</p>
-<h2 id="守口如瓶，防意如城。"><a href="#守口如瓶，防意如城。" class="headerlink" title="守口如瓶，防意如城。"></a>守口如瓶，防意如城。</h2><p><strong>宁可人负我，切莫我负人。</strong><br><strong>再三须慎意，第一莫欺心。</strong><br><strong>虎身犹可近，人毒不堪亲。</strong><br><strong>来说是非者，便是是非人。</strong></p>
-<p>【解释】要像瓶口那样不轻易开口，要像城防那样时时戒备。宁愿让别人辜负我，决不让自己辜负别人。做事要三思而后行，首先不要违背自己的良心。活着的老虎尚可以靠近，心地恶毒的人千万不能亲近。在你跟前说别人坏话的人，就是制造是非的小人。</p>
-<h2 id="远水难救近火，远亲不如近邻。"><a href="#远水难救近火，远亲不如近邻。" class="headerlink" title="远水难救近火，远亲不如近邻。"></a>远水难救近火，远亲不如近邻。</h2><p><strong>有茶有酒多兄弟，急难何曾见一人。</strong><br><strong>人情似纸张张薄，世事如棋局局新。</strong></p>
-<p>【解释】远处的水救不了近处的火，即使再好的远亲也不如近邻能够随时帮忙。平时喝酒吃茶的朋友很多，但是在危难之时却没有一个朋友出来帮助。人情就好像纸张一样薄，世事则像下棋一样，每一局都充满变化。</p>
-<h2 id="山中也有千年树，世上难逢百岁人。"><a href="#山中也有千年树，世上难逢百岁人。" class="headerlink" title="山中也有千年树，世上难逢百岁人。"></a>山中也有千年树，世上难逢百岁人。</h2><p>【解释】山林中有生长千年的树，世上却难遇到活上百岁的人。</p>
-<h2 id="力微休负重，言轻莫劝人。"><a href="#力微休负重，言轻莫劝人。" class="headerlink" title="力微休负重，言轻莫劝人。"></a>力微休负重，言轻莫劝人。</h2><p>无钱休入众，遭难莫寻亲。</p>
-<p>【解释】力气单薄就不要去背负重物，说话没分量就不要规劝别人。没有钱就不要到人群中去，遇到危难千万别去求亲戚。</p>
-<h2 id="平生莫做皱眉事，世上应无切齿人。"><a href="#平生莫做皱眉事，世上应无切齿人。" class="headerlink" title="平生莫做皱眉事，世上应无切齿人。"></a>平生莫做皱眉事，世上应无切齿人。</h2><p>【解释】一辈子不做不应该做的事，世界上就不会有痛恨自己的人了。</p>
-<h2 id="士者国之宝，儒为席上珍。"><a href="#士者国之宝，儒为席上珍。" class="headerlink" title="士者国之宝，儒为席上珍。"></a>士者国之宝，儒为席上珍。</h2><p>【解释】读书人是国家的宝贝，儒生就像宴席上的美味一样珍贵。</p>
-<h2 id="若要断酒法，醒眼看醉人。"><a href="#若要断酒法，醒眼看醉人。" class="headerlink" title="若要断酒法，醒眼看醉人。"></a>若要断酒法，醒眼看醉人。</h2><p>【解释】如果想得到戒酒的方法，只需用清醒的眼光看看喝醉酒的人的醉态。</p>
-<h2 id="求人须求大丈夫，济人须济急时无。渴时一滴如甘露，醉后添杯不如无。"><a href="#求人须求大丈夫，济人须济急时无。渴时一滴如甘露，醉后添杯不如无。" class="headerlink" title="求人须求大丈夫，济人须济急时无。渴时一滴如甘露，醉后添杯不如无。"></a>求人须求大丈夫，济人须济急时无。渴时一滴如甘露，醉后添杯不如无。</h2><p>【解释】请求人帮助就去求真正的男子汉，救济别人就救济那些急需救济的人。口渴的时候一滴水也如同甘露一般甜美，喝醉酒后再添杯还不如不添。</p>
-<h2 id="久住令人贱，频来亲也疏。"><a href="#久住令人贱，频来亲也疏。" class="headerlink" title="久住令人贱，频来亲也疏。"></a>久住令人贱，频来亲也疏。</h2><p>【解释】在别人家住久了会让人讨厌，亲戚间频繁往来反而会变得很疏远。</p>
-<h2 id="酒中不语真君子，财上分明大丈夫。"><a href="#酒中不语真君子，财上分明大丈夫。" class="headerlink" title="酒中不语真君子，财上分明大丈夫。"></a>酒中不语真君子，财上分明大丈夫。</h2><p>【解释】喝酒不胡言乱语才是真正的君子，在钱财上分得清清楚楚才是真正的男子汉。</p>
-<h2 id="积金千两，不如多买经书。"><a href="#积金千两，不如多买经书。" class="headerlink" title="积金千两，不如多买经书。"></a>积金千两，不如多买经书。</h2><p><strong>养子不教如养驴，养女不教如养猪。</strong><br><strong>有田不耕仓廪虚，有书不读子孙愚。</strong><br><strong>仓廪虚兮岁月乏，子孙愚兮礼义疏。</strong><br><strong>同君一席话，胜读十年书。</strong><br><strong>人不通古今，马牛而襟裾。</strong><br><strong>茫茫四海人无数，哪个男儿是丈夫。</strong><br><strong>美酒酿成缘好客，黄金散尽为收书。</strong></p>
-<p>【解释】积蓄千两黄金，不如多买书籍传给后代。养儿子不教育和养驴没有区别，养女儿不教育和养猪没有两样。有了田地不耕，粮仓也会空虚，有书籍不读，子孙必定愚笨。粮仓空虚生活就没有保障，子孙愚笨就会不讲礼义。同你长谈一次话，收益胜过读十年的书。一个人不能博古通今，就如同牛马穿上衣服没有什么区别。茫茫四海人不计其数，哪个男人才是真正的男子汉呢?酿造美酒是因为热情好客，花掉金钱是由于收买书籍。</p>
-<h2 id="救人一命，胜造七级浮屠。"><a href="#救人一命，胜造七级浮屠。" class="headerlink" title="救人一命，胜造七级浮屠。"></a>救人一命，胜造七级浮屠。</h2><p><strong>城门失火，殃及池鱼。</strong><br><strong>庭前生瑞草，好事不如无。</strong></p>
-<p>【解释】救人一命，胜过修建七层佛塔。城门口着了火，取水救火，就会殃及池中的鱼无水而死。庭院生长出吉祥的草，会招来人们纷纷观看，这样的好事不如没有好。</p>
-<h2 id="欲求生富贵，须下死工夫。"><a href="#欲求生富贵，须下死工夫。" class="headerlink" title="欲求生富贵，须下死工夫。"></a>欲求生富贵，须下死工夫。</h2><p>【解释】如果想得到荣华富贵，必须付出拼死的努力。</p>
-<h2 id="百年成之不足，一旦败之有余。"><a href="#百年成之不足，一旦败之有余。" class="headerlink" title="百年成之不足，一旦败之有余。"></a>百年成之不足，一旦败之有余。</h2><p>【解释】多年的努力做成一件事还不一定成功，但一朝不慎毁坏起来却是绰绰有余。</p>
-<h2 id="人心似铁，官法如炉。善化不足，恶化有余。"><a href="#人心似铁，官法如炉。善化不足，恶化有余。" class="headerlink" title="人心似铁，官法如炉。善化不足，恶化有余。"></a>人心似铁，官法如炉。善化不足，恶化有余。</h2><p>【解释】如果把人心比做铁的话，国家的法律则像冶铁的熔炉。如果善性对你的感化不够，则恶性对你的感化就会变本加厉。</p>
-<h2 id="水至清则无鱼，人太察则无谋。知者减半，愚者全无。"><a href="#水至清则无鱼，人太察则无谋。知者减半，愚者全无。" class="headerlink" title="水至清则无鱼，人太察则无谋。知者减半，愚者全无。"></a>水至清则无鱼，人太察则无谋。知者减半，愚者全无。</h2><p>【解释】水过分清澈就不会有鱼，人过于明察就不会有人为你出主意。世上的聪明人若减少一半，那么愚笨的人也就没有了。</p>
-<h2 id="在家由父，出嫁从夫。痴人畏妇，贤女敬夫。"><a href="#在家由父，出嫁从夫。痴人畏妇，贤女敬夫。" class="headerlink" title="在家由父，出嫁从夫。痴人畏妇，贤女敬夫。"></a>在家由父，出嫁从夫。痴人畏妇，贤女敬夫。</h2><p>【解释】女子在家里要听从父亲，出嫁后要服从丈夫。只有傻瓜才害怕老婆，贤惠的女人敬重丈夫。</p>
-<h2 id="是非终日有，不听自然无。"><a href="#是非终日有，不听自然无。" class="headerlink" title="是非终日有，不听自然无。"></a>是非终日有，不听自然无。</h2><p><strong>宁可正而不足，不可邪而有余。</strong><br><strong>宁可信其有，不可信其无。</strong></p>
-<p>【解释】是是非非每天都有，若不去听它自然就不存在了。宁可生活贫困，做一个正直的人，也不能生活富足，做一个奸邪的人。有些事宁可相信它有，也不要相信它没有。</p>
-<h2 id="竹篱茅舍风光好，僧院道房终不如。"><a href="#竹篱茅舍风光好，僧院道房终不如。" class="headerlink" title="竹篱茅舍风光好，僧院道房终不如。"></a>竹篱茅舍风光好，僧院道房终不如。</h2><p>【解释】自家的茅屋竹院风光很好，就是道观寺院也比不上。</p>
-<h2 id="命里有时终须有，命里无时莫强求。"><a href="#命里有时终须有，命里无时莫强求。" class="headerlink" title="命里有时终须有，命里无时莫强求。"></a>命里有时终须有，命里无时莫强求。</h2><p>【解释】命中注定有的一定会有，命中注定没有的再三强求也白搭。</p>
-<h2 id="道院迎仙客，书堂隐相儒。"><a href="#道院迎仙客，书堂隐相儒。" class="headerlink" title="道院迎仙客，书堂隐相儒。"></a>道院迎仙客，书堂隐相儒。</h2><p><strong>庭栽栖凤竹，池养化龙鱼。</strong><br><strong>结交须胜己，似我不如无。</strong><br><strong>但看三五日，相见不如初。</strong></p>
-<p>【解释】道观寺院迎接神仙贵客，学堂隐藏着宰相儒士。庭院栽有落凤的竹子，池塘养有化龙之鱼。交朋友须找学识本领胜过自己的人，和自己水平差不多的人交往如同不交往一样。只要相处几天，就会发现他还不如初次见时的印象好。</p>
-<h2 id="人情似水分高下，世事如云任卷舒。"><a href="#人情似水分高下，世事如云任卷舒。" class="headerlink" title="人情似水分高下，世事如云任卷舒。"></a>人情似水分高下，世事如云任卷舒。</h2><p>【解释】人情像水一样有高下、厚薄之分，世事如同浮云一样变幻莫测。</p>
-<h2 id="会说说都市，不会说说屋里。"><a href="#会说说都市，不会说说屋里。" class="headerlink" title="会说说都市，不会说说屋里。"></a>会说说都市，不会说说屋里。</h2><p>【解释】会说的说些都市里的大事，不会讲的只讲些家中鸡毛蒜皮的小事。</p>
-<h2 id="磨刀恨不利，刀利伤人指。求财恨不多，财多害人子。"><a href="#磨刀恨不利，刀利伤人指。求财恨不多，财多害人子。" class="headerlink" title="磨刀恨不利，刀利伤人指。求财恨不多，财多害人子。"></a>磨刀恨不利，刀利伤人指。求财恨不多，财多害人子。</h2><p>【解释】磨刀都嫌磨得不够锋利，但刀过于锋利则易伤人手指。追求钱财总嫌不够多，但钱财太多反而会害了自己的子女。</p>
-<h2 id="知足常足，终身不辱；知止常止，终身不耻。"><a href="#知足常足，终身不辱；知止常止，终身不耻。" class="headerlink" title="知足常足，终身不辱；知止常止，终身不耻。"></a>知足常足，终身不辱；知止常止，终身不耻。</h2><p>【解释】明白知足常乐的道理就会经常感到满足，懂得任何事物都有止境就应适可而止，能做到这样一生都不会遭受耻辱。</p>
-<h2 id="有福伤财，无福伤己。差之毫厘，失之千里。"><a href="#有福伤财，无福伤己。差之毫厘，失之千里。" class="headerlink" title="有福伤财，无福伤己。差之毫厘，失之千里。"></a>有福伤财，无福伤己。差之毫厘，失之千里。</h2><p>【解释】有福之人遭到不幸只是损失钱财，无福之人遭遇不幸则会伤及性命。非常微小的差错会造成天大的错误。</p>
-<h2 id="若登高必自卑，若涉远必自迩。"><a href="#若登高必自卑，若涉远必自迩。" class="headerlink" title="若登高必自卑，若涉远必自迩。"></a>若登高必自卑，若涉远必自迩。</h2><p>【解释】登上极高的山，就能使人知道“自卑”，也就是与“高”比较起来自己只不过是“卑”（不高）而已。走极远的路，就能知道“自迩”，也就是与“远”比较起来自己只不过是“迩”（不远）而已。</p>
-<h2 id="三思而行，再思可矣。"><a href="#三思而行，再思可矣。" class="headerlink" title="三思而行，再思可矣。"></a>三思而行，再思可矣。</h2><p>【解释】凡事应三思而后行，但通常考虑两次也就差不多了。</p>
-<h2 id="使口不如亲为，求人不如求己。"><a href="#使口不如亲为，求人不如求己。" class="headerlink" title="使口不如亲为，求人不如求己。"></a>使口不如亲为，求人不如求己。</h2><p>【解释】动口说不如亲自去做，求人帮助还不如靠自己努力。</p>
-<h2 id="小时是兄弟，长大各乡里。妒财莫妒食，怨生莫怨死。"><a href="#小时是兄弟，长大各乡里。妒财莫妒食，怨生莫怨死。" class="headerlink" title="小时是兄弟，长大各乡里。妒财莫妒食，怨生莫怨死。"></a>小时是兄弟，长大各乡里。妒财莫妒食，怨生莫怨死。</h2><p>【解释】小时在一起玩耍时是好兄弟，长大成人后就各奔东西了。妒忌别人的钱财可以，但不能妒忌别人的饮食；别人活着的时候你可以埋怨，死去之后就不要再埋怨了。</p>
-<h2 id="人见白头嗔，我见白头喜。多少少年亡，不到白头死。"><a href="#人见白头嗔，我见白头喜。多少少年亡，不到白头死。" class="headerlink" title="人见白头嗔，我见白头喜。多少少年亡，不到白头死。"></a>人见白头嗔，我见白头喜。多少少年亡，不到白头死。</h2><p>【解释】别人发现头发白了就很生气，我见了却很高兴。多少人年轻黑发时就死去了，还没有活到有白头发的时候。</p>
-<h2 id="墙有缝，壁有耳。好事不出门，恶事传千里。"><a href="#墙有缝，壁有耳。好事不出门，恶事传千里。" class="headerlink" title="墙有缝，壁有耳。好事不出门，恶事传千里。"></a>墙有缝，壁有耳。好事不出门，恶事传千里。</h2><p>【解释】再好的墙壁也有裂缝，隔着墙也会有人偷听，应该时时提防。好的事情不易传出去，而坏事情则一日可传千里。</p>
-<h2 id="贼是小人，智过君子。君子固穷，小人穷斯滥矣。"><a href="#贼是小人，智过君子。君子固穷，小人穷斯滥矣。" class="headerlink" title="贼是小人，智过君子。君子固穷，小人穷斯滥矣。"></a>贼是小人，智过君子。君子固穷，小人穷斯滥矣。</h2><p>【解释】贼虽然是卑鄙小人，但其智慧有时可以超过所谓的君子。君子虽然穷困，但能安分守己，小人穷困了则会胡作非为。</p>
-<h2 id="贫穷自在，富贵多忧。"><a href="#贫穷自在，富贵多忧。" class="headerlink" title="贫穷自在，富贵多忧。"></a>贫穷自在，富贵多忧。</h2><p>【解释】人虽贫穷但活得自在，人变富贵后因为想法太多活得就很累。</p>
-<h2 id="不以我为德，反以我为仇。宁向直中取，不向曲中求。"><a href="#不以我为德，反以我为仇。宁向直中取，不向曲中求。" class="headerlink" title="不以我为德，反以我为仇。宁向直中取，不向曲中求。"></a>不以我为德，反以我为仇。宁向直中取，不向曲中求。</h2><p>【解释】不但不感激我，反而说我坏话，把我当做仇人。宁可用正当的方法去争取，也不可用旁门左道去谋求。</p>
-<h2 id="人无远虑，必有近忧。"><a href="#人无远虑，必有近忧。" class="headerlink" title="人无远虑，必有近忧。"></a>人无远虑，必有近忧。</h2><p>【解释】人若没有了长远的打算，以后一定会被眼前的难事所困扰。</p>
-<h2 id="知我者谓我心忧，不知我者谓我何求。"><a href="#知我者谓我心忧，不知我者谓我何求。" class="headerlink" title="知我者谓我心忧，不知我者谓我何求。"></a>知我者谓我心忧，不知我者谓我何求。</h2><p>【解释】了解我的人能够说出我内心的困苦，不了解我的人还以为我在干什么呢！</p>
-<h2 id="晴天不肯去，直待雨淋头。成事莫说，覆水难收。"><a href="#晴天不肯去，直待雨淋头。成事莫说，覆水难收。" class="headerlink" title="晴天不肯去，直待雨淋头。成事莫说，覆水难收。"></a>晴天不肯去，直待雨淋头。成事莫说，覆水难收。</h2><p>【解释】天气好时不愿前去，直到大雨淋头时才开始行动，这时候已经晚了。事情办完了，不管好坏就不要再说了，因为泼出去的水终究是收不回来的。</p>
-<h2 id="是非只为多开口，烦恼皆因强出头。"><a href="#是非只为多开口，烦恼皆因强出头。" class="headerlink" title="是非只为多开口，烦恼皆因强出头。"></a>是非只为多开口，烦恼皆因强出头。</h2><p>【解释】是非都是由说话过多而引发的，烦恼都是由于争强好胜而招致的。</p>
-<h2 id="忍得一时之气，免得百日之忧。近来学得乌龟法，得缩头时且缩头。"><a href="#忍得一时之气，免得百日之忧。近来学得乌龟法，得缩头时且缩头。" class="headerlink" title="忍得一时之气，免得百日之忧。近来学得乌龟法，得缩头时且缩头。"></a>忍得一时之气，免得百日之忧。近来学得乌龟法，得缩头时且缩头。</h2><p>【解释】忍下一时的怨气，可以免除长久的忧患。遇到不利的情况学学乌龟，该缩头的时候就要把头缩回去。</p>
-<h2 id="惧法朝朝乐，欺公日日忧。"><a href="#惧法朝朝乐，欺公日日忧。" class="headerlink" title="惧法朝朝乐，欺公日日忧。"></a>惧法朝朝乐，欺公日日忧。</h2><p>【解释】严守法纪天天都会安乐，冒犯公法时时都有忧患。</p>
-<h2 id="人生一世，草木一春。"><a href="#人生一世，草木一春。" class="headerlink" title="人生一世，草木一春。"></a>人生一世，草木一春。</h2><p><strong>黑发不知勤学早，转眼便是白头翁。</strong><br><strong>月到十五光明少，人到中年万事休。</strong></p>
-<p>【解释】人活一辈子，就像花草树木繁荣，一春一秋，非常短暂。年少时不知道勤学苦读，弹指间就会变成白发老翁。月亮过了十五后光明就会越来越少，人到中年还一事无成，也就不会有大的作为了。</p>
-<h2 id="儿孙自有儿孙福，莫为儿孙作马牛。"><a href="#儿孙自有儿孙福，莫为儿孙作马牛。" class="headerlink" title="儿孙自有儿孙福，莫为儿孙作马牛。"></a>儿孙自有儿孙福，莫为儿孙作马牛。</h2><p>【解释】儿孙自有儿孙应有的福气，不要替他们当牛做马。</p>
-<h2 id="人生不满百，常怀千岁忧。"><a href="#人生不满百，常怀千岁忧。" class="headerlink" title="人生不满百，常怀千岁忧。"></a>人生不满百，常怀千岁忧。</h2><p>【解释】人的一生连百岁都难以活到，却经常怀有千年的忧患。</p>
-<h2 id="今朝有酒今朝醉，明日愁来明日忧。"><a href="#今朝有酒今朝醉，明日愁来明日忧。" class="headerlink" title="今朝有酒今朝醉，明日愁来明日忧。"></a>今朝有酒今朝醉，明日愁来明日忧。</h2><p>【解释】今天有酒今天就一醉方休，明天的忧愁等到明天再说。</p>
-<h2 id="路逢险处须回避，事到头来不自由。"><a href="#路逢险处须回避，事到头来不自由。" class="headerlink" title="路逢险处须回避，事到头来不自由。"></a>路逢险处须回避，事到头来不自由。</h2><p>【解释】走路遇到危险处尚能回避一下，麻烦事临到头上就由不得自己了。</p>
-<h2 id="药能医假病，酒不解真愁。"><a href="#药能医假病，酒不解真愁。" class="headerlink" title="药能医假病，酒不解真愁。"></a>药能医假病，酒不解真愁。</h2><p>【解释】药可以治好假病，酒却解除不了真正的忧愁。</p>
-<h2 id="人贫不语，水平不流。"><a href="#人贫不语，水平不流。" class="headerlink" title="人贫不语，水平不流。"></a>人贫不语，水平不流。</h2><p>【解释】人在贫穷时说话也不多，水在平面上也不会流动。</p>
-<h2 id="一家养女百家求，一马不行百马忧。"><a href="#一家养女百家求，一马不行百马忧。" class="headerlink" title="一家养女百家求，一马不行百马忧。"></a>一家养女百家求，一马不行百马忧。</h2><p><strong>有花方酌酒，无月不登楼。</strong><br><strong>三杯通大道，一醉解千愁。</strong></p>
-<p>【解释】一家生育了女儿，会有一百家来求亲，一匹马不走，一百匹马都跟着犯愁。有花可赏才可以喝酒，没有明月为伴就不要登楼。三杯酒下肚可以通晓道理，一醉后可以解除各种烦恼忧愁。</p>
-<h2 id="深山毕竟藏猛虎，大海终须纳细流。"><a href="#深山毕竟藏猛虎，大海终须纳细流。" class="headerlink" title="深山毕竟藏猛虎，大海终须纳细流。"></a>深山毕竟藏猛虎，大海终须纳细流。</h2><p>【解释】深山必然会藏有猛虎，大海终究要容纳细流。</p>
-<h2 id="惜花须检点，爱月不梳头。大抵选他肌骨好，不搽红粉也风流。"><a href="#惜花须检点，爱月不梳头。大抵选他肌骨好，不搽红粉也风流。" class="headerlink" title="惜花须检点，爱月不梳头。大抵选他肌骨好，不搽红粉也风流。"></a>惜花须检点，爱月不梳头。大抵选他肌骨好，不搽红粉也风流。</h2><p>【解释】做人不要到处拈花惹草，应洁身自好。只要五官长得好，即使不搽脂抹粉也很漂亮。</p>
-<h2 id="受恩深处宜先退，得意浓时便可休。莫待是非来入耳，从前恩爱反成仇。"><a href="#受恩深处宜先退，得意浓时便可休。莫待是非来入耳，从前恩爱反成仇。" class="headerlink" title="受恩深处宜先退，得意浓时便可休。莫待是非来入耳，从前恩爱反成仇。"></a>受恩深处宜先退，得意浓时便可休。莫待是非来入耳，从前恩爱反成仇。</h2><p>【解释】得到恩惠很深时应及早退出身来，春风得意时要及时罢休。千万不要等到是非传入耳内，致使过去的恩爱变成怨仇。</p>
-<h2 id="留得五湖明月在，不愁无处下金钩。"><a href="#留得五湖明月在，不愁无处下金钩。" class="headerlink" title="留得五湖明月在，不愁无处下金钩。"></a>留得五湖明月在，不愁无处下金钩。</h2><p>【解释】只要五湖明月仍在，就不愁没有地方钓不着鱼。</p>
-<h2 id="休别有鱼处，莫恋浅滩头。去时终须去，再三留不住。"><a href="#休别有鱼处，莫恋浅滩头。去时终须去，再三留不住。" class="headerlink" title="休别有鱼处，莫恋浅滩头。去时终须去，再三留不住。"></a>休别有鱼处，莫恋浅滩头。去时终须去，再三留不住。</h2><p>【解释】不要轻易地离开有鱼的地方，也不要过分地迷恋浅水滩头。该离去的终究要离去，想留也留它不住。</p>
-<h2 id="忍一句，息一怒；饶一着，退一步。"><a href="#忍一句，息一怒；饶一着，退一步。" class="headerlink" title="忍一句，息一怒；饶一着，退一步。"></a>忍一句，息一怒；饶一着，退一步。</h2><p>【解释】你若忍住不说一句，就能平息别人的一次愤怒；你饶人一着，别人也会退让一步。</p>
-<h2 id="三十不豪，四十不富，五十将近寻死路。生不认魂，死不认尸。"><a href="#三十不豪，四十不富，五十将近寻死路。生不认魂，死不认尸。" class="headerlink" title="三十不豪，四十不富，五十将近寻死路。生不认魂，死不认尸。"></a>三十不豪，四十不富，五十将近寻死路。生不认魂，死不认尸。</h2><p>【解释】人如果到三十岁不自立自强，到四十岁就不会变得富裕起来，到五十岁离死不远更没什么指望了。这个道理很多人态度强硬，死活不承认这一点。</p>
-<h2 id="一寸光阴一寸金，寸金难买寸光阴。"><a href="#一寸光阴一寸金，寸金难买寸光阴。" class="headerlink" title="一寸光阴一寸金，寸金难买寸光阴。"></a>一寸光阴一寸金，寸金难买寸光阴。</h2><p>【解释】光阴要比黄金还宝贵，因为光阴一去就不会返回，这是无论多少黄金都难以买到的。</p>
-<h2 id="父母恩深终有别，夫妻义重也分离。人生似鸟同林宿，大限来时各自飞。"><a href="#父母恩深终有别，夫妻义重也分离。人生似鸟同林宿，大限来时各自飞。" class="headerlink" title="父母恩深终有别，夫妻义重也分离。人生似鸟同林宿，大限来时各自飞。"></a>父母恩深终有别，夫妻义重也分离。人生似鸟同林宿，大限来时各自飞。</h2><p>【解释】父母的恩情再深也有分别的时候，夫妻的情义再重也有离开的时候。人生就像栖息在同一个林子里的鸟，大难临头就会各自飞去。</p>
-<h2 id="人善被人欺，马善被人骑。"><a href="#人善被人欺，马善被人骑。" class="headerlink" title="人善被人欺，马善被人骑。"></a>人善被人欺，马善被人骑。</h2><p>【解释】善良的人往往被别人欺负，驯服的马总是被人任意乘骑。</p>
-<h2 id="人无横财不富，马无夜草不肥。"><a href="#人无横财不富，马无夜草不肥。" class="headerlink" title="人无横财不富，马无夜草不肥。"></a>人无横财不富，马无夜草不肥。</h2><p>【解释】人不发横财就不能暴富，马不吃夜草就不会长肥。</p>
-<h2 id="人恶人怕天不怕，人善人欺天不欺。善恶到头终有报，只争来早与来迟。"><a href="#人恶人怕天不怕，人善人欺天不欺。善恶到头终有报，只争来早与来迟。" class="headerlink" title="人恶人怕天不怕，人善人欺天不欺。善恶到头终有报，只争来早与来迟。"></a>人恶人怕天不怕，人善人欺天不欺。善恶到头终有报，只争来早与来迟。</h2><p>【解释】恶人人们都害怕但天不怕，善良的人被人欺负但天不欺负。无论是行善还是作恶，到头来都会得到报应，区别在于来得早些或迟些而已。</p>
-<h2 id="黄河尚有澄清日，岂可人无得运时。"><a href="#黄河尚有澄清日，岂可人无得运时。" class="headerlink" title="黄河尚有澄清日，岂可人无得运时。"></a>黄河尚有澄清日，岂可人无得运时。</h2><p>【解释】黄河尚且有澄清的时候，难道人就没有时来运转的那一天。</p>
-<h2 id="得宠思辱，居安思危。念念有如临敌日，心心常似过桥时。"><a href="#得宠思辱，居安思危。念念有如临敌日，心心常似过桥时。" class="headerlink" title="得宠思辱，居安思危。念念有如临敌日，心心常似过桥时。"></a>得宠思辱，居安思危。念念有如临敌日，心心常似过桥时。</h2><p>【解释】得宠的时候应考虑到将来可能遭受的耻辱，平安无事时要想到以后可能发生的危险。要像如临大敌一样时刻警惕，像过独木桥一样小心谨慎。</p>
-<h2 id="英雄行险道，富贵似花枝。人情莫道春光好，只怕秋来有冷时。"><a href="#英雄行险道，富贵似花枝。人情莫道春光好，只怕秋来有冷时。" class="headerlink" title="英雄行险道，富贵似花枝。人情莫道春光好，只怕秋来有冷时。"></a>英雄行险道，富贵似花枝。人情莫道春光好，只怕秋来有冷时。</h2><p>【解释】英雄豪杰所走的道路充满艰险，荣华富贵如同花枝一样容易凋谢，成为过眼烟云。人情关系并不总是如同春光一样美好，只怕也有像秋天冷冷清清的时候。</p>
-<h2 id="送君千里，终须一别。"><a href="#送君千里，终须一别。" class="headerlink" title="送君千里，终须一别。"></a>送君千里，终须一别。</h2><p>【解释】朋友送得再远，最后还是得分别。</p>
-<h2 id="但将冷眼观螃蟹，看你横行到几时。"><a href="#但将冷眼观螃蟹，看你横行到几时。" class="headerlink" title="但将冷眼观螃蟹，看你横行到几时。"></a>但将冷眼观螃蟹，看你横行到几时。</h2><p>【解释】用冷静的眼光来看爬行的螃蟹，看它究竟能横行霸道到什么时候。</p>
-<h2 id="见事莫说，问事不知。闲事休管，无事早归。"><a href="#见事莫说，问事不知。闲事休管，无事早归。" class="headerlink" title="见事莫说，问事不知。闲事休管，无事早归。"></a>见事莫说，问事不知。闲事休管，无事早归。</h2><p>【解释】看见什么事也不要说，别人问什么事就说不知道。闲事不要去管，事忙完了就早点回家。</p>
-<h2 id="假缎染就真红色，也被旁人说是非。善事可作，恶事莫为。"><a href="#假缎染就真红色，也被旁人说是非。善事可作，恶事莫为。" class="headerlink" title="假缎染就真红色，也被旁人说是非。善事可作，恶事莫为。"></a>假缎染就真红色，也被旁人说是非。善事可作，恶事莫为。</h2><p>【解释】假的绸缎即使染上真的红色，也难免有人说三道四。好事要多做，坏事千万不可为。</p>
-<h2 id="许人一物，千金不移。"><a href="#许人一物，千金不移。" class="headerlink" title="许人一物，千金不移。"></a>许人一物，千金不移。</h2><p>【解释】答应送给别人的东西，就是有人以千金相换也绝不能反悔。</p>
-<h2 id="龙生龙子，虎生虎儿。龙游浅水遭虾戏，虎落平阳被犬欺。"><a href="#龙生龙子，虎生虎儿。龙游浅水遭虾戏，虎落平阳被犬欺。" class="headerlink" title="龙生龙子，虎生虎儿。龙游浅水遭虾戏，虎落平阳被犬欺。"></a>龙生龙子，虎生虎儿。龙游浅水遭虾戏，虎落平阳被犬欺。</h2><p>【解释】龙生龙，虎生虎。龙在浅水中连小虾也敢戏弄，老虎落入平川反被家犬所欺负。</p>
-<h2 id="一举首登龙虎榜，十年身到凤凰池。十载寒窗无人问，一举成名天下知。"><a href="#一举首登龙虎榜，十年身到凤凰池。十载寒窗无人问，一举成名天下知。" class="headerlink" title="一举首登龙虎榜，十年身到凤凰池。十载寒窗无人问，一举成名天下知。"></a>一举首登龙虎榜，十年身到凤凰池。十载寒窗无人问，一举成名天下知。</h2><p>【解释】参加一次科举考试就榜上有名，十年苦读，终于可以大展宏图了。寒窗下苦读十年无人问津，一下子成名后天下人都知道。</p>
-<h2 id="酒债寻常行处有，人生七十古来稀。养儿防老，积谷防饥。"><a href="#酒债寻常行处有，人生七十古来稀。养儿防老，积谷防饥。" class="headerlink" title="酒债寻常行处有，人生七十古来稀。养儿防老，积谷防饥。"></a>酒债寻常行处有，人生七十古来稀。养儿防老，积谷防饥。</h2><p>【解释】喝酒欠债并非稀罕事，但能活到七十岁的人却不多。养儿是为了年老有所依靠，积储粮食是为了防备饥荒。</p>
-<h2 id="当家才知盐米贵，养子方知父母恩。常将有日思无日，莫把无时当有时。"><a href="#当家才知盐米贵，养子方知父母恩。常将有日思无日，莫把无时当有时。" class="headerlink" title="当家才知盐米贵，养子方知父母恩。常将有日思无日，莫把无时当有时。"></a>当家才知盐米贵，养子方知父母恩。常将有日思无日，莫把无时当有时。</h2><p>【解释】当家后才能体会钱财来之不易，有了儿女才能理解父母的养育之恩。生活好了要常想想以前贫困的时候，生活困顿时不要像以前富裕时那样铺张浪费。</p>
-<h2 id="时来风送滕王阁，运去雷轰荐福碑。"><a href="#时来风送滕王阁，运去雷轰荐福碑。" class="headerlink" title="时来风送滕王阁，运去雷轰荐福碑。"></a>时来风送滕王阁，运去雷轰荐福碑。</h2><p>【解释】运气好时，即使坏的情况也能逢凶化吉，运气不佳时，好的局面也会变坏。</p>
-<h2 id="入门休问荣枯事，且看容颜便得知。"><a href="#入门休问荣枯事，且看容颜便得知。" class="headerlink" title="入门休问荣枯事，且看容颜便得知。"></a>入门休问荣枯事，且看容颜便得知。</h2><p>【解释】进门时不必问主人近况如何，看看他的脸色表情也就大致知道了。</p>
-<h2 id="官清书吏瘦，神灵庙主肥。"><a href="#官清书吏瘦，神灵庙主肥。" class="headerlink" title="官清书吏瘦，神灵庙主肥。"></a>官清书吏瘦，神灵庙主肥。</h2><p>【解释】为官清正廉洁，下面当差的就捞不到油水；庙里的神仙显灵，香客就会络绎不绝，也就养肥了管香火的人。</p>
-<h2 id="息却雷霆之怒，罢却虎狼之威。"><a href="#息却雷霆之怒，罢却虎狼之威。" class="headerlink" title="息却雷霆之怒，罢却虎狼之威。"></a>息却雷霆之怒，罢却虎狼之威。</h2><p>【解释】平息如雷霆般的怒火，收敛似虎狼般的威风。</p>
-<h2 id="饶人算之本，输人算之机。"><a href="#饶人算之本，输人算之机。" class="headerlink" title="饶人算之本，输人算之机。"></a>饶人算之本，输人算之机。</h2><p>【解释】能宽恕别人是胜算的根本，多让让别人是胜算的天机。</p>
-<h2 id="好言难得，恶语易施。一言既出，驷马难追。"><a href="#好言难得，恶语易施。一言既出，驷马难追。" class="headerlink" title="好言难得，恶语易施。一言既出，驷马难追。"></a>好言难得，恶语易施。一言既出，驷马难追。</h2><p>【解释】获得别人的好评是很难的，说别人的坏话则很容易。说出口的话就要算数，就是四匹马拉的车也追不回来。</p>
-<h2 id="道吾好者是吾贼，道吾恶者是吾师。"><a href="#道吾好者是吾贼，道吾恶者是吾师。" class="headerlink" title="道吾好者是吾贼，道吾恶者是吾师。"></a>道吾好者是吾贼，道吾恶者是吾师。</h2><p>【解释】吹捧我的人其实是在伤害我，敢于批评我的人却是在爱护我。</p>
-<h2 id="路逢险处须当避，不是才人莫献诗。"><a href="#路逢险处须当避，不是才人莫献诗。" class="headerlink" title="路逢险处须当避，不是才人莫献诗。"></a>路逢险处须当避，不是才人莫献诗。</h2><p>【解释】行路遇到危险之处应当避开它，文采欠佳的人就不要硬着头皮去献诗。</p>
-<h2 id="三人行，必有我师焉。择其善者而从之，其不善者而改之。"><a href="#三人行，必有我师焉。择其善者而从之，其不善者而改之。" class="headerlink" title="三人行，必有我师焉。择其善者而从之，其不善者而改之。"></a>三人行，必有我师焉。择其善者而从之，其不善者而改之。</h2><p>【解释】三个人一起走路，其中必定有可以为我所学习的人。我选取那些优良的方面学习它，对那些不良的方面则加以改正。</p>
-<h2 id="欲昌和顺须为善，要振家声在读书。"><a href="#欲昌和顺须为善，要振家声在读书。" class="headerlink" title="欲昌和顺须为善，要振家声在读书。"></a>欲昌和顺须为善，要振家声在读书。</h2><p>【解释】若想家庭和睦，就要多做善事；要想振兴家门，就须刻苦读书</p>
-<h2 id="少壮不努力，老大徒伤悲。"><a href="#少壮不努力，老大徒伤悲。" class="headerlink" title="少壮不努力，老大徒伤悲。"></a>少壮不努力，老大徒伤悲。</h2><p>【解释】年轻时不努力学习上进，年老时一事无成，只有独自悲伤了。</p>
-<h2 id="莫饮卯时酒，昏昏醉到酉。莫骂酉时妻，一夜受孤凄。"><a href="#莫饮卯时酒，昏昏醉到酉。莫骂酉时妻，一夜受孤凄。" class="headerlink" title="莫饮卯时酒，昏昏醉到酉。莫骂酉时妻，一夜受孤凄。"></a>莫饮卯时酒，昏昏醉到酉。莫骂酉时妻，一夜受孤凄。</h2><p>【解释】不要在早晨喝酒，不然一天到晚都打不起精神。不要在晚上和妻子吵架，否则一夜都会孤单无人理会。</p>
-<h2 id="种麻得麻，种豆得豆。天网恢恢，疏而不漏。"><a href="#种麻得麻，种豆得豆。天网恢恢，疏而不漏。" class="headerlink" title="种麻得麻，种豆得豆。天网恢恢，疏而不漏。"></a>种麻得麻，种豆得豆。天网恢恢，疏而不漏。</h2><p>【解释】种麻得麻，种豆得豆。天网广阔无垠，虽然网孔稀疏，却绝不会有一点遗漏。</p>
-<h2 id="见官莫向前，做客莫向后。"><a href="#见官莫向前，做客莫向后。" class="headerlink" title="见官莫向前，做客莫向后。"></a>见官莫向前，做客莫向后。</h2><p>【解释】面见当官的不要着急地往前凑，到别人家做客时不要往后退缩。</p>
-<h2 id="宁添一斗，莫添一口。"><a href="#宁添一斗，莫添一口。" class="headerlink" title="宁添一斗，莫添一口。"></a>宁添一斗，莫添一口。</h2><p>【解释】宁可多添一斗粮食，也不愿家里多添一口人。</p>
-<h2 id="螳螂捕蝉，岂知黄雀在后。"><a href="#螳螂捕蝉，岂知黄雀在后。" class="headerlink" title="螳螂捕蝉，岂知黄雀在后。"></a>螳螂捕蝉，岂知黄雀在后。</h2><p>【解释】螳螂在捕捉蝉的时候，却未料到黄雀正在它后面想啄它。</p>
-<h2 id="不求金玉重重贵，但愿儿孙个个贤。"><a href="#不求金玉重重贵，但愿儿孙个个贤。" class="headerlink" title="不求金玉重重贵，但愿儿孙个个贤。"></a>不求金玉重重贵，但愿儿孙个个贤。</h2><p>【解释】不追求什么金玉满堂，只图子孙个个都有出息。</p>
-<h2 id="一日夫妻，百世姻缘。百世修来同船渡，千世修来共枕眠。"><a href="#一日夫妻，百世姻缘。百世修来同船渡，千世修来共枕眠。" class="headerlink" title="一日夫妻，百世姻缘。百世修来同船渡，千世修来共枕眠。"></a>一日夫妻，百世姻缘。百世修来同船渡，千世修来共枕眠。</h2><p>【解释】一日结为夫妻，这是百世修成的姻缘。夫妻之间应当同舟共济，同床共枕，这是千世修来的福分，要倍加珍惜。</p>
-<h2 id="杀人一万，自损三千。伤人一语，利如刀割。"><a href="#杀人一万，自损三千。伤人一语，利如刀割。" class="headerlink" title="杀人一万，自损三千。伤人一语，利如刀割。"></a>杀人一万，自损三千。伤人一语，利如刀割。</h2><p>【解释】杀人一万，自己也要损失三千。说一句伤害别人的话，就像用刀割别人的心一样。</p>
-<h2 id="枯木逢春犹再发，人无两度再少年。"><a href="#枯木逢春犹再发，人无两度再少年。" class="headerlink" title="枯木逢春犹再发，人无两度再少年。"></a>枯木逢春犹再发，人无两度再少年。</h2><p>【解释】枯木到了春天还能再次发芽，人生却不会有两次少年时光</p>
-<h2 id="未晚先投宿，鸡鸣早看天。"><a href="#未晚先投宿，鸡鸣早看天。" class="headerlink" title="未晚先投宿，鸡鸣早看天。"></a>未晚先投宿，鸡鸣早看天。</h2><p>【解释】出门在外，天没黑就应找旅店投宿，天明鸡叫了就要抓紧时间赶路。</p>
-<h2 id="将相顶头堪走马，公侯肚里好撑船。"><a href="#将相顶头堪走马，公侯肚里好撑船。" class="headerlink" title="将相顶头堪走马，公侯肚里好撑船。"></a>将相顶头堪走马，公侯肚里好撑船。</h2><p>【解释】将相的头顶能跑马，公侯的肚里可行船。</p>
-<h2 id="富人思来年，贫人思眼前。"><a href="#富人思来年，贫人思眼前。" class="headerlink" title="富人思来年，贫人思眼前。"></a>富人思来年，贫人思眼前。</h2><p>【解释】富人可以想得很长远，穷人却只能考虑眼前的事。</p>
-<h2 id="世上若要人情好，赊去物件莫取钱。"><a href="#世上若要人情好，赊去物件莫取钱。" class="headerlink" title="世上若要人情好，赊去物件莫取钱。"></a>世上若要人情好，赊去物件莫取钱。</h2><p>【解释】在世上要想图个好人缘，赊欠给别人的东西就不要收钱。</p>
-<h2 id="生死有命，富贵在天。"><a href="#生死有命，富贵在天。" class="headerlink" title="生死有命，富贵在天。"></a>生死有命，富贵在天。</h2><p>【解释】生死都是命里注定的，富贵都是上天安排的。</p>
-<h2 id="击石原有火，不击乃无烟。人学始知道，不学亦枉然。"><a href="#击石原有火，不击乃无烟。人学始知道，不学亦枉然。" class="headerlink" title="击石原有火，不击乃无烟。人学始知道，不学亦枉然。"></a>击石原有火，不击乃无烟。人学始知道，不学亦枉然。</h2><p>【解释】石头相击就会迸出火星，如果不去碰击就不会冒出火来。人只有通过学习才会明白事理，不学什么也不明白。</p>
-<h2 id="莫笑他人老，终须还到老。"><a href="#莫笑他人老，终须还到老。" class="headerlink" title="莫笑他人老，终须还到老。"></a>莫笑他人老，终须还到老。</h2><p><strong>和得邻里好，犹如拾片宝。</strong><br><strong>但能依本分，终须无烦恼。</strong></p>
-<p>【解释】不要笑话别人很老，自己有一天也会变老。同邻里相处好，就像捡到一块宝贝一样可贵。只要安分守己做人，一生都不会有烦恼。</p>
-<h2 id="大家做事寻常，小家做事慌张。大家礼义教子弟，小家凶恶训儿郎。"><a href="#大家做事寻常，小家做事慌张。大家礼义教子弟，小家凶恶训儿郎。" class="headerlink" title="大家做事寻常，小家做事慌张。大家礼义教子弟，小家凶恶训儿郎。"></a>大家做事寻常，小家做事慌张。大家礼义教子弟，小家凶恶训儿郎。</h2><p>【解释】大户人家把做事看得很平常，小户人家做起事来慌里慌张。大户人家用礼义教导子弟，小户人家只知用恶言训斥儿孙。</p>
-<h2 id="君子爱财，取之有道。贞妇爱色，纳之以礼。"><a href="#君子爱财，取之有道。贞妇爱色，纳之以礼。" class="headerlink" title="君子爱财，取之有道。贞妇爱色，纳之以礼。"></a>君子爱财，取之有道。贞妇爱色，纳之以礼。</h2><p>【解释】君子也喜爱钱财，但都是从正当途径得来的。守本分的妇女也喜欢打扮，但要符合礼义规范。</p>
-<h2 id="善有善报，恶有恶报。不是不报，日子未到。"><a href="#善有善报，恶有恶报。不是不报，日子未到。" class="headerlink" title="善有善报，恶有恶报。不是不报，日子未到。"></a>善有善报，恶有恶报。不是不报，日子未到。</h2><p>【解释】做好事会有好的报应，干坏事也会有坏的报应。不是不报应，只是时间还没到</p>
-<h2 id="万恶淫为首，百行孝当先。"><a href="#万恶淫为首，百行孝当先。" class="headerlink" title="万恶淫为首，百行孝当先。"></a>万恶淫为首，百行孝当先。</h2><p>【解释】各种罪恶之中以淫乱为首，各种行为当中以孝道为先。</p>
-<h2 id="人而无信，不知其可也。"><a href="#人而无信，不知其可也。" class="headerlink" title="人而无信，不知其可也。"></a>人而无信，不知其可也。</h2><p>【解释】一个人如果不讲信用，真不知道他还能干什么事情。</p>
-<h2 id="一人道虚，千人传实。"><a href="#一人道虚，千人传实。" class="headerlink" title="一人道虚，千人传实。"></a>一人道虚，千人传实。</h2><p>【解释】一个人说出来的假话，经过很多人传来传去也就变成真事了。</p>
-<h2 id="凡事要好，须问三老。若争小可，便失大道。"><a href="#凡事要好，须问三老。若争小可，便失大道。" class="headerlink" title="凡事要好，须问三老。若争小可，便失大道。"></a>凡事要好，须问三老。若争小可，便失大道。</h2><p>【解释】要想办好一件事，必须向德高望重的老人请教。在一些小事上斤斤计较，便会失去更大的东西。</p>
-<h2 id="家中不和邻里欺，邻里不和说是非。"><a href="#家中不和邻里欺，邻里不和说是非。" class="headerlink" title="家中不和邻里欺，邻里不和说是非。"></a>家中不和邻里欺，邻里不和说是非。</h2><p>【解释】家庭不和睦连邻里都会欺负你，邻里之间不友好就会经常发生口角。</p>
-<h2 id="年年防饥，夜夜防盗。"><a href="#年年防饥，夜夜防盗。" class="headerlink" title="年年防饥，夜夜防盗。"></a>年年防饥，夜夜防盗。</h2><p>【解释】每年都要防备闹饥荒，每天夜里都要提防盗贼。</p>
-<h2 id="好学者如禾如稻，不好学者如蒿如草。"><a href="#好学者如禾如稻，不好学者如蒿如草。" class="headerlink" title="好学者如禾如稻，不好学者如蒿如草。"></a>好学者如禾如稻，不好学者如蒿如草。</h2><p>【解释】爱好学习的人如同禾苗稻谷一样都是有用的，不爱学习的人则像蒿草一样没有什么用处，只配当柴火来烧。</p>
-<h2 id="遇饮酒时须饮酒，得高歌处且高歌。"><a href="#遇饮酒时须饮酒，得高歌处且高歌。" class="headerlink" title="遇饮酒时须饮酒，得高歌处且高歌。"></a>遇饮酒时须饮酒，得高歌处且高歌。</h2><p>【解释】碰到饮酒的机会就敞开大喝一场，有唱歌的机会就放开喉咙高歌一曲。</p>
-<h2 id="因风吹火，用力不多。不因渔父引，怎得见波涛。"><a href="#因风吹火，用力不多。不因渔父引，怎得见波涛。" class="headerlink" title="因风吹火，用力不多。不因渔父引，怎得见波涛。"></a>因风吹火，用力不多。不因渔父引，怎得见波涛。</h2><p>【解释】借着风力吹火，无须用太大力气。没有渔翁引导，怎能经风浪开眼界。</p>
-<h2 id="无求到处人情好，不饮任他酒价高。"><a href="#无求到处人情好，不饮任他酒价高。" class="headerlink" title="无求到处人情好，不饮任他酒价高。"></a>无求到处人情好，不饮任他酒价高。</h2><p>【解释】不随便求助于人，人际关系自然就会好，不喝酒，任凭他酒价再高也无所谓。</p>
-<h2 id="知事少时烦恼少，识人多处是非多。"><a href="#知事少时烦恼少，识人多处是非多。" class="headerlink" title="知事少时烦恼少，识人多处是非多。"></a>知事少时烦恼少，识人多处是非多。</h2><p>【解释】知道的事情少烦恼自然也会少，认识的人多招惹的是非也会多。</p>
-<h2 id="世间好语书说尽，天下名山僧占多。入山不怕伤人虎，只怕人情两面刀。"><a href="#世间好语书说尽，天下名山僧占多。入山不怕伤人虎，只怕人情两面刀。" class="headerlink" title="世间好语书说尽，天下名山僧占多。入山不怕伤人虎，只怕人情两面刀。"></a>世间好语书说尽，天下名山僧占多。入山不怕伤人虎，只怕人情两面刀。</h2><p>【解释】人世间的好话全让书本给说尽了，天下的名山大半被寺庙所占据了。上山不怕伤害人的老虎，就怕人际关系中那些两面三刀的阴险小人。</p>
-<h2 id="强中更有强中手，恶人终受恶人磨。"><a href="#强中更有强中手，恶人终受恶人磨。" class="headerlink" title="强中更有强中手，恶人终受恶人磨。"></a>强中更有强中手，恶人终受恶人磨。</h2><p>【解释】强者上面还有更强的人，坏人自会有更坏的人来对付他。</p>
-<h2 id="会使不在家豪富，风流不在着衣多。"><a href="#会使不在家豪富，风流不在着衣多。" class="headerlink" title="会使不在家豪富，风流不在着衣多。"></a>会使不在家豪富，风流不在着衣多。</h2><p>【解释】善于使用的人不在于家里有多少财富，风流的人不在于穿很多华丽的衣服。</p>
-<h2 id="光阴似箭，日月如梭。天时不如地利，地利不如人和。"><a href="#光阴似箭，日月如梭。天时不如地利，地利不如人和。" class="headerlink" title="光阴似箭，日月如梭。天时不如地利，地利不如人和。"></a>光阴似箭，日月如梭。天时不如地利，地利不如人和。</h2><p>【解释】光阴流逝就像飞箭，日月变更如同穿梭。时机好，不如地理条件好；地理条件好，不如与别人相互团结好。</p>
-<h2 id="黄金未为贵，安乐值钱多。"><a href="#黄金未为贵，安乐值钱多。" class="headerlink" title="黄金未为贵，安乐值钱多。"></a>黄金未为贵，安乐值钱多。</h2><p>【解释】黄金算不上宝贵，只有平安快乐的生活才是最珍贵的。</p>
-<h2 id="万般皆下品，唯有读书高。"><a href="#万般皆下品，唯有读书高。" class="headerlink" title="万般皆下品，唯有读书高。"></a>万般皆下品，唯有读书高。</h2><p>【解释】世间一切行业都是低下的，只有读书做官才是最高贵的。</p>
-<h2 id="为善最乐，为恶难逃。"><a href="#为善最乐，为恶难逃。" class="headerlink" title="为善最乐，为恶难逃。"></a>为善最乐，为恶难逃。</h2><p>【解释】经常做好事使人快乐，一旦做坏事罪责难逃。</p>
-<h2 id="羊有跪乳之恩，鸦有反哺之义。"><a href="#羊有跪乳之恩，鸦有反哺之义。" class="headerlink" title="羊有跪乳之恩，鸦有反哺之义。"></a>羊有跪乳之恩，鸦有反哺之义。</h2><p><strong>孝顺还生孝顺子，忤逆还生忤逆儿。</strong><br><strong>不信但看檐前水，点点滴滴旧窝池。</strong></p>
-<p>【解释】小羊跪着吃奶以报答母亲的恩情，小乌鸦有对老乌鸦反哺的情义。孝顺的人生的孩子也孝顺，不顺从的人生的孩子也是逆子。不信就看屋檐流下的水，一点一滴都流在以前的坑里。</p>
-<h2 id="隐恶扬善，执其两端。"><a href="#隐恶扬善，执其两端。" class="headerlink" title="隐恶扬善，执其两端。"></a>隐恶扬善，执其两端。</h2><p>【解释】不说别人的坏处，多说别人的好处，要记住这两点。</p>
-<h2 id="妻贤夫祸少，子孝父心宽。"><a href="#妻贤夫祸少，子孝父心宽。" class="headerlink" title="妻贤夫祸少，子孝父心宽。"></a>妻贤夫祸少，子孝父心宽。</h2><p>【解释】妻子贤惠，丈夫的灾祸就很少；儿子孝顺，父亲的心地就很宽畅。</p>
-<h2 id="人生知足何时足，到老偷闲且自闲。但有绿杨堪系马，处处有路通长安。"><a href="#人生知足何时足，到老偷闲且自闲。但有绿杨堪系马，处处有路通长安。" class="headerlink" title="人生知足何时足，到老偷闲且自闲。但有绿杨堪系马，处处有路通长安。"></a>人生知足何时足，到老偷闲且自闲。但有绿杨堪系马，处处有路通长安。</h2><p>【解释】人生没有满足的时候，何不在年老时忙里偷闲颐养天年。只要有绿树就能拴住马，到处有路可通往长安。</p>
-<h2 id="既坠釜甑，反顾何益？已覆之水，收之实难。"><a href="#既坠釜甑，反顾何益？已覆之水，收之实难。" class="headerlink" title="既坠釜甑，反顾何益？已覆之水，收之实难。"></a>既坠釜甑，反顾何益？已覆之水，收之实难。</h2><p>【解释】瓦罐已经掉在地上打碎了，再回头看还有什么意义呢?已经泼在地上的水，再收起来实在太难。</p>
-<h2 id="见者易，学者难。莫将容易得，便作等闲看。"><a href="#见者易，学者难。莫将容易得，便作等闲看。" class="headerlink" title="见者易，学者难。莫将容易得，便作等闲看。"></a>见者易，学者难。莫将容易得，便作等闲看。</h2><p>【解释】在旁边看别人做觉得很容易，一旦真正学起来就感觉很难。不要把轻易得到的东西，看得很平常。</p>
-<h2 id="用心计较般般错，退步思量事事宽。"><a href="#用心计较般般错，退步思量事事宽。" class="headerlink" title="用心计较般般错，退步思量事事宽。"></a>用心计较般般错，退步思量事事宽。</h2><p>【解释】用心算计别人反而时时出错，退一步考虑事情路子就会很宽。</p>
-<h2 id="道路各别，养家一般。从俭入奢易，从奢入俭难。"><a href="#道路各别，养家一般。从俭入奢易，从奢入俭难。" class="headerlink" title="道路各别，养家一般。从俭入奢易，从奢入俭难。"></a>道路各别，养家一般。从俭入奢易，从奢入俭难。</h2><p>【解释】每个人所走的道路虽不一样，但目的都是养家糊口。由俭朴到奢侈很容易，由奢侈再回到俭朴就难了。</p>
-<h2 id="知音说与知音听，不是知音莫与弹。"><a href="#知音说与知音听，不是知音莫与弹。" class="headerlink" title="知音说与知音听，不是知音莫与弹。"></a>知音说与知音听，不是知音莫与弹。</h2><p>【解释】知心的话只能说给知心人来听，不是知心人就不要和他谈。</p>
-<h2 id="点石化为金，人心犹未足。"><a href="#点石化为金，人心犹未足。" class="headerlink" title="点石化为金，人心犹未足。"></a>点石化为金，人心犹未足。</h2><p>【解释】就是点石成金，人的欲望还是无法满足。</p>
-<h2 id="信了肚，卖了屋。"><a href="#信了肚，卖了屋。" class="headerlink" title="信了肚，卖了屋。"></a>信了肚，卖了屋。</h2><p>【解释】整天吃香的、喝辣的，即便卖了房子也满足不了。</p>
-<h2 id="谁人不爱子孙贤，谁人不爱千钟粟，奈五行，不是这般题目。"><a href="#谁人不爱子孙贤，谁人不爱千钟粟，奈五行，不是这般题目。" class="headerlink" title="谁人不爱子孙贤，谁人不爱千钟粟，奈五行，不是这般题目。"></a>谁人不爱子孙贤，谁人不爱千钟粟，奈五行，不是这般题目。</h2><p>【解释】谁不喜欢自己的后代有出息，谁不希望家里藏有大量的粮米，可是“仁、义、礼、智、信”这五行中并不包括这些。</p>
-<h2 id="莫把真心空计较，儿孙自有儿孙福。"><a href="#莫把真心空计较，儿孙自有儿孙福。" class="headerlink" title="莫把真心空计较，儿孙自有儿孙福。"></a>莫把真心空计较，儿孙自有儿孙福。</h2><p>【解释】别为子孙们的前途枉费心机，他们自有他们的福气。</p>
-<h2 id="天下无不是的父母，世上最难得者兄弟。"><a href="#天下无不是的父母，世上最难得者兄弟。" class="headerlink" title="天下无不是的父母，世上最难得者兄弟。"></a>天下无不是的父母，世上最难得者兄弟。</h2><p>【解释】天下没有不好的父母，世上最难得的是骨肉兄弟。</p>
-<h2 id="与人不和，劝人养鹅；与人不睦，劝人架屋。"><a href="#与人不和，劝人养鹅；与人不睦，劝人架屋。" class="headerlink" title="与人不和，劝人养鹅；与人不睦，劝人架屋。"></a>与人不和，劝人养鹅；与人不睦，劝人架屋。</h2><p>【解释】与人合不来，就劝人家养鹅；跟人不和睦，就劝人重新造屋。</p>
-<h2 id="但行好事，莫问前程。不交僧道，便是好人。"><a href="#但行好事，莫问前程。不交僧道，便是好人。" class="headerlink" title="但行好事，莫问前程。不交僧道，便是好人。"></a>但行好事，莫问前程。不交僧道，便是好人。</h2><p>【解释】只要多做好事就行了，别问自己的前程如何。不与僧人道士交往，就是好人。</p>
-<h2 id="河狭水紧，人急智生。明知山有虎，莫向虎山行。"><a href="#河狭水紧，人急智生。明知山有虎，莫向虎山行。" class="headerlink" title="河狭水紧，人急智生。明知山有虎，莫向虎山行。"></a>河狭水紧，人急智生。明知山有虎，莫向虎山行。</h2><p>【解释】河道窄了水流自然就急，人处在危急时刻自然会想出办法来。既然知道山中有猛虎，就不要再上山了。</p>
-<h2 id="路不铲不平，事不为不成；人不劝不善，钟不敲不鸣。"><a href="#路不铲不平，事不为不成；人不劝不善，钟不敲不鸣。" class="headerlink" title="路不铲不平，事不为不成；人不劝不善，钟不敲不鸣。"></a>路不铲不平，事不为不成；人不劝不善，钟不敲不鸣。</h2><p>【解释】道路不铲不修就不会平坦，事情如果不去做就不会成功；人不劝导不会学好，就像钟不敲打不会响一样。</p>
-<h2 id="无钱方断酒，临老始看经。"><a href="#无钱方断酒，临老始看经。" class="headerlink" title="无钱方断酒，临老始看经。"></a>无钱方断酒，临老始看经。</h2><p>【解释】没钱的时候才想到戒酒，年纪老了才开始读经书，这时候已经晚了。</p>
-<h2 id="点塔七层，不如暗处一灯。"><a href="#点塔七层，不如暗处一灯。" class="headerlink" title="点塔七层，不如暗处一灯。"></a>点塔七层，不如暗处一灯。</h2><p>【解释】把七层宝塔的灯都点亮，不如在黑暗处点亮一盏灯。</p>
-<h2 id="堂上二老是活佛，何用灵山朝世尊。"><a href="#堂上二老是活佛，何用灵山朝世尊。" class="headerlink" title="堂上二老是活佛，何用灵山朝世尊。"></a>堂上二老是活佛，何用灵山朝世尊。</h2><p>【解释】堂上二老双亲就是活菩萨，何必非要远去灵山朝拜释迦。</p>
-<h2 id="万事劝人休瞒昧，举头三尺有神明。"><a href="#万事劝人休瞒昧，举头三尺有神明。" class="headerlink" title="万事劝人休瞒昧，举头三尺有神明。"></a>万事劝人休瞒昧，举头三尺有神明。</h2><p>【解释】凡事奉劝人们不要欺瞒别人，一举一动神灵都知道得一清二楚。</p>
-<h2 id="但存方寸土，留与子孙耕。灭却心头火，剔起佛前灯。"><a href="#但存方寸土，留与子孙耕。灭却心头火，剔起佛前灯。" class="headerlink" title="但存方寸土，留与子孙耕。灭却心头火，剔起佛前灯。"></a>但存方寸土，留与子孙耕。灭却心头火，剔起佛前灯。</h2><p>【解释】要留下适当的田地，供给子孙们耕种，以自食其力。要熄灭心头的怒火，点亮佛前的青灯。</p>
-<h2 id="惺惺常不足，蒙蒙作公卿。"><a href="#惺惺常不足，蒙蒙作公卿。" class="headerlink" title="惺惺常不足，蒙蒙作公卿。"></a>惺惺常不足，蒙蒙作公卿。</h2><p>【解释】聪明能干的人常常不如意，稀里糊涂的人竟然做了高官。</p>
-<h2 id="众星朗朗，不如孤月独明。兄弟相害，不如友生。"><a href="#众星朗朗，不如孤月独明。兄弟相害，不如友生。" class="headerlink" title="众星朗朗，不如孤月独明。兄弟相害，不如友生。"></a>众星朗朗，不如孤月独明。兄弟相害，不如友生。</h2><p>【解释】众多的星星再耀眼，也比不上一个月亮明亮。兄弟间若互相残害，还不如同学朋友。</p>
-<h2 id="合理可作，小利莫争。"><a href="#合理可作，小利莫争。" class="headerlink" title="合理可作，小利莫争。"></a>合理可作，小利莫争。</h2><p>【解释】合情合理的事可以做，蝇头小利就不要去争夺了。</p>
-<h2 id="牡丹花好空入目，枣花虽小结实成。"><a href="#牡丹花好空入目，枣花虽小结实成。" class="headerlink" title="牡丹花好空入目，枣花虽小结实成。"></a>牡丹花好空入目，枣花虽小结实成。</h2><p>【解释】牡丹花虽好但只能供观赏，枣花虽小却能结出果实。</p>
-<h2 id="欺老莫欺少，欺少心不明。"><a href="#欺老莫欺少，欺少心不明。" class="headerlink" title="欺老莫欺少，欺少心不明。"></a>欺老莫欺少，欺少心不明。</h2><p>【解释】宁可欺负大人，不要欺负小孩子，欺负小孩子是不明事理。</p>
-<h2 id="随分耕锄收地利，他时饱暖谢苍天。"><a href="#随分耕锄收地利，他时饱暖谢苍天。" class="headerlink" title="随分耕锄收地利，他时饱暖谢苍天。"></a>随分耕锄收地利，他时饱暖谢苍天。</h2><p>【解释】按照农时来种植收获庄稼，吃饱穿暖时别忘了感谢苍天。</p>
-<h2 id="得忍且忍，得耐且耐；不忍不耐，小事成大。"><a href="#得忍且忍，得耐且耐；不忍不耐，小事成大。" class="headerlink" title="得忍且忍，得耐且耐；不忍不耐，小事成大。"></a>得忍且忍，得耐且耐；不忍不耐，小事成大。</h2><p>【解释】凡事要冷静，能忍耐就忍耐；不能忍耐就会把小事弄成大事。</p>
-<h2 id="相论逞英豪，家计渐渐消。"><a href="#相论逞英豪，家计渐渐消。" class="headerlink" title="相论逞英豪，家计渐渐消。"></a>相论逞英豪，家计渐渐消。</h2><p>【解释】彼此间高谈阔论，相互逞能，家道也将逐渐衰落下去。</p>
-<h2 id="贤妇令夫贵，恶妇令夫败。"><a href="#贤妇令夫贵，恶妇令夫败。" class="headerlink" title="贤妇令夫贵，恶妇令夫败。"></a>贤妇令夫贵，恶妇令夫败。</h2><p>【解释】贤惠的妻子能使丈夫变得荣华富贵，不贤惠的妻子将使丈夫一败涂地。</p>
-<h2 id="一人有庆，兆民咸赖。"><a href="#一人有庆，兆民咸赖。" class="headerlink" title="一人有庆，兆民咸赖。"></a>一人有庆，兆民咸赖。</h2><p>【解释】一个人做出了善绩，许多人都会对他有所依赖。</p>
-<h2 id="人老心不老，人穷志不穷。"><a href="#人老心不老，人穷志不穷。" class="headerlink" title="人老心不老，人穷志不穷。"></a>人老心不老，人穷志不穷。</h2><p>【解释】人老了但壮心不能老，人虽穷但志气不能穷。</p>
-<h2 id="人无千日好，花无百日红。"><a href="#人无千日好，花无百日红。" class="headerlink" title="人无千日好，花无百日红。"></a>人无千日好，花无百日红。</h2><p>【解释】人不可能总是一帆风顺，花不可能常开不败。</p>
-<h2 id="杀人可恕，情理难容。"><a href="#杀人可恕，情理难容。" class="headerlink" title="杀人可恕，情理难容。"></a>杀人可恕，情理难容。</h2><p>【解释】杀人有时可以宽恕，伤情害理却让人难以容忍。</p>
-<h2 id="乍富不知新受用，乍贫难改旧家风。座上客常满，杯中酒不空。"><a href="#乍富不知新受用，乍贫难改旧家风。座上客常满，杯中酒不空。" class="headerlink" title="乍富不知新受用，乍贫难改旧家风。座上客常满，杯中酒不空。"></a>乍富不知新受用，乍贫难改旧家风。座上客常满，杯中酒不空。</h2><p>【解释】一夜之间暴富起来，会不知道如何享用；一下子贫穷下来，过去的优裕生活方式也很难改变。家中经常宾朋满座，杯中的酒从没有空过。</p>
-<h2 id="屋漏更遭连夜雨，行船又遇打头风。"><a href="#屋漏更遭连夜雨，行船又遇打头风。" class="headerlink" title="屋漏更遭连夜雨，行船又遇打头风。"></a>屋漏更遭连夜雨，行船又遇打头风。</h2><p>【解释】屋子本来就漏，却又遭到连夜大雨；行船本就困难，偏又碰上迎头风。</p>
-<h2 id="笋因落箨方成竹，鱼为奔波始化龙。记得少年骑竹马，转眼又是白头翁。"><a href="#笋因落箨方成竹，鱼为奔波始化龙。记得少年骑竹马，转眼又是白头翁。" class="headerlink" title="笋因落箨方成竹，鱼为奔波始化龙。记得少年骑竹马，转眼又是白头翁。"></a>笋因落箨方成竹，鱼为奔波始化龙。记得少年骑竹马，转眼又是白头翁。</h2><p>【解释】笋因为不断掉皮才成为竹子，鱼只有长途奔波后才能变成龙。还记得小时候一起骑竹马的情景，现在相看都已成白发老翁。</p>
-<h2 id="礼义生于富足，盗贼出于赌博。"><a href="#礼义生于富足，盗贼出于赌博。" class="headerlink" title="礼义生于富足，盗贼出于赌博。"></a>礼义生于富足，盗贼出于赌博。</h2><p>【解释】生活富足了才会懂得礼义之道，赌博成风容易生出盗贼。</p>
-<h2 id="天上众星皆拱北，世间无水不朝东。"><a href="#天上众星皆拱北，世间无水不朝东。" class="headerlink" title="天上众星皆拱北，世间无水不朝东。"></a>天上众星皆拱北，世间无水不朝东。</h2><p>【解释】天上的星星都围绕着北极星而运转，世上没有江河不向东流入海的。</p>
-<h2 id="君子安贫，达人知命。"><a href="#君子安贫，达人知命。" class="headerlink" title="君子安贫，达人知命。"></a>君子安贫，达人知命。</h2><p>【解释】君子能够安于贫穷，贤达的人知晓天命。</p>
-<h2 id="良药苦口利于病，忠言逆耳利于行。"><a href="#良药苦口利于病，忠言逆耳利于行。" class="headerlink" title="良药苦口利于病，忠言逆耳利于行。"></a>良药苦口利于病，忠言逆耳利于行。</h2><p>【解释】好药虽苦却有利于治病，忠言虽然不好听却对人的行为大有益处。</p>
-<h2 id="顺天者存，逆天者亡。人为财死，鸟为食亡。"><a href="#顺天者存，逆天者亡。人为财死，鸟为食亡。" class="headerlink" title="顺天者存，逆天者亡。人为财死，鸟为食亡。"></a>顺天者存，逆天者亡。人为财死，鸟为食亡。</h2><p>【解释】顺从天意者就可以生存，违背天意者就必然会灭亡。人为抢夺钱财而死，鸟为觅取食物而亡。</p>
-<h2 id="夫妻相和好，琴瑟与笙簧。"><a href="#夫妻相和好，琴瑟与笙簧。" class="headerlink" title="夫妻相和好，琴瑟与笙簧。"></a>夫妻相和好，琴瑟与笙簧。</h2><p>【解释】夫妻之间和睦相处，就像琴瑟与笙簧一样音韵和谐。</p>
-<h2 id="有儿穷不久，无子富不长。善必寿考，恶必早亡。"><a href="#有儿穷不久，无子富不长。善必寿考，恶必早亡。" class="headerlink" title="有儿穷不久，无子富不长。善必寿考，恶必早亡。"></a>有儿穷不久，无子富不长。善必寿考，恶必早亡。</h2><p>【解释】有了儿子，贫穷不会长久；没有儿子，富贵也不会长久。积善崇德必然长寿，常做坏事一定早死。</p>
-<h2 id="爽口食多偏作病，快心事过恐生殃。"><a href="#爽口食多偏作病，快心事过恐生殃。" class="headerlink" title="爽口食多偏作病，快心事过恐生殃。"></a>爽口食多偏作病，快心事过恐生殃。</h2><p>【解释】美味佳肴吃得太多反而要生病，高兴的事做得过头了恐怕要出祸患。</p>
-<h2 id="富贵定要依本分，贫穷不必再思量。"><a href="#富贵定要依本分，贫穷不必再思量。" class="headerlink" title="富贵定要依本分，贫穷不必再思量。"></a>富贵定要依本分，贫穷不必再思量。</h2><p>【解释】富贵后一定要安分守己，贫穷时不要产生非分之想。</p>
-<h2 id="画水无风空作浪，绣花虽好不闻香。"><a href="#画水无风空作浪，绣花虽好不闻香。" class="headerlink" title="画水无风空作浪，绣花虽好不闻香。"></a>画水无风空作浪，绣花虽好不闻香。</h2><p>【解释】画中之水空有滔天波浪，却听不见风声阵阵；布上绣出的花朵虽然好看，但闻不到半点花香。</p>
-<h2 id="贪他一斗米，失却半年粮；争他一脚豚，反失一肘羊。"><a href="#贪他一斗米，失却半年粮；争他一脚豚，反失一肘羊。" class="headerlink" title="贪他一斗米，失却半年粮；争他一脚豚，反失一肘羊。"></a>贪他一斗米，失却半年粮；争他一脚豚，反失一肘羊。</h2><p>【解释】贪图他人一斗米，却失去了半年的口粮；拿了别人的一个猪蹄，反而失掉了一个羊肘子。</p>
-<h2 id="龙归晚洞云犹湿，麝过春山草木香。平生只会说人短，何不回头把己量。"><a href="#龙归晚洞云犹湿，麝过春山草木香。平生只会说人短，何不回头把己量。" class="headerlink" title="龙归晚洞云犹湿，麝过春山草木香。平生只会说人短，何不回头把己量。"></a>龙归晚洞云犹湿，麝过春山草木香。平生只会说人短，何不回头把己量。</h2><p>【解释】龙在夜晚归洞时云彩还是湿的，麝走过的山地连草木都带有香味。有的人平时只会挑别人的短处，为什么不找找自身的缺点呢?</p>
-<h2 id="见善如不及，见恶如探汤。"><a href="#见善如不及，见恶如探汤。" class="headerlink" title="见善如不及，见恶如探汤。"></a>见善如不及，见恶如探汤。</h2><p>【解释】看见好人好事，唯恐自己赶不上；看到坏人坏事，就像手碰到沸水一样，赶紧避开</p>
-<h2 id="人穷志短，马瘦毛长。"><a href="#人穷志短，马瘦毛长。" class="headerlink" title="人穷志短，马瘦毛长。"></a>人穷志短，马瘦毛长。</h2><p>【解释】人贫穷了志气也就没有了，马瘦了毛也会长起来。</p>
-<h2 id="自家心里急，他人不知忙。贫无达士将金赠，病有高人说药方。"><a href="#自家心里急，他人不知忙。贫无达士将金赠，病有高人说药方。" class="headerlink" title="自家心里急，他人不知忙。贫无达士将金赠，病有高人说药方。"></a>自家心里急，他人不知忙。贫无达士将金赠，病有高人说药方。</h2><p>【解释】自己的事情自己心里最着急，别人不知道，不会着忙的。人穷了不会有人仗义送你钱财，生病时倒是有人告诉治病的良方。</p>
-<h2 id="触来莫与竞，事过心清凉。秋至满山多秀色，春来无处不花香。"><a href="#触来莫与竞，事过心清凉。秋至满山多秀色，春来无处不花香。" class="headerlink" title="触来莫与竞，事过心清凉。秋至满山多秀色，春来无处不花香。"></a>触来莫与竞，事过心清凉。秋至满山多秀色，春来无处不花香。</h2><p>【解释】当人触犯了你的时候，不要与他计较，事情过后心境自然会平静下来。秋天到了，漫山遍野都是秀丽的景色；春天来了，到处弥漫着醉人的花香。</p>
-<h2 id="凡人不可貌相，海水不可斗量。"><a href="#凡人不可貌相，海水不可斗量。" class="headerlink" title="凡人不可貌相，海水不可斗量。"></a>凡人不可貌相，海水不可斗量。</h2><p>【解释】衡量一个人不可凭相貌来判定，就像海水不能用斗来量一样。</p>
-<h2 id="清清之水为土所防，济济之士为酒所伤。"><a href="#清清之水为土所防，济济之士为酒所伤。" class="headerlink" title="清清之水为土所防，济济之士为酒所伤。"></a>清清之水为土所防，济济之士为酒所伤。</h2><p>【解释】多少洪水为沙土所阻塞，多少志士豪杰为酒所伤害。</p>
-<h2 id="蒿草之下，或有兰香；茅茨之屋，或有侯王。"><a href="#蒿草之下，或有兰香；茅茨之屋，或有侯王。" class="headerlink" title="蒿草之下，或有兰香；茅茨之屋，或有侯王。"></a>蒿草之下，或有兰香；茅茨之屋，或有侯王。</h2><p>【解释】蒿草的下面可能生长着兰草；茅屋里边可能住着将来的王侯将相。</p>
-<h2 id="无限朱门生饿殍，几多白屋出公卿。"><a href="#无限朱门生饿殍，几多白屋出公卿。" class="headerlink" title="无限朱门生饿殍，几多白屋出公卿。"></a>无限朱门生饿殍，几多白屋出公卿。</h2><p>【解释】许多豪门权贵之家生出一些无能之辈，多少贫穷之家却生出了达官贵人。</p>
-<h2 id="醉后乾坤大，壶中日月长。万事皆已定，浮生空白忙。"><a href="#醉后乾坤大，壶中日月长。万事皆已定，浮生空白忙。" class="headerlink" title="醉后乾坤大，壶中日月长。万事皆已定，浮生空白忙。"></a>醉后乾坤大，壶中日月长。万事皆已定，浮生空白忙。</h2><p>【解释】人喝醉后会感到天地无限广阔，会觉得时间很漫长。既然万事上天都已定好，何必再去漂泊他乡空自忙碌呢?</p>
-<h2 id="千里送鹅毛，礼轻仁义重。"><a href="#千里送鹅毛，礼轻仁义重。" class="headerlink" title="千里送鹅毛，礼轻仁义重。"></a>千里送鹅毛，礼轻仁义重。</h2><p>【解释】不远千里送一根鹅毛，礼物虽轻，情谊却很深重。</p>
-<h2 id="世事明如镜，前程暗似漆。"><a href="#世事明如镜，前程暗似漆。" class="headerlink" title="世事明如镜，前程暗似漆。"></a>世事明如镜，前程暗似漆。</h2><p>【解释】世上的事都很明了，但个人的前程却很暗淡</p>
-<h2 id="架上碗儿轮流转，媳妇自有做婆时。"><a href="#架上碗儿轮流转，媳妇自有做婆时。" class="headerlink" title="架上碗儿轮流转，媳妇自有做婆时。"></a>架上碗儿轮流转，媳妇自有做婆时。</h2><p>【解释】架上的碗碟可以不分先后轮流使用，再年轻的媳妇也有熬到做婆婆的那一天。</p>
-<h2 id="人生一世，如驹过隙。"><a href="#人生一世，如驹过隙。" class="headerlink" title="人生一世，如驹过隙。"></a>人生一世，如驹过隙。</h2><p>【解释】人生一世，就像白驹过隙，瞬间即逝。</p>
-<h2 id="良田万顷，日食三升；大厦千间，夜眠八尺。"><a href="#良田万顷，日食三升；大厦千间，夜眠八尺。" class="headerlink" title="良田万顷，日食三升；大厦千间，夜眠八尺。"></a>良田万顷，日食三升；大厦千间，夜眠八尺。</h2><p>【解释】家有万顷良田，每天也只不过吃几升米；即使有千间广厦，夜里睡觉也只占去八尺长的一小块地方。</p>
-<h2 id="千经万典，孝义为先。"><a href="#千经万典，孝义为先。" class="headerlink" title="千经万典，孝义为先。"></a>千经万典，孝义为先。</h2><p>【解释】所有的经典，都以忠孝仁义为先。</p>
-<h2 id="一字入公门，九牛拔不出。"><a href="#一字入公门，九牛拔不出。" class="headerlink" title="一字入公门，九牛拔不出。"></a>一字入公门，九牛拔不出。</h2><p>【解释】老百姓一旦吃官司进了衙门，再也休想平安地出来了。</p>
-<h2 id="八字衙门向南开，有理无钱莫进来。"><a href="#八字衙门向南开，有理无钱莫进来。" class="headerlink" title="八字衙门向南开，有理无钱莫进来。"></a>八字衙门向南开，有理无钱莫进来。</h2><p>【解释】虽然官衙的大门向南敞开着，奉劝那些空有理而没有钱的人还是不要进来吧。</p>
-<h2 id="富从升合起，贫因不算来。"><a href="#富从升合起，贫因不算来。" class="headerlink" title="富从升合起，贫因不算来。"></a>富从升合起，贫因不算来。</h2><p>【解释】富贵是由一点一滴积累起来的，贫穷都是由于不会精打细算而造成的。</p>
-<h2 id="万事不由人计较，一生都是命安排。"><a href="#万事不由人计较，一生都是命安排。" class="headerlink" title="万事不由人计较，一生都是命安排。"></a>万事不由人计较，一生都是命安排。</h2><p>【解释】天下的万事都不是人为所能预见的，都是命里安排的。</p>
-<h2 id="家无读书子，官从何处来"><a href="#家无读书子，官从何处来" class="headerlink" title="家无读书子，官从何处来?"></a>家无读书子，官从何处来?</h2><p>【解释】家中人都不读书求学，怎么会有做官的人呢?</p>
-<h2 id="人间私语，天闻若雷；暗室亏心，神目如电。"><a href="#人间私语，天闻若雷；暗室亏心，神目如电。" class="headerlink" title="人间私语，天闻若雷；暗室亏心，神目如电。"></a>人间私语，天闻若雷；暗室亏心，神目如电。</h2><p>【解释】背地里讲的悄悄话，上天听得清清楚楚；暗地里做的亏心事，神明看得明明白白。</p>
-<h2 id="一毫之恶，劝人莫作；"><a href="#一毫之恶，劝人莫作；" class="headerlink" title="一毫之恶，劝人莫作；"></a>一毫之恶，劝人莫作；</h2><p><strong>一毫之善，与人方便。</strong><br><strong>欺人是祸，饶人是福；</strong><br><strong>天眼昭昭，报应甚速。</strong></p>
-<p>【解释】即便最细小的坏事，也要劝人不要做；任何与人有利的好事，都要尽力去做。欺负别人会给自己带来灾祸，宽恕他人能给自己带来福分；上天都明白清楚，人的所做所为会很快得到相应的好与坏的报应。</p>
-<h2 id="圣贤言语，神钦鬼伏。"><a href="#圣贤言语，神钦鬼伏。" class="headerlink" title="圣贤言语，神钦鬼伏。"></a>圣贤言语，神钦鬼伏。</h2><p>【解释】圣贤的言语，即便鬼神听到都很钦佩。</p>
-<h2 id="人各有心，心各有见。口说不如身逢，耳闻不如目见。"><a href="#人各有心，心各有见。口说不如身逢，耳闻不如目见。" class="headerlink" title="人各有心，心各有见。口说不如身逢，耳闻不如目见。"></a>人各有心，心各有见。口说不如身逢，耳闻不如目见。</h2><p>【解释】每个人都有自己的心思，都有自己的主见。口里说出来不如亲身经历过，只是听说不如亲眼所见。</p>
-<h2 id="养兵千日，用在一时。"><a href="#养兵千日，用在一时。" class="headerlink" title="养兵千日，用在一时。"></a>养兵千日，用在一时。</h2><p>【解释】长期供养训练军队，就是为了防止一旦爆发战争。</p>
-<h2 id="国清才子贵，家富小儿娇。"><a href="#国清才子贵，家富小儿娇。" class="headerlink" title="国清才子贵，家富小儿娇。"></a>国清才子贵，家富小儿娇。</h2><p>【解释】国家清明，读书人才会得到重视；家境富裕，小孩子容易娇生惯养。</p>
-<h2 id="利刀割体疮犹合，恶语伤人恨不消。"><a href="#利刀割体疮犹合，恶语伤人恨不消。" class="headerlink" title="利刀割体疮犹合，恶语伤人恨不消。"></a>利刀割体疮犹合，恶语伤人恨不消。</h2><p>【解释】利刀伤了身体伤口还容易愈合，恶语一旦伤了人怨恨就不易消除。</p>
-<h2 id="有钱堪出众，无衣懒出门。"><a href="#有钱堪出众，无衣懒出门。" class="headerlink" title="有钱堪出众，无衣懒出门。"></a>有钱堪出众，无衣懒出门。</h2><p>【解释】有钱的人愿意在人前显示，而没有好衣服穿的人门都不愿出。</p>
-<h2 id="公道世间唯白发，贵人头上不曾饶。"><a href="#公道世间唯白发，贵人头上不曾饶。" class="headerlink" title="公道世间唯白发，贵人头上不曾饶。"></a>公道世间唯白发，贵人头上不曾饶。</h2><p>【解释】只有人们头上的白发，才最为公道，就是贵族富人，它也一视同仁，绝不放过他。</p>
-<h2 id="为官须作相，及第必争先。"><a href="#为官须作相，及第必争先。" class="headerlink" title="为官须作相，及第必争先。"></a>为官须作相，及第必争先。</h2><p>【解释】做官就要做到宰相，科举考试就要争取名列前茅。</p>
-<h2 id="苗从地发，枝由树分。父子亲而家不退，兄弟和而家不分。"><a href="#苗从地发，枝由树分。父子亲而家不退，兄弟和而家不分。" class="headerlink" title="苗从地发，枝由树分。父子亲而家不退，兄弟和而家不分。"></a>苗从地发，枝由树分。父子亲而家不退，兄弟和而家不分。</h2><p>【解释】禾苗从地里长出来，树枝从树干上分出来，这是自然而然的事。父子和睦家道不会衰退，兄弟团结就不会闹分家</p>
-<h2 id="官有公法，民有私约。"><a href="#官有公法，民有私约。" class="headerlink" title="官有公法，民有私约。"></a>官有公法，民有私约。</h2><p>【解释】国家有国家的法律，民间自有民间的契约。</p>
-<h2 id="闲时不烧香，急时抱佛脚。"><a href="#闲时不烧香，急时抱佛脚。" class="headerlink" title="闲时不烧香，急时抱佛脚。"></a>闲时不烧香，急时抱佛脚。</h2><p>【解释】平常无事的时候不烧香敬佛，紧急关头时却想起求佛祖保佑。</p>
-<h2 id="幸生太平无事日，恐逢年老不多时。"><a href="#幸生太平无事日，恐逢年老不多时。" class="headerlink" title="幸生太平无事日，恐逢年老不多时。"></a>幸生太平无事日，恐逢年老不多时。</h2><p>【解释】很幸运生在了太平盛世，唯恐到了老年，这样的太平日子就不会多了。</p>
-<h2 id="国乱思良将，家贫思贤妻。"><a href="#国乱思良将，家贫思贤妻。" class="headerlink" title="国乱思良将，家贫思贤妻。"></a>国乱思良将，家贫思贤妻。</h2><p>【解释】国家战乱就会祈求良将来平息战火，家境贫困就希望有个贤妻来料理家事。</p>
-<h2 id="池塘积水须防旱，田土深耕足养家。"><a href="#池塘积水须防旱，田土深耕足养家。" class="headerlink" title="池塘积水须防旱，田土深耕足养家。"></a>池塘积水须防旱，田土深耕足养家。</h2><p>【解释】池塘里蓄满水是为了防旱，土地深耕细作是为了多打粮食来养家糊口。</p>
-<h2 id="根深不怕风摇动，树正何愁月影斜。"><a href="#根深不怕风摇动，树正何愁月影斜。" class="headerlink" title="根深不怕风摇动，树正何愁月影斜。"></a>根深不怕风摇动，树正何愁月影斜。</h2><p>【解释】树根扎得深就不怕大风摇动，树干长得直就不怕地上的影子斜。</p>
-<h2 id="学在一人之下，用在万人之上。一字为师，终身如父。"><a href="#学在一人之下，用在万人之上。一字为师，终身如父。" class="headerlink" title="学在一人之下，用在万人之上。一字为师，终身如父。"></a>学在一人之下，用在万人之上。一字为师，终身如父。</h2><p>【解释】从一个人那里学到的东西，可以应用在千万人身上。即使老师仅教会你点滴知识，也要终身像对待父亲那样尊敬他。</p>
-<h2 id="忘恩负义，禽兽之徒。"><a href="#忘恩负义，禽兽之徒。" class="headerlink" title="忘恩负义，禽兽之徒。"></a>忘恩负义，禽兽之徒。</h2><p>【解释】忘恩负义之人，只能与禽兽为伍。</p>
-<h2 id="戏君莫将油炒菜，留与儿孙夜读书。书中自有千钟粟，书中自有颜如玉。"><a href="#戏君莫将油炒菜，留与儿孙夜读书。书中自有千钟粟，书中自有颜如玉。" class="headerlink" title="戏君莫将油炒菜，留与儿孙夜读书。书中自有千钟粟，书中自有颜如玉。"></a>戏君莫将油炒菜，留与儿孙夜读书。书中自有千钟粟，书中自有颜如玉。</h2><p>【解释】奉劝家长们不要用大量的油炒菜，还是留给儿孙们夜间读书点灯之用吧。读书可以让人获得千钟粟米，读书可以让人得到如玉般美貌的妻子。</p>
-<h2 id="莫怨天来莫怨人，五行八字命生成。"><a href="#莫怨天来莫怨人，五行八字命生成。" class="headerlink" title="莫怨天来莫怨人，五行八字命生成。"></a>莫怨天来莫怨人，五行八字命生成。</h2><p><strong>莫怨自己穷，穷要穷得干净；</strong><br><strong>莫羡他人富，富要富得清高。</strong></p>
-<p>【解释】不要怨天尤人，人生都是命中注定的。不要埋怨自己贫穷，穷要穷得有气节；不要羡慕他人富贵，富要富得纯洁高尚。</p>
-<h2 id="别人骑马我骑驴，仔细思量我不如，等我回头看，还有挑脚汉。"><a href="#别人骑马我骑驴，仔细思量我不如，等我回头看，还有挑脚汉。" class="headerlink" title="别人骑马我骑驴，仔细思量我不如，等我回头看，还有挑脚汉。"></a>别人骑马我骑驴，仔细思量我不如，等我回头看，还有挑脚汉。</h2><p>【解释】他人骑大马我骑毛驴，仔细想想，我不如他，回头看了一下，还有不如我徒步肩挑的人呢。</p>
-<h2 id="路上有饥人，家中有剩饭。积德与儿孙，要广行方便。"><a href="#路上有饥人，家中有剩饭。积德与儿孙，要广行方便。" class="headerlink" title="路上有饥人，家中有剩饭。积德与儿孙，要广行方便。"></a>路上有饥人，家中有剩饭。积德与儿孙，要广行方便。</h2><p>【解释】有讨饭者经过门前，家中如果有些剩饭，当为子孙积德，行些方便，把食物送给他们吃。</p>
-<h2 id="作善鬼神钦，作恶遭天谴。"><a href="#作善鬼神钦，作恶遭天谴。" class="headerlink" title="作善鬼神钦，作恶遭天谴。"></a>作善鬼神钦，作恶遭天谴。</h2><p>【解释】做善事连鬼神都很钦佩，做坏事必会遭到老天的谴责。</p>
-<h2 id="积钱积谷不如积德，买田买地不如买书。"><a href="#积钱积谷不如积德，买田买地不如买书。" class="headerlink" title="积钱积谷不如积德，买田买地不如买书。"></a>积钱积谷不如积德，买田买地不如买书。</h2><p>【解释】积攒钱粮不如多积阴德，买田买地不如多买书籍。</p>
-<h2 id="一日春工十日粮，十日春工半年粮。疏懒人没吃，勤俭粮满仓。"><a href="#一日春工十日粮，十日春工半年粮。疏懒人没吃，勤俭粮满仓。" class="headerlink" title="一日春工十日粮，十日春工半年粮。疏懒人没吃，勤俭粮满仓。"></a>一日春工十日粮，十日春工半年粮。疏懒人没吃，勤俭粮满仓。</h2><p>【解释】只有抓紧时间进行春耕，才能收获到更多的粮食。懒散的人经常会缺吃少穿，勤劳节俭的人则会吃穿不愁。</p>
-<h2 id="人亲财不亲，财利要分清。"><a href="#人亲财不亲，财利要分清。" class="headerlink" title="人亲财不亲，财利要分清。"></a>人亲财不亲，财利要分清。</h2><p>【解释】即使亲人之间，钱财利益也要分清楚。</p>
-<h2 id="十分伶俐使七分，常留三分与儿孙；若要十分都使尽，远在儿孙近在身。"><a href="#十分伶俐使七分，常留三分与儿孙；若要十分都使尽，远在儿孙近在身。" class="headerlink" title="十分伶俐使七分，常留三分与儿孙；若要十分都使尽，远在儿孙近在身。"></a>十分伶俐使七分，常留三分与儿孙；若要十分都使尽，远在儿孙近在身。</h2><p>【解释】有十分的聪明用上七分就行了，留几分给儿孙吧，如果十分聪明都用尽了，那就会聪明反被聪明误，近处讲会误了自己，远处讲会殃及子孙后代。</p>
-<h2 id="君子乐得做君子，小人枉自做小人。"><a href="#君子乐得做君子，小人枉自做小人。" class="headerlink" title="君子乐得做君子，小人枉自做小人。"></a>君子乐得做君子，小人枉自做小人。</h2><p>【解释】高尚的君子自愿高尚，卑鄙的小人自甘卑鄙。</p>
-<h2 id="好学者则庶民之子为公卿，不好学者则公卿之子为庶民。"><a href="#好学者则庶民之子为公卿，不好学者则公卿之子为庶民。" class="headerlink" title="好学者则庶民之子为公卿，不好学者则公卿之子为庶民。"></a>好学者则庶民之子为公卿，不好学者则公卿之子为庶民。</h2><p>【解释】好学的人即使是平民之子，将来也可以做大官；不好学的人即使是公侯之子，日后也会破落成为平民的。</p>
-<h2 id="惜钱莫教子，护短莫从师。"><a href="#惜钱莫教子，护短莫从师。" class="headerlink" title="惜钱莫教子，护短莫从师。"></a>惜钱莫教子，护短莫从师。</h2><p>【解释】爱惜钱财，就不会教育好自己的子女；庇护子女的缺点，就不要让他们向老师学习</p>
-<h2 id="记得旧文章，便是新举子。"><a href="#记得旧文章，便是新举子。" class="headerlink" title="记得旧文章，便是新举子。"></a>记得旧文章，便是新举子。</h2><p>【解释】能背诵并弄懂圣贤们的文章的人，就能考取为新的举人。</p>
-<h2 id="人在家中坐，祸从天上落。"><a href="#人在家中坐，祸从天上落。" class="headerlink" title="人在家中坐，祸从天上落。"></a>人在家中坐，祸从天上落。</h2><p>【解释】人在倒霉时即使待在家里不出门，也会大难临头。</p>
-<h2 id="但求心无愧，不怕有后灾。"><a href="#但求心无愧，不怕有后灾。" class="headerlink" title="但求心无愧，不怕有后灾。"></a>但求心无愧，不怕有后灾。</h2><p>【解释】如果凡事做到问心无愧，就不怕日后有灾难来临。</p>
-<h2 id="只有和气去迎人，那有相打得太平？"><a href="#只有和气去迎人，那有相打得太平？" class="headerlink" title="只有和气去迎人，那有相打得太平？"></a>只有和气去迎人，那有相打得太平？</h2><p>【解释】只有和和气气地去对待周围的人，才能过上安稳日子，经常打打骂骂哪有太平日子可过呢?</p>
-<h2 id="忠厚自有忠厚报，豪强一定受官刑。"><a href="#忠厚自有忠厚报，豪强一定受官刑。" class="headerlink" title="忠厚自有忠厚报，豪强一定受官刑。"></a>忠厚自有忠厚报，豪强一定受官刑。</h2><p>【解释】忠厚老实的人自然会有好的回报，巧取豪夺的人日后必定会受到法律的严惩。</p>
-<h2 id="人到公门正好修，留些阴德在后头。"><a href="#人到公门正好修，留些阴德在后头。" class="headerlink" title="人到公门正好修，留些阴德在后头。"></a>人到公门正好修，留些阴德在后头。</h2><p>【解释】人进了官府后正好可以修身养德，为自己的后代积一些阴德吧。</p>
-<h2 id="为人何必争高下，一旦无命万事休。"><a href="#为人何必争高下，一旦无命万事休。" class="headerlink" title="为人何必争高下，一旦无命万事休。"></a>为人何必争高下，一旦无命万事休。</h2><p>【解释】做人何必非要争出谁高谁低呢?一旦失去性命就什么都完了。</p>
-<h2 id="山高不算高，人心比天高。白水变酒卖，还嫌猪无糟。"><a href="#山高不算高，人心比天高。白水变酒卖，还嫌猪无糟。" class="headerlink" title="山高不算高，人心比天高。白水变酒卖，还嫌猪无糟。"></a>山高不算高，人心比天高。白水变酒卖，还嫌猪无糟。</h2><p>【解释】山再高也没有天高，但人心有时却比天还高，把白水当酒卖给别人，还埋怨自家猪没酒糟吃。</p>
-<h2 id="贫寒休要怨，富贵不须骄。善恶随人作，祸福自己招。"><a href="#贫寒休要怨，富贵不须骄。善恶随人作，祸福自己招。" class="headerlink" title="贫寒休要怨，富贵不须骄。善恶随人作，祸福自己招。"></a>贫寒休要怨，富贵不须骄。善恶随人作，祸福自己招。</h2><p>【解释】家里贫寒不要怨天尤人，家中富贵切勿骄傲自满。好事坏事是自己做出的，是祸是福是自己招来的。</p>
-<h2 id="奉劝君子，各宜守己；只此呈示，万无一失。"><a href="#奉劝君子，各宜守己；只此呈示，万无一失。" class="headerlink" title="奉劝君子，各宜守己；只此呈示，万无一失。"></a>奉劝君子，各宜守己；只此呈示，万无一失。</h2><p>【解释】奉劝天下的君子们，做事都要安分守己，要是能做到上面所说的一切，就可以保证你万无一失，一生平安。</p>
-<h2 id="增广贤文小知识："><a href="#增广贤文小知识：" class="headerlink" title="增广贤文小知识："></a>增广贤文小知识：</h2><blockquote>
-<p>《增广贤文》是中国明代时期编写的儿童启蒙书目。又名《昔时贤文》、《古今贤文》。书名最早见之于明代万历年间的戏曲《牡丹亭》，据此可推知此书最迟写成于万历年间。此书集结了从古到今的各种格言、谚语。后来，经过明、清两代文人的不断增补，才改成现在这个模样，称《增广昔时贤文》，通称《增广贤文》。作者一直未见任何书载，只知道清代同治年间儒生周希陶曾进行过重订，很可能是民间创作的结晶。</p>
-<p>《增广贤文》绝大多数句子都来自经史子集，诗词曲赋、戏剧小说以及文人杂记，其思想观念都直接或间接地来自儒释道各家经典，从广义上来说，它是雅俗共赏的“经”的普及本。不需讲解就能读懂，通过读《增广贤文》同样能领会到经文的思想观念和人生智慧。《增广贤文》还是谚语的选集。</p>
-<p>《增广贤文》以有韵的谚语和文献佳句选编而成，其内容十分广泛，从礼仪道德、典章制度到风物典故、天文地理，几乎无所不含，而又语句通顺，易懂。但中心是讲人生哲学、处世之道。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;昔时贤文，诲汝谆谆。&quot;&gt;&lt;a href=&quot;#昔时贤文，诲汝谆谆。&quot; class=&quot;headerlink&quot; title=&quot;昔时贤文，诲汝谆谆。&quot;&gt;&lt;/a&gt;昔时贤文，诲汝谆谆。&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;集韵增广，多见多闻。&lt;/strong&gt;&lt;br&gt;&lt;strong
-    
-    </summary>
-    
-      <category term="生活" scheme="http://hedonglin.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="人生哲理" scheme="http://hedonglin.com/tags/%E4%BA%BA%E7%94%9F%E5%93%B2%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Wgestures快捷手势</title>
-    <link href="http://hedonglin.com/2017/06/17/wgestures%E5%BF%AB%E6%8D%B7%E6%89%8B%E5%8A%BF/"/>
-    <id>http://hedonglin.com/2017/06/17/wgestures快捷手势/</id>
-    <published>2017-06-17T11:57:30.000Z</published>
-    <updated>2017-06-18T06:53:53.684Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="打开网址，随时随地选中文字即可搜索"><a href="#打开网址，随时随地选中文字即可搜索" class="headerlink" title="打开网址，随时随地选中文字即可搜索"></a>打开网址，随时随地选中文字即可搜索<br></h2><p><img src="/images/wgestures.png"></p>
-<h2 id="触发边角切换工作状态"><a href="#触发边角切换工作状态" class="headerlink" title="触发边角切换工作状态 "></a>触发边角切换工作状态 <br></h2><p><img src="/images/wgestures-1.png"></p>
-<h2 id="编写脚本使用鼠标免去重复的操作"><a href="#编写脚本使用鼠标免去重复的操作" class="headerlink" title="编写脚本使用鼠标免去重复的操作 "></a>编写脚本使用鼠标免去重复的操作 <br></h2><p><img src="/images/wgestures-2.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;打开网址，随时随地选中文字即可搜索&quot;&gt;&lt;a href=&quot;#打开网址，随时随地选中文字即可搜索&quot; class=&quot;headerlink&quot; title=&quot;打开网址，随时随地选中文字即可搜索&quot;&gt;&lt;/a&gt;打开网址，随时随地选中文字即可搜索&lt;br&gt;&lt;/h2&gt;&lt;p&gt;&lt;img s
-    
-    </summary>
-    
-      <category term="实用工具" scheme="http://hedonglin.com/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="wgestures" scheme="http://hedonglin.com/tags/wgestures/"/>
     
   </entry>
   
